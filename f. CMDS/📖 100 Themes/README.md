@@ -4,7 +4,7 @@ aliases:
   - 100 Themes
   - Themes
 author:
-  - "[[a. Obsidian/common/김예성]]"
+  - "[[Important/김예성]]"
 date created: 2025-01-19
 date modified: 2025-01-19
 tags:
