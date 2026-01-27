@@ -38,10 +38,10 @@
       "Remove-Partition"
     ]
   },
-  "model": "sonnet",
+  "model": "opus",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "sonnet",
-  "thinkingBudget": "low",
+  "thinkingBudget": "medium",
   "permissionMode": "yolo",
   "lastNonPlanPermissionMode": "yolo",
   "permissions": [],
