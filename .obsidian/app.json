@@ -1,5 +1,8 @@
 {
   "showLineNumber": true,
   "readableLineLength": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "a. Obsidian/common",
+  "attachmentFolderPath": "./"
 }
