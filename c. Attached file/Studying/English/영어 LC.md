@@ -48,9 +48,9 @@ tags:
 | [==organization==](https://en.dict.naver.com/#/entry/enko/3908560d65eb42279e3985d6ec765d3f) | 조직,단체, 기구 |  O  |  1   |       |  3  |                                                              |
 | [==trainee==](https://en.dict.naver.com/#/entry/enko/add185c3eb0547d1ab713f15ceecdcbb)      | 교육생       |  X  |  2   |   O   |  3  |                                                              |
 | [==will==](https://en.dict.naver.com/#/entry/enko/686863b592234b0e8df531ece3ec86fb)         | ~ 할 것이다   |  X  | 3, 4 |   O   |  3  | were 처럼 들릴 때가 있다. 의문문이라서 그런 가?                               |
-| [==assign to==](https://en.dict.naver.com/#/entry/enko/4ace95ba85a646a8be1daf3ea4a403e6)    | 에 배정하다.   |  O  |  1   |   O   |  2  |                                                              |
-| -th street                                                                                  | -가 도로     |  X  |  3   |   O   |  2  | 내가 계속 헷갈리고 못 듣는 단어들은 앞 단어의 마지막 음절과 뒷 단어의 첫 음절이 비슷해서 그런 것 같다. |
-| just some                                                                                   | 그냥 약간     |  X  |  3   |   O   |  2  | -th street과 비슷하게 st와 s가 겹쳐서 들림. 연음을 고려해야할듯                   |
+| [==assign to==](https://en.dict.naver.com/#/entry/enko/4ace95ba85a646a8be1daf3ea4a403e6)    | 에 배정하다.   |  O  |  1   |   O   |  3  |                                                              |
+| -th street                                                                                  | -가 도로     |  X  |  3   |   O   |  3  | 내가 계속 헷갈리고 못 듣는 단어들은 앞 단어의 마지막 음절과 뒷 단어의 첫 음절이 비슷해서 그런 것 같다. |
+| just some                                                                                   | 그냥 약간     |  X  |  3   |   O   |  3  | -th street과 비슷하게 st와 s가 겹쳐서 들림. 연음을 고려해야할듯                   |
 | -ed it                                                                                      | -         |  X  |  4   |   O   |  -  | ed로 끝나는 유성음의 경우 it이 d로 들림. 디디드                               |
 | August                                                                                      | 8월        |  X  |  4   |   O   |  1  | A로 시작하기 때문에 연음 주의. 앞에 단어의 마지막 자음에 따라서 롱게스트 처럼 들리기도 함.        |
 | Checks his                                                                                  | 확인하다 그의   |  X  |  3   |  부족   |  1  | 챙스히스 처럼 한 단어로 들림.                                            |
