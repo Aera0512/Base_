@@ -125,8 +125,8 @@ if (yesterdayFile) {
 ## ✅ To Do List
 
 ## DAY PLANNER
-오늘 꼭 해야 할 일
-- [ ] 
+오늘 꼭 해야 할 일 — 태그: `#q1` `#q2` `#q3` `#q4`
+- [ ]
 
 ### 📌 Dream
 ```tasks
@@ -136,6 +136,42 @@ filter by function !task.file.folder.includes("templates")
 short mode
 limit 5
 ```
+
+---
+
+### 📊 아이젠하워 매트릭스
+
+> [!danger] 1사분면 — 중요도 ↑ 긴급도 ↑
+> ```dataviewjs
+> const content = await dv.io.load(dv.current().file.path);
+> const tasks = content.match(/- \[.\].*#q1.*/g) || [];
+> if (tasks.length === 0) dv.paragraph("*항목 없음*");
+> else tasks.forEach(t => dv.paragraph(t.replace(/#q\d/g, '').trim()));
+> ```
+
+> [!warning] 2사분면 — 중요도 ↑ 긴급도 ↓
+> ```dataviewjs
+> const content = await dv.io.load(dv.current().file.path);
+> const tasks = content.match(/- \[.\].*#q2.*/g) || [];
+> if (tasks.length === 0) dv.paragraph("*항목 없음*");
+> else tasks.forEach(t => dv.paragraph(t.replace(/#q\d/g, '').trim()));
+> ```
+
+> [!info] 3사분면 — 중요도 ↓ 긴급도 ↓
+> ```dataviewjs
+> const content = await dv.io.load(dv.current().file.path);
+> const tasks = content.match(/- \[.\].*#q3.*/g) || [];
+> if (tasks.length === 0) dv.paragraph("*항목 없음*");
+> else tasks.forEach(t => dv.paragraph(t.replace(/#q\d/g, '').trim()));
+> ```
+
+> [!example] 4사분면 — 중요도 ↓ 긴급도 ↑
+> ```dataviewjs
+> const content = await dv.io.load(dv.current().file.path);
+> const tasks = content.match(/- \[.\].*#q4.*/g) || [];
+> if (tasks.length === 0) dv.paragraph("*항목 없음*");
+> else tasks.forEach(t => dv.paragraph(t.replace(/#q\d/g, '').trim()));
+> ```
 
 ---
 
