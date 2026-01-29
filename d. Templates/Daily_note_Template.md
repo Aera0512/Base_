@@ -217,7 +217,7 @@ limit 5
 
 ## 3️⃣ 노력 포인트
 
-> [!effort] 💪 오늘의 노력 & 성장 / [NUMBERS]('/Users/aera/Desktop/Spread sheet/올바른 습관.numbers')
+> [!effort] 💪 오늘의 노력 & 성장 / [NUMBERS](file:///Users/aera/Desktop/Spread%20sheet/%EC%98%AC%EB%B0%94%EB%A5%B8%20%EC%8A%B5%EA%B4%80.numbers)
 > **오늘 내가 노력한 것:**
 > 1.
 > 2.
