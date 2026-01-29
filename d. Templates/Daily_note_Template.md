@@ -24,6 +24,38 @@ const dayOfWeek = ['일', '월', '화', '수', '목', '금', '토'][currentMomen
 > [!quote] 💬 오늘의 명언
 > <% tp.web.daily_quote() %>
 
+<%*
+const yesterday = currentMoment.clone().subtract(1, 'days');
+const yesterdayFileName = yesterday.format('YYYY-MM-DD(ddd)');
+const yesterdayFile = tp.file.find_tfile(yesterdayFileName);
+if (yesterdayFile) {
+  const content = await app.vault.read(yesterdayFile);
+  const lines = content.split('\n');
+  let inReflection = false;
+  let reflectionLines = [];
+  for (const line of lines) {
+    if (line.includes('[!reflection]')) {
+      inReflection = true;
+      continue;
+    }
+    if (inReflection) {
+      if (line.startsWith('>')) {
+        const text = line.replace(/^>\s?/, '').trim();
+        if (text.length > 0) reflectionLines.push(text);
+      } else {
+        break;
+      }
+    }
+  }
+  if (reflectionLines.length > 0) {
+    tR += `> [!tip] 📝 어제의 다짐 (${yesterday.format('MM/DD')})\n`;
+    for (const l of reflectionLines) {
+      tR += `> ${l}\n`;
+    }
+  }
+}
+-%>
+
 ---
 
 ## ⏱️ 학습 시간 배분표
@@ -118,26 +150,26 @@ limit 5
 > [!time] 오늘의 시간 블록
 > 시간을 클릭하면 해당 시간대로 이동합니다
 
-|  시간   | 계획         | 실제    |
-| :---: | ---------- | ----- |
-| 06:00 |            | - [ ] |
-| 07:00 |            | - [ ] |
-| 08:00 | 기상 & 모닝 루틴 | - [ ] |
-| 09:00 |            | - [ ] |
-| 10:00 |            | - [ ] |
-| 11:00 |            | - [ ] |
-| 12:00 | 점심         | - [ ] |
-| 13:00 |            | -]    |
-| 14:00 |            |       |
-| 15:00 |            |       |
-| 16:00 |            |       |
-| 17:00 |            |       |
-| 18:00 | 저녁         | - [ ] |
-| 19:00 |            | - [ ] |
-| 20:00 |            | - [ ] |
-| 21:00 |            | - [ ] |
-| 22:00 |            | - [ ] |
-| 23:00 | 하루 마무리     | - [ ] |
+|  시간   | 계획         | 실제  |
+| :---: | ---------- | --- |
+| 06:00 |            |     |
+| 07:00 |            |     |
+- | 08:00 | 기상 & 모닝 루틴 |     |
+| 09:00 |            |     |
+| 10:00 |            |     |
+| 11:00 |            |     |
+| 12:00 | 점심         |     |
+| 13:00 |            |     |
+| 14:00 |            |     |
+| 15:00 |            |     |
+| 16:00 |            |     |
+| 17:00 |            |     |
+| 18:00 | 저녁         |     |
+| 19:00 |            |     |
+| 20:00 |            |     |
+| 21:00 |            |     |
+| 22:00 |            |     |
+| 23:00 | 하루 마무리     |     |
 
 ---
 
