@@ -42,12 +42,12 @@ tags:
 
 | 단어                                                                                          | 의미        | 청취  |  이유  | 현재 상태 | 반복  | 기타                                                           |
 | ------------------------------------------------------------------------------------------- | --------- | :-: | :--: | :---: | :-: | ------------------------------------------------------------ |
-| colleague                                                                                   | 동료        |  X  |  4   |   O   |  2  | gue 발음이 길게 발음 된다. 그리고 used to 와 함께 쓰이다 보니 연음을 신경 못 썼다.       |
-| staff                                                                                       | 직원        |  X  |  4   |   O   |  2  | Stave로 들림. ff -> 약한 v로 들리는 듯                                 |
-| personnel                                                                                   | 인사과       |  X  |  4   |   O   |  2  | 패스은넬로 들림 스으 가 길고 넬에 강조                                       |
-| [==organization==](https://en.dict.naver.com/#/entry/enko/3908560d65eb42279e3985d6ec765d3f) | 조직,단체, 기구 |  O  |  1   |       |  2  |                                                              |
-| [==trainee==](https://en.dict.naver.com/#/entry/enko/add185c3eb0547d1ab713f15ceecdcbb)      | 교육생       |  X  |  2   |   O   |  2  |                                                              |
-| [==will==](https://en.dict.naver.com/#/entry/enko/686863b592234b0e8df531ece3ec86fb)         | ~ 할 것이다   |  X  | 3, 4 |   O   |  2  | were 처럼 들릴 때가 있다. 의문문이라서 그런 가?                               |
+| colleague                                                                                   | 동료        |  X  |  4   |   O   |  3  | gue 발음이 길게 발음 된다. 그리고 used to 와 함께 쓰이다 보니 연음을 신경 못 썼다.       |
+| staff                                                                                       | 직원        |  X  |  4   |   O   |  3  | Stave로 들림. ff -> 약한 v로 들리는 듯                                 |
+| personnel                                                                                   | 인사과       |  X  |  4   |   O   |  3  | 패스은넬로 들림 스으 가 길고 넬에 강조                                       |
+| [==organization==](https://en.dict.naver.com/#/entry/enko/3908560d65eb42279e3985d6ec765d3f) | 조직,단체, 기구 |  O  |  1   |       |  3  |                                                              |
+| [==trainee==](https://en.dict.naver.com/#/entry/enko/add185c3eb0547d1ab713f15ceecdcbb)      | 교육생       |  X  |  2   |   O   |  3  |                                                              |
+| [==will==](https://en.dict.naver.com/#/entry/enko/686863b592234b0e8df531ece3ec86fb)         | ~ 할 것이다   |  X  | 3, 4 |   O   |  3  | were 처럼 들릴 때가 있다. 의문문이라서 그런 가?                               |
 | [==assign to==](https://en.dict.naver.com/#/entry/enko/4ace95ba85a646a8be1daf3ea4a403e6)    | 에 배정하다.   |  O  |  1   |   O   |  2  |                                                              |
 | -th street                                                                                  | -가 도로     |  X  |  3   |   O   |  2  | 내가 계속 헷갈리고 못 듣는 단어들은 앞 단어의 마지막 음절과 뒷 단어의 첫 음절이 비슷해서 그런 것 같다. |
 | just some                                                                                   | 그냥 약간     |  X  |  3   |   O   |  2  | -th street과 비슷하게 st와 s가 겹쳐서 들림. 연음을 고려해야할듯                   |
