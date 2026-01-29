@@ -234,6 +234,20 @@ limit 5
 # 📊 오늘의 데이터
 
 ## ✔️ 오늘 완료한 일
+
+> [!check] 📊 오늘의 달성률
+> ```dataviewjs
+> const content = await dv.io.load(dv.current().file.path);
+> const total = (content.match(/- \[.\]/g) || []).length;
+> const done = (content.match(/- \[x\]/g) || []).length;
+> const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+> const bar = total > 0
+>   ? ('█'.repeat(Math.round(pct / 5)) + '░'.repeat(20 - Math.round(pct / 5)))
+>   : '░'.repeat(20);
+> dv.paragraph(`**${done} / ${total}** 완료 · **${pct}%**`);
+> dv.paragraph(`\`${bar}\``);
+> ```
+
 ```tasks
 done today
 filter by function !task.file.folder.includes("templates")
