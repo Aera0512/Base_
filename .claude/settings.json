@@ -41,7 +41,7 @@
   "model": "opus",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "sonnet",
-  "thinkingBudget": "high",
+  "thinkingBudget": "medium",
   "permissionMode": "yolo",
   "lastNonPlanPermissionMode": "yolo",
   "permissions": [],
