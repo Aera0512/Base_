@@ -91,13 +91,16 @@ tags:
 > [!note] 간단 단어 정리
 > 빠르게 단어를 정리할 때 사용하세요.
 
-| 단어                                                                                    | 의미                | 기타  |
-| ------------------------------------------------------------------------------------- | ----------------- | --- |
-| dozen                                                                                 | (12개 짜리 묶음, 십 수개) |     |
-| dozen or so                                                                           | 십 수개 정도           |     |
-| [**supply**](https://en.dict.naver.com/#/entry/enko/bb83f77680b14d04a3482a789bbd6946) | 공급, 공급하다          |     |
-| supply store                                                                          | 사무용품점             |     |
-| supply closet                                                                         |                   |     |
+| 단어                                                                                         | 의미                | 기타  |
+| ------------------------------------------------------------------------------------------ | ----------------- | --- |
+| dozen                                                                                      | (12개 짜리 묶음, 십 수개) |     |
+| dozen or so                                                                                | 십 수개 정도           |     |
+| [**supply**](https://en.dict.naver.com/#/entry/enko/bb83f77680b14d04a3482a789bbd6946)      | 공급, 공급하다          |     |
+| supply store                                                                               | 사무용품점             |     |
+| supply closet                                                                              | 비품 창고             |     |
+| [**appointment**](https://en.dict.naver.com/#/entry/enko/91b008314a4648d080ec5f834c1bfa96) | 약속                |     |
+| [**certificate**](https://en.dict.naver.com/#/entry/enko/4599680c325848cabe10ea3d0f1ff5fa) | 증명서, 자격증          |     |
+|                                                                                            |                   |     |
 
 ---
 
