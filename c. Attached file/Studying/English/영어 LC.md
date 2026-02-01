@@ -56,7 +56,9 @@ tags:
 | Checks his                                                                                  | 확인하다 그의   |  X  |  3   |  부족   |  2  | 챙스히스 처럼 한 단어로 들림.                                            |
 | In the                                                                                      | 그 - 안에    |  X  |  4   |  부족   |  1  | th가 n으로 발음 됨. In there, in here 처럼 인니, 인너                    |
 | route                                                                                       | 경로        |  X  |  4   |   O   |  1  | 로드까지는 유추했으나 발음이 '루웃'처럼 됨                                     |
-| go down                                                                                     | 내려가다      |  x  |  4   |   O   |     |                                                              |
+| go down                                                                                     | 내려가다      |  x  |  4   |   O   |  1  | '게 다운' get down 처럼 들리기도 한데 약함.                               |
+| leather                                                                                     | 가죽        |  x  |  4   |   O   |  1  | 레더 같이 들림 ladder.                                             |
+|                                                                                             |           |     |      |       |     |                                                              |
 
 
 ---
