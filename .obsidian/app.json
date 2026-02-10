@@ -1,6 +1,6 @@
 {
   "showLineNumber": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "spellcheck": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "a. Obsidian/common",
