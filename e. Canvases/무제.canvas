@@ -1,7 +1,11 @@
 {
 	"nodes":[
-		{"id":"85487bb5e603df47","x":-420,"y":-160,"width":400,"height":400,"color":"1","type":"file","file":"c. Attached file/Studying/편안함의 습격.md"},
-		{"id":"09e4461a1535ebd7","x":60,"y":-160,"width":400,"height":400,"type":"file","file":"c. Attached file/Studying/경험의 멸종.md"}
+		{"id":"85487bb5e603df47","x":-420,"y":-160,"width":400,"height":400,"type":"file","file":"c. Attached file/Studying/편안함의 습격.md"},
+		{"id":"09e4461a1535ebd7","x":60,"y":-160,"width":400,"height":400,"type":"file","file":"c. Attached file/Studying/경험의 멸종.md"},
+		{"id":"226b1e50ee7e6f86","x":-169,"y":-230,"width":250,"height":230,"type":"text","text":"이동진의 파이아키아 \"이 달의 책을 읽고 비행기 안에서\"\n\n"}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"f9cfb1dc0edd88e6","fromNode":"226b1e50ee7e6f86","fromSide":"top","toNode":"09e4461a1535ebd7","toSide":"top"},
+		{"id":"f6212f33b49d8e8e","fromNode":"226b1e50ee7e6f86","fromSide":"top","toNode":"85487bb5e603df47","toSide":"top"}
+	]
 }
