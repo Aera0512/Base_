@@ -1,6 +1,7 @@
 {
 	"nodes":[
-		{"id":"7d82022b9417c8ca","x":-204,"y":-74,"width":400,"height":400,"type":"file","file":"Important/김예성.md"}
+		{"id":"7d82022b9417c8ca","type":"file","file":"Important/김예성.md","x":-204,"y":-120,"width":400,"height":400},
+		{"id":"93cf5c4e960a2b9e","x":-604,"y":-120,"width":400,"height":400,"type":"file","file":"a. Obsidian/common/나 자신이 되는 법.md"}
 	],
 	"edges":[]
 }
