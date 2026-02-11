@@ -1,6 +1,7 @@
 {
 	"nodes":[
-		{"id":"85487bb5e603df47","x":-420,"y":-160,"width":400,"height":400,"type":"file","file":"c. Attached file/Studying/편안함의 습격.md"}
+		{"id":"85487bb5e603df47","x":-420,"y":-160,"width":400,"height":400,"color":"1","type":"file","file":"c. Attached file/Studying/편안함의 습격.md"},
+		{"id":"09e4461a1535ebd7","x":60,"y":-160,"width":400,"height":400,"type":"file","file":"c. Attached file/Studying/경험의 멸종.md"}
 	],
 	"edges":[]
 }
