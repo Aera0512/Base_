@@ -5,6 +5,7 @@
 		{"id":"226b1e50ee7e6f86","x":-169,"y":-230,"width":250,"height":230,"type":"text","text":"이동진의 파이아키아 \"이 달의 책을 읽고 비행기 안에서\"\n\n호주 안에서 나는 더 공상을 많이 하고 따분함을 견디는 경험을 많이 해야 겠다. 환경과 지루함과 본능이 나를 방해하겠지만 작은 방식이라도 따분함을 느끼고, 불편함을 감수하며 더 창의적인 인간의 면을 가지자.\n"}
 	],
 	"edges":[
-		{"id":"f6212f33b49d8e8e","fromNode":"226b1e50ee7e6f86","fromSide":"top","toNode":"85487bb5e603df47","toSide":"top"}
+		{"id":"f6212f33b49d8e8e","fromNode":"226b1e50ee7e6f86","fromSide":"top","toNode":"85487bb5e603df47","toSide":"top"},
+		{"id":"78af8eea546dde56","fromNode":"226b1e50ee7e6f86","fromSide":"top","toNode":"09e4461a1535ebd7","toSide":"top"}
 	]
 }
