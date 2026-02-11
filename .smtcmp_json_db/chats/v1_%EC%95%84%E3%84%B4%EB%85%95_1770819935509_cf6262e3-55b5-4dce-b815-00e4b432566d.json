@@ -1,0 +1,56 @@
+{
+  "id": "cf6262e3-55b5-4dce-b815-00e4b432566d",
+  "title": "아ㄴ녕",
+  "messages": [
+    {
+      "role": "user",
+      "content": {
+        "root": {
+          "children": [
+            {
+              "children": [
+                {
+                  "detail": 0,
+                  "format": 0,
+                  "mode": "normal",
+                  "style": "",
+                  "text": "아ㄴ녕",
+                  "type": "text",
+                  "version": 1
+                }
+              ],
+              "direction": "ltr",
+              "format": "",
+              "indent": 0,
+              "type": "paragraph",
+              "version": 1,
+              "textFormat": 0,
+              "textStyle": ""
+            }
+          ],
+          "direction": "ltr",
+          "format": "",
+          "indent": 0,
+          "type": "root",
+          "version": 1
+        }
+      },
+      "promptContent": [
+        {
+          "type": "text",
+          "text": "\n\n아ㄴ녕\n\n"
+        }
+      ],
+      "id": "6322336d-bba7-4a66-a453-5696ee83afcf",
+      "mentionables": [
+        {
+          "type": "current-file",
+          "file": "a. Obsidian/common/프롬프트 제조.md"
+        }
+      ]
+    }
+  ],
+  "createdAt": 1770819935509,
+  "updatedAt": 1770819935509,
+  "schemaVersion": 1
+}
