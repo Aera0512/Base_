@@ -11,7 +11,7 @@ created: '2025-02-15'
 status: active
 project: 단어장 → Anki 자동화 에이전트
 ---
-# 🔧 완전 자동화 셋업 가이드
+ # 🔧 완전 자동화 셋업 가이드
 
 ## Antigravity에 프롬프트 붙여넣기 전에 할 것
 
