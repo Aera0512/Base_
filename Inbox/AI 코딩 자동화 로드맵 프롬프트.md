@@ -92,18 +92,17 @@ project: 단어장 → Anki 자동화 에이전트
 ---
 
 ## 학습자 프로필
-- 20세, (비전공, 코딩 경험 거의 없음, 그러나 )
-- 현재 사용 중인 도구: Obsidian, Notion, n8n, Claude, ChatGPT, Gemini
+- 20세, (비전공, 코딩 경험 거의 없음, 그러나 Ai 관련 얕은 지식은 있음.)
+- 현재 사용 중인 도구: Obsidian, Notion, n8n, Claude, ChatGPT, Gemini, Antigrabity, clade code, codex
 - 영어 학습 중 (TOEIC 준비, 매일 단어장 활용)
 - 학습 가능 시간: 하루 2~3시간
 - 운영체제: macOS + iPhone
-- Anki 사용 경험: 기본 카드 만들기 수준
 
 ---
 
 ## 로드맵 구조
 
-3개월(12주)을 4개 Phase로 나누되, **모든 학습이 최종 프로젝트를 향해 수렴**하도록 설계하세요.
+**모든 학습이 최종 프로젝트를 향해 수렴**하도록 설계하세요.
 각 Phase가 끝날 때마다 최종 프로젝트의 한 부분이 완성되어야 합니다.
 
 ### Phase 1 (1~3주): "기초 세팅 + 첫 카드 만들기"
