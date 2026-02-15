@@ -45,7 +45,7 @@ status: 진행예정
 
 ### 4. 추가 필수 도구
 - Python 3 + genanki (🆓)
-- Anthropic/OpenAI API (종량제 ~$1-3/월)
+- OpenAI API (종량제 ~$1-3/월)
 - Anki macOS (🆓) + AnkiMobile ($24.99 1회)
 
 ---
