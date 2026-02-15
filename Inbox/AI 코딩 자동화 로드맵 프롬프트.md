@@ -11,260 +11,139 @@ created: '2025-02-15'
 status: active
 project: 단어장 → Anki 자동화 에이전트
 ---
-# 🎯 단어장 사진 → Anki 자동화 에이전트 로드맵 프롬프트
+# 🔧 완전 자동화 셋업 가이드
 
-> **사용 대상 모델**: Claude Opus 4.6 / ChatGPT 5.3 (고급 추론 모델)
-> **최종 목표**: 단어장 사진을 찍으면 자동으로 Anki 플래시카드가 생성되는 자동화 에이전트
+## Antigravity에 프롬프트 붙여넣기 전에 할 것
 
----
+### 1. AnkiConnect 애드온 설치 (2분)
 
-## 🔧 프로젝트 기술 파이프라인 (참고용)
+AnkiConnect는 외부 프로그램(우리 Python 스크립트)이 Anki에 카드를 직접 넣을 수 있게 해주는 다리(bridge) 역할입니다.
 
-```
-📸 단어장 사진 촬영 (iPhone/Mac)
-    ↓
-🧠 Vision AI로 이미지 분석 (OCR + 의미 추출)
-   - GPT-4V / Claude Vision / Gemini Vision
-    ↓
-📊 구조화된 데이터 추출
-   - 영단어, 한국어 뜻, 예문, 발음기호
-    ↓
-🃏 AnkiConnect API로 카드 자동 생성
-   - 로컬 Anki 앱과 연동 (포트 8765)
-    ↓
-✅ 완성된 플래시카드 → Anki에서 바로 학습
+1. Mac에서 **Anki** 앱 실행
+2. 상단 메뉴 → **Tools** → **Add-ons**
+3. **Get Add-ons...** 클릭
+4. 코드 입력: `2055492159`
+5. OK → Anki 재시작
+
+확인 방법: 터미널에서 아래 입력
+
+```bash
+curl http://localhost:8765 -X POST -d '{"action":"version","version":6}'
 ```
 
-**핵심 기술 요소:**
-- AnkiConnect 플러그인 (Anki 애드온 코드: 2055492159)
-- MCP-AnkiConnect 서버 (Claude Code 연동 가능)
-- genanki 라이브러리 (Python으로 .apkg 파일 생성)
-- Vision API (이미지 → 텍스트 추출)
-- n8n (워크플로우 자동화 옵션)
+`{"result":6,"error":null}` 이 나오면 성공!
+
+### 2. Anthropic API 키 발급 (3분)
+
+1. https://console.anthropic.com 가입
+2. Settings → API Keys → Create Key
+3. 키를 메모장에 복사해두기 (sk-ant-로 시작하는 긴 문자열)
 
 ---
 
-## 📋 프롬프트 (복사해서 사용)
+## Antigravity에 프롬프트 붙여넣은 후에 할 것
+
+AI가 코드를 다 만들면 아래 순서로 진행:
+
+### 3. 설치 실행
+
+Antigravity 터미널에서:
+
+```bash
+chmod +x install.sh
+./install.sh
+```
+
+### 4. API 키 입력
+
+```bash
+# .env 파일을 열어서 키 입력
+# Antigravity의 파일 탐색기에서 .env를 클릭해도 됨
+```
+
+.env 내용:
 
 ```
-당신은 비전공 초보자를 AI 자동화 개발자로 성장시키는 전문 멘토입니다.
-다음 도구들을 활용하여 "단어장 사진 → Anki 플래시카드 자동 생성 에이전트"를
-처음부터 끝까지 만드는 학습 로드맵을 설계해주세요.
+ANTHROPIC_API_KEY=sk-ant-여기에-복사한-키-붙여넣기
+```
+
+### 5. 테스트 실행
+
+```bash
+./start.sh
+```
+
+→ "👀 iCloud 폴더 감시 시작..." 메시지가 나오면 성공
+
+→ iPhone이나 Mac에서 단어장 사진을 iCloud Drive > anki-agent > input 폴더에 넣어보기
+
+→ 잠시 후 Anki에 카드가 추가되고 macOS 알림이 뜨면 완성!
 
 ---
 
-## 최종 목표 프로젝트
+## iPhone 바로가기 설정 (사진 찍기 → 자동 저장)
 
-**"단어장 사진을 찍으면 자동으로 Anki에 플래시카드가 만들어지는 자동화 에이전트"**
+이걸 설정하면 홈화면 버튼 한 번으로 촬영 → 저장이 됩니다.
 
-### 완성된 시스템의 동작 흐름:
-1. 사용자가 영어 단어장 사진을 촬영 (iPhone 또는 Mac 스크린샷)
-2. 사진이 자동으로 처리 파이프라인에 전달됨
-3. Vision AI가 이미지를 분석하여 단어, 뜻, 예문 등을 추출
-4. 추출된 데이터가 구조화되어 Anki 카드 형식으로 변환
-5. AnkiConnect API를 통해 Anki에 자동으로 카드가 추가됨
-6. 사용자는 Anki 앱에서 바로 학습 시작
+### iPhone에서:
 
-### 각 카드에 포함될 필드:
-- Front: 영단어 + 발음기호
-- Back: 한국어 뜻 + 영어 예문 + 예문 한국어 번역
-- Tags: 날짜, 단어장 출처, 난이도
+1. **바로가기** 앱 열기
+2. 우측 상단 **+** 탭
+3. 아래 단계를 순서대로 추가:
 
----
+```
+동작 1: "카메라로 사진 찍기"
+  → 검색: "사진 찍기" → "카메라로 사진 찍기" 선택
 
-## 사용할 도구
+동작 2: "파일 저장"
+  → 검색: "파일 저장" → "파일 저장" 선택
+  → 저장 위치: iCloud Drive > anki-agent > input
+  → "저장 위치 묻기" 끄기 (OFF로!)
+```
 
-1. **OpenAI Codex** — 클라우드 기반 코딩 에이전트
-   - Python 스크립트 작성, 디버깅, 테스트에 활용
-   - ChatGPT 사이드바에서 접근, GitHub 연동
-   - GPT-5.2-Codex 모델 기반
+4. 바로가기 이름: **"📸 단어장 촬영"**
+5. 홈화면에 추가: 바로가기 설정(ⓘ) → "홈 화면에 추가"
 
-2. **Claude Code** — 터미널 기반 에이전틱 코딩 도구
-   - MCP(Model Context Protocol) 서버로 AnkiConnect 연동
-   - 로컬 파일 시스템 직접 접근 가능
-   - MCP-AnkiConnect 서버 활용 (덱 관리, 카드 생성, 리뷰)
+### 사용법:
 
-3. **Google Antigravity** — 에이전트 중심 IDE
-   - 전체 프로젝트 구조 생성 및 관리
-   - 브라우저 자동화로 테스트
-   - 에이전트가 계획 → 코딩 → 실행 → 검증까지 수행
+홈화면의 "📸 단어장 촬영" 아이콘 탭 → 카메라 열림 → 촬영 → iCloud 폴더에 자동 저장 → Mac에서 자동 처리 → Anki에 카드 추가됨
 
 ---
 
-## 학습자 프로필
-- 20세, (비전공, 코딩 경험 거의 없음, 그러나 Ai 관련 얕은 지식은 있음.)
-- 현재 사용 중인 도구: Obsidian, Notion, n8n, Claude, ChatGPT, Gemini, Antigrabity, clade code, codex
-- 영어 학습 중 (TOEIC 준비, 매일 단어장 활용)
-- 학습 가능 시간: 하루 2~3시간
-- 운영체제: macOS + iPhone
+## Mac 시작 시 자동 실행 (선택사항)
 
----
+Mac을 켤 때마다 자동으로 감시가 시작되게 하려면:
 
-## 로드맵 구조
+AI가 만든 `launchd/com.ankiagent.watcher.plist` 파일을 활용합니다.
 
-**모든 학습이 최종 프로젝트를 향해 수렴**하도록 설계하세요.
-각 Phase가 끝날 때마다 최종 프로젝트의 한 부분이 완성되어야 합니다.
+```bash
+# 자동 시작 등록
+cp launchd/com.ankiagent.watcher.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.ankiagent.watcher.plist
 
-### Phase 1 : "기초 세팅 + 첫 카드 만들기"
-이 Phase가 끝나면: Python으로 AnkiConnect에 카드 1장을 추가할 수 있다.
-
-포함할 내용:
-- macOS 개발 환경 구축 (터미널, Homebrew, Python, pip, Git)
-- Anki 설치 + AnkiConnect 애드온 설치 (코드: 2055492159)
-- Python 기초 (변수, 함수, 딕셔너리, requests 라이브러리)
-- AnkiConnect API 첫 호출 (Python → Anki에 카드 추가)
-- 각 AI 코딩 도구 설치 및 "Hello World" 수준 체험
-  - Codex: ChatGPT에서 간단한 Python 코드 생성
-  - Claude Code: 터미널에서 파일 생성 실습
-  - Antigravity: 프로젝트 폴더 생성 + 에이전트 첫 대화
-
-### Phase 2 (4~6주): "사진에서 단어 추출하기"
-이 Phase가 끝나면: 단어장 사진 1장 → 구조화된 JSON 데이터 추출이 가능하다.
-
-포함할 내용:
-- Vision AI API 이해 및 실습
-  - GPT-4V API로 이미지 분석 실습
-  - Claude Vision으로 같은 작업 비교 실습
-  - Gemini Vision 활용 (Antigravity 내장)
-- 프롬프트 엔지니어링: 단어장 이미지에서 정확한 데이터 추출을 위한 프롬프트 작성
-- JSON 데이터 구조 설계 (단어, 뜻, 예문, 발음기호, 품사)
-- Codex를 활용한 이미지 처리 스크립트 작성
-- Claude Code로 로컬 이미지 파일 읽기 + API 호출 자동화
-- 에러 처리 기초 (이미지 인식 실패, API 오류 대응)
-
-### Phase 3 (7~9주): "파이프라인 연결 + 자동화"
-이 Phase가 끝나면: 사진 → 데이터 추출 → Anki 카드 생성이 하나의 스크립트로 동작한다.
-
-포함할 내용:
-- Phase 1 + Phase 2 결과물을 하나의 파이프라인으로 연결
-- Claude Code + MCP-AnkiConnect 서버 설정
-  - Claude가 직접 Anki 덱 조회, 카드 추가, 태그 관리
-- 배치 처리: 사진 여러 장을 한 번에 처리하는 기능
-- 중복 카드 감지 로직
-- n8n 워크플로우 연동 (선택적)
-  - iPhone 사진 → iCloud/Google Drive 감지 → 자동 처리 트리거
-- Antigravity로 전체 프로젝트 리팩토링 및 테스트 자동화
-- Git/GitHub 기초 (코드 버전 관리)
-
-### Phase 4 (10~12주): "고도화 + 나만의 학습 시스템 완성"
-이 Phase가 끝나면: 사진만 찍으면 끝나는 완전 자동화 시스템이 완성된다.
-
-포함할 내용:
-- 트리거 자동화: 특정 폴더에 사진이 들어오면 자동 실행
-  - macOS: Folder Action / fswatch
-  - iPhone → Mac 연동: Shortcuts + iCloud
-- 카드 품질 향상
-  - AI가 예문을 자동 생성 (단어장에 없는 경우)
-  - 발음 오디오 자동 첨부 (TTS API 활용)
-  - 난이도 자동 태깅
-- Obsidian 연동: 생성된 단어 목록을 Obsidian 노트로도 동시 저장
-- 대시보드 제작 (Antigravity): 처리 현황, 통계 시각화
-- 최종 프로젝트 완성 + GitHub 포트폴리오 정리
-- 3가지 도구의 강점 비교 정리 (어떤 작업에 어떤 도구가 적합한지)
-
----
-
-## 각 Phase 출력 형식
-
-Phase별로 아래 구조를 반드시 따르세요:
-
-**[Phase N: 제목]**
-- 🎯 학습 목표: 이 단계에서 달성하는 것 (최종 프로젝트와의 연결점 명시)
-- 🏗️ 이 Phase에서 완성되는 프로젝트 부분: 구체적으로 어떤 기능이 동작하게 되는지
-- 📚 선행 지식: 이 단계를 시작하기 위해 알아야 할 것
-- 🛠️ 주차별 학습 내용:
-  - N주차: 구체적 학습 항목 + 실습 과제 + 사용할 AI 코딩 도구
-- 💻 실습 프로젝트: 해당 Phase의 산출물 (코드 구조, 실행 명령어, 예상 결과)
-- 🔗 도구 활용법: 각 AI 코딩 도구를 이 Phase에서 어떻게 활용하는지 구체적으로
-  - Codex 활용: "이런 프롬프트로 이런 코드를 생성시키세요"
-  - Claude Code 활용: "이 명령어로 이 작업을 수행하세요"
-  - Antigravity 활용: "이런 지시를 에이전트에게 내리세요"
-- ✅ 체크리스트: 다음 Phase로 넘어가기 전 자가 점검 (실제 동작 확인 포함)
-- ⚠️ 초보자 주의사항: 자주 발생하는 에러와 해결법
-- 📎 추천 리소스: 공식 문서, 한국어 가이드 (URL 포함)
-
----
-
-## 제약 조건
-
-1. 모든 설명은 비전공 초보자가 이해할 수 있는 수준으로 작성하세요.
-2. 전문 용어가 나오면 반드시 괄호 안에 쉬운 설명을 추가하세요.
-   - 예: "API(프로그램끼리 대화하는 통로)", "JSON(데이터를 정리하는 형식)"
-3. 각 도구의 2025년 최신 기능을 반영하세요.
-4. "바이브 코딩" 방식을 기본으로 하되, 핵심 개념은 반드시 이해시키세요.
-5. 각 도구의 무료/유료 범위를 명시하세요.
-6. macOS + iPhone 환경에 맞춰 작성하세요.
-7. 실제 실행 가능한 명령어와 코드 예시를 포함하세요.
-8. 한국어로 작성하세요.
-
----
-
-## 핵심 기술 레퍼런스 (로드맵 작성 시 참고)
-
-- **AnkiConnect**: Anki 애드온(코드: 2055492159), 로컬 HTTP 서버(포트 8765), 
-  REST API로 카드 추가/조회/수정 가능
-- **MCP-AnkiConnect**: Claude Code에서 MCP 서버로 Anki 제어 가능
-  (덱 목록, 카드 추가, 리뷰 제출 등)
-- **genanki**: Python 라이브러리로 .apkg 파일 직접 생성 가능
-  (AnkiConnect 없이도 카드 파일 생성 가능 — 오프라인 대안)
-- **Vision API**: GPT-4V, Claude Vision, Gemini Vision 모두 이미지 내 
-  텍스트 인식 + 의미 분석 가능
-
----
-
-## 사고 과정
-
-로드맵을 작성하기 전에 다음을 반드시 먼저 분석하세요:
-
-1. 이 프로젝트의 기술적 난이도를 분해하여 어떤 순서로 학습해야 
-   좌절 없이 진행할 수 있는가
-2. 세 도구(Codex, Claude Code, Antigravity) 각각이 이 프로젝트의 
-   어떤 부분에서 가장 효과적인가
-3. Vision AI의 단어장 인식 정확도를 높이기 위한 프롬프트 전략은 무엇인가
-4. AnkiConnect API vs genanki 라이브러리 중 초보자에게 어떤 접근이 
-   더 적합한가
-5. iPhone에서 촬영한 사진이 Mac의 자동화 파이프라인으로 도달하는 
-   가장 간단한 경로는 무엇인가
-
-이 분석 결과를 로드맵 서두에 "기술 분석 요약"으로 먼저 제시한 후, 
-Phase별 상세 내용을 작성하세요.
+# 자동 시작 해제하고 싶을 때
+launchctl unload ~/Library/LaunchAgents/com.ankiagent.watcher.plist
 ```
 
 ---
 
-## 📌 사용된 기법 및 근거
+## 전체 흐름 요약
 
-| # | 기법 | 선택 이유 |
-|---|---|---|
-| 1 | **역할 부여** | "비전공 초보자를 AI 자동화 개발자로 성장시키는 전문 멘토" — 결과 지향적 역할 설정 |
-| 2 | **Skeleton-of-Thought** | 최종 프로젝트의 전체 파이프라인을 먼저 제시 → Phase별로 채워나가는 구조 |
-| 3 | **Modular Chaining** | 각 Phase가 파이프라인의 독립 모듈 (입력→처리→출력→자동화)에 대응 |
-| 4 | **Chain-of-Thought** | "사고 과정" 섹션에서 5가지 기술적 분석을 선행하도록 강제 |
-| 5 | **Contextual Embedding** | 학습자 프로필 + 기존 도구 생태계(Obsidian, n8n) + 영어 학습 목적 반영 |
-| 6 | **템플릿/포맷 지정** | Phase별 9개 항목 (목표, 산출물, 주차별 내용, 도구 활용법 등) 고정 |
-| 7 | **Negative Constraints** | 초보자 수준 강제, 전문 용어 설명 의무화, OS 환경 한정 |
-| 8 | **Step-Back Prompting** | 로드맵 전 기술 분석 선행 → "기술 분석 요약" 섹션으로 출력 |
-| 9 | **ReAct** | 각 Phase의 "도구 활용법"에서 구체적 프롬프트/명령어 → 예상 결과 패턴 |
+```
+[한 번만 설정]
+AnkiConnect 설치 → API 키 발급 → Antigravity에서 코드 생성 → install.sh → .env 키 입력
 
----
+[매일 사용]
+iPhone "📸 단어장 촬영" 탭 → 사진 촬영 → 끝!
 
-## 💡 활용 팁
+[자동으로 일어나는 일]
+iCloud 동기화 → Mac watchdog 감지 → Vision API 추출 
+→ AnkiConnect로 카드 추가 → Anki 동기화 → iPhone Anki 반영
+```
 
-### Claude Opus 4.6에서 사용할 때
-- 그대로 복사 붙여넣기
-- 응답이 길어지면: "Phase 1~2만 먼저" → "이어서 Phase 3~4" 분할 요청
-- Claude Code MCP 관련 내용은 Claude가 자체 지식으로 더 정확하게 답변
+### 주의사항
 
-### ChatGPT 5.3에서 사용할 때
-- Codex 사이드바에서 실습 코드를 바로 생성/실행 가능
-- "web search를 활용해 최신 API 문서를 확인해줘" 추가 권장
-- Vision API 실습은 ChatGPT 내에서 이미지 업로드로 바로 테스트 가능
-
-### 후속 프롬프트 (Iterative Refinement)
-
-1. **구체화**: "Phase [N]의 실습 코드를 전체 작성해줘. 파일별로 나눠서."
-2. **디버깅**: "AnkiConnect에 연결이 안 돼. 이 에러를 해결해줘: [에러 메시지]"
-3. **최적화**: "Vision AI 프롬프트를 개선해줘. 현재 단어 인식률이 낮아."
-4. **확장**: "카드에 TTS 발음 오디오를 자동으로 추가하는 기능을 만들어줘."
-5. **연동**: "n8n에서 iPhone 사진 감지 → 자동 처리 워크플로우를 설계해줘."
-6. **Obsidian 연동**: "생성된 단어 목록을 Obsidian Daily Note에 자동 추가해줘."
+- Mac에서 **Anki 앱이 켜져있어야** AnkiConnect가 작동합니다
+- Anki가 꺼져있으면 .apkg 백업 파일로 저장됩니다 (나중에 수동 임포트)
+- AnkiMobile에 자동 반영되려면 Anki 데스크톱에서 동기화가 필요합니다 (스크립트가 자동으로 동기화 요청을 보냄)
+- iPhone에서 AnkiMobile도 가끔 열어서 동기화해줘야 최신 카드가 내려옴
