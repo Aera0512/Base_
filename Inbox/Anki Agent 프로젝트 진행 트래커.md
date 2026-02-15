@@ -11,9 +11,9 @@ tags:
 ## 현재 진행 상태
 - [x] Antigravity 설치
 - [x] 프로젝트 폴더 열기
-- [ ] AnkiConnect 애드온 설치 (코드: 2055492159)
-- [ ] OpenAI API 키 발급
-- [ ] Antigravity에 지시문 붙여넣기
+- [x] AnkiConnect 애드온 설치 (코드: 2055492159) ✅ 2026-02-15
+- [x] OpenAI API 키 발급 ✅ 2026-02-15
+- [x] Antigravity에 지시문 붙여넣기 ✅ 2026-02-15
 - [ ] install.sh 실행
 - [ ] .env 키 입력
 - [ ] 테스트 실행
