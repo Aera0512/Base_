@@ -1,5 +1,8 @@
 # Docs
 
+연결: [[CMDS Home]] · [[Hub - Docs]]
+
+
 Technical documentation folder.
 
 ## Subdirectories

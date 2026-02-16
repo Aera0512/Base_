@@ -16,6 +16,9 @@ attendees: []
 
 # Meeting: {{title}}
 
+연결: [[CMDS Home]] · [[Hub - Settings]]
+
+
 ## 📋 Meeting Info
 
 - **Date**: {{date:YYYY-MM-DD}}

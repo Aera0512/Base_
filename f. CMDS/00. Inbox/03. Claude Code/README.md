@@ -1,5 +1,8 @@
 # Claude Code Directory
 
+연결: [[CMDS Home]] · [[Hub - Inbox]]
+
+
 **PRIMARY WORKING DIRECTORY** for all code outputs from Claude.
 
 ## Purpose

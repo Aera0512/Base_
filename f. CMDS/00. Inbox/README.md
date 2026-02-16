@@ -1,5 +1,8 @@
 # Inbox
 
+연결: [[CMDS Home]] · [[Hub - Inbox]]
+
+
 This is the temporary storage and processing area for all incoming information.
 
 ## Purpose

@@ -1,5 +1,8 @@
 # Settings
 
+연결: [[CMDS Home]] · [[Hub - Settings]]
+
+
 System settings, templates, and configuration files.
 
 ## Subdirectories

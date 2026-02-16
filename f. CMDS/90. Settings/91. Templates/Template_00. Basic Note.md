@@ -13,6 +13,9 @@ status:
 
 # {{title}}
 
+연결: [[CMDS Home]] · [[Hub - Settings]]
+
+
 ## Overview
 
 Brief description of this note.

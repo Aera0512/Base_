@@ -1,5 +1,8 @@
 # Collections
 
+연결: [[CMDS Home]] · [[Hub - Collections]]
+
+
 Organized collections of related content.
 
 ## Subdirectories

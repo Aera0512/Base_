@@ -16,6 +16,9 @@ status:
 
 # {{date:YYYY-MM-DD dddd}}
 
+연결: [[CMDS Home]] · [[Hub - Settings]]
+
+
 ## 🌅 Morning
 
 ### Today's Focus
