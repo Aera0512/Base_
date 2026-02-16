@@ -3,7 +3,7 @@
 상위: [[🏠 Vault Home]]
 
 ## 대표 노트
-- [[.gitkeep]]
+- `(placeholder)`
 - [[CMDS Home]]
 - [[연결 지도 - CMDS]]
 - [[오픈클로_연결성_대시보드]]

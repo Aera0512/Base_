@@ -3,7 +3,7 @@
 상위: [[🏠 Vault Home]]
 
 ## 대표 노트
-- [[.gitkeep]]
+- `(placeholder)`
 - [[Template_00. Basic Note]]
 - [[Template_01. Daily Note]]
 - [[Template_05. Meeting Minutes]]

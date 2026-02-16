@@ -1,15 +1,12 @@
 # 연결 지도 - CMDS
 
-허브: [[🏠 Vault Home]] · [[Hub - 10. CMDS Process]]
-
-
-상위: [[CMDS Home]]
+상위: [[🏠 Vault Home]]
 
 ## 허브 간 연결
-- [[Hub - Inbox]] → [[Hub - Permanent Notes]] → [[Hub - Docs]]
-- [[Hub - Literature Notes]] → [[Hub - Permanent Notes]]
-- [[Hub - References]] → [[Hub - Docs]]
-- [[Hub - Settings]] → 모든 허브(템플릿/시스템 프롬프트 기반)
+- [[00. Inbox/Hub - 00. Inbox|Inbox Hub]] → [[30. Permanent Notes/Hub - 30. Permanent Notes|Permanent Hub]] → [[40. Docs/Hub - 40. Docs|Docs Hub]]
+- [[20. Literature Notes/Hub - 20. Literature Notes|Literature Hub]] → [[30. Permanent Notes/Hub - 30. Permanent Notes|Permanent Hub]]
+- [[80. References/Hub - 80. References|References Hub]] → [[40. Docs/Hub - 40. Docs|Docs Hub]]
+- [[90. Settings/Hub - 90. Settings|Settings Hub]] → 전체 허브(템플릿/시스템 규칙)
 
 ## OpenClaw 워크스트림
 - [[2026-02-17_OpenClaw_베스트_튜토리얼_노트]]

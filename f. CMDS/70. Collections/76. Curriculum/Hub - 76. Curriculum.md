@@ -3,7 +3,7 @@
 상위: [[🏠 Vault Home]]
 
 ## 대표 노트
-- [[.gitkeep]]
+- `(placeholder)`
 
 ## 자동 목록
 ```dataview
