@@ -18,6 +18,9 @@ status:
 
 # 📖 500 Products
 
+허브: [[🏠 Vault Home]] · [[Hub - 📖 500 Products]]
+
+
 **The Application Layer** - Tools (Obsidian, Notion, ChatGPT, Claude)
 
 ## Purpose

@@ -19,6 +19,9 @@ status:
 
 # 🏛 CMDS Head Quarter
 
+허브: [[🏠 Vault Home]] · [[🏠 Vault Home]]
+
+
 **Welcome to CMDSPACE (커맨드스페이스)** - Your Personal Knowledge Management System
 
 > Connect → Merge → Develop → Share

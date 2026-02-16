@@ -17,6 +17,9 @@ status:
 
 # 📖 200 Literature
 
+허브: [[🏠 Vault Home]] · [[Hub - 📖 200 Literature]]
+
+
 **The Knowledge Layer** - Concepts, frameworks, theories, classics, reviews
 
 ## Purpose

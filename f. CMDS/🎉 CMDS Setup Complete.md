@@ -18,6 +18,9 @@ status: completed
 
 # 🎉 CMDS 시스템 구축 완료
 
+허브: [[🏠 Vault Home]] · [[🏠 Vault Home]]
+
+
 **날짜**: 2025-01-19
 **볼트**: Yesung's Obsidian
 **상태**: ✅ 완료 및 사용 가능

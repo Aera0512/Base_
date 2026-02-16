@@ -13,7 +13,8 @@ status:
 
 # {{title}}
 
-연결: [[CMDS Home]] · [[Hub - Settings]]
+허브: [[🏠 Vault Home]] · [[Hub - 91. Templates]]
+
 
 
 ## Overview

@@ -18,6 +18,9 @@ status:
 
 # 📖 400 Methodologies
 
+허브: [[🏠 Vault Home]] · [[Hub - 📖 400 Methodologies]]
+
+
 **The Tools Layer** - Research methods, statistics, ML, codes/prompts
 
 ## Purpose

@@ -1,6 +1,7 @@
 # Claude Code Directory
 
-연결: [[CMDS Home]] · [[Hub - Inbox]]
+허브: [[🏠 Vault Home]] · [[Hub - 03. Claude Code]]
+
 
 
 **PRIMARY WORKING DIRECTORY** for all code outputs from Claude.

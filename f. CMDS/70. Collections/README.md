@@ -1,6 +1,7 @@
 # Collections
 
-연결: [[CMDS Home]] · [[Hub - Collections]]
+허브: [[🏠 Vault Home]] · [[Hub - 70. Collections]]
+
 
 
 Organized collections of related content.

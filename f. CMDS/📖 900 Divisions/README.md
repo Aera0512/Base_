@@ -18,6 +18,9 @@ status:
 
 # 📖 900 Divisions
 
+허브: [[🏠 Vault Home]] · [[Hub - 📖 900 Divisions]]
+
+
 **The Operations Layer** - 9 operational divisions
 
 ## Purpose

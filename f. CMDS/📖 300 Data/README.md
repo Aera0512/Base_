@@ -17,6 +17,9 @@ status:
 
 # 📖 300 Data
 
+허브: [[🏠 Vault Home]] · [[Hub - 📖 300 Data]]
+
+
 **The Information Layer** - Data management, surveys, panel data, LMS
 
 ## Purpose

@@ -1,5 +1,8 @@
 # CMDS Home
 
+허브: [[🏠 Vault Home]] · [[Hub - 10. CMDS Process]]
+
+
 > Vault 메인 허브. 모든 핵심 노트는 이 허브를 기준으로 연결합니다.
 
 ## Quick Navigation

@@ -18,6 +18,9 @@ status:
 
 # 📖 800 Outputs
 
+허브: [[🏠 Vault Home]] · [[Hub - 📖 800 Outputs]]
+
+
 **The Delivery Layer** - PhD, articles, lectures, projects, consulting
 
 ## Purpose

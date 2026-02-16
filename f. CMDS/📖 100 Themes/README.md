@@ -17,6 +17,9 @@ status:
 
 # 📖 100 Themes
 
+허브: [[🏠 Vault Home]] · [[Hub - 📖 100 Themes]]
+
+
 **The Connection Layer** - Interests, topics, variables, terminologies
 
 ## Purpose

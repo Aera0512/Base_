@@ -19,6 +19,9 @@ status:
 
 # 🏛 CMDS Guide
 
+허브: [[🏠 Vault Home]] · [[🏠 Vault Home]]
+
+
 **Operational Standards & Conventions for the CMDS System**
 
 This guide ensures consistency and quality across your knowledge base.

@@ -16,7 +16,8 @@ status:
 
 # {{date:YYYY-MM-DD dddd}}
 
-연결: [[CMDS Home]] · [[Hub - Settings]]
+허브: [[🏠 Vault Home]] · [[Hub - 91. Templates]]
+
 
 
 ## 🌅 Morning

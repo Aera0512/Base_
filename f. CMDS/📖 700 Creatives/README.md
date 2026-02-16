@@ -18,6 +18,9 @@ status:
 
 # 📖 700 Creatives
 
+허브: [[🏠 Vault Home]] · [[Hub - 📖 700 Creatives]]
+
+
 **The Creation Layer** - YouTube, SNS, music, digital art
 
 ## Purpose

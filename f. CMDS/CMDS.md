@@ -1,5 +1,8 @@
 # CMDS.md - Context & Philosophy Guide
 
+허브: [[🏠 Vault Home]] · [[🏠 Vault Home]]
+
+
 This file provides context and philosophy for the CMDSPACE (커맨드스페이스) knowledge management system.
 
 ## Why This System Exists
