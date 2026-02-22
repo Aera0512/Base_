@@ -1,0 +1,6 @@
+/* Dashboard++-style minimal layout */
+.dashboard h1 { margin-bottom: 0.4rem; }
+.dashboard h2 { margin-top: 1.5rem; }
+.dashboard hr { opacity: 0.25; }
+.dashboard .callout { margin: 0.6rem 0; }
+.dashboard ul { margin: 0.4rem 0 0.8rem; }

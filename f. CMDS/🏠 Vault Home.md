@@ -1,29 +1,57 @@
-# 🏠 Vault Home
+---
+cssclass: dashboard
+---
 
-CMDS 메인 허브 (한눈에 보기)
+# 🏠 Home
 
-## 시작
-- [[00. START HERE]]
-- [[10. CMDS Process/01. Hub Navigator|Hub Navigator]]
+> Minimal + Dashboard++ 스타일 홈 대시보드
 
-## 핵심 허브 7개
-- [[00. Inbox/Hub - 00. Inbox|Inbox]]
-- [[20. Literature Notes/Hub - 20. Literature Notes|Literature Notes]]
-- [[30. Permanent Notes/Hub - 30. Permanent Notes|Permanent Notes]]
-- [[40. Docs/Hub - 40. Docs|Docs]]
-- [[70. Collections/Hub - 70. Collections|Collections]]
-- [[80. References/Hub - 80. References|References]]
-- [[90. Settings/Hub - 90. Settings|Settings]]
+## 📅 Today
+- **Date:** `= date(today)`
+- **Quick Links:**
+  - [[Inbox]]
+  - [[Important]]
+  - [[b. Dairy]]
+  - [[d. Templates]]
 
-## 연결성 관리
-- [[10. CMDS Process/📊 Vault 연결성 대시보드]]
-- [[10. CMDS Process/연결 지도 - CMDS]]
+---
 
-## 최근 업데이트 (자동)
+## 📝 최근 노트
 ```dataview
-TABLE file.folder AS Folder
-FROM "f. CMDS"
-WHERE !contains(file.name, "Hub - ") AND file.name != "🏠 Vault Home" AND file.name != "00. START HERE"
+LIST
+FROM ""
+WHERE !contains(file.path, "Templates") AND !contains(file.path, ".trash")
 SORT file.mtime DESC
-LIMIT 25
+LIMIT 12
 ```
+
+---
+
+## 📚 공부 태그 노트
+```dataview
+LIST
+FROM ""
+WHERE contains(file.tags, "공부") OR contains(file.tags, "study")
+SORT file.mtime DESC
+LIMIT 10
+```
+
+---
+
+## 🗂️ 주요 섹션
+- [[Inbox]]
+- [[Important]]
+- [[a. Obsidian]]
+- [[b. Dairy]]
+- [[c. Attached file]]
+- [[d. Templates]]
+- [[e. Canvases]]
+- [[f. CMDS]]
+
+---
+
+## 🔎 검색 힌트
+- 최근 파일: 위 Dataview 자동 목록
+- 태그: #공부 / #study
+
+> 필요하면 추가 섹션(프로젝트, 영역, 리소스)을 더 붙일 수 있어.
