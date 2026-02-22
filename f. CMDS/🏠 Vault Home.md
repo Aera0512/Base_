@@ -1,7 +1,6 @@
 ---
 cssclass: dashboard
 ---
-ㅌ
 
 ## 📅 Today
 - **Date:** `= date(today)`
