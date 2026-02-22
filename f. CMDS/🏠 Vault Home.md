@@ -1,10 +1,7 @@
 ---
 cssclass: dashboard
 ---
-
-# 🏠 Home
-
-> Minimal + Dashboard++ 스타일 홈 대시보드
+ㅌ
 
 ## 📅 Today
 - **Date:** `= date(today)`
