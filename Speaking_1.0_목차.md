@@ -1,16 +1,92 @@
 # Speaking 1.0 목차
 
-## 로그인
-- 카카오 로그인
-- 네이버 로그인
-- 구글 로그인
-- 아이디 찾기
-- 비밀번호 찾기
-- 회원가입
+## OT
+- 오리엔테이션 (30:52)
 
-## 장바구니		
-				(항목: 0)
-- 장바구니
-- 계산으로 이동
+## 첫째달
+- Unit 01 – Tell me about you (46:35)
+- Unit 02 – Talk about routines and personalities (32:52)
+- Unit 03 – Daily life and likes, 회화에 꼭 필요한 문법! – Are you vs. Do you (24:14)
+- Unit 04 – People around me, 강세와 억양 (24:29)
+- Unit 05 – Tell them about you, 발표하기 (32:49)
+- Unit 06 – Syntax – Ving and p.p. – 분사 (35:46)
+- Unit 07 – Traveling – 경험 have p.p., here and there (32:42)
+- Unit 08 – Been there, done that, 회화에 꼭 필요한 문법! – There be ~ 시리즈 (31:28)
+- Unit 09 – Here and there, 자연스러운 대답법 (26:29)
+- Unit 10 – 회화에 꼭 필요한 문법!, What’s it like there (36:47)
+- Unit 11 – Dreams, 축약표현 – gonna, wanna, gotta, tryna, hafta, kinda, gimme, outta (33:20)
+- Unit 12 – 회화에 꼭 필요한 문법! – 가정법1 – if 가정법 (44:13)
+- Unit 13 – 회화에 꼭 필요한 문법! – 가정법2 – wish 가정법 and hope 차이 (33:48)
+- Unit 14 – Plans, th- and the- 발음 (39:26)
+- Unit 15 – Tell me about your dream! – 발표하기, R and L 발음 (31:01)
+- Unit 16 – Holiday!, 전치사 in and on (24:31)
+- Unit 17 – Syntax. 긴명사 1 – 주어가 될 수 있는 것들 (28:26)
+- Unit 18 – Seasons – 계절별 활동에 대해 이야기하기 (20:29)
+- Unit 19 – Holidays, People vs. You (12:56)
+- Unit 20 – 계절문화, 연령대 나이대 표현하기, so vs. too vs. enough 차이 (22:39)
 
-## 장바구니에 담긴 상품
+## 둘째달
+- Unit 21 – Food and Drink, 잘 어울리다 (48:46)
+- Unit 22 – Syntax. 긴명사2, 목적어, 간접의문문 (40:51)
+- Unit 23 – both, either, neither, all, any, none (19:35)
+- Unit 24 – Syntax. 가주어, 진주어 (28:55)
+- Unit 25 – 음식, 비교표현 (27:57)
+- Unit 26 – 외모, 패션 (34:58)
+- Unit 27 – Syntax. 가목적어, 진목적어 (31:18)
+- Unit 28 – 대답, look good on, in, with (28:47)
+- Unit 29 – Syntax. 긴 형용사 1 – 형용사, 전치사구, Ving, p.p., to-V (34:28)
+- Unit 30 – what do they look like, u, oo 발음 (40:59)
+- Unit 31 – People around you (32:41)
+- Unit 32 – Syntax. 긴 형용사 2, 관계사, 동격 – 기초 (32:36)
+- Unit 33 – What’s he like, 인물에 대해 말하기 (23:09)
+- Unit 34 – Syntax. 긴 형용사 3 – 심화 – what, that (34:52)
+- Unit 35 – We love to do things together (30:33)
+- Unit 36 – feelings and emotions, What do you like or dislike about… (40:53)
+- Unit 37 – Syntax. 시제 1 – 기본 – 진행시제, 완료시제 (37:31)
+- Unit 38 – What do you like to do – 감정표현 (29:19)
+- Unit 39 – Syntax. 시제 2 – 심화 – woulda, coulda, shoulda (37:10)
+- Unit 40 – How do you manage your stress (31:03)
+
+## 셋째달
+- Unit 41 – Dating and Relationship (32:35)
+- Unit 42 – Syntax. Ving(동명사) (39:49)
+- Unit 43 – We’re a couple! (30:15)
+- Unit 44 – Syntax. to-V – to부정사 – part 1. 명사적 용법 (35:20)
+- Unit 45 – She’s the one (27:02)
+- Unit 46 – Health (31:49)
+- Unit 47 – Syntax. to-V – to부정사 – part 2. 형용사적 용법 (29:55)
+- Unit 48 – It hurts! (32:10)
+- Unit 49 – Syntax. to-V – to부정사 – part 3. 부사적 용법 (32:40)
+- Unit 50 – sick, ill, ache (38:38)
+- Unit 51 – One of my favorites / 부정대명사 (50:19)
+- Unit 52 – Syntax. 수동태 – part 1 (32:10)
+- Unit 53 – My favorite things to do – 프레젠테이션 (18:24)
+- Unit 54 – Syntax. 수동태 – part 2 (30:45)
+- Unit 55 – How often do you do that – s, z 발음 (34:39)
+- Unit 56 – It really bothers me (34:36)
+- Unit 57 – Syntax. 대동사 (32:58)
+- Unit 58 – I can’t stand it! (27:21)
+- Unit 59 – Syntax. 전치사 vs. 접속사 (34:46)
+- Unit 60 – It’s been tough (28:34)
+
+## 넷째달
+- Unit 61 – Growing up (37:52)
+- Unit 62 – Syntax. 전치사 + 긴 명사 (31:49)
+- Unit 63 – Back in my day (34:05)
+- Unit 64 – Syntax. 분사구문 (36:29)
+- Unit 65 – schwa 슈와 발음 (24:01)
+- Unit 66 – I’m so stressed out (29:48)
+- Unit 67 – Syntax. 조동사 과거형 (43:34)
+- Unit 68 – Grown-up life (29:38)
+- Unit 69 – Syntax. 부분부정, 전체부정 (25:11)
+- Unit 70 – Sound. weakened ing / spend time Ving, have fun Ving (19:58)
+- Unit 71 – Daily Routine (28:49)
+- Unit 72 – Syntax. 비인칭 it, 강조구문 (29:50)
+- Unit 73 – What are you good at? (39:44)
+- Unit 74 – Syntax. as – as – 원급비교 (27:19)
+- Unit 75 – It’s hard for me (34:11)
+- Unit 76 – I used to be famous (36:03)
+- Unit 77 – Syntax. 삽입어구 (30:38)
+- Unit 78 – I’m still deciding (31:41)
+- Unit 79 – 의문사 WH (46:43)
+- Unit 80 – Stay motivated! (38:03)
