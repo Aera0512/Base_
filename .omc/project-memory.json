@@ -113,15 +113,21 @@
   },
   "hotPaths": [
     {
-      "path": "conflict-files-obsidian-git.md",
-      "accessCount": 1,
-      "lastAccessed": 1771910455417,
-      "type": "file"
+      "path": "",
+      "accessCount": 3,
+      "lastAccessed": 1771912561200,
+      "type": "directory"
     },
     {
       "path": "d. Templates/Daily_note_Template.md",
+      "accessCount": 2,
+      "lastAccessed": 1771912550337,
+      "type": "file"
+    },
+    {
+      "path": "conflict-files-obsidian-git.md",
       "accessCount": 1,
-      "lastAccessed": 1771911455025,
+      "lastAccessed": 1771910455417,
       "type": "file"
     },
     {
@@ -129,6 +135,30 @@
       "accessCount": 1,
       "lastAccessed": 1771911835755,
       "type": "file"
+    },
+    {
+      "path": "f. CMDS/00. Inbox/01. Daily Notes/Hub - 01. Daily Notes.md",
+      "accessCount": 1,
+      "lastAccessed": 1771912550331,
+      "type": "file"
+    },
+    {
+      "path": "b. Dairy/1. Daily/2026-01-29(목).md",
+      "accessCount": 1,
+      "lastAccessed": 1771912556371,
+      "type": "file"
+    },
+    {
+      "path": "b. Dairy/1. Daily/2026-02-01(일).md",
+      "accessCount": 1,
+      "lastAccessed": 1771912556378,
+      "type": "file"
+    },
+    {
+      "path": "b. Dairy/1. Daily",
+      "accessCount": 1,
+      "lastAccessed": 1771912556795,
+      "type": "directory"
     }
   ],
   "userDirectives": []

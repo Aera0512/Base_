@@ -1,3 +1,8 @@
 {"t":0,"agent":"system","event":"skill_invoked","skill_name":"n8n-workflow-patterns"}
 {"t":0,"agent":"system","event":"skill_invoked","skill_name":"oh-my-claudecode:skill"}
 {"t":0,"agent":"system","event":"skill_invoked","skill_name":"oh-my-claudecode:omc-help"}
+{"t":0,"agent":"a227c1c","agent_type":"Explore","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a6fbb44","agent_type":"Explore","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"ac18f79","agent_type":"Explore","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a227c1c","agent_type":"Explore","event":"agent_stop","success":true,"duration_ms":39888}
+{"t":0,"agent":"ac18f79","agent_type":"Explore","event":"agent_stop","success":true,"duration_ms":44619}
