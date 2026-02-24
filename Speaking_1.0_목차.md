@@ -1,73 +1,102 @@
 # Speaking 1.0 목차
 
+> 📚 **전체 강의** | 총 80개 Unit · 약 43시간
+> 🏷️ 분류: `회화` `문법` `Syntax` `발음`
+
+---
+
 ## OT
-- 오리엔테이션 (30:52)
 
-## 첫째달
-- Unit 01 – Tell me about you (46:35)
-- Unit 02 – Talk about routines and personalities (32:52)
-- Unit 03 – Daily life and likes, 회화에 꼭 필요한 문법! – Are you vs. Do you (24:14)
-- Unit 04 – People around me, 강세와 억양 (24:29)
-- Unit 05 – Tell them about you, 발표하기 (32:49)
-- Unit 06 – Syntax – Ving and p.p. – 분사 (35:46)
-- Unit 07 – Traveling – 경험 have p.p., here and there (32:42)
-- Unit 08 – Been there, done that, 회화에 꼭 필요한 문법! – There be ~ 시리즈 (31:28)
-- Unit 09 – Here and there, 자연스러운 대답법 (26:29)
-- Unit 10 – 회화에 꼭 필요한 문법!, What’s it like there (36:47)
-- Unit 11 – Dreams, 축약표현 – gonna, wanna, gotta, tryna, hafta, kinda, gimme, outta (33:20)
-- Unit 12 – 회화에 꼭 필요한 문법! – 가정법1 – if 가정법 (44:13)
-- Unit 13 – 회화에 꼭 필요한 문법! – 가정법2 – wish 가정법 and hope 차이 (33:48)
-- Unit 14 – Plans, th- and the- 발음 (39:26)
-- Unit 15 – Tell me about your dream! – 발표하기, R and L 발음 (31:01)
-- Unit 16 – Holiday!, 전치사 in and on (24:31)
-- Unit 17 – Syntax. 긴명사 1 – 주어가 될 수 있는 것들 (28:26)
-- Unit 18 – Seasons – 계절별 활동에 대해 이야기하기 (20:29)
-- Unit 19 – Holidays, People vs. You (12:56)
-- Unit 20 – 계절문화, 연령대 나이대 표현하기, so vs. too vs. enough 차이 (22:39)
+| ✅ | Unit | 주제 | 시간 |
+|:--:|:----:|------|:----:|
+| ⬜ | - | 오리엔테이션 | 30:52 |
 
-## 둘째달
-- Unit 21 – Food and Drink, 잘 어울리다 (48:46)
-- Unit 22 – Syntax. 긴명사2, 목적어, 간접의문문 (40:51)
-- Unit 23 – both, either, neither, all, any, none (19:35)
-- Unit 24 – Syntax. 가주어, 진주어 (28:55)
-- Unit 25 – 음식, 비교표현 (27:57)
-- Unit 26 – 외모, 패션 (34:58)
-- Unit 27 – Syntax. 가목적어, 진목적어 (31:18)
-- Unit 28 – 대답, look good on, in, with (28:47)
-- Unit 29 – Syntax. 긴 형용사 1 – 형용사, 전치사구, Ving, p.p., to-V (34:28)
-- Unit 30 – what do they look like, u, oo 발음 (40:59)
-- Unit 31 – People around you (32:41)
-- Unit 32 – Syntax. 긴 형용사 2, 관계사, 동격 – 기초 (32:36)
-- Unit 33 – What’s he like, 인물에 대해 말하기 (23:09)
-- Unit 34 – Syntax. 긴 형용사 3 – 심화 – what, that (34:52)
-- Unit 35 – We love to do things together (30:33)
-- Unit 36 – feelings and emotions, What do you like or dislike about… (40:53)
-- Unit 37 – Syntax. 시제 1 – 기본 – 진행시제, 완료시제 (37:31)
-- Unit 38 – What do you like to do – 감정표현 (29:19)
-- Unit 39 – Syntax. 시제 2 – 심화 – woulda, coulda, shoulda (37:10)
-- Unit 40 – How do you manage your stress (31:03)
+---
 
-## 셋째달
-- Unit 41 – Dating and Relationship (32:35)
-- Unit 42 – Syntax. Ving(동명사) (39:49)
-- Unit 43 – We’re a couple! (30:15)
-- Unit 44 – Syntax. to-V – to부정사 – part 1. 명사적 용법 (35:20)
-- Unit 45 – She’s the one (27:02)
-- Unit 46 – Health (31:49)
-- Unit 47 – Syntax. to-V – to부정사 – part 2. 형용사적 용법 (29:55)
-- Unit 48 – It hurts! (32:10)
-- Unit 49 – Syntax. to-V – to부정사 – part 3. 부사적 용법 (32:40)
-- Unit 50 – sick, ill, ache (38:38)
-- Unit 51 – One of my favorites / 부정대명사 (50:19)
-- Unit 52 – Syntax. 수동태 – part 1 (32:10)
-- Unit 53 – My favorite things to do – 프레젠테이션 (18:24)
-- Unit 54 – Syntax. 수동태 – part 2 (30:45)
-- Unit 55 – How often do you do that – s, z 발음 (34:39)
-- Unit 56 – It really bothers me (34:36)
-- Unit 57 – Syntax. 대동사 (32:58)
-- Unit 58 – I can’t stand it! (27:21)
-- Unit 59 – Syntax. 전치사 vs. 접속사 (34:46)
-- Unit 60 – It’s been tough (28:34)
+## 첫째달 (20 Units)
+
+| ✅ | Unit | 주제 | 분류 | 시간 |
+|:--:|:----:|------|:----:|:----:|
+| ⬜ | 01 | Tell me about you | 회화 | 46:35 |
+| ⬜ | 02 | Talk about routines and personalities | 회화 | 32:52 |
+| ⬜ | 03 | Daily life – Are you vs. Do you | 문법 | 24:14 |
+| ⬜ | 04 | People around me, 강세와 억양 | 발음 | 24:29 |
+| ⬜ | 05 | Tell them about you – 발표하기 | 회화 | 32:49 |
+| ⬜ | 06 | **Ving and p.p. – 분사** | Syntax | 35:46 |
+| ⬜ | 07 | Traveling – 경험 have p.p. | 회화 | 32:42 |
+| ⬜ | 08 | Been there – There be ~ 시리즈 | 문법 | 31:28 |
+| ⬜ | 09 | Here and there, 자연스러운 대답법 | 회화 | 26:29 |
+| ⬜ | 10 | What's it like there | 문법 | 36:47 |
+| ⬜ | 11 | Dreams – gonna, wanna, gotta 등 축약 | 발음 | 33:20 |
+| ⬜ | 12 | **가정법 1** – if 가정법 | 문법 | 44:13 |
+| ⬜ | 13 | **가정법 2** – wish vs. hope | 문법 | 33:48 |
+| ⬜ | 14 | Plans – th- 발음 | 발음 | 39:26 |
+| ⬜ | 15 | Tell me about your dream! – R/L 발음 | 발음 | 31:01 |
+| ⬜ | 16 | Holiday! – 전치사 in/on | 문법 | 24:31 |
+| ⬜ | 17 | **긴명사 1** – 주어가 될 수 있는 것들 | Syntax | 28:26 |
+| ⬜ | 18 | Seasons – 계절별 활동 | 회화 | 20:29 |
+| ⬜ | 19 | Holidays – People vs. You | 회화 | 12:56 |
+| ⬜ | 20 | 계절문화 – so vs. too vs. enough | 문법 | 22:39 |
+
+> ⏱️ 소계: **약 10시간 35분**
+
+---
+
+## 둘째달 (20 Units)
+
+| ✅ | Unit | 주제 | 분류 | 시간 |
+|:--:|:----:|------|:----:|:----:|
+| ⬜ | 21 | Food and Drink – 잘 어울리다 | 회화 | 48:46 |
+| ⬜ | 22 | **긴명사 2** – 목적어, 간접의문문 | Syntax | 40:51 |
+| ⬜ | 23 | both, either, neither, all, any, none | 문법 | 19:35 |
+| ⬜ | 24 | **가주어, 진주어** | Syntax | 28:55 |
+| ⬜ | 25 | 음식, 비교표현 | 회화 | 27:57 |
+| ⬜ | 26 | 외모, 패션 | 회화 | 34:58 |
+| ⬜ | 27 | **가목적어, 진목적어** | Syntax | 31:18 |
+| ⬜ | 28 | 대답 – look good on, in, with | 회화 | 28:47 |
+| ⬜ | 29 | **긴 형용사 1** – 형용사, 전치사구 등 | Syntax | 34:28 |
+| ⬜ | 30 | what do they look like – u/oo 발음 | 발음 | 40:59 |
+| ⬜ | 31 | People around you | 회화 | 32:41 |
+| ⬜ | 32 | **긴 형용사 2** – 관계사, 동격 (기초) | Syntax | 32:36 |
+| ⬜ | 33 | What's he like – 인물 묘사 | 회화 | 23:09 |
+| ⬜ | 34 | **긴 형용사 3** – what, that (심화) | Syntax | 34:52 |
+| ⬜ | 35 | We love to do things together | 회화 | 30:33 |
+| ⬜ | 36 | Feelings and emotions | 회화 | 40:53 |
+| ⬜ | 37 | **시제 1** – 진행시제, 완료시제 | Syntax | 37:31 |
+| ⬜ | 38 | What do you like to do – 감정표현 | 회화 | 29:19 |
+| ⬜ | 39 | **시제 2** – woulda, coulda, shoulda | Syntax | 37:10 |
+| ⬜ | 40 | How do you manage your stress | 회화 | 31:03 |
+
+> ⏱️ 소계: **약 10시간 46분**
+
+---
+
+## 셋째달 (20 Units)
+
+| ✅ | Unit | 주제 | 분류 | 시간 |
+|:--:|:----:|------|:----:|:----:|
+| ⬜ | 41 | Dating and Relationship | 회화 | 32:35 |
+| ⬜ | 42 | **Ving (동명사)** | Syntax | 39:49 |
+| ⬜ | 43 | We're a couple! | 회화 | 30:15 |
+| ⬜ | 44 | **to-V Part 1** – 명사적 용법 | Syntax | 35:20 |
+| ⬜ | 45 | She's the one | 회화 | 27:02 |
+| ⬜ | 46 | Health | 회화 | 31:49 |
+| ⬜ | 47 | **to-V Part 2** – 형용사적 용법 | Syntax | 29:55 |
+| ⬜ | 48 | It hurts! | 회화 | 32:10 |
+| ⬜ | 49 | **to-V Part 3** – 부사적 용법 | Syntax | 32:40 |
+| ⬜ | 50 | sick, ill, ache | 회화 | 38:38 |
+| ⬜ | 51 | One of my favorites – 부정대명사 | 문법 | 50:19 |
+| ⬜ | 52 | **수동태 Part 1** | Syntax | 32:10 |
+| ⬜ | 53 | My favorite things – 프레젠테이션 | 회화 | 18:24 |
+| ⬜ | 54 | **수동태 Part 2** | Syntax | 30:45 |
+| ⬜ | 55 | How often do you do that – s/z 발음 | 발음 | 34:39 |
+| ⬜ | 56 | It really bothers me | 회화 | 34:36 |
+| ⬜ | 57 | **대동사** | Syntax | 32:58 |
+| ⬜ | 58 | I can't stand it! | 회화 | 27:21 |
+| ⬜ | 59 | **전치사 vs. 접속사** | Syntax | 34:46 |
+| ⬜ | 60 | It's been tough | 회화 | 28:34 |
+
+> ⏱️ 소계: **약 10시간 44분**
 
 ## 넷째달
 - Unit 61 – Growing up (37:52)
