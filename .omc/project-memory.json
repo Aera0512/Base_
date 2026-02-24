@@ -123,6 +123,12 @@
       "accessCount": 1,
       "lastAccessed": 1771911455025,
       "type": "file"
+    },
+    {
+      "path": ".claude/skills/obsidian-markdown/SKILL.md",
+      "accessCount": 1,
+      "lastAccessed": 1771911835755,
+      "type": "file"
     }
   ],
   "userDirectives": []
