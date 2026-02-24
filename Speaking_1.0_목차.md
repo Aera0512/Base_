@@ -98,24 +98,47 @@
 
 > ⏱️ 소계: **약 10시간 44분**
 
-## 넷째달
-- Unit 61 – Growing up (37:52)
-- Unit 62 – Syntax. 전치사 + 긴 명사 (31:49)
-- Unit 63 – Back in my day (34:05)
-- Unit 64 – Syntax. 분사구문 (36:29)
-- Unit 65 – schwa 슈와 발음 (24:01)
-- Unit 66 – I’m so stressed out (29:48)
-- Unit 67 – Syntax. 조동사 과거형 (43:34)
-- Unit 68 – Grown-up life (29:38)
-- Unit 69 – Syntax. 부분부정, 전체부정 (25:11)
-- Unit 70 – Sound. weakened ing / spend time Ving, have fun Ving (19:58)
-- Unit 71 – Daily Routine (28:49)
-- Unit 72 – Syntax. 비인칭 it, 강조구문 (29:50)
-- Unit 73 – What are you good at? (39:44)
-- Unit 74 – Syntax. as – as – 원급비교 (27:19)
-- Unit 75 – It’s hard for me (34:11)
-- Unit 76 – I used to be famous (36:03)
-- Unit 77 – Syntax. 삽입어구 (30:38)
-- Unit 78 – I’m still deciding (31:41)
-- Unit 79 – 의문사 WH (46:43)
-- Unit 80 – Stay motivated! (38:03)
+---
+
+## 넷째달 (20 Units)
+
+| ✅ | Unit | 주제 | 분류 | 시간 |
+|:--:|:----:|------|:----:|:----:|
+| ⬜ | 61 | Growing up | 회화 | 37:52 |
+| ⬜ | 62 | **전치사 + 긴 명사** | Syntax | 31:49 |
+| ⬜ | 63 | Back in my day | 회화 | 34:05 |
+| ⬜ | 64 | **분사구문** | Syntax | 36:29 |
+| ⬜ | 65 | schwa 슈와 발음 | 발음 | 24:01 |
+| ⬜ | 66 | I'm so stressed out | 회화 | 29:48 |
+| ⬜ | 67 | **조동사 과거형** | Syntax | 43:34 |
+| ⬜ | 68 | Grown-up life | 회화 | 29:38 |
+| ⬜ | 69 | **부분부정, 전체부정** | Syntax | 25:11 |
+| ⬜ | 70 | weakened ing – spend time Ving | 발음 | 19:58 |
+| ⬜ | 71 | Daily Routine | 회화 | 28:49 |
+| ⬜ | 72 | **비인칭 it, 강조구문** | Syntax | 29:50 |
+| ⬜ | 73 | What are you good at? | 회화 | 39:44 |
+| ⬜ | 74 | **as – as – 원급비교** | Syntax | 27:19 |
+| ⬜ | 75 | It's hard for me | 회화 | 34:11 |
+| ⬜ | 76 | I used to be famous | 회화 | 36:03 |
+| ⬜ | 77 | **삽입어구** | Syntax | 30:38 |
+| ⬜ | 78 | I'm still deciding | 회화 | 31:41 |
+| ⬜ | 79 | 의문사 WH | 문법 | 46:43 |
+| ⬜ | 80 | Stay motivated! | 회화 | 38:03 |
+
+> ⏱️ 소계: **약 10시간 55분**
+
+---
+
+## 📊 분류별 요약
+
+| 분류 | 강의 수 | 비중 |
+|:----:|:------:|:----:|
+| 회화 | 38개 | 47% |
+| Syntax | 21개 | 26% |
+| 문법 | 12개 | 15% |
+| 발음 | 9개 | 11% |
+
+---
+
+## 🔗 관련 노트
+- [[Speaking_1.0_Syntax]] – Syntax 강의만 모아보기
