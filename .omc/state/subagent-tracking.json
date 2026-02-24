@@ -23,11 +23,13 @@
       "agent_type": "scientist",
       "started_at": "2026-02-24T08:15:16.368Z",
       "parent_mode": "none",
-      "status": "running"
+      "status": "completed",
+      "completed_at": "2026-02-24T08:20:07.264Z",
+      "duration_ms": 290896
     }
   ],
   "total_spawned": 2,
-  "total_completed": 2,
+  "total_completed": 3,
   "total_failed": 0,
-  "last_updated": "2026-02-24T08:15:16.470Z"
+  "last_updated": "2026-02-24T08:20:07.371Z"
 }
