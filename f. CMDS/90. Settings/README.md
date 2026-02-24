@@ -1,6 +1,7 @@
 # Settings
 
-연결: [[CMDS Home]] · [[Hub - Settings]]
+허브: [[🏠 Vault Home]] · [[Hub - 90. Settings]]
+
 
 
 System settings, templates, and configuration files.

@@ -1,0 +1,123 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1771910448222,
+  "projectRoot": "/Users/aera/Desktop/Base_",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "Important": {
+      "path": "Important",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1771910448215,
+      "keyFiles": [
+        "0. 나를 제대로 아는 방법.md",
+        "김예성.md",
+        "내가 알면 좋을 지식.md",
+        "당신의 뇌는 최적화를 원한다 (최종 활용본).md",
+        "영어 학습 뇌과학 적용 가이드.md"
+      ]
+    },
+    "Inbox": {
+      "path": "Inbox",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1771910448215,
+      "keyFiles": [
+        "AI 코딩 자동화 로드맵 프롬프트.md",
+        "AI 학습 완전 가이드 - 비전공자를 위한 최단경로 로드맵 (2025).md",
+        "Anki Agent 프로젝트 진행 트래커.md",
+        "단어장 사진 → Anki 플래시카드 자동 생성 에이전트 가이드.md"
+      ]
+    },
+    "a. Obsidian": {
+      "path": "a. Obsidian",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1771910448215,
+      "keyFiles": []
+    },
+    "b. Dairy": {
+      "path": "b. Dairy",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1771910448215,
+      "keyFiles": []
+    },
+    "c. Attached file": {
+      "path": "c. Attached file",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1771910448216,
+      "keyFiles": []
+    },
+    "d. Templates": {
+      "path": "d. Templates",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1771910448216,
+      "keyFiles": [
+        "Daily_note_Template.md",
+        "세부 공부 계획표.md",
+        "영화 드라마 리뷰 템플릿.md"
+      ]
+    },
+    "e. Canvases": {
+      "path": "e. Canvases",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1771910448216,
+      "keyFiles": [
+        "나(김예성).canvas",
+        "이동진의 파이아키아.canvas"
+      ]
+    },
+    "f. CMDS": {
+      "path": "f. CMDS",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1771910448216,
+      "keyFiles": [
+        "00. START HERE.md",
+        "CLAUDE.md",
+        "🏠 Vault Home.md"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "conflict-files-obsidian-git.md",
+      "accessCount": 1,
+      "lastAccessed": 1771910455417,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

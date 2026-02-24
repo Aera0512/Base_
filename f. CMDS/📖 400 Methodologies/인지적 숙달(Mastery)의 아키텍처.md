@@ -15,6 +15,9 @@ category: Methodology
 
 # 인지적 숙달(Mastery)의 아키텍처
 
+허브: [[🏠 Vault Home]] · [[Hub - 📖 400 Methodologies]]
+
+
 > **기술 습득의 메커니즘과 최적화 전략에 관한 심층 분석 보고서**
 
 ---

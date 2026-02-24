@@ -1,6 +1,7 @@
 # Docs
 
-연결: [[CMDS Home]] · [[Hub - Docs]]
+허브: [[🏠 Vault Home]] · [[Hub - 40. Docs]]
+
 
 
 Technical documentation folder.

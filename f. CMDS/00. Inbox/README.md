@@ -1,6 +1,7 @@
 # Inbox
 
-연결: [[CMDS Home]] · [[Hub - Inbox]]
+허브: [[🏠 Vault Home]] · [[Hub - 00. Inbox]]
+
 
 
 This is the temporary storage and processing area for all incoming information.

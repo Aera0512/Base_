@@ -1,5 +1,8 @@
 # CLAUDE.md
 
+허브: [[🏠 Vault Home]] · [[🏠 Vault Home]]
+
+
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview

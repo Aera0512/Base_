@@ -18,6 +18,9 @@ status:
 
 # 📖 600 Specialties
 
+허브: [[🏠 Vault Home]] · [[Hub - 📖 600 Specialties]]
+
+
 **The Expertise Layer** - KM, Second Brain, Gen AI, productivity
 
 ## Purpose
