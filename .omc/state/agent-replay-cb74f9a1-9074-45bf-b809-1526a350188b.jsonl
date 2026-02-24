@@ -1,3 +1,5 @@
 {"t":0,"agent":"a1dd56c","agent_type":"analyst","event":"agent_start","parent_mode":"none"}
 {"t":0,"agent":"a18137d","agent_type":"critic","event":"agent_start","parent_mode":"none"}
 {"t":0,"agent":"a18137d","agent_type":"critic","event":"agent_stop","success":true,"duration_ms":10104}
+{"t":0,"agent":"a1dd56c","agent_type":"analyst","event":"agent_stop","success":true,"duration_ms":61129}
+{"t":0,"agent":"a65c9d1","agent_type":"scientist","event":"agent_start","parent_mode":"none"}

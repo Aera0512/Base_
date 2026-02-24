@@ -5,7 +5,9 @@
       "agent_type": "oh-my-claudecode:analyst",
       "started_at": "2026-02-24T08:13:53.731Z",
       "parent_mode": "none",
-      "status": "running"
+      "status": "completed",
+      "completed_at": "2026-02-24T08:14:54.860Z",
+      "duration_ms": 61129
     },
     {
       "agent_id": "a18137d",
@@ -15,10 +17,17 @@
       "status": "completed",
       "completed_at": "2026-02-24T08:14:03.888Z",
       "duration_ms": 10104
+    },
+    {
+      "agent_id": "a65c9d1",
+      "agent_type": "scientist",
+      "started_at": "2026-02-24T08:15:16.368Z",
+      "parent_mode": "none",
+      "status": "running"
     }
   ],
-  "total_spawned": 1,
-  "total_completed": 1,
+  "total_spawned": 2,
+  "total_completed": 2,
   "total_failed": 0,
-  "last_updated": "2026-02-24T08:14:03.992Z"
+  "last_updated": "2026-02-24T08:15:16.470Z"
 }
