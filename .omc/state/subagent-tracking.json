@@ -30,13 +30,15 @@
     {
       "agent_id": "a61cb56",
       "agent_type": "oh-my-claudecode:planner",
-      "started_at": "2026-02-24T05:58:27.792Z",
+      "started_at": "2026-02-24T05:58:55.256Z",
       "parent_mode": "none",
-      "status": "running"
+      "status": "completed",
+      "completed_at": "2026-02-24T05:58:55.743Z",
+      "duration_ms": 487
     }
   ],
-  "total_spawned": 4,
-  "total_completed": 4,
+  "total_spawned": 5,
+  "total_completed": 6,
   "total_failed": 0,
-  "last_updated": "2026-02-24T05:58:27.894Z"
+  "last_updated": "2026-02-24T05:58:55.846Z"
 }
