@@ -26,10 +26,17 @@
       "status": "completed",
       "completed_at": "2026-02-24T05:56:26.146Z",
       "duration_ms": 44619
+    },
+    {
+      "agent_id": "a61cb56",
+      "agent_type": "oh-my-claudecode:planner",
+      "started_at": "2026-02-24T05:58:27.792Z",
+      "parent_mode": "none",
+      "status": "running"
     }
   ],
-  "total_spawned": 2,
-  "total_completed": 3,
+  "total_spawned": 4,
+  "total_completed": 4,
   "total_failed": 0,
-  "last_updated": "2026-02-24T05:57:03.955Z"
+  "last_updated": "2026-02-24T05:58:27.894Z"
 }
