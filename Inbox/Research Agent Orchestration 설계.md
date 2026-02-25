@@ -175,12 +175,95 @@ related: [관련 노트1, 관련 노트2]
 
 ---
 
-## 구현: Python 오케스트레이션 코드
+## 구현: Python 오케스트레이션 코드 (v2)
 
 > [!info] 구현 방식
-> Claude API (Anthropic SDK)를 사용하는 Python 스크립트. 각 에이전트는 독립적인 API 호출로 구현되어 **컨텍스트 분리**가 보장된다. 옵시디언 저장은 직접 파일 시스템 접근 또는 Obsidian MCP를 통해 처리.
+> Claude API (Anthropic SDK)를 사용하는 Python 스크립트. 각 에이전트는 독립적인 API 호출로 구현되어 **컨텍스트 분리**가 보장된다.
 > 
-> 코드 파일: `research_orchestration.py`
+> **v2 주요 변경:**
+> - Brave Search / Tavily 웹 검색 API 실제 연동
+> - 옵시디언 Local REST API 직접 연동 (파일시스템 fallback 포함)
+> - 관련 노트 검색 → 자동 `[[링크]]` 연결
+> - 검색 출처 자동 수집 및 기록
+> 
+> 코드 파일: `research_orchestration_v2.py`
+
+### 아키텍처 구성요소
+
+```
+┌──────────────────────────────────────────────────────────┐
+│                  research_orchestration_v2.py              │
+├──────────────────────────────────────────────────────────┤
+│ SearchEngine (추상)                                       │
+│   ├─ BraveSearchEngine   — Brave Search API (월 2,000 무료)│
+│   ├─ TavilySearchEngine  — Tavily API (월 1,000 무료)     │
+│   └─ FallbackSearchEngine — Claude 내장 지식 기반          │
+├──────────────────────────────────────────────────────────┤
+│ ObsidianClient                                            │
+│   ├─ REST API 모드  — Local REST API 플러그인              │
+│   └─ Filesystem 모드 — 직접 파일 읽기/쓰기 (fallback)      │
+├──────────────────────────────────────────────────────────┤
+│ Agents: Researcher → Processor → Storer → Reviewer        │
+│         └─ Improver (품질 미달 시)                         │
+├──────────────────────────────────────────────────────────┤
+│ Utilities: call_claude, parse_json_response, clean_markdown│
+└──────────────────────────────────────────────────────────┘
+```
+
+### 환경변수 설정
+
+```bash
+# 필수
+export ANTHROPIC_API_KEY="sk-ant-..."
+
+# 웹 검색 (둘 중 하나 이상 권장)
+export BRAVE_API_KEY="BSA..."      # https://brave.com/search/api/
+export TAVILY_API_KEY="tvly-..."   # https://tavily.com/
+
+# 옵시디언 REST API (선택 — 없으면 파일시스템 사용)
+export OBSIDIAN_REST_API_KEY="..."  # Local REST API 플러그인 설정에서 확인
+```
+
+### 필수 플러그인 (옵시디언)
+
+| 플러그인 | 용도 | 필수 여부 |
+|---------|------|----------|
+| **Local REST API** | REST API로 노트 읽기/쓰기/검색 | 권장 (없으면 파일시스템 fallback) |
+
+---
+
+## MCP / Skills 리소스 디렉토리
+
+> [!tip] MCP & Skills 찾기
+> 아래 리소스에서 추가 MCP 서버와 Skills를 찾아 시스템을 확장할 수 있다.
+
+### MCP (Model Context Protocol) 서버
+
+| 이름 | URL | 설명 |
+|------|-----|------|
+| **Official MCP Registry** | modelcontextprotocol.io | Anthropic 공식 MCP 서버 목록 |
+| **awesome-mcp-servers** | github.com/punkpeye/awesome-mcp-servers | 커뮤니티 최대 MCP 목록 (6k+ stars) |
+| **PulseMCP** | pulsemcp.com | MCP 서버 검색/디렉토리 |
+| **MCP.so** | mcp.so | MCP 서버 마켓플레이스 |
+| **Smithery** | smithery.ai | MCP 서버 레지스트리 |
+
+### 이 시스템에 유용한 MCP 서버들
+
+| MCP 서버 | 용도 | 연동 상태 |
+|----------|------|----------|
+| **Brave Search** | 웹 검색 (월 2,000 무료) | ✅ v2 직접 API 연동 |
+| **Tavily** | AI 에이전트 최적화 검색 (월 1,000 무료) | ✅ v2 직접 API 연동 |
+| **Obsidian MCP** | 옵시디언 볼트 접근 | ✅ REST API 연동 |
+| **mcp-omnisearch** | 멀티 검색 엔진 통합 | 🔲 확장 후보 |
+| **Exa Search** | 의미 기반 검색 | 🔲 확장 후보 |
+
+### Claude Code Skills 리소스
+
+| 이름 | URL | 설명 |
+|------|-----|------|
+| **Skills Directory** | claude.com/skills | 공식 Skills 탐색 |
+| **claude-skill-registry** | GitHub | 커뮤니티 스킬 레지스트리 |
+| **awesome-claude-skills** | GitHub | 스킬 큐레이션 목록 |
 
 ---
 
@@ -188,16 +271,19 @@ related: [관련 노트1, 관련 노트2]
 
 ### 기본 실행
 ```bash
-python research_orchestration.py "프롬프트 엔지니어링의 최신 트렌드" --depth deep
+python research_orchestration_v2.py "프롬프트 엔지니어링의 최신 트렌드" --depth deep
 ```
 
 ### 옵션
 ```
---depth     조사 깊이: quick (빠른 요약) | standard (기본) | deep (심층)
---vault     옵시디언 볼트 경로 (기본: ~/Desktop/Base_)
---folder    저장할 폴더 (기본: Inbox)
---review    자동 검토 활성화 (기본: true)
---improve   개선 루프 최대 횟수 (기본: 2)
+--depth          조사 깊이: quick (빠른 요약) | standard (기본) | deep (심층)
+--vault          옵시디언 볼트 경로 (기본: ~/Desktop/Base_)
+--folder         저장할 폴더 (기본: Inbox)
+--search-engine  검색 엔진: auto (자동 선택) | brave | tavily
+--no-review      자동 검토 비활성화
+--max-improve    개선 루프 최대 횟수 (기본: 2)
+--model          기본 에이전트 모델 (기본: claude-sonnet-4-5)
+--reviewer-model 검토 에이전트 모델 (기본: claude-opus-4-6)
 ```
 
 ### Cowork 모드에서 직접 실행
@@ -212,19 +298,19 @@ python research_orchestration.py "프롬프트 엔지니어링의 최신 트렌�
 
 ### 시나리오 1: 빠른 개념 정리
 ```bash
-python research_orchestration.py "Zettelkasten 방법론" --depth quick --no-review
+python research_orchestration_v2.py "Zettelkasten 방법론" --depth quick --no-review
 ```
 → 3-5분 내 핵심 개념 노트 생성, 검토 없이 빠르게 저장
 
 ### 시나리오 2: 학습 자료 심층 정리
 ```bash
-python research_orchestration.py "트랜스포머 아키텍처의 어텐션 메커니즘" --depth deep
+python research_orchestration_v2.py "트랜스포머 아키텍처의 어텐션 메커니즘" --depth deep
 ```
 → 심층 조사 + 자동 검토 2회 + 8점 이상 될 때까지 개선
 
 ### 시나리오 3: 특정 폴더에 분류 저장
 ```bash
-python research_orchestration.py "RAG 파이프라인 설계 패턴" --depth deep --folder "AI/Research"
+python research_orchestration_v2.py "RAG 파이프라인 설계 패턴" --depth deep --folder "AI/Research" --search-engine tavily
 ```
 → 볼트 내 AI/Research 폴더에 저장 (없으면 자동 생성)
 
@@ -238,14 +324,17 @@ Cowork에서 이 오케스트레이션을 수동으로도 활용할 수 있다:
 
 ### 확장 로드맵
 
-**Phase 1 (현재)**: Claude API 기반 독립 실행 스크립트
+**Phase 1 ✅ (완료)**: Claude API 기반 독립 실행 스크립트
 - ✅ 4-에이전트 팀 오케스트레이션
 - ✅ 자동 품질 검토 루프
 - ✅ 옵시디언 직접 저장
 
-**Phase 2 (추후)**: 웹 검색 API 연동
-- Brave Search / Tavily / SerpAPI 연동으로 실시간 웹 조사
-- 검색 결과 기반 출처 자동 검증
+**Phase 2 ✅ (v2 완료)**: 웹 검색 & MCP 연동
+- ✅ Brave Search API 연동 (월 2,000회 무료)
+- ✅ Tavily Search API 연동 (월 1,000회 무료, AI 에이전트 최적화)
+- ✅ 옵시디언 Local REST API 연동 (파일시스템 fallback 포함)
+- ✅ 관련 노트 자동 검색 → `[[링크]]` 연결
+- ✅ 검색 출처 자동 수집/기록
 
 **Phase 3 (추후)**: n8n 자동화 연동
 - Webhook으로 주제 입력 → 자동 실행
@@ -255,6 +344,7 @@ Cowork에서 이 오케스트레이션을 수동으로도 활용할 수 있다:
 **Phase 4 (추후)**: 지식 그래프 자동화
 - 옵시디언 그래프 분석 → 빈 연결 자동 탐지
 - 관련 주제 자동 추천 → 연쇄 조사
+- Exa/Omnisearch MCP 연동으로 의미 기반 검색 확장
 
 ---
 
