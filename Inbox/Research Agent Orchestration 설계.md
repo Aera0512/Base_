@@ -208,6 +208,56 @@ python research_orchestration.py "프롬프트 엔지니어링의 최신 트렌�
 
 ---
 
+## 실전 사용 시나리오
+
+### 시나리오 1: 빠른 개념 정리
+```bash
+python research_orchestration.py "Zettelkasten 방법론" --depth quick --no-review
+```
+→ 3-5분 내 핵심 개념 노트 생성, 검토 없이 빠르게 저장
+
+### 시나리오 2: 학습 자료 심층 정리
+```bash
+python research_orchestration.py "트랜스포머 아키텍처의 어텐션 메커니즘" --depth deep
+```
+→ 심층 조사 + 자동 검토 2회 + 8점 이상 될 때까지 개선
+
+### 시나리오 3: 특정 폴더에 분류 저장
+```bash
+python research_orchestration.py "RAG 파이프라인 설계 패턴" --depth deep --folder "AI/Research"
+```
+→ 볼트 내 AI/Research 폴더에 저장 (없으면 자동 생성)
+
+### 시나리오 4: Cowork 모드에서 직접 실행
+Cowork에서 이 오케스트레이션을 수동으로도 활용할 수 있다:
+```
+"에이전트 오케스트레이션 방식으로 [주제]에 대해 
+심층 조사하고 옵시디언에 저장해줘.
+조사 → 가공 → 저장 → 검토 → 개선 순서로 진행해줘."
+```
+
+### 확장 로드맵
+
+**Phase 1 (현재)**: Claude API 기반 독립 실행 스크립트
+- ✅ 4-에이전트 팀 오케스트레이션
+- ✅ 자동 품질 검토 루프
+- ✅ 옵시디언 직접 저장
+
+**Phase 2 (추후)**: 웹 검색 API 연동
+- Brave Search / Tavily / SerpAPI 연동으로 실시간 웹 조사
+- 검색 결과 기반 출처 자동 검증
+
+**Phase 3 (추후)**: n8n 자동화 연동
+- Webhook으로 주제 입력 → 자동 실행
+- 스케줄링 (매주 특정 주제 자동 조사)
+- Slack/Telegram 알림 연동
+
+**Phase 4 (추후)**: 지식 그래프 자동화
+- 옵시디언 그래프 분석 → 빈 연결 자동 탐지
+- 관련 주제 자동 추천 → 연쇄 조사
+
+---
+
 ## 설계 원칙 ([[Claude 실전 워크플로우]] 기반)
 
 1. **컨텍스트 분리**: 각 에이전트가 독립 컨텍스트에서 작업 → 메인 컨텍스트 보호
