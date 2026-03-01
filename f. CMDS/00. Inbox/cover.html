@@ -2,124 +2,155 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1080">
-  <title>Minimal Cover</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quokka Cover</title>
   <style>
-    *, *::before, *::after {
-      box-sizing: border-box;
-    }
-    html, body {
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
       width: 1080px;
       height: 1350px;
       overflow: hidden;
-      background: #FFFFFF;
-      font-family: 'Noto Sans KR', sans-serif;
-    }
-    .card {
-      width: 1080px;
-      height: 1350px;
-      background: #FFFFFF;
+      background: linear-gradient(135deg, #FFF5F8 0%, #FFF0E6 50%, #F0F7FF 100%);
+      font-family: 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, sans-serif;
+      letter-spacing: -0.02em;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 80px 80px 60px 80px;
       position: relative;
     }
-    .top-accent {
+
+    .decoration {
       position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: {{accent_color}};
+      font-size: 120px;
+      opacity: 0.15;
     }
-    .content-wrapper {
+
+    .deco-1 { top: 80px; left: 80px; }
+    .deco-2 { top: 200px; right: 100px; }
+    .deco-3 { bottom: 300px; left: 60px; }
+
+    .emoji-area {
+      font-size: 180px;
+      margin-bottom: 40px;
+      animation: bounce 2s ease-in-out infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+
+    .content {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      flex: 1;
-      width: 100%;
+      padding: 0 72px;
       text-align: center;
     }
-    .tag {
-      display: inline-block;
-      font-size: 22px;
-      font-weight: 500;
-      color: {{accent_color}};
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      margin-bottom: 40px;
-    }
-    .headline {
-      font-size: 80px;
-      font-weight: 900;
-      color: #1A1A1A;
-      line-height: 1.2;
-      margin: 0 0 32px 0;
-      word-break: keep-all;
-    }
-    .divider {
-      width: 60px;
-      height: 2px;
+
+    .badge {
       background: {{accent_color}};
-      margin: 0 auto 36px auto;
+      color: #FFFFFF;
+      font-size: 28px;
+      font-weight: 700;
+      padding: 16px 40px;
+      border-radius: 50px;
+      margin-bottom: 32px;
+      box-shadow: 0 8px 24px {{accent_color}}44;
     }
+
+    .headline {
+      font-size: 88px;
+      font-weight: 800;
+      color: #2D2D2D;
+      line-height: 1.25;
+      letter-spacing: -0.025em;
+      word-break: keep-all;
+      margin-bottom: 24px;
+    }
+
     .subtext {
-      font-size: 30px;
-      font-weight: 300;
-      color: #666666;
+      font-size: 38px;
+      font-weight: 500;
+      color: #666;
       line-height: 1.6;
-      max-width: 800px;
       word-break: keep-all;
     }
+
+    .highlight {
+      background: linear-gradient(to top, {{accent_color}}55 60%, transparent 60%);
+      padding: 0 8px;
+      border-radius: 8px;
+    }
+
     .footer {
       position: absolute;
-      bottom: 0;
+      bottom: 60px;
       left: 0;
       right: 0;
-      padding: 0 80px 50px 80px;
       display: flex;
       align-items: center;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 16px;
     }
-    .account-name {
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #FFFFFF;
+      padding: 16px 32px;
+      border-radius: 50px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    .brand-emoji {
+      font-size: 32px;
+    }
+
+    .brand-name {
+      font-size: 26px;
+      font-weight: 600;
+      color: #666;
+    }
+
+    .page-hint {
+      background: #FFFFFF;
+      padding: 12px 24px;
+      border-radius: 50px;
       font-size: 24px;
-      font-weight: 500;
-      color: #999999;
-      letter-spacing: 0.05em;
-    }
-    .slide-indicator {
-      font-size: 22px;
-      font-weight: 300;
-      color: #CCCCCC;
-      letter-spacing: 0.05em;
-    }
-    .slide-current {
-      color: {{accent_color}};
-      font-weight: 500;
+      color: #999;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     }
   </style>
 </head>
 <body>
-  <div class="card">
-    <div class="top-accent"></div>
-    <div class="content-wrapper">
-      <span class="tag">Card News</span>
-      <h1 class="headline">{{headline}}</h1>
-      <div class="divider"></div>
-      <p class="subtext">{{subtext}}</p>
-    </div>
-    <div class="footer">
-      <span class="account-name">@{{account_name}}</span>
-      <span class="slide-indicator">
-        <span class="slide-current">{{slide_number}}</span> / {{total_slides}}
-      </span>
-    </div>
+
+  <div class="decoration deco-1">🥰</div>
+  <div class="decoration deco-2">💕</div>
+  <div class="decoration deco-3">✨</div>
+
+  <div class="emoji-area">{{emoji}}</div>
+
+  <div class="content">
+    <div class="badge">{{headline_label}}</div>
+    <h1 class="headline">{{headline}}</h1>
+    <p class="subtext">{{subtext}}</p>
   </div>
+
+  <div class="footer">
+    <div class="brand">
+      <span class="brand-emoji">🧡</span>
+      <span class="brand-name">@{{account_name}}</span>
+    </div>
+    <div class="page-hint">스와이프 →</div>
+  </div>
+
 </body>
 </html>
