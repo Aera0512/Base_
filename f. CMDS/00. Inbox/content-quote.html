@@ -3,157 +3,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Content Quote</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <title>Quokka Quote</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
     body {
       width: 1080px;
       height: 1350px;
-      background-color: #0D0D1A;
-      font-family: 'Noto Sans KR', sans-serif;
       overflow: hidden;
-      position: relative;
+      background: linear-gradient(135deg, #FFF5F8 0%, #FFF0E6 50%, #F0F7FF 100%);
+      font-family: 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, sans-serif;
+      letter-spacing: -0.02em;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-    }
-
-    .glow-circle {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(80px);
-      z-index: 0;
-    }
-    .glow-1 {
-      width: 360px;
-      height: 360px;
-      background: radial-gradient(circle, rgba(168,85,247,0.09) 0%, transparent 70%);
-      top: -60px;
-      right: -40px;
-    }
-    .glow-2 {
-      width: 300px;
-      height: 300px;
-      background: radial-gradient(circle, rgba(236,72,153,0.07) 0%, transparent 70%);
-      bottom: 100px;
-      left: -40px;
-    }
-
-    .content {
       position: relative;
-      z-index: 1;
-      width: 100%;
-      flex: 1;
+    }
+
+    .brand {
+      position: absolute;
+      top: 48px;
+      left: 48px;
       display: flex;
-      flex-direction: column;
       align-items: center;
-      justify-content: center;
-      padding: 80px 72px 0;
+      gap: 12px;
+      background: #FFFFFF;
+      padding: 14px 28px;
+      border-radius: 50px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
     }
 
-    /* Glassmorphism card with left gradient border */
-    .card {
-      background: rgba(255,255,255,0.06);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 20px;
-      padding: 64px 60px 60px 72px;
-      width: 100%;
+    .brand-emoji {
+      font-size: 28px;
+    }
+
+    .brand-name {
+      font-size: 24px;
+      font-weight: 600;
+      color: #666;
+    }
+
+    .quote-card {
+      background: #FFFFFF;
+      border-radius: 48px;
+      padding: 80px 64px;
+      margin: 0 48px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+      text-align: center;
       position: relative;
-      overflow: hidden;
-    }
-
-    /* Left gradient border strip */
-    .card::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      width: 4px;
-      background: linear-gradient(180deg, {{accent_color}}, #EC4899);
-      border-radius: 20px 0 0 20px;
     }
 
     .quote-mark {
-      font-size: 120px;
-      font-weight: 900;
-      line-height: 0.8;
-      background: linear-gradient(135deg, {{accent_color}}, #EC4899);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 32px;
-      display: block;
-      font-family: Georgia, 'Times New Roman', serif;
-    }
-
-    .body-text {
-      font-size: 40px;
-      font-weight: 300;
-      color: #fff;
-      line-height: 1.65;
-      white-space: pre-line;
-      word-break: keep-all;
-      margin-bottom: 44px;
-    }
-
-    .attribution {
-      font-size: 24px;
-      font-weight: 500;
+      font-size: 160px;
       color: {{accent_color}};
-      letter-spacing: 0.04em;
-    }
-    .attribution::before {
-      content: '— ';
+      opacity: 0.3;
+      line-height: 0.5;
+      position: absolute;
+      top: 20px;
+      left: 40px;
     }
 
-    .footer {
+    .emoji {
+      font-size: 100px;
+      margin-bottom: 32px;
+    }
+
+    .quote-text {
+      font-size: 42px;
+      font-weight: 600;
+      color: #333;
+      line-height: 1.7;
+      word-break: keep-all;
+      margin-bottom: 32px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .author {
+      font-size: 32px;
+      font-weight: 500;
+      color: #888;
+    }
+
+    .page-num {
       position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      z-index: 2;
-    }
-    .footer-line {
-      height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(168,85,247,0.3), rgba(236,72,153,0.3), transparent);
-    }
-    .footer-bar {
+      bottom: 48px;
+      right: 48px;
+      background: #FFFFFF;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 18px 48px;
-    }
-    .footer-text {
-      font-size: 20px;
-      color: rgba(255,255,255,0.5);
-      font-weight: 400;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: 700;
+      color: {{accent_color}};
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     }
   </style>
 </head>
 <body>
-  <div class="glow-circle glow-1"></div>
-  <div class="glow-circle glow-2"></div>
-
-  <div class="content">
-    <div class="card">
-      <span class="quote-mark">"</span>
-      <p class="body-text">{{body}}</p>
-      <div class="attribution">{{headline}}</div>
-    </div>
+  <div class="brand">
+    <span class="brand-emoji">🧡</span>
+    <span class="brand-name">@{{account_name}}</span>
   </div>
 
-  <footer class="footer">
-    <div class="footer-line"></div>
-    <div class="footer-bar">
-      <span class="footer-text">@{{account_name}}</span>
-      <span class="footer-text">{{slide_number}} / {{total_slides}}</span>
-    </div>
-  </footer>
+  <div class="quote-card">
+    <div class="quote-mark">"</div>
+    <div class="emoji">{{emoji}}</div>
+    <p class="quote-text">{{body}}</p>
+    <p class="author">— {{headline}}</p>
+  </div>
+
+  <div class="page-num">{{badge_number}}</div>
 </body>
 </html>
