@@ -46,6 +46,11 @@
       "description": "블루프린트 프레젠테이션 스타일 라이트블루그레이 + 소프트블루",
       "accent_color": "#7BA7CC",
       "background": "light-blue-gray"
+    },
+    "quokka": {
+      "description": "귀여운 쿼카툰 스타일 파스텔톤 + 이모지",
+      "accent_color": "#FF6B9D",
+      "background": "pastel-gradient"
     }
   },
   "dimensions": {
