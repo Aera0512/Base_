@@ -70,6 +70,8 @@ function applyPlaceholders(html, slide, opts, index, total) {
     // content-fullimage placeholders
     '{{badge2_text}}': slide.badge2_text || '',
     '{{body2}}': (slide.body2 || '').replace(/\n/g, '<br>'),
+    // quokka style placeholders
+    '{{emoji}}': slide.emoji || '🧡',
   };
 
   let result = html;

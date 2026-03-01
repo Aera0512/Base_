@@ -1,0 +1,63 @@
+[
+  {
+    "slide": 1,
+    "type": "cover",
+    "emoji": "🥺",
+    "headline_label": "연애 공감",
+    "headline": "남자가 양보해야 하는 이유",
+    "subtext": "사소한 순간일수록 더 중요하니까"
+  },
+  {
+    "slide": 2,
+    "type": "content",
+    "emoji": "🤔",
+    "badge_number": "1",
+    "headline": "양보는 져주는 게 아니야",
+    "body": "상대를 배려한다는 의미야\n내가 한 발 물러서면\n우리 관계가 한 발 다가가는 거니까"
+  },
+  {
+    "slide": 3,
+    "type": "content-list",
+    "emoji": "📝",
+    "badge_number": "2",
+    "headline": "이럴 땐 그냥 양보하자",
+    "item1": "메뉴 고를 때 10분 고민했는데 바꾸고 싶다고 할 때",
+    "item2": "길 찾다가 잃어버렸다고 짜증 낼 때",
+    "item3": "오늘 뭐 입을까 고민할 때",
+    "item4": "너 피곤해? 물어볼 때"
+  },
+  {
+    "slide": 4,
+    "type": "content",
+    "emoji": "💡",
+    "badge_number": "3",
+    "headline": "작은 양보가 쌓이면",
+    "body": "상대방도 나에게 양보하게 돼\n서로 배려하는 관계가 되면\n싸울 일도 확 줄어들어"
+  },
+  {
+    "slide": 5,
+    "type": "content-quote",
+    "emoji": "💕",
+    "badge_number": "4",
+    "headline": "관계의 진리",
+    "body": "이기려고 하면 지고\n배려하면 이긴다\n사랑은 승부가 아니니까"
+  },
+  {
+    "slide": 6,
+    "type": "content",
+    "emoji": "😊",
+    "badge_number": "5",
+    "headline": "오늘 한 번 양보해볼?",
+    "body": "사소한 거 하나만 그냥 넘겨봐\n그게 생각보다 훨씬 큰 거니까"
+  },
+  {
+    "slide": 7,
+    "type": "cta",
+    "emoji": "🧡",
+    "headline": "공감했다면 저장하고\n연인에게 공유해줘",
+    "cta_text": "팔로우하기",
+    "tag1": "연애꿀팁",
+    "tag2": "커플공감",
+    "tag3": "양보하기"
+  }
+]
