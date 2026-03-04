@@ -84,12 +84,18 @@ created: '2026-03-04'
     }
   ],
 
-  "chapters": [
+  "parts": [
     {
       "number": 1,
-      "title": "챕터 제목",
+      "title": "파트 제목 (원서 구조 반영)",
       "difficulty": "🟢 기초",
       "book_chapters": "원서 1~3장 해당",
+      "cue_questions": [
+        "Cornell Cue 질문 1: 이 파트를 읽고 답할 수 있어야 하는 질문",
+        "Cornell Cue 질문 2",
+        "Cornell Cue 질문 3"
+      ],
+      "one_line_summary": "Cornell Summary: 이 파트 전체를 한 문장으로 압축",
       "content": {
         "background": "배경/문제 상황 서술 (3~5문장 분량의 재료)",
         "main_argument": "핵심 주장/개념 상세 서술 (5~10문장 분량의 재료)",
