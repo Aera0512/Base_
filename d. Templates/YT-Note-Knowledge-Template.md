@@ -19,12 +19,14 @@ confidence:
   '[object Object]': null
 status: processed
 created: '2026-03-04'
-version: '5.0'
+version: '6.0'
 ---
 
 # {{영상 제목}}
 
-> **채널**: {{채널명}} | **링크**: {{유튜브 URL}} | **시청일**: {{날짜}}
+> **채널**: {{채널명}} | **시청일**: {{날짜}}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{VIDEO_ID}}" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -58,9 +60,19 @@ mindmap
 | ★★☆ | {{세 번째}} | {{한 줄 요약}} | {{기억 고리}} |
 | ★☆☆ | {{네 번째}} | {{한 줄 요약}} | {{기억 고리}} |
 
+### 구간 가이드
+
+| 구간 | 챕터 | 난이도 | 주제 |
+|------|------|:------:|------|
+| {{0:00~5:00}} | Chapter 1 | 🟢 기초 | {{주제 요약}} |
+| {{5:00~15:00}} | Chapter 2 | 🟡 중급 | {{주제 요약}} |
+| {{15:00~25:00}} | Chapter 3 | 🔴 심화 | {{주제 요약}} |
+
 ---
 
-## Chapter 1. {{첫 번째 핵심 논점}}
+## Chapter 1. {{첫 번째 핵심 논점}} `🟢 기초`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{VIDEO_ID}}?start={{시작초}}&end={{종료초}}" frameborder="0" allowfullscreen></iframe>
 
 ### 배경
 
@@ -80,7 +92,9 @@ mindmap
 
 ---
 
-## Chapter 2. {{두 번째 핵심 논점}}
+## Chapter 2. {{두 번째 핵심 논점}} `🟡 중급`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{VIDEO_ID}}?start={{시작초}}&end={{종료초}}" frameborder="0" allowfullscreen></iframe>
 
 ### 배경
 
@@ -94,7 +108,9 @@ mindmap
 
 ---
 
-## Chapter 3. {{세 번째 핵심 논점}}
+## Chapter 3. {{세 번째 핵심 논점}} `🔴 심화`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{VIDEO_ID}}?start={{시작초}}&end={{종료초}}" frameborder="0" allowfullscreen></iframe>
 
 (영상의 핵심 논점 수에 따라 챕터 추가. 20~40분 영상은 보통 2~4개.)
 
