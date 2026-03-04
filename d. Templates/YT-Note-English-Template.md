@@ -20,12 +20,14 @@ confidence:
   '[object Object]': null
 status: processed
 created: '2026-03-04'
-version: '1.0'
+version: '2.0'
 ---
 
 # {{영상 제목}}
 
-> **채널**: {{채널명}} | **링크**: {{유튜브 URL}} | **시청일**: {{날짜}}
+> **채널**: {{채널명}} | **시청일**: {{날짜}}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{VIDEO_ID}}" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -60,9 +62,19 @@ mindmap
 | ★★☆ | {{세 번째}} | {{한 줄 정리}} | {{대표 예문 1개}} |
 | ★☆☆ | {{네 번째}} | {{한 줄 정리}} | {{대표 예문 1개}} |
 
+### 구간 가이드
+
+| 구간 | 챕터 | 난이도 | 주제 |
+|------|------|:------:|------|
+| {{0:00~5:00}} | Chapter 1 | 🟢 기초 | {{주제 요약}} |
+| {{5:00~12:00}} | Chapter 2 | 🟡 중급 | {{주제 요약}} |
+| {{12:00~20:00}} | Chapter 3 | 🔴 심화 | {{주제 요약}} |
+
 ---
 
-## Chapter 1. {{첫 번째 핵심 규칙/패턴}}
+## Chapter 1. {{첫 번째 핵심 규칙/패턴}} `🟢 기초`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{VIDEO_ID}}?start={{시작초}}&end={{종료초}}" frameborder="0" allowfullscreen></iframe>
 
 ### 왜 이게 어려운가
 
@@ -77,8 +89,6 @@ mindmap
 {{영상에서 설명한 세부 규칙이나 활용법이 여러 개라면, 기본 → 심화 순서로 전개한다. 각 단계마다 "여기까지가 기본이고, 한 단계 더 들어가면 ~가 있다" 형태로 학습 진도를 안내.}}
 
 ### 패턴 구조
-
-{{문법 구조를 시각적으로 보여주는 공식/패턴. 구조가 한눈에 보여야 한다.}}
 
 ```
 기본 패턴:  S + V + {{핵심 구조}} + O
@@ -114,7 +124,9 @@ mindmap
 
 ---
 
-## Chapter 2. {{두 번째 핵심 규칙/패턴}}
+## Chapter 2. {{두 번째 핵심 규칙/패턴}} `🟡 중급`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{VIDEO_ID}}?start={{시작초}}&end={{종료초}}" frameborder="0" allowfullscreen></iframe>
 
 ### 왜 이게 어려운가
 
@@ -137,7 +149,9 @@ mindmap
 
 ---
 
-## Chapter 3. {{세 번째 핵심 규칙/패턴}}
+## Chapter 3. {{세 번째 핵심 규칙/패턴}} `🔴 심화`
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{VIDEO_ID}}?start={{시작초}}&end={{종료초}}" frameborder="0" allowfullscreen></iframe>
 
 (영상 내용에 따라 챕터 추가.)
 
@@ -156,11 +170,11 @@ mindmap
 
 ## 핵심 표현 카드
 
-{{전체 영상에서 반드시 기억해야 할 표현을 카드 형식으로 정리. PDF 변환 시 플래시카드처럼 활용할 수 있도록.}}
+{{전체 영상에서 반드시 기억해야 할 표현을 카드 형식으로 정리. PDF 변환 시 플래시카드처럼 활용.}}
 
 > **Expression 1**: {{표현}}
 > **Meaning**: {{의미 + 뉘앙스}}
-> **Example**: *{{예문 (이탤릭으로 영어, 밑줄은 핵심 부분)}}}*
+> **Example**: *{{예문}}*
 > **Note**: {{사용 시 주의점 또는 팁}}
 
 > **Expression 2**: {{표현}}
