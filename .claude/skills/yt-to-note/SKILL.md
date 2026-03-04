@@ -182,7 +182,7 @@ version: "7.0"
 
 1. **중복 체크**: `mcp__obsidian__get_notes_info`로 파일 존재 여부 확인
    - 존재 시 → 사용자에게 덮어쓰기 확인
-2. **저장**: `mcp__obsidian__write_note(path="f. CMDS/20. Literature Notes/{파일명}.md", content, frontmatter)`
+2. **저장**: `mcp__obsidian__write_note(path="Yt-to-Note/{파일명}.md", content, frontmatter)`
 3. **검증**: `mcp__obsidian__read_note`로 저장 확인
 
 ### 결과 보고

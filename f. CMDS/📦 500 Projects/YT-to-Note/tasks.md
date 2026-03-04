@@ -38,7 +38,7 @@ Task 1+2 (병렬) → Task 3+6 (병렬) → Task 4 → Task 5 → Task 7 → Tas
 - [x] 지식/교양 템플릿 마크다운 구조 확정 → `d. Templates/YT-Note-Knowledge-Template.md` (v7.0)
 - [x] 영어 학습 템플릿 마크다운 구조 확정 → `d. Templates/YT-Note-English-Template.md` (v3.0)
 - [x] 프론트매터 스키마 확정
-- [x] 저장 경로 규칙 확정: `f. CMDS/20. Literature Notes/YT-{genre}-{YYMMDD}-{제목축약}.md`
+- [x] 저장 경로 규칙 확정: `Yt-to-Note/YT-{genre}-{YYMMDD}-{제목축약}.md`
 - [x] Obsidian Flavored Markdown 규칙 반영
 
 ## Task 3: 자막 추출 + 1차 분석 로직 ✅
@@ -85,7 +85,7 @@ Task 1+2 (병렬) → Task 3+6 (병렬) → Task 4 → Task 5 → Task 7 → Tas
 - **복잡도**: 중간 | **의존성**: Task 7 | **상태**: 완료 (부분)
 - [x] 모의 데이터로 tech 노트 E2E 테스트
 - [x] 옵시디언 저장 + 프론트매터 검증 성공
-- [x] 테스트 노트: `f. CMDS/20. Literature Notes/YT-tech-260304-React-Server-Components.md`
+- [x] 테스트 노트: `Yt-to-Note/YT-tech-260304-React-Server-Components.md`
 - [ ] 실제 YouTube Transcript MCP 연동 테스트 (Claude Code 세션에서 수행 필요)
 - [ ] knowledge/english 장르 테스트 (동일 파이프라인이므로 Claude Code에서 진행)
 - [ ] 내부 링크 정확도 확인 (볼트 내 관련 노트와 연결)

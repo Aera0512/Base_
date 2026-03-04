@@ -64,7 +64,7 @@ Claude Code 또는 Cowork에서 이렇게 말하면 된다:
 3. 구조화된 노트 생성
 4. 보충자료 검색
 5. 내부 링크 생성
-6. `f. CMDS/20. Literature Notes/`에 자동 저장
+6. `Yt-to-Note/`에 자동 저장
 
 ### 2. 장르를 직접 지정하고 싶을 때
 
@@ -132,13 +132,13 @@ Claude Code 또는 Cowork에서 이렇게 말하면 된다:
 ### 파일 위치와 이름
 
 ```
-f. CMDS/20. Literature Notes/YT-{genre}-{YYMMDD}-{제목축약}.md
+Yt-to-Note/YT-{genre}-{YYMMDD}-{제목축약}.md
 ```
 
 예시:
-- `YT-tech-260304-React-Server-Components.md`
-- `YT-knowledge-260228-도파민과-습관형성.md`
-- `YT-english-260301-가정법-과거완료.md`
+- `Yt-to-Note/YT-tech-260304-React-Server-Components.md`
+- `Yt-to-Note/YT-knowledge-260228-도파민과-습관형성.md`
+- `Yt-to-Note/YT-english-260301-가정법-과거완료.md`
 
 ### 공통 구성 요소
 

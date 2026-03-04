@@ -21,7 +21,7 @@ status: complete
 ### 저장 경로 규칙
 
 ```
-볼트 루트/f. CMDS/20. Literature Notes/
+볼트 루트/Yt-to-Note/
   └── YT-{genre}-{YYMMDD}-{제목축약}.md
 ```
 
@@ -61,7 +61,7 @@ status: complete
 ```
 도구: mcp__obsidian__write_note
 파라미터:
-  path: "f. CMDS/20. Literature Notes/{{파일명}}.md"
+  path: "Yt-to-Note/{{파일명}}.md"
   content: {{생성된 노트 본문}}
   frontmatter: {{자동 생성된 프론트매터 객체}}
   mode: "overwrite"
@@ -74,7 +74,7 @@ status: complete
 ```
 도구: mcp__obsidian__get_notes_info
 파라미터:
-  paths: ["f. CMDS/20. Literature Notes/{{파일명}}.md"]
+  paths: ["Yt-to-Note/{{파일명}}.md"]
 ```
 
 - 파일이 존재하면 → 사용자에게 확인: "동일한 파일명이 이미 존재합니다. 덮어쓸까요?"
@@ -218,7 +218,7 @@ version: "7.0"
 
 | 에러 | 원인 | 대응 |
 |------|------|------|
-| 경로 없음 | `f. CMDS/20. Literature Notes/` 폴더 미존재 | 사용자에게 경로 확인 요청 |
+| 경로 없음 | `Yt-to-Note/` 폴더 미존재 | 사용자에게 경로 확인 요청 |
 | 중복 파일명 | 동일 영상 재처리 | 사용자에게 덮어쓰기 확인 |
 | MCP 연결 실패 | Obsidian MCP 서버 비활성 | "Obsidian이 실행 중인지 확인해주세요" 안내 |
 | 프론트매터 파싱 에러 | YAML 형식 오류 | 프론트매터를 JSON으로 변환하여 재시도 |
@@ -232,7 +232,7 @@ version: "7.0"
 ```
 도구: mcp__obsidian__read_note
 파라미터:
-  path: "f. CMDS/20. Literature Notes/{{파일명}}.md"
+  path: "Yt-to-Note/{{파일명}}.md"
 
 검증 항목:
 1. 파일이 정상 저장되었는가 (read 성공)
