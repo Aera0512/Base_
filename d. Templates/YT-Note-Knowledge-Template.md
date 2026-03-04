@@ -3,23 +3,20 @@ type: yt-note
 genre: knowledge
 source: '{{source}}'
 channel: '{{channel}}'
-date_watched:
-  '[object Object]': null
-date_created:
-  '[object Object]': null
+date_watched: null
+date_created: null
 tags:
   - template
   - yt-note
   - knowledge
 review:
-  - '[object Object]': null
-  - '[object Object]': null
-  - '[object Object]': null
-confidence:
-  '[object Object]': null
+  - null
+  - null
+  - null
+confidence: null
 status: processed
 created: '2026-03-04'
-version: '6.0'
+version: '7.0'
 ---
 
 # {{영상 제목}}
@@ -27,6 +24,20 @@ version: '6.0'
 > **채널**: {{채널명}} | **시청일**: {{날짜}}
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/{{VIDEO_ID}}" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## 목차
+
+- [[#개요]]
+- [[#Chapter 1 {{주제}}|Chapter 1. {{주제}}]] `🟢 기초`
+- [[#Chapter 2 {{주제}}|Chapter 2. {{주제}}]] `🟡 중급`
+- [[#Chapter 3 {{주제}}|Chapter 3. {{주제}}]] `🔴 심화`
+- [[#종합 정리]]
+- [[#용어 사전]]
+- [[#학습 체크리스트]]
+- [[#보충자료]]
+- [[#내 생각 & 연결]]
 
 ---
 
@@ -68,6 +79,12 @@ mindmap
 | {{5:00~15:00}} | Chapter 2 | 🟡 중급 | {{주제 요약}} |
 | {{15:00~25:00}} | Chapter 3 | 🔴 심화 | {{주제 요약}} |
 
+### 이해도 체크
+
+- [ ] 개요를 읽고 이 영상의 핵심 질문을 설명할 수 있다
+- [ ] 마인드맵의 각 가지가 무엇을 의미하는지 이해했다
+- [ ] 암기 포인트의 ★★★ 항목을 보지 않고 말할 수 있다
+
 ---
 
 ## Chapter 1. {{첫 번째 핵심 논점}} `🟢 기초`
@@ -90,6 +107,13 @@ mindmap
 
 **비유로 이해하기**: {{이 논점의 핵심을 일상적 비유로 설명. "이것은 마치 ~와 같다. 왜냐하면 ~이기 때문이다."}}
 
+### Chapter 1 이해도 체크
+
+- [ ] 이 챕터의 배경과 문제를 한 문장으로 설명할 수 있다
+- [ ] 화자의 핵심 주장과 근거를 구분하여 설명할 수 있다
+- [ ] 구체적 사례/연구 결과를 기억하고 있다
+- [ ] 비유를 활용하여 타인에게 설명할 수 있다
+
 ---
 
 ## Chapter 2. {{두 번째 핵심 논점}} `🟡 중급`
@@ -106,6 +130,13 @@ mindmap
 
 **비유로 이해하기**: {{일상적 비유}}
 
+### Chapter 2 이해도 체크
+
+- [ ] Chapter 1과의 연결 고리를 설명할 수 있다
+- [ ] 이 챕터의 핵심 주장을 한 문장으로 요약할 수 있다
+- [ ] 근거의 강도(일화 vs 연구 vs 메타분석)를 판별할 수 있다
+- [ ] 비유를 통해 타인에게 설명할 수 있다
+
 ---
 
 ## Chapter 3. {{세 번째 핵심 논점}} `🔴 심화`
@@ -113,6 +144,12 @@ mindmap
 <iframe width="560" height="315" src="https://www.youtube.com/embed/{{VIDEO_ID}}?start={{시작초}}&end={{종료초}}" frameborder="0" allowfullscreen></iframe>
 
 (영상의 핵심 논점 수에 따라 챕터 추가. 20~40분 영상은 보통 2~4개.)
+
+### Chapter 3 이해도 체크
+
+- [ ] 심화 논점의 핵심 주장을 이해했다
+- [ ] 이 논점이 Chapter 1~2와 어떻게 연결되는지 설명할 수 있다
+- [ ] 화자의 논증에서 강점과 약점을 구분할 수 있다
 
 ---
 
@@ -145,6 +182,16 @@ mindmap
 - [ ] {{Q: 챕터 간 논리적 연결 고리는?}}
 - [ ] {{Q: 이 주장의 가장 큰 약점은?}}
 - [ ] {{Q: 내 삶에 적용한다면 구체적으로 어떻게?}}
+
+**최종 점검**
+
+- [ ] 모든 챕터의 이해도 체크를 완료했다
+- [ ] 암기 포인트 ★★★ 항목을 보지 않고 설명할 수 있다
+- [ ] 종합 정리의 플로우차트를 직접 그릴 수 있다
+- [ ] 화자의 주장에 대한 나만의 비판적 시각을 정리했다
+- [ ] 1차 복습 완료 ({{+1일}})
+- [ ] 2차 복습 완료 ({{+7일}})
+- [ ] 3차 복습 완료 ({{+30일}})
 
 ---
 
