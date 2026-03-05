@@ -96,16 +96,16 @@ today, this week, this year 등 **아직 안 끝난 시간** 안에서의 일.
 
 ### 5. 시간 표현 / 신호 단어
 
-| 현재완료와 함께 ✅ | 과거시제와 함께 ❌ |
-|---|---|
-| ever / never | yesterday |
-| just / already / yet | last week/month/year |
-| for / since | ago |
-| recently / lately | in 2019 |
-| so far / up to now | when I was young |
-| this week / today (진행 중) | at 3 o'clock |
-| how long | when |
-| before | on Monday (지나간) |
+| 현재완료와 함께 ✅               | 과거시제와 함께 ❌           |
+| ------------------------ | -------------------- |
+| ever / never             | yesterday            |
+| just / already / yet     | last week/month/year |
+| for / since              | ago                  |
+| recently / lately        | in 2019              |
+| so far / up to now       | when I was young     |
+| this week / today (진행 중) | at 3 o'clock         |
+| how long                 | when                 |
+| before                   | on Monday (지나간)      |
 
 > [!danger] 핵심 규칙
 > 현재완료는 **구체적인 과거 시점**과 함께 쓸 수 없다!
