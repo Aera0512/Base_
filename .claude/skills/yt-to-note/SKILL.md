@@ -120,7 +120,7 @@ timestamps=false로 폴백한 경우, 구간 가이드의 시간은 "(추정)" �
 > 2. **챕터별 분석**: 핵심 주장/개념, 근거/사례(구체적 수치 보존), 용어, 코드(tech), 패턴/예문(english), 비유, 흔한 실수
 > 3. **전체 분석**: 한 줄 핵심, 4~6문장 개요, 마인드맵 구조, 암기 포인트(★ 중요도), 용어 사전, 종합 정리, 셀프테스트 질문
 
-서브에이전트 결과물은 JSON 형태로 반환받으세요. 상세 JSON 스키마는 `references/sub-agent-schema.md`를 참조.
+서브에이전트 결과물은 JSON 형태로 반환받으세요. 상세 JSON 스키마는 `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/sub-agent-schema.md`를 참조.
 
 ## Step 4: 노트 생성
 
@@ -218,6 +218,7 @@ version: "7.0"
 1. **중복 체크**: `mcp__obsidian__get_notes_info`로 파일 존재 여부 확인
    - 존재 시 → 사용자에게 덮어쓰기 확인
 2. **저장**: `mcp__obsidian__write_note(path="Yt-to-Note/{파일명}.md", content, frontmatter)`
+   - 저장 위치: `/Users/aera/Desktop/Base_/Yt-to-Note/{파일명}.md`
 3. **검증**: `mcp__obsidian__read_note`로 저장 확인
 
 ### 결과 보고
@@ -247,7 +248,7 @@ version: "7.0"
 
 | 파일 | 내용 | 언제 읽는가 |
 |------|------|-----------|
-| `references/prompt-tech.md` | tech 노트 생성 상세 프롬프트 | Step 4에서 genre=tech일 때 |
-| `references/prompt-knowledge.md` | knowledge 노트 생성 상세 프롬프트 | Step 4에서 genre=knowledge일 때 |
-| `references/prompt-english.md` | english 노트 생성 상세 프롬프트 | Step 4에서 genre=english일 때 |
-| `references/sub-agent-schema.md` | 서브에이전트 JSON 스키마 | Step 3에서 서브에이전트 호출 시 |
+| `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/prompt-tech.md` | tech 노트 생성 상세 프롬프트 | Step 4에서 genre=tech일 때 |
+| `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/prompt-knowledge.md` | knowledge 노트 생성 상세 프롬프트 | Step 4에서 genre=knowledge일 때 |
+| `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/prompt-english.md` | english 노트 생성 상세 프롬프트 | Step 4에서 genre=english일 때 |
+| `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/sub-agent-schema.md` | 서브에이전트 JSON 스키마 | Step 3에서 서브에이전트 호출 시 |
