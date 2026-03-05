@@ -63,13 +63,37 @@ curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v={VID
 
 순서대로 시도하세요. 성공하면 다음 단계로:
 
+**MCP (1~2순위):**
 1. `get_transcript(url, lang="ko", include_timestamps=true)`
 2. `get_transcript(url, lang="ko", include_timestamps=false)` — 토큰 초과 시
-3. `get_transcript(url, lang="en", include_timestamps=true)` — 한국어 없을 시
-4. `get_transcript(url, lang="en", include_timestamps=false)` — 토큰 초과 시
+
+**yt-dlp 폴백 (MCP 실패 시, 3~4순위):**
+> MCP는 봇 감지/리전 제한으로 "Video unavailable" 오류가 빈번합니다.
+
+3. 한국어 자막:
+```bash
+/opt/homebrew/bin/yt-dlp --write-auto-sub --sub-lang ko --sub-format srt --skip-download -o "/tmp/yt_{VIDEO_ID}" "{URL}"
+```
+→ Read로 `/tmp/yt_{VIDEO_ID}.ko.srt` 읽기 (SRT 포맷이므로 timestamps 자동 포함)
+
+4. 영어 자막 (한국어 없을 시):
+```bash
+/opt/homebrew/bin/yt-dlp --write-auto-sub --sub-lang en --sub-format srt --skip-download -o "/tmp/yt_{VIDEO_ID}" "{URL}"
+```
+→ Read로 `/tmp/yt_{VIDEO_ID}.en.srt` 읽기
+
 5. 모두 실패 → 사용자에게 "자막 없음" 알림 후 중단
 
 timestamps=false로 폴백한 경우, 구간 가이드의 시간은 "(추정)" 표시.
+
+## 병렬 호출 규칙
+
+> [!warning] 하나가 실패하면 같은 배치의 모든 호출이 연쇄 실패합니다.
+
+1. **실패 가능성 있는 호출은 단독 실행**: YouTube API(curl, MCP transcript)는 별도 호출
+2. **안전한 호출만 병렬**: 여러 영상의 curl 메타데이터 호출은 병렬 OK
+3. **MCP transcript는 항상 순차**: 영상별로 하나씩 시도
+4. **Read/Glob/Grep은 자유롭게 병렬**: 로컬 파일 접근은 실패 위험 없음
 
 ### 장르 자동 판별
 
@@ -102,11 +126,13 @@ timestamps=false로 폴백한 경우, 구간 가이드의 시간은 "(추정)" �
 
 장르에 따라 해당 프롬프트 참조 파일을 읽고 노트를 생성하세요:
 
+**VAULT_PATH**: `/Users/aera/Desktop/Base_`
+
 | 장르 | 참조 파일 | 템플릿 |
 |------|----------|--------|
-| tech | `references/prompt-tech.md` | `d. Templates/YT-Note-Tech-Template.md` |
-| knowledge | `references/prompt-knowledge.md` | `d. Templates/YT-Note-Knowledge-Template.md` |
-| english | `references/prompt-english.md` | `d. Templates/YT-Note-English-Template.md` |
+| tech | `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/prompt-tech.md` | `/Users/aera/Desktop/Base_/d. Templates/YT-Note-Tech-Template.md` |
+| knowledge | `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/prompt-knowledge.md` | `/Users/aera/Desktop/Base_/d. Templates/YT-Note-Knowledge-Template.md` |
+| english | `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/prompt-english.md` | `/Users/aera/Desktop/Base_/d. Templates/YT-Note-English-Template.md` |
 
 ### 핵심 작성 원칙
 
