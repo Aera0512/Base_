@@ -46,13 +46,16 @@ URL에서 VIDEO_ID를 파싱하세요:
 
 ### 영상 정보 수집
 
-WebFetch로 YouTube oEmbed API 호출:
-```
-URL: https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v={VIDEO_ID}&format=json
-```
-→ `title`, `author_name` 추출
+> [!warning] WebFetch는 youtube.com 도메인을 차단합니다. 반드시 curl을 사용하세요.
 
-실패 시 WebSearch로 `site:youtube.com {VIDEO_ID}` 검색하여 제목/채널명을 수집하세요.
+**1순위 — Bash(curl)로 YouTube oEmbed API 호출:**
+```bash
+curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v={VIDEO_ID}&format=json"
+```
+→ JSON에서 `title`, `author_name` 추출
+
+**2순위 — WebSearch 폴백 (curl 실패 시):**
+`site:youtube.com {VIDEO_ID}` 검색하여 제목/채널명을 수집하세요.
 
 ## Step 3: 자막 추출 + 1차 분석 (서브에이전트)
 
