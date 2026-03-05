@@ -91,8 +91,6 @@ timestamps=false로 폴백한 경우, 구간 가이드의 시간은 "(추정)" �
 | knowledge | `.claude/skills/yt-to-note/references/prompt-knowledge.md` | `d. Templates/YT-Note-Knowledge-Template.md` |
 | english | `.claude/skills/yt-to-note/references/prompt-english.md` | `d. Templates/YT-Note-English-Template.md` |
 
-**중요**: 반드시 위 참조 파일을 읽은 후 노트를 생성하세요. 각 장르별로 상세한 작성 가이드가 포함되어 있습니다.
-
 ### 핵심 작성 원칙
 
 1. **재구성, 단순 요약 금지**: 학습 가능한 구조로 변환
@@ -205,7 +203,7 @@ version: "7.0"
 ## 참조 파일
 
 | 파일 | 내용 | 언제 읽는가 |
-|------|------|-----------| 
+|------|------|-----------|
 | `.claude/skills/yt-to-note/references/prompt-tech.md` | tech 노트 생성 상세 프롬프트 | Step 4에서 genre=tech일 때 |
 | `.claude/skills/yt-to-note/references/prompt-knowledge.md` | knowledge 노트 생성 상세 프롬프트 | Step 4에서 genre=knowledge일 때 |
 | `.claude/skills/yt-to-note/references/prompt-english.md` | english 노트 생성 상세 프롬프트 | Step 4에서 genre=english일 때 |
