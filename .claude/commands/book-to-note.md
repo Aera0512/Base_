@@ -98,8 +98,6 @@ Task 도구로 서브에이전트를 실행하여 수집된 정보를 구조화�
 | knowledge | `.claude/skills/book-to-note/references/prompt-knowledge.md` | `d. Templates/Book-Note-Knowledge-Template.md` |
 | selfhelp | `.claude/skills/book-to-note/references/prompt-selfhelp.md` | `d. Templates/Book-Note-Selfhelp-Template.md` |
 
-**중요**: 반드시 위 참조 파일을 읽은 후 노트를 생성하세요. 각 장르별로 상세한 작성 가이드가 포함되어 있습니다.
-
 ### 적용 프레임워크 (v2.0)
 
 | 프레임워크 | 적용 위치 | 역할 |
@@ -114,7 +112,7 @@ Task 도구로 서브에이전트를 실행하여 수집된 정보를 구조화�
 ### 핵심 작성 원칙
 
 1. **책의 구조를 따른다**: 임의로 챕터를 재구성하지 않고, 원서의 Part/Chapter 구조를 그대로 반영
-2. **재구성, 단순 요약 금지**: 학습 가능한 구조로 변환
+2. **재구성, 단순 요약 금지**: 학습 가능한 구조로 변환. 책을 읽지 않은 사람도 핵심을 파악할 수 있되, 책을 읽은 사람에게는 복습 도구가 되어야 함
 3. **밀도 우선**: 모든 문장에 정보, 빈 말 없이
 4. **연결 강조**: 파트 간 "왜 이 순서인지" 명시적 연결
 5. **구체성 보존**: 연구 수치, 사례 디테일, 코드 원문 최대한 보존
@@ -225,7 +223,7 @@ version: "1.0"
 ## 참조 파일
 
 | 파일 | 내용 | 언제 읽는가 |
-|------|------|-----------| 
+|------|------|-----------|
 | `.claude/skills/book-to-note/references/prompt-tech.md` | tech 노트 생성 상세 프롬프트 | Step 5에서 genre=tech일 때 |
 | `.claude/skills/book-to-note/references/prompt-knowledge.md` | knowledge 노트 생성 상세 프롬프트 | Step 5에서 genre=knowledge일 때 |
 | `.claude/skills/book-to-note/references/prompt-selfhelp.md` | selfhelp 노트 생성 상세 프롬프트 | Step 5에서 genre=selfhelp일 때 |
