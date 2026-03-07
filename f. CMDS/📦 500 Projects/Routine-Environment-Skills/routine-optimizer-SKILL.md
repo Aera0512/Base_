@@ -5,9 +5,11 @@ tags:
   - neuroscience
   - claude-cowork
 created: '2026-03-07'
-version: '0.1'
+version: '0.2'
 aliases:
   - routine-optimizer SKILL
+updated: '2026-03-08'
+changelog: 'v0.2: 이중 캘린더 시스템 통합 (Google Calendar 3개 + Notion 해야할일 DB)'
 ---
 # routine-optimizer — SKILL.md
 
@@ -22,8 +24,7 @@ aliases:
 |------|-----|
 | **name** | routine-optimizer |
 | **트리거 키워드** | 루틴, 스케줄, 일정, 시간표, 하루 계획, 집중, Rize, 생산성, 시간 관리 |
-| **필수 MCP** | Google Calendar, Gmail |
-| **선택 MCP** | Notion |
+| **필수 MCP** | Google Calendar, Gmail, Notion |
 | **레퍼런스** | [[neuroscience-framework]] |
 
 ---
@@ -35,6 +36,30 @@ aliases:
 
 ---
 
+## 데이터 소스 구조 (핵심!)
+
+사용자는 **이중 캘린더 시스템**을 사용한다:
+
+### Google Calendar — "기본 틀"
+3개 캘린더를 **모두** 조회해야 한다 (primary만 조회하면 안 됨!):
+
+| 캘린더 | ID | 내용 |
+|--------|-----|------|
+| Primary | `primary` | 수동 생성 이벤트 |
+| 루틴 | `143767144c...@group.calendar.google.com` | 반복 루틴 (수면, 휴식, 운동 등) |
+| 일정 | `a050c31498...@group.calendar.google.com` | 고정 일정 (이동, 산책 등) |
+
+### Notion "해야할일 DB(공유)" — "오늘의 중요한 계획"
+- **데이터 소스**: `collection://300a11c6-9bd6-813c-9083-000ba3e3a2d4`
+- Google Calendar에 동기화되지 않는 ⚡ 이벤트들이 여기에 있음
+- 핵심 필드: `할일`(제목), `날짜`(UTC → KST 변환 필요), `카테고리`, `완료`, `중요`, `긴급`
+
+### 병합 규칙
+1. 두 소스 모두 조회 → 시간순 정렬 → 통합 타임라인 생성
+2. 동일 시간대 중복 시 Notion DB 우선 (더 상세하므로)
+
+---
+
 ## 작동 모드
 
 ### 모드 A: 오늘의 스케줄 분석 & 개선
@@ -43,7 +68,7 @@ aliases:
 
 **실행 순서:**
 
-1. **일정 수집** — Google Calendar MCP로 오늘 이벤트 전체 가져오기 → 빈 시간대(가용 블록) 식별
+1. **일정 수집 (이중 소스 필수!)** — Google Calendar 3개 + Notion "해야할일 DB" 모두 조회 → 병합 → 빈 시간대(가용 블록) 식별
 2. **뇌과학 프레임워크 적용** (ultra think)
    - 크로노타입 기반 시간대 배치 (분석→오전, 창의→저녁)
    - 울트라디안 90분 주기 준수 여부
@@ -75,7 +100,7 @@ aliases:
 
 **실행 순서:**
 
-1. **변동 사항 파악** — 변동 내용 정리 + 오늘 남은 일정 가져오기 + 빈 시간/충돌 식별
+1. **변동 사항 파악** — 변동 내용 정리 + Google Calendar 3개 + Notion DB에서 남은 일정 모두 가져오기 + 빈 시간/충돌 식별
 2. **재조정 설계** (ultra think) — 뇌과학 원칙 유지하면서 재배치 (에너지 레벨, 주의 잔여, 우선순위, 휴식 보존)
 3. **수락 & 반영** — 사용자 확인 후 Google Calendar 업데이트
 
