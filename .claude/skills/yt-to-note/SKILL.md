@@ -13,8 +13,27 @@ description: >-
 ## 파이프라인 개요
 
 ```
-URL 수신 → 메타데이터 추출 → 장르 판별 → 자막 추출+분석 (서브에이전트) → 노트 생성 → 보충자료 수집 → 내부 링크 생성 → 옵시디언 저장
+URL 수신 → 메타데이터 추출 → 장르 판별 → 자막 추출+분석 (서브에이전트 + ultrathink) → 배경 지식 보강 검색 → 노트 생성 → 보충자료 수집 → 내부 링크 생성 → 옵시디언 저장
 ```
+
+---
+
+## 검색 도구 사용 규칙
+
+### 우선순위
+1. **SearXNG MCP** `search()` — 1차 검색 엔진
+2. **DuckDuckGo MCP** `search()` — SearXNG 접속 실패 시 폴백
+3. **WebSearch** (Claude 내장) — 위 둘 다 실패 시 최종 폴백
+
+### 페이지 전문 읽기
+1. **Jina MCP** `read_url()` — URL 전문을 마크다운으로 변환 (1차)
+2. **DuckDuckGo MCP** `fetch_content()` — Jina 실패 시 폴백
+3. **WebFetch** (Claude 내장) — 최종 폴백
+
+### 검색 실패 감지
+- SearXNG 응답이 비어있거나 타임아웃 → 즉시 DuckDuckGo로 전환
+- DuckDuckGo 응답이 비어있거나 rate limit → WebSearch로 전환
+- 전환 시 사용자에게 알리지 않고 자동 폴백 (에러 로그만 기록)
 
 ---
 
@@ -57,7 +76,7 @@ curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v={VID
 **2순위 — WebSearch 폴백 (curl 실패 시):**
 `site:youtube.com {VIDEO_ID}` 검색하여 제목/채널명을 수집하세요.
 
-## Step 3: 자막 추출 + 1차 분석 (서브에이전트)
+## Step 3: 자막 추출 + 1차 분석 (서브에이전트 + Ultra Think)
 
 ### 자막 추출 폴백 체인
 
@@ -122,6 +141,25 @@ timestamps=false로 폴백한 경우, 구간 가이드의 시간은 "(추정)" �
 
 서브에이전트 결과물은 JSON 형태로 반환받으세요. 상세 JSON 스키마는 `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/sub-agent-schema.md`를 참조.
 
+> [!important] 서브에이전트에 ultrathink 추론 지시가 포함되어 있습니다. `references/sub-agent-schema.md`의 "추론 지시 (Ultra Think)" 섹션을 반드시 서브에이전트 프롬프트에 포함하세요.
+
+## Step 3.5: 배경 지식 보강 검색
+
+자막 분석 결과에서 핵심 주제/용어를 추출하여 배경 정보를 수집합니다.
+
+1. 서브에이전트 분석 결과에서 핵심 키워드 3~5개 추출
+2. SearXNG로 각 키워드 검색 (DuckDuckGo 폴백)
+3. 영상에서 언급된 연구/논문/사례가 있으면:
+   - 해당 연구를 SearXNG로 검색
+   - Jina `read_url()`로 원본 확인
+   - 영상 내용과 원본의 일치 여부 검증
+4. 검증된 배경 정보를 서브에이전트 결과에 병합
+
+> [!important] 이 단계의 목적
+> - 자막만으로는 불완전한 정보를 외부 소스로 보강
+> - 영상에 없는 내용을 추가하는 것이 아니라, 영상 내용의 정확성을 검증하고 맥락을 보강
+> - 검증 결과 영상 내용과 원본이 상충하면 노트에 해당 사실을 명시
+
 ## Step 4: 노트 생성
 
 장르에 따라 해당 프롬프트 참조 파일을 읽고 노트를 생성하세요:
@@ -156,14 +194,22 @@ timestamps=false로 폴백한 경우, 구간 가이드의 시간은 "(추정)" �
 - ❌ 영상에 없는 내용 추가 (환각)
 - ❌ 빈 문장, 불필요한 연결어
 
-## Step 5: 보충자료 수집
+## Step 5: 보충자료 수집 (심층)
 
-노트의 핵심 용어/개념 중 최대 8개를 선정하여 WebSearch로 검색:
+### 보충자료 수집 프로세스
+
+1. 핵심 용어/개념 최대 8개 선정
+2. 각 용어를 SearXNG로 검색 (DuckDuckGo 폴백)
+3. 상위 2~3개 URL을 Jina `read_url()`로 전문 읽기
+4. 읽은 내용에서 노트를 보강할 정보 발췌
+5. 보충자료 섹션에 URL + "이 노트의 어떤 부분을 보완하는지" 명시
+
+### 장르별 검색 우선순위
 
 | 장르 | 검색 우선순위 |
 |------|-------------|
 | tech | 공식문서 → 튜토리얼 → 심화 아티클 |
-| knowledge | 원본 연구/논문 → 도서 → 관련 강연 |
+| knowledge | 원본 연구/논문 → 도서 → 관련 강연. Jina `search_arxiv()`로 관련 논문 검색 (가능 시) |
 | english | 문법서/사전 → 연습 사이트 → 유사 콘텐츠 |
 
 결과를 필터링하여 **보충자료 섹션** (2~5개)과 **용어 사전 보강**에 반영하세요. 각 자료에 "이 노트의 어떤 부분을 보완하는지"를 명시.
@@ -237,6 +283,8 @@ version: "7.0"
 |------|------|
 | 자막 없음 | "이 영상에는 자막이 없습니다" → 중단 |
 | MCP 연결 실패 | "YouTube Transcript MCP가 연결되어 있는지 확인해주세요" |
+| SearXNG 접속 실패 | DuckDuckGo MCP로 자동 폴백 |
+| Jina Reader 실패 | DuckDuckGo `fetch_content()`로 자동 폴백 |
 | Obsidian MCP 실패 | "Obsidian이 실행 중인지 확인해주세요" |
 | 토큰 초과 | timestamps off로 재시도 → 그래도 초과 시 사용자에게 경고 |
 | 중복 파일명 | 사용자 확인 후 덮어쓰기 또는 번호 추가 |
@@ -251,4 +299,4 @@ version: "7.0"
 | `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/prompt-tech.md` | tech 노트 생성 상세 프롬프트 | Step 4에서 genre=tech일 때 |
 | `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/prompt-knowledge.md` | knowledge 노트 생성 상세 프롬프트 | Step 4에서 genre=knowledge일 때 |
 | `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/prompt-english.md` | english 노트 생성 상세 프롬프트 | Step 4에서 genre=english일 때 |
-| `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/sub-agent-schema.md` | 서브에이전트 JSON 스키마 | Step 3에서 서브에이전트 호출 시 |
+| `/Users/aera/Desktop/Base_/.claude/skills/yt-to-note/references/sub-agent-schema.md` | 서브에이전트 JSON 스키마 + ultrathink 지시 | Step 3에서 서브에이전트 호출 시 |
