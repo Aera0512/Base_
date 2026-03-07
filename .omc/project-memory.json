@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1771910448222,
+  "lastScanned": 1772851387380,
   "projectRoot": "/Users/aera/Desktop/Base_",
   "techStack": {
     "languages": [],
@@ -32,68 +32,113 @@
   },
   "customNotes": [],
   "directoryMap": {
+    "Anki": {
+      "path": "Anki",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1772851387329,
+      "keyFiles": [
+        "README.md",
+        "당신의 뇌는 최적화를 원한다 (최종 활용본).md"
+      ]
+    },
+    "English Grammar": {
+      "path": "English Grammar",
+      "purpose": null,
+      "fileCount": 9,
+      "lastAccessed": 1772851387331,
+      "keyFiles": [
+        "Present Perfect-colorful.html",
+        "Present Perfect-colorful.pdf",
+        "Present Perfect-latte.html",
+        "Present Perfect-latte.pdf",
+        "Present Perfect-minimal.html"
+      ]
+    },
     "Important": {
       "path": "Important",
       "purpose": null,
-      "fileCount": 5,
-      "lastAccessed": 1771910448215,
+      "fileCount": 8,
+      "lastAccessed": 1772851387332,
       "keyFiles": [
         "0. 나를 제대로 아는 방법.md",
+        "Claude Code 스킬 등록 가이드.md",
+        "OpenClaw VPS 사용 가이드.md",
         "김예성.md",
-        "내가 알면 좋을 지식.md",
-        "당신의 뇌는 최적화를 원한다 (최종 활용본).md",
-        "영어 학습 뇌과학 적용 가이드.md"
+        "내가 알면 좋을 지식.md"
       ]
     },
     "Inbox": {
       "path": "Inbox",
       "purpose": null,
-      "fileCount": 5,
-      "lastAccessed": 1771910448215,
+      "fileCount": 12,
+      "lastAccessed": 1772851387333,
       "keyFiles": [
         "AI 코딩 자동화 로드맵 프롬프트.md",
         "AI 학습 완전 가이드 - 비전공자를 위한 최단경로 로드맵 (2025).md",
         "Anki Agent 프로젝트 진행 트래커.md",
-        "단어장 사진 → Anki 플래시카드 자동 생성 에이전트 가이드.md"
+        "Claude 실전 워크플로우.md",
+        "OpenClaw 최대 활용 가이드.md"
+      ]
+    },
+    "REA": {
+      "path": "REA",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1772851387333,
+      "keyFiles": [
+        "eval-results-iteration-1.md"
+      ]
+    },
+    "Yt-to-Note": {
+      "path": "Yt-to-Note",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1772851387334,
+      "keyFiles": [
+        "YT-english-260305-전치사-접근법-기초-1편.md",
+        "YT-english-260305-전치사-접근법-심화-2편.md"
       ]
     },
     "a. Obsidian": {
       "path": "a. Obsidian",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1771910448215,
+      "lastAccessed": 1772851387334,
       "keyFiles": []
     },
     "b. Dairy": {
       "path": "b. Dairy",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1771910448215,
+      "lastAccessed": 1772851387335,
       "keyFiles": []
     },
     "c. Attached file": {
       "path": "c. Attached file",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1771910448216,
+      "lastAccessed": 1772851387337,
       "keyFiles": []
     },
     "d. Templates": {
       "path": "d. Templates",
       "purpose": null,
-      "fileCount": 3,
-      "lastAccessed": 1771910448216,
+      "fileCount": 10,
+      "lastAccessed": 1772851387337,
       "keyFiles": [
-        "Daily_note_Template.md",
-        "세부 공부 계획표.md",
-        "영화 드라마 리뷰 템플릿.md"
+        "Book-Note-Knowledge-Template.md",
+        "Book-Note-Selfhelp-Template.md",
+        "Book-Note-Tech-Template.md",
+        "CLAUDE-template.md",
+        "Daily_note_Template.md"
       ]
     },
     "e. Canvases": {
       "path": "e. Canvases",
       "purpose": null,
       "fileCount": 2,
-      "lastAccessed": 1771910448216,
+      "lastAccessed": 1772851387337,
       "keyFiles": [
         "나(김예성).canvas",
         "이동진의 파이아키아.canvas"
@@ -102,88 +147,22 @@
     "f. CMDS": {
       "path": "f. CMDS",
       "purpose": null,
-      "fileCount": 3,
-      "lastAccessed": 1771910448216,
+      "fileCount": 4,
+      "lastAccessed": 1772851387338,
       "keyFiles": [
         "00. START HERE.md",
-        "CLAUDE.md",
+        "obs2pdf 가이드.md",
         "🏠 Vault Home.md"
       ]
+    },
+    "무제": {
+      "path": "무제",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1772851387338,
+      "keyFiles": []
     }
   },
-  "hotPaths": [
-    {
-      "path": "",
-      "accessCount": 6,
-      "lastAccessed": 1771912714630,
-      "type": "directory"
-    },
-    {
-      "path": "Speaking_1.0_목차.md",
-      "accessCount": 4,
-      "lastAccessed": 1771920553837,
-      "type": "file"
-    },
-    {
-      "path": "a. Obsidian/common/천일문 활용 방안 고민.md",
-      "accessCount": 3,
-      "lastAccessed": 1771921410484,
-      "type": "file"
-    },
-    {
-      "path": "d. Templates/Daily_note_Template.md",
-      "accessCount": 2,
-      "lastAccessed": 1771912550337,
-      "type": "file"
-    },
-    {
-      "path": "Speaking_1.0_Syntax.md",
-      "accessCount": 2,
-      "lastAccessed": 1771920738722,
-      "type": "file"
-    },
-    {
-      "path": "conflict-files-obsidian-git.md",
-      "accessCount": 1,
-      "lastAccessed": 1771910455417,
-      "type": "file"
-    },
-    {
-      "path": ".claude/skills/obsidian-markdown/SKILL.md",
-      "accessCount": 1,
-      "lastAccessed": 1771911835755,
-      "type": "file"
-    },
-    {
-      "path": "f. CMDS/00. Inbox/01. Daily Notes/Hub - 01. Daily Notes.md",
-      "accessCount": 1,
-      "lastAccessed": 1771912550331,
-      "type": "file"
-    },
-    {
-      "path": "b. Dairy/1. Daily/2026-01-29(목).md",
-      "accessCount": 1,
-      "lastAccessed": 1771912556371,
-      "type": "file"
-    },
-    {
-      "path": "b. Dairy/1. Daily/2026-02-01(일).md",
-      "accessCount": 1,
-      "lastAccessed": 1771912556378,
-      "type": "file"
-    },
-    {
-      "path": "b. Dairy/1. Daily",
-      "accessCount": 1,
-      "lastAccessed": 1771912556795,
-      "type": "directory"
-    },
-    {
-      "path": "CLAUDE.md",
-      "accessCount": 1,
-      "lastAccessed": 1771912942654,
-      "type": "file"
-    }
-  ],
+  "hotPaths": [],
   "userDirectives": []
 }
