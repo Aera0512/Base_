@@ -33,7 +33,7 @@ created: '2026-03-07'
 
 ```bash
 # 파일 복사 (로컬에서)
-scp -r telegram-bot-setup/ root@212.47.67.161:/root/
+scp -r /Users/aera/Obsidian-photo-to-Anki/telegram-bot-setup/ root@212.47.67.161:/root/
 
 # VPS 접속
 ssh root@212.47.67.161

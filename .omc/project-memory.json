@@ -165,15 +165,15 @@
   },
   "hotPaths": [
     {
-      "path": "Setup-Guide-Search-MCP.md",
-      "accessCount": 1,
-      "lastAccessed": 1772851613108,
+      "path": "Important/Telegram Bot 설치 가이드.md",
+      "accessCount": 2,
+      "lastAccessed": 1772852669363,
       "type": "file"
     },
     {
-      "path": "Important/Telegram Bot 설치 가이드.md",
+      "path": "Setup-Guide-Search-MCP.md",
       "accessCount": 1,
-      "lastAccessed": 1772852613206,
+      "lastAccessed": 1772851613108,
       "type": "file"
     }
   ],
