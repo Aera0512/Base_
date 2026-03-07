@@ -12,7 +12,7 @@
 - [[Hub - 07. Clippings]]
 
 ## 대표 노트
-- [[README]]
+- [[f. CMDS/00. Inbox/README]]
 
 ## 자동 목록
 ```dataview

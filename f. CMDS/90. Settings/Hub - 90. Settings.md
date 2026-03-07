@@ -7,7 +7,7 @@
 - [[Hub - 94. System Prompts]]
 
 ## 대표 노트
-- [[README]]
+- [[f. CMDS/90. Settings/README]]
 
 ## 자동 목록
 ```dataview

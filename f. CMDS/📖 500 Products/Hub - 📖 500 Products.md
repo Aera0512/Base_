@@ -4,7 +4,7 @@
 
 ## 대표 노트
 - [[Logitech MX 시리즈 생산성 생태계 심층 분석]]
-- [[README]]
+- [[f. CMDS/📖 500 Products/README]]
 
 ## 자동 목록
 ```dataview

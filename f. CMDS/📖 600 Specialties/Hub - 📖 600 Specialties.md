@@ -3,7 +3,7 @@
 상위: [[🏠 Vault Home]]
 
 ## 대표 노트
-- [[README]]
+- [[f. CMDS/📖 600 Specialties/README]]
 
 ## 자동 목록
 ```dataview

@@ -10,7 +10,7 @@
 - [[Hub - templates]]
 
 ## 대표 노트
-- [[README]]
+- [[f. CMDS/00. Inbox/03. Claude Code/README]]
 
 ## 자동 목록
 ```dataview

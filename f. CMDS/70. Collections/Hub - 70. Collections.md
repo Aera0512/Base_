@@ -10,7 +10,7 @@
 - [[Hub - 78. Bases]]
 
 ## 대표 노트
-- [[README]]
+- [[f. CMDS/70. Collections/README]]
 
 ## 자동 목록
 ```dataview
