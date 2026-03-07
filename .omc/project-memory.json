@@ -163,6 +163,13 @@
       "keyFiles": []
     }
   },
-  "hotPaths": [],
+  "hotPaths": [
+    {
+      "path": "Setup-Guide-Search-MCP.md",
+      "accessCount": 1,
+      "lastAccessed": 1772851613108,
+      "type": "file"
+    }
+  ],
   "userDirectives": []
 }
