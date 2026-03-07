@@ -67,7 +67,7 @@ phase: 4-implement
 | 캘린더 루틴 검토 | 6/6 ✅ | 6/6 ✅ |
 | 실행력 환경 설계 | 9/9 ✅ | 9/9 ✅ |
 
-> 정량적으로 모두 통과. 질적 비교 및 상세 분석은 [[eval-results-iteration-1]] 참고.
+> 정량적으로 모두 통과. 질적 비교 및 상세 분석은 [[eval-results-iteration-1]] 참고. (REA 폴더에 저장)
 
 ---
 
