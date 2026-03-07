@@ -8,6 +8,7 @@ tags:
   - anki
   - english
   - toefl
+anki_processed: true
 ---
 
 # TOEFL 필수 단어 5개
