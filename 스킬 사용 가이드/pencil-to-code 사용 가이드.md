@@ -63,8 +63,27 @@ Pencil 디자인(.pen 파일)을 React/Next.js 코드로 변환하는 스킬입�
 - 간격 체계 (padding, margin, gap)
 - 테두리 반경, 그림자
 - 재사용 가능한 컴포넌트 목록
+- **이미지 에셋** (URL, base64)
 
 **출력**: `design-tokens.json`
+
+#### 이미지 추출
+
+Pencil에서 사용된 이미지도 자동으로 추출됩니다:
+
+| 이미지 유형 | 처리 방식 |
+|------------|----------|
+| 외부 URL (Unsplash 등) | URL 그대로 사용 |
+| AI 생성 이미지 | URL 추출 |
+| Base64 임베디드 | `public/images/`에 파일로 저장 |
+| 스톡 이미지 | Unsplash URL 사용 |
+
+**추출 정보:**
+- 노드 ID와 이름 (시맨틱 네이밍용)
+- 이미지 소스 (URL 또는 base64)
+- 크기 (width, height)
+- fit 모드 (cover, contain, fill)
+- alt 텍스트 (노드 이름에서 추론)
 
 ---
 
