@@ -513,7 +513,7 @@ Use exact note names in wikilinks (case-sensitive!)
 
 ## 📚 References
 
-- [[CLAUDE]] - Technical implementation details
+- [[Important/CLAUDE]] - Technical implementation details
 - [[CMDS]] - System philosophy and context
 - [[🏛 CMDS Head Quarter]] - Navigation hub
 

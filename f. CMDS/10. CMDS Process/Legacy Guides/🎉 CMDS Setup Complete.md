@@ -30,7 +30,7 @@ status: completed
 ## 📊 생성된 파일
 
 ### 핵심 시스템 파일 (2개)
-- ✅ [[CLAUDE]] - Claude Code 기술 가이드
+- ✅ [[Important/CLAUDE]] - Claude Code 기술 가이드
 - ✅ [[CMDS]] - 시스템 철학 및 맥락
 
 ### Hub 파일 (2개)
@@ -101,7 +101,7 @@ Connect → Merge → Develop → Share
 1. **[[🏛 CMDS Head Quarter]]** - 시작 지점, 네비게이션
 2. **[[CMDS]]** - 시스템의 WHY & WHAT
 3. **[[🏛 CMDS Guide]]** - Properties 규칙, 표준
-4. **[[CLAUDE]]** - Claude Code용 기술 가이드
+4. **[[Important/CLAUDE]]** - Claude Code용 기술 가이드
 
 ---
 

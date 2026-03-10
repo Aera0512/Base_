@@ -129,7 +129,7 @@ status:
 ## 📚 Essential Documentation
 
 ### System Guides
-- **[[CLAUDE]]** - Technical guide for Claude Code
+- **[[Important/CLAUDE]]** - Technical guide for Claude Code
 - **[[CMDS]]** - System philosophy and context
 - **[[🏛 CMDS Guide]]** - Operational standards (Properties, templates, conventions)
 
@@ -198,7 +198,7 @@ Quick access to note templates:
 ## 🚀 Getting Started Checklist
 
 - [ ] Read [[CMDS]] to understand the system
-- [ ] Read [[CLAUDE]] for technical details
+- [ ] Read [[Important/CLAUDE]] for technical details
 - [ ] Create your first [[00. Inbox/01. Daily Notes/.gitkeep|Daily Note]]
 - [ ] Capture 5-10 items in [[f. CMDS/00. Inbox/README|Inbox]]
 - [ ] Process one item into appropriate CMDS category
@@ -233,7 +233,7 @@ Quick access to note templates:
 
 **Remember**: The best PKM system is the one you actually use. Start simple, build habits, let it grow naturally.
 
-**Need help?** Refer to [[CMDS]] for context or [[CLAUDE]] for technical details.
+**Need help?** Refer to [[CMDS]] for context or [[Important/CLAUDE]] for technical details.
 
 ---
 
