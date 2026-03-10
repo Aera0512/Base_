@@ -1,4 +1,8 @@
 {
   "cssTheme": "Minimal",
-  "enabledCssSnippets": ["dashboard", "homepage-setting", "homepage-setting-mobile"]
+  "enabledCssSnippets": [
+    "dashboard",
+    "homepage-setting",
+    "homepage-setting-mobile"
+  ]
 }
