@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quokka CTA</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      background: linear-gradient(135deg, #FFF5F8 0%, #FFF0E6 50%, #F0F7FF 100%);
+      font-family: 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, sans-serif;
+      letter-spacing: -0.02em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .decoration {
+      position: absolute;
+      font-size: 100px;
+      opacity: 0.12;
+    }
+
+    .deco-1 { top: 100px; left: 100px; }
+    .deco-2 { top: 180px; right: 120px; }
+    .deco-3 { bottom: 400px; right: 80px; }
+    .deco-4 { bottom: 500px; left: 100px; }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 72px;
+    }
+
+    .emoji {
+      font-size: 160px;
+      margin-bottom: 40px;
+    }
+
+    .headline {
+      font-size: 72px;
+      font-weight: 800;
+      color: #2D2D2D;
+      line-height: 1.3;
+      margin-bottom: 48px;
+    }
+
+    .cta-button {
+      background: {{accent_color}};
+      color: #FFFFFF;
+      font-size: 40px;
+      font-weight: 700;
+      padding: 28px 72px;
+      border-radius: 60px;
+      margin-bottom: 48px;
+      box-shadow: 0 12px 32px {{accent_color}}44;
+    }
+
+    .tags {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .tag {
+      background: #FFFFFF;
+      color: #666;
+      font-size: 28px;
+      font-weight: 600;
+      padding: 16px 32px;
+      border-radius: 50px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 60px;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #FFFFFF;
+      padding: 16px 32px;
+      border-radius: 50px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+
+    .brand-emoji {
+      font-size: 32px;
+    }
+
+    .brand-name {
+      font-size: 26px;
+      font-weight: 600;
+      color: #666;
+    }
+
+    .thanks {
+      font-size: 28px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="decoration deco-1">💕</div>
+  <div class="decoration deco-2">🥰</div>
+  <div class="decoration deco-3">✨</div>
+  <div class="decoration deco-4">💖</div>
+
+  <div class="content">
+    <div class="emoji">{{emoji}}</div>
+    <h1 class="headline">{{headline}}</h1>
+    <div class="cta-button">{{cta_text}}</div>
+    <div class="tags">
+      <span class="tag">#{{tag1}}</span>
+      <span class="tag">#{{tag2}}</span>
+      <span class="tag">#{{tag3}}</span>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="brand">
+      <span class="brand-emoji">🧡</span>
+      <span class="brand-name">@{{account_name}}</span>
+    </div>
+    <p class="thanks">봐주셔서 고마워요! 🙏</p>
+  </div>
+
+</body>
+</html>

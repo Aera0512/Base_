@@ -8,7 +8,7 @@
 - [[Hub - 43. My Docs]]
 
 ## 대표 노트
-- [[README]]
+- [[f. CMDS/40. Docs/README]]
 
 ## 자동 목록
 ```dataview

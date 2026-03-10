@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quokka Quote</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      background: linear-gradient(135deg, #FFF5F8 0%, #FFF0E6 50%, #F0F7FF 100%);
+      font-family: 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, sans-serif;
+      letter-spacing: -0.02em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .brand {
+      position: absolute;
+      top: 48px;
+      left: 48px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #FFFFFF;
+      padding: 14px 28px;
+      border-radius: 50px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+
+    .brand-emoji {
+      font-size: 28px;
+    }
+
+    .brand-name {
+      font-size: 24px;
+      font-weight: 600;
+      color: #666;
+    }
+
+    .quote-card {
+      background: #FFFFFF;
+      border-radius: 48px;
+      padding: 80px 64px;
+      margin: 0 48px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+      text-align: center;
+      position: relative;
+    }
+
+    .quote-mark {
+      font-size: 160px;
+      color: {{accent_color}};
+      opacity: 0.3;
+      line-height: 0.5;
+      position: absolute;
+      top: 20px;
+      left: 40px;
+    }
+
+    .emoji {
+      font-size: 100px;
+      margin-bottom: 32px;
+    }
+
+    .quote-text {
+      font-size: 42px;
+      font-weight: 600;
+      color: #333;
+      line-height: 1.7;
+      word-break: keep-all;
+      margin-bottom: 32px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .author {
+      font-size: 32px;
+      font-weight: 500;
+      color: #888;
+    }
+
+    .page-num {
+      position: absolute;
+      bottom: 48px;
+      right: 48px;
+      background: #FFFFFF;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: 700;
+      color: {{accent_color}};
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+  </style>
+</head>
+<body>
+  <div class="brand">
+    <span class="brand-emoji">🧡</span>
+    <span class="brand-name">@{{account_name}}</span>
+  </div>
+
+  <div class="quote-card">
+    <div class="quote-mark">"</div>
+    <div class="emoji">{{emoji}}</div>
+    <p class="quote-text">{{body}}</p>
+    <p class="author">— {{headline}}</p>
+  </div>
+
+  <div class="page-num">{{badge_number}}</div>
+</body>
+</html>

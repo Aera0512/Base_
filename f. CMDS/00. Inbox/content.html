@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quokka Content</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1350px;
+      overflow: hidden;
+      background: linear-gradient(135deg, #FFF5F8 0%, #FFF0E6 50%, #F0F7FF 100%);
+      font-family: 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, sans-serif;
+      letter-spacing: -0.02em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .brand {
+      position: absolute;
+      top: 48px;
+      left: 48px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: #FFFFFF;
+      padding: 14px 28px;
+      border-radius: 50px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+
+    .brand-emoji {
+      font-size: 28px;
+    }
+
+    .brand-name {
+      font-size: 24px;
+      font-weight: 600;
+      color: #666;
+    }
+
+    .card {
+      background: #FFFFFF;
+      border-radius: 48px;
+      padding: 72px 64px;
+      margin: 120px 48px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .emoji {
+      font-size: 120px;
+      margin-bottom: 32px;
+    }
+
+    .headline {
+      font-size: 64px;
+      font-weight: 800;
+      color: #2D2D2D;
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+      word-break: keep-all;
+      margin-bottom: 32px;
+    }
+
+    .highlight {
+      background: linear-gradient(to top, {{accent_color}}55 60%, transparent 60%);
+      padding: 0 8px;
+      border-radius: 8px;
+    }
+
+    .divider {
+      width: 80px;
+      height: 6px;
+      background: {{accent_color}};
+      border-radius: 3px;
+      margin-bottom: 32px;
+    }
+
+    .body-text {
+      font-size: 36px;
+      font-weight: 500;
+      color: #555;
+      line-height: 1.8;
+      word-break: keep-all;
+    }
+
+    .page-num {
+      position: absolute;
+      bottom: 48px;
+      right: 48px;
+      background: #FFFFFF;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: 700;
+      color: {{accent_color}};
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+  </style>
+</head>
+<body>
+  <div class="brand">
+    <span class="brand-emoji">🧡</span>
+    <span class="brand-name">@{{account_name}}</span>
+  </div>
+
+  <div class="card">
+    <div class="emoji">{{emoji}}</div>
+    <h2 class="headline">{{headline}}</h2>
+    <div class="divider"></div>
+    <p class="body-text">{{body}}</p>
+  </div>
+
+  <div class="page-num">{{badge_number}}</div>
+</body>
+</html>
