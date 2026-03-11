@@ -323,14 +323,14 @@
 
 **to be + 과거분사**
 
-| 용법 | 예문 |
-|------|------|
-| want to be + PP | I **want to be loved**. |
-| need to be + PP | This **needs to be fixed**. |
-| expect to be + PP | I **expect to be promoted** soon. |
-| seem to be + PP | He **seems to be confused**. |
-| appear to be + PP | The problem **appears to be solved**. |
-| deserve to be + PP | She **deserves to be recognized**. |
+| 용법                   | 예문                                       |
+| -------------------- | ---------------------------------------- |
+| want to be + PP      | I **want to be loved**.                  |
+| need to be + PP      | This **needs to be fixed**.              |
+| expect to be + PP    | I **expect to be promoted** soon.        |
+| seem to be + PP      | He **seems to be confused**.             |
+| appear to be + PP    | The problem **appears to be solved**.    |
+| deserve to be + PP   | ==She **deserves to be recognized**.==   |
 | be likely to be + PP | The event **is likely to be cancelled**. |
 
 #### 완료 부정사 수동태 (과거 사실)
