@@ -1,10 +1,24 @@
-# 가산/불가산 명사 (Countable/Uncountable Nouns)
+# Countable/Uncountable Nouns + Quantifiers 완전정복
 
 ---
 
-## 📖 문법 설명
+## 목차
+- [[#1. 핵심 공식]]
+- [[#2. 왜 이 구분이 존재하는가]]
+- [[#3. 기본 형태 & 구조]]
+- [[#4. 핵심 용법]]
+- [[#5. Quantifiers 완전 정복]]
+- [[#6. 관사와의 조합]]
+- [[#7. 한국인 오류 TOP 8]]
+- [[#8. 고급 뉘앙스 & 원어민 패턴]]
+- [[#9. 핵심 예문 120선]]
+- [[#10. 연습문제 102개]]
+- [[#11. 복습 워크북]]
+- [[#12. 마스터 체크리스트]]
 
-### 1. 핵심 개념
+---
+
+## 1. 핵심 공식
 
 ### 가산/불가산 판단 기준
 > **"하나, 둘 셀 수 있으면 가산 / 덩어리·추상개념·물질이면 불가산"**
@@ -24,7 +38,7 @@
 
 ---
 
-### 2. 왜 이 구분이 존재하는가
+## 2. 왜 이 구분이 존재하는가
 
 영어는 **개별 단위 vs 덩어리/물질** 이라는 개념적 차이를 명사 형태로 표현합니다.
 
@@ -49,7 +63,7 @@ a piece of furniture (가산화) = "가구 하나"
 
 ---
 
-### 3. 기본 형태 & 구조
+## 3. 기본 형태 & 구조
 
 ### 가산명사 (Countable Nouns)
 **개별적인 단위로 셀 수 있는 명사**
@@ -114,7 +128,7 @@ a piece of furniture (가산화) = "가구 하나"
 
 ---
 
-### 4. 핵심 용법
+## 4. 핵심 용법
 
 ### 가산명사 사용법
 
@@ -172,7 +186,7 @@ a piece of furniture (가산화) = "가구 하나"
 
 ---
 
-### 5. Quantifiers 완전 정복
+## 5. Quantifiers 완전 정복
 
 ### 가산명사 전용 Quantifiers
 
@@ -220,7 +234,7 @@ a piece of furniture (가산화) = "가구 하나"
 
 ---
 
-### 6. 관사와의 조합
+## 6. 관사와의 조합
 
 ### a/an의 사용 규칙
 
@@ -258,7 +272,7 @@ a piece of furniture (가산화) = "가구 하나"
 
 ---
 
-### 7. 한국인 오류 TOP 8
+## 7. 한국인 오류 TOP 8
 
 ### 1. information (항상 불가산)
 ```
@@ -315,7 +329,7 @@ a piece of furniture (가산화) = "가구 하나"
 
 ---
 
-### 8. 고급 뉘앙스 & 원어민 패턴
+## 8. 고급 뉘앙스 & 원어민 패턴
 
 ### 의미 변화: 같은 단어, 다른 의미
 
@@ -382,496 +396,231 @@ a piece of furniture (가산화) = "가구 하나"
 
 ---
 
----
+## 9. 핵심 예문 120선
 
-
-## 🎧 예문 — 초급 (Beginner)
-
-![[countable-uncountable-beginner.mp3]]
-
-> 3~8단어 | 기본 형태 | 고빈도 동사 | 점진적 복잡도 상승
-
+### 초급 (Beginner) - 40문장
 
 #### 1. 집 (Home)
-1. I need some water.
-> [!note]- 해석
-> 나는 물이 좀 필요해.
-2. There's not much milk left.
-> [!note]- 해석
-> 우유가 많이 안 남았어.
-3. I have a few cups at home.
-> [!note]- 해석
-> 나는 집에 컵이 몇 개 있어.
-4. Do you want some tea?
-> [!note]- 해석
-> 차 마시고 싶어?
+1. I need some water. > 나는 물이 좀 필요해.
+2. There's not much milk left. > 우유가 많이 안 남았어.
+3. I have a few cups at home. > 나는 집에 컵이 몇 개 있어.
+4. Do you want some tea? > 차 마시고 싶어?
 
 #### 2. 카페 (Cafe)
-5. I'd like a cup of coffee, please.
-> [!note]- 해석
-> 커피 한 잔 주세요.
-6. There isn't much sugar in my coffee.
-> [!note]- 해석
-> 내 커피에는 설탕이 별로 없어.
-7. How many people are here?
-> [!note]- 해석
-> 여기 몇 명이 있어?
-8. Can I have some milk?
-> [!note]- 해석
-> 우유 좀 줄 수 있어?
+5. I'd like a cup of coffee, please. > 커피 한 잔 주세요.
+6. There isn't much sugar in my coffee. > 내 커피에는 설탕이 별로 없어.
+7. How many people are here? > 여기 몇 명이 있어?
+8. Can I have some milk? > 우유 좀 줄 수 있어?
 
 #### 3. 직장 (Workplace)
-9. I have a lot of work to do.
-> [!note]- 해석
-> 난 할 일이 많아.
-10. There are few employees here today.
-> [!note]- 해석
-> 오늘 직원이 거의 없어.
-11. I need some paper for the meeting.
-> [!note]- 해석
-> 회의를 위해 종이가 필요해.
-12. How much time do you have?
-> [!note]- 해석
-> 시간 있어?
+9. I have a lot of work to do. > 난 할 일이 많아.
+10. There are few employees here today. > 오늘 직원이 거의 없어.
+11. I need some paper for the meeting. > 회의를 위해 종이가 필요해.
+12. How much time do you have? > 시간 있어?
 
 #### 4. 쇼핑 (Shopping)
-13. I want to buy some clothes.
-> [!note]- 해석
-> 옷을 좀 사고 싶어.
-14. There's a little money left in my wallet.
-> [!note]- 해석
-> 지갑에 돈이 좀 남았어.
-15. Do you have many friends?
-> [!note]- 해석
-> 친구 많아?
-16. Can I have some advice?
-> [!note]- 해석
-> 조언을 좀 해줄 수 있어?
+13. I want to buy some clothes. > 옷을 좀 사고 싶어.
+14. There's a little money left in my wallet. > 지갑에 돈이 좀 남았어.
+15. Do you have many friends? > 친구 많아?
+16. Can I have some advice? > 조언을 좀 해줄 수 있어?
 
 #### 5. 전화 (Phone)
-17. I have a few messages.
-> [!note]- 해석
-> 나는 메시지가 몇 개 있어.
-18. There's not much battery left.
-> [!note]- 해석
-> 배터리가 많이 안 남았어.
-19. I received some important calls.
-> [!note]- 해석
-> 나는 중요한 전화를 받았어.
-20. Do you have any missed calls?
-> [!note]- 해석
-> 부재중 전화 있어?
+17. I have a few messages. > 나는 메시지가 몇 개 있어.
+18. There's not much battery left. > 배터리가 많이 안 남았어.
+19. I received some important calls. > 나는 중요한 전화를 받았어.
+20. Do you have any missed calls? > 부재중 전화 있어?
 
 #### 6. 친구 (Friends)
-21. I have a few close friends.
-> [!note]- 해석
-> 나는 친한 친구가 몇 명 있어.
-22. She doesn't have much free time.
-> [!note]- 해석
-> 그녀는 자유 시간이 별로 없어.
-23. They gave me some advice.
-> [!note]- 해석
-> 그들이 나에게 조언을 했어.
-24. How many friends did you invite?
-> [!note]- 해석
-> 친구를 몇 명 초대했어?
+21. I have a few close friends. > 나는 친한 친구가 몇 명 있어.
+22. She doesn't have much free time. > 그녀는 자유 시간이 별로 없어.
+23. They gave me some advice. > 그들이 나에게 조언을 했어.
+24. How many friends did you invite? > 친구를 몇 명 초대했어?
 
 #### 7. 식당 (Restaurant)
-25. I'll have some water, please.
-> [!note]- 해석
-> 물 주세요.
-26. There isn't much rice left.
-> [!note]- 해석
-> 밥이 많이 안 남았어.
-27. Can I get a piece of bread?
-> [!note]- 해석
-> 빵 한 조각 줄 수 있어?
-28. How much food should we order?
-> [!note]- 해석
-> 음식을 얼마나 주문할까?
+25. I'll have some water, please. > 물 주세요.
+26. There isn't much rice left. > 밥이 많이 안 남았어.
+27. Can I get a piece of bread? > 빵 한 조각 줄 수 있어?
+28. How much food should we order? > 음식을 얼마나 주문할까?
 
 #### 8. 학교 (School)
-29. I have a lot of homework.
-> [!note]- 해석
-> 나는 숙제가 많아.
-30. There are few students in class today.
-> [!note]- 해석
-> 오늘 반에 학생이 거의 없어.
-31. Can I have some information?
-> [!note]- 해석
-> 정보 좀 줄 수 있어?
-32. How many classes do you have?
-> [!note]- 해석
-> 수업 몇 개 있어?
+29. I have a lot of homework. > 나는 숙제가 많아.
+30. There are few students in class today. > 오늘 반에 학생이 거의 없어.
+31. Can I have some information? > 정보 좀 줄 수 있어?
+32. How many classes do you have? > 수업 몇 개 있어?
 
 #### 9. 여행 (Travel)
-33. I need some luggage help.
-> [!note]- 해석
-> 짐을 좀 봐줄 수 있어?
-34. There's not much time for sightseeing.
-> [!note]- 해석
-> 관광할 시간이 많지 않아.
-35. I have a few travel plans.
-> [!note]- 해석
-> 나는 여행 계획이 몇 개 있어.
-36. Do you have any souvenirs?
-> [!note]- 해석
-> 기념품 있어?
+33. I need some luggage help. > 짐을 좀 봐줄 수 있어?
+34. There's not much time for sightseeing. > 관광할 시간이 많지 않아.
+35. I have a few travel plans. > 나는 여행 계획이 몇 개 있어.
+36. Do you have any souvenirs? > 기념품 있어?
 
 #### 10. 병원 (Hospital)
-37. I need some medicine.
-> [!note]- 해석
-> 약이 필요해.
-38. There isn't much pain now.
-> [!note]- 해석
-> 이제 통증이 별로 없어.
-39. I have a few allergies.
-> [!note]- 해석
-> 나는 알레르기가 몇 개 있어.
-40. How much rest do you need?
-> [!note]- 해석
-> 얼마나 쉬어야 돼?
+37. I need some medicine. > 약이 필요해.
+38. There isn't much pain now. > 이제 통증이 별로 없어.
+39. I have a few allergies. > 나는 알레르기가 몇 개 있어.
+40. How much rest do you need? > 얼마나 쉬어야 돼?
 
 ---
 
----
-
-## 🎧 예문 — 중급 (Intermediate)
-
-![[countable-uncountable-intermediate.mp3]]
-
-> 8~15단어 | 부사/시간표현 | 자연스러운 회화체 | 점진적 복잡도 상승
-
+### 중급 (Intermediate) - 40문장
 
 #### 1. 집 (Home)
-41. I've got some furniture to move into my new apartment.
-> [!note]- 해석
-> 새 아파트로 옮길 가구들이 좀 있어.
-42. There's a little dust on the shelf, but not much.
-> [!note]- 해석
-> 선반에 먼지가 좀 있지만 많지는 않아.
-43. We need to buy a few kitchen utensils for the new place.
-> [!note]- 해석
-> 새 집을 위해 주방 도구를 좀 사야 해.
-44. How much electricity does your air conditioner use?
-> [!note]- 해석
-> 너의 에어컨이 전기를 얼마나 써?
+41. I've got some furniture to move into my new apartment. > 새 아파트로 옮길 가구들이 좀 있어.
+42. There's a little dust on the shelf, but not much. > 선반에 먼지가 좀 있지만 많지는 않아.
+43. We need to buy a few kitchen utensils for the new place. > 새 집을 위해 주방 도구를 좀 사야 해.
+44. How much electricity does your air conditioner use? > 너의 에어컨이 전기를 얼마나 써?
 
 #### 2. 카페 (Cafe)
-45. I'd like a glass of orange juice with not too much ice.
-> [!note]- 해석
-> 얼음이 별로 없는 오렌지 주스 한 잔 주세요.
-46. There are quite a few regular customers at this café.
-> [!note]- 해석
-> 이 카페에는 단골 손님이 꽤 많아.
-47. We're running low on supplies, so order some flour and sugar.
-> [!note]- 해석
-> 재료가 떨어지고 있으니까 밀가루랑 설탕을 좀 주문해.
-48. Can I get two cups of coffee with a little milk, please?
-> [!note]- 해석
-> 우유 좀 넣은 커피 두 잔 주세요.
+45. I'd like a glass of orange juice with not too much ice. > 얼음이 별로 없는 오렌지 주스 한 잔 주세요.
+46. There are quite a few regular customers at this café. > 이 카페에는 단골 손님이 꽤 많아.
+47. We're running low on supplies, so order some flour and sugar. > 재료가 떨어지고 있으니까 밀가루랑 설탕을 좀 주문해.
+48. Can I get two cups of coffee with a little milk, please? > 우유 좀 넣은 커피 두 잔 주세요.
 
 #### 3. 직장 (Workplace)
-49. I've been given a huge amount of responsibility for this project.
-> [!note]- 해석
-> 이 프로젝트를 위해 엄청난 책임을 맡았어.
-50. There are far too many meetings scheduled this week.
-> [!note]- 해석
-> 이번 주에 회의가 너무 많이 예정되어 있어.
-51. I need a few more details before making a decision on the proposal.
-> [!note]- 해석
-> 제안서를 결정하기 전에 좀 더 세부사항이 필요해.
-52. How much progress have you made on the quarterly report?
-> [!note]- 해석
-> 분기 보고서에 얼마나 진행했어?
+49. I've been given a huge amount of responsibility for this project. > 이 프로젝트를 위해 엄청난 책임을 맡았어.
+50. There are far too many meetings scheduled this week. > 이번 주에 회의가 너무 많이 예정되어 있어.
+51. I need a few more details before making a decision on the proposal. > 제안서를 결정하기 전에 좀 더 세부사항이 필요해.
+52. How much progress have you made on the quarterly report? > 분기 보고서에 얼마나 진행했어?
 
 #### 4. 쇼핑 (Shopping)
-53. I've got some designer bags, but not a lot of everyday outfits.
-> [!note]- 해석
-> 나는 디자이너 가방이 좀 있지만 일상 옷은 많지 않아.
-54. There's a little less than fifty percent off these items today.
-> [!note]- 해석
-> 오늘 이 상품들이 거의 반값 정도야.
-55. We should grab a few more pieces of clothing before the sale ends.
-> [!note]- 해석
-> 세일이 끝나기 전에 옷을 좀 더 사야 해.
-56. How much money should we budget for the furniture shopping trip?
-> [!note]- 해석
-> 가구 쇼핑 여행에 얼마를 예산으로 잡아?
+53. I've got some designer bags, but not a lot of everyday outfits. > 나는 디자이너 가방이 좀 있지만 일상 옷은 많지 않아.
+54. There's a little less than fifty percent off these items today. > 오늘 이 상품들이 거의 반값 정도야.
+55. We should grab a few more pieces of clothing before the sale ends. > 세일이 끝나기 전에 옷을 좀 더 사야 해.
+56. How much money should we budget for the furniture shopping trip? > 가구 쇼핑 여행에 얼마를 예산으로 잡아?
 
 #### 5. 전화 (Phone)
-57. I've received some notification alerts, but I'm ignoring most of them.
-> [!note]- 해석
-> 나는 알림을 받았는데 대부분 무시하고 있어.
-58. There's limited storage space left on my phone after downloading apps.
-> [!note]- 해석
-> 앱을 다운로드한 후 휴대폰에 저장 공간이 거의 없어.
-59. I need to delete a few old photos to free up some memory.
-> [!note]- 해석
-> 메모리를 확보하려고 오래된 사진을 몇 개 지워야 해.
-60. How much data does streaming video typically use on your plan?
-> [!note]- 해석
-> 너의 요금제에서 스트리밍 비디오가 보통 얼마나 데이터를 써?
+57. I've received some notification alerts, but I'm ignoring most of them. > 나는 알림을 받았는데 대부분 무시하고 있어.
+58. There's limited storage space left on my phone after downloading apps. > 앱을 다운로드한 후 휴대폰에 저장 공간이 거의 없어.
+59. I need to delete a few old photos to free up some memory. > 메모리를 확보하려고 오래된 사진을 몇 개 지워야 해.
+60. How much data does streaming video typically use on your plan? > 너의 요금제에서 스트리밍 비디오가 보통 얼마나 데이터를 써?
 
 #### 6. 친구 (Friends)
-61. She's got a handful of close friends who've known her for years.
-> [!note]- 해석
-> 그녀는 몇 년을 알아온 친한 친구들이 좀 있어.
-62. There isn't much free time anymore, so we rarely meet up these days.
-> [!note]- 해석
-> 더 이상 자유로운 시간이 많지 않아서 요즘 거의 만나지 못해.
-63. I've made a few international friends through this language exchange program.
-> [!note]- 해석
-> 이 언어 교환 프로그램을 통해 국제 친구를 몇 명 만들었어.
-64. How many friends would you like to invite to your birthday party?
-> [!note]- 해석
-> 생일 파티에 친구를 몇 명 초대하고 싶어?
+61. She's got a handful of close friends who've known her for years. > 그녀는 몇 년을 알아온 친한 친구들이 좀 있어.
+62. There isn't much free time anymore, so we rarely meet up these days. > 더 이상 자유로운 시간이 많지 않아서 요즘 거의 만나지 못해.
+63. I've made a few international friends through this language exchange program. > 이 언어 교환 프로그램을 통해 국제 친구를 몇 명 만들었어.
+64. How many friends would you like to invite to your birthday party? > 생일 파티에 친구를 몇 명 초대하고 싶어?
 
 #### 7. 식당 (Restaurant)
-65. I'd like some soup with a bit of extra seasoning and a side of rice.
-> [!note]- 해석
-> 양념을 좀 더 넣은 수프랑 밥 한 그릇 주세요.
-66. There isn't much variety on their lunch menu, but the food is decent.
-> [!note]- 해석
-> 점심 메뉴에 종류가 많지 않지만 음식은 괜찮아.
-67. We should book a few tables in advance for the group dinner next week.
-> [!note]- 해석
-> 다음 주 단체 저녁 식사를 위해 테이블을 미리 몇 개 예약해야 해.
-68. How much sodium is typically found in these restaurant dishes?
-> [!note]- 해석
-> 이 레스토랑 요리에는 보통 얼마나 많은 나트륨이 들어있어?
+65. I'd like some soup with a bit of extra seasoning and a side of rice. > 양념을 좀 더 넣은 수프랑 밥 한 그릇 주세요.
+66. There isn't much variety on their lunch menu, but the food is decent. > 점심 메뉴에 종류가 많지 않지만 음식은 괜찮아.
+67. We should book a few tables in advance for the group dinner next week. > 다음 주 단체 저녁 식사를 위해 테이블을 미리 몇 개 예약해야 해.
+68. How much sodium is typically found in these restaurant dishes? > 이 레스토랑 요리에는 보통 얼마나 많은 나트륨이 들어있어?
 
 #### 8. 학교 (School)
-69. I've got quite a bit of reading to complete before the midterm exam.
-> [!note]- 해석
-> 중간고사 전에 읽어야 할 책이 꽤 많아.
-70. There are far fewer science classes available than students requesting them.
-> [!note]- 해석
-> 신청한 학생보다 과학 수업이 훨씬 적어.
-71. I need a few more textbooks to complete my course materials for next semester.
-> [!note]- 해석
-> 다음 학기 교과서를 완성하기 위해 책이 몇 권 더 필요해.
-72. How much time should we allocate for group projects in the syllabus?
-> [!note]- 해석
-> 강의 계획서에서 조별 프로젝트에 얼마나 많은 시간을 할당해야 해?
+69. I've got quite a bit of reading to complete before the midterm exam. > 중간고사 전에 읽어야 할 책이 꽤 많아.
+70. There are far fewer science classes available than students requesting them. > 신청한 학생보다 과학 수업이 훨씬 적어.
+71. I need a few more textbooks to complete my course materials for next semester. > 다음 학기 교과서를 완성하기 위해 책이 몇 권 더 필요해.
+72. How much time should we allocate for group projects in the syllabus? > 강의 계획서에서 조별 프로젝트에 얼마나 많은 시간을 할당해야 해?
 
 #### 9. 여행 (Travel)
-73. I've booked some accommodation with a little uncertainty about the location.
-> [!note]- 해석
-> 위치가 좀 불확실하긴 하지만 숙박을 예약했어.
-74. There aren't many direct flights, so we'll have a layover in Seoul.
-> [!note]- 해석
-> 직항이 많지 않아서 서울에서 경유할 거야.
-75. We should gather a few travel documents before heading to the airport tomorrow.
-> [!note]- 해석
-> 내일 공항에 가기 전에 여행 서류를 몇 개 모아야 해.
-76. How much luggage are you planning to bring on this international trip?
-> [!note]- 해석
-> 이 해외여행에 짐을 얼마나 가져갈 거야?
+73. I've booked some accommodation with a little uncertainty about the location. > 위치가 좀 불확실하긴 하지만 숙박을 예약했어.
+74. There aren't many direct flights, so we'll have a layover in Seoul. > 직항이 많지 않아서 서울에서 경유할 거야.
+75. We should gather a few travel documents before heading to the airport tomorrow. > 내일 공항에 가기 전에 여행 서류를 몇 개 모아야 해.
+76. How much luggage are you planning to bring on this international trip? > 이 해외여행에 짐을 얼마나 가져갈 거야?
 
 #### 10. 병원 (Hospital)
-77. The doctor prescribed some antibiotics with a set of detailed instructions.
-> [!note]- 해석
-> 의사가 항생제를 상세한 지시사항과 함께 처방해줬어.
-78. There's very little chance of complications after this minor surgical procedure.
-> [!note]- 해석
-> 이 간단한 수술 후에 합병증이 거의 없을 거야.
-79. I need to schedule a few follow-up appointments before leaving the hospital.
-> [!note]- 해석
-> 병원을 떠나기 전에 후속 진찰을 몇 개 예약해야 해.
-80. How much medication should be taken daily for this chronic health condition?
-> [!note]- 해석
-> 이 만성 건강 상태를 위해 매일 얼마나 많은 약을 복용해야 돼?
+77. The doctor prescribed some antibiotics with a set of detailed instructions. > 의사가 항생제를 상세한 지시사항과 함께 처방해줬어.
+78. There's very little chance of complications after this minor surgical procedure. > 이 간단한 수술 후에 합병증이 거의 없을 거야.
+79. I need to schedule a few follow-up appointments before leaving the hospital. > 병원을 떠나기 전에 후속 진찰을 몇 개 예약해야 해.
+80. How much medication should be taken daily for this chronic health condition? > 이 만성 건강 상태를 위해 매일 얼마나 많은 약을 복용해야 돼?
 
 ---
 
----
-
-## 🎧 예문 — 고급 (Advanced)
-
-![[countable-uncountable-advanced.mp3]]
-
-> 12~25단어 | 다른 문법 결합 | 복합 구조 | 미묘한 뉘앙스 | 점진적 복잡도 상승
-
+### 고급 (Advanced) - 40문장
 
 #### 1. 집 (Home)
-81. The homeowner's insurance policy covers an extensive amount of damage, but there's a significant deductible that applies to personal property.
-> [!note]- 해석
-> 주택 소유자 보험은 광범위한 피해를 보장하지만, 개인 재산에 적용되는 상당한 자기부담금이 있어.
+81. The homeowner's insurance policy covers an extensive amount of damage, but there's a significant deductible that applies to personal property. > 주택 소유자 보험은 광범위한 피해를 보장하지만, 개인 재산에 적용되는 상당한 자기부담금이 있어.
 
-82. Although we invested considerable effort into renovating the kitchen, very few of the original fixtures were salvageable due to structural damage.
-> [!note]- 해석
-> 부엌 리모델링에 상당한 노력을 기울였지만, 구조적 손상으로 인해 거의 모든 원래 설비를 구할 수 없었어.
+82. Although we invested considerable effort into renovating the kitchen, very few of the original fixtures were salvageable due to structural damage. > 부엌 리모델링에 상당한 노력을 기울였지만, 구조적 손상으로 인해 거의 모든 원래 설비를 구할 수 없었어.
 
-83. The realtor mentioned that numerous potential buyers have expressed interest, yet a handful of competing offers might complicate the negotiation process.
-> [!note]- 해석
-> 부동산 중개인은 많은 잠재 구매자들이 관심을 표현했다고 했지만, 몇 가지 경쟁 제안이 협상 과정을 복잡하게 할 수 있어.
+83. The realtor mentioned that numerous potential buyers have expressed interest, yet a handful of competing offers might complicate the negotiation process. > 부동산 중개인은 많은 잠재 구매자들이 관심을 표현했다고 했지만, 몇 가지 경쟁 제안이 협상 과정을 복잡하게 할 수 있어.
 
-84. Maintaining an older property requires tremendous dedication and resources, which is why some homeowners prefer newer constructions with minimal upkeep needed.
-> [!note]- 해석
-> 오래된 주택을 유지하려면 엄청난 헌신과 자원이 필요하므로, 일부 주택 소유자는 유지 보수가 거의 필요 없는 신축 건물을 선호해.
+84. Maintaining an older property requires tremendous dedication and resources, which is why some homeowners prefer newer constructions with minimal upkeep needed. > 오래된 주택을 유지하려면 엄청난 헌신과 자원이 필요하므로, 일부 주택 소유자는 유지 보수가 거의 필요 없는 신축 건물을 선호해.
 
 #### 2. 카페 (Cafe)
-85. The barista carefully measured out precise amounts of both ground coffee and steamed milk to create the perfect cappuccino with minimal foam.
-> [!note]- 해석
-> 바리스타는 완벽한 카푸치노를 만들기 위해 간단한 거품으로 분쇄 커피와 스팀 우유의 정확한 양을 신중하게 계량했어.
+85. The barista carefully measured out precise amounts of both ground coffee and steamed milk to create the perfect cappuccino with minimal foam. > 바리스타는 완벽한 카푸치노를 만들기 위해 간단한 거품으로 분쇄 커피와 스팀 우유의 정확한 양을 신중하게 계량했어.
 
-86. Despite the café's popularity among locals, many customers complained about limited seating availability, especially during peak hours when foot traffic intensifies significantly.
-> [!note]- 해석
-> 카페가 지역 주민들에게 인기가 있었음에도 불구하고, 많은 고객들이 제한된 좌석 가용성에 대해 불평했어.
+86. Despite the café's popularity among locals, many customers complained about limited seating availability, especially during peak hours when foot traffic intensifies significantly. > 카페가 지역 주민들에게 인기가 있었음에도 불구하고, 많은 고객들이 제한된 좌석 가용성에 대해 불평했어.
 
-87. The owner introduced several new beverage options using organic ingredients, yet only a fraction of these experimental recipes gained sufficient traction with the regular clientele.
-> [!note]- 해석
-> 주인은 유기농 재료를 사용하여 여러 새로운 음료 옵션을 도입했지만, 이러한 실험적 레시피 중 일부만 정기 고객들에게 충분한 인기를 얻었어.
+87. The owner introduced several new beverage options using organic ingredients, yet only a fraction of these experimental recipes gained sufficient traction with the regular clientele. > 주인은 유기농 재료를 사용하여 여러 새로운 음료 옵션을 도입했지만, 이러한 실험적 레시피 중 일부만 정기 고객들에게 충분한 인기를 얻었어.
 
-88. Managing inventory for a busy café requires balancing an enormous quantity of consumable supplies while minimizing waste—a challenge complicated by unpredictable demand fluctuations.
-> [!note]- 해석
-> 바쁜 카페의 재고를 관리하려면 엄청난 양의 소모품 균형을 맞추면서 동시에 낭비를 최소화해야 해.
+88. Managing inventory for a busy café requires balancing an enormous quantity of consumable supplies while minimizing waste—a challenge complicated by unpredictable demand fluctuations. > 바쁜 카페의 재고를 관리하려면 엄청난 양의 소모품 균형을 맞추면서 동시에 낭비를 최소화해야 해.
 
 #### 3. 직장 (Workplace)
-89. The corporation distributed a substantial portion of its annual revenue toward employee benefits, though some divisions received considerably fewer resources compared to others.
-> [!note]- 해석
-> 회사는 연간 수익의 상당한 부분을 직원 혜택에 할당했지만, 일부 부서는 다른 부서에 비해 훨씬 적은 자원을 받았어.
+89. The corporation distributed a substantial portion of its annual revenue toward employee benefits, though some divisions received considerably fewer resources compared to others. > 회사는 연간 수익의 상당한 부분을 직원 혜택에 할당했지만, 일부 부서는 다른 부서에 비해 훨씬 적은 자원을 받았어.
 
-90. Project management requires meticulous attention to countless minute details, which is why experienced professionals insist on allocating adequate time for comprehensive planning phases.
-> [!note]- 해석
-> 프로젝트 관리는 수많은 세부 사항에 세심한 주의가 필요하므로, 경험 많은 전문가들은 포괄적인 계획 단계에 충분한 시간을 할당하기를 강력히 주장해.
+90. Project management requires meticulous attention to countless minute details, which is why experienced professionals insist on allocating adequate time for comprehensive planning phases. > 프로젝트 관리는 수많은 세부 사항에 세심한 주의가 필요하므로, 경험 많은 전문가들은 포괄적인 계획 단계에 충분한 시간을 할당하기를 강력히 주장해.
 
-91. Although the department handled multiple concurrent projects with limited personnel, their remarkable productivity demonstrated that effective collaboration could sometimes compensate for insufficient headcount.
-> [!note]- 해석
-> 부서가 제한된 인원으로 여러 동시 프로젝트를 처리했지만, 그들의 놀라운 생산성은 효과적인 협력이 때때로 부족한 인원을 보상할 수 있음을 보여줬어.
+91. Although the department handled multiple concurrent projects with limited personnel, their remarkable productivity demonstrated that effective collaboration could sometimes compensate for insufficient headcount. > 부서가 제한된 인원으로 여러 동시 프로젝트를 처리했지만, 그들의 놀라운 생산성은 효과적인 협력이 때때로 부족한 인원을 보상할 수 있음을 보여줬어.
 
-92. The executive team requested substantial increases in departmental budgets, yet the finance committee approved only modest allocations due to anticipated decreases in quarterly earnings.
-> [!note]- 해석
-> 경영진이 부서 예산의 상당한 증액을 요청했지만, 재정 위원회는 예상되는 분기 수익 감소로 인해 미미한 할당만 승인했어.
+92. The executive team requested substantial increases in departmental budgets, yet the finance committee approved only modest allocations due to anticipated decreases in quarterly earnings. > 경영진이 부서 예산의 상당한 증액을 요청했지만, 재정 위원회는 예상되는 분기 수익 감소로 인해 미미한 할당만 승인했어.
 
 #### 4. 쇼핑 (Shopping)
-93. While browsing the luxury boutique, I discovered an enormous selection of designer handbags, yet only a tiny number featured the sustainable materials I was specifically seeking.
-> [!note]- 해석
-> 럭셔리 부티크를 둘러보다가 엄청난 양의 디자이너 핸드백을 발견했지만, 극소수만 내가 찾던 지속 가능한 소재를 사용했어.
+93. While browsing the luxury boutique, I discovered an enormous selection of designer handbags, yet only a tiny number featured the sustainable materials I was specifically seeking. > 럭셔리 부티크를 둘러보다가 엄청난 양의 디자이너 핸드백을 발견했지만, 극소수만 내가 찾던 지속 가능한 소재를 사용했어.
 
-94. The department store's clearance section offered incredible bargains on hundreds of items, though experienced shoppers knew that many products were discontinued for good reasons related to quality.
-> [!note]- 해석
-> 백화점의 클리어런스 섹션은 수백 개 상품에 대한 놀라운 할인을 제공했지만, 경험 많은 쇼핑객들은 많은 제품이 품질 관련 좋은 이유로 단종되었다는 것을 알고 있었어.
+94. The department store's clearance section offered incredible bargains on hundreds of items, though experienced shoppers knew that many products were discontinued for good reasons related to quality. > 백화점의 클리어런스 섹션은 수백 개 상품에 대한 놀라운 할인을 제공했지만, 경험 많은 쇼핑객들은 많은 제품이 품질 관련 좋은 이유로 단종되었다는 것을 알고 있었어.
 
-95. Purchasing a vehicle requires evaluating an enormous number of variables including fuel efficiency, maintenance costs, and reliability ratings, which is why consumers should invest considerable time in research.
-> [!note]- 해석
-> 자동차를 구매하려면 연료 효율, 유지 보수 비용 및 신뢰성 등급을 포함한 엄청난 수의 변수를 평가해야 하므로, 소비자는 조사에 상당한 시간을 투자해야 해.
+95. Purchasing a vehicle requires evaluating an enormous number of variables including fuel efficiency, maintenance costs, and reliability ratings, which is why consumers should invest considerable time in research. > 자동차를 구매하려면 연료 효율, 유지 보수 비용 및 신뢰성 등급을 포함한 엄청난 수의 변수를 평가해야 하므로, 소비자는 조사에 상당한 시간을 투자해야 해.
 
-96. The mall's annual sales event attracted millions of shoppers seeking bargains, yet only a fraction of participants walked away with meaningful savings due to limited inventory per category.
-> [!note]- 해석
-> 쇼핑몰의 연간 판매 이벤트는 할인을 찾는 수백만 명의 쇼핑객을 끌어들였지만, 카테고리당 제한된 재고로 인해 참가자 중 극소수만 의미 있는 절약을 했어.
+96. The mall's annual sales event attracted millions of shoppers seeking bargains, yet only a fraction of participants walked away with meaningful savings due to limited inventory per category. > 쇼핑몰의 연간 판매 이벤트는 할인을 찾는 수백만 명의 쇼핑객을 끌어들였지만, 카테고리당 제한된 재고로 인해 참가자 중 극소수만 의미 있는 절약을 했어.
 
 #### 5. 전화 (Phone)
-97. Smartphone manufacturers invest tremendous capital into developing sophisticated technology, though consumers often overlook the subtle improvements because they're accustomed to rapid iteration cycles.
-> [!note]- 해석
-> 스마트폰 제조업체는 정교한 기술 개발에 엄청난 자본을 투자하지만, 소비자들은 빠른 반복 주기에 익숙해서 미묘한 개선을 간과하는 경우가 많아.
+97. Smartphone manufacturers invest tremendous capital into developing sophisticated technology, though consumers often overlook the subtle improvements because they're accustomed to rapid iteration cycles. > 스마트폰 제조업체는 정교한 기술 개발에 엄청난 자본을 투자하지만, 소비자들은 빠른 반복 주기에 익숙해서 미묘한 개선을 간과하는 경우가 많아.
 
-98. Cybersecurity experts warn that an alarming number of individuals neglect to update software regularly, leaving their devices vulnerable to countless threats that could compromise sensitive personal information.
-> [!note]- 해석
-> 사이버 보안 전문가들은 많은 개인이 소프트웨어를 정기적으로 업데이트하지 않아, 민감한 개인 정보를 손상시킬 수 있는 수많은 위협에 노출되어 있다고 경고해.
+98. Cybersecurity experts warn that an alarming number of individuals neglect to update software regularly, leaving their devices vulnerable to countless threats that could compromise sensitive personal information. > 사이버 보안 전문가들은 많은 개인이 소프트웨어를 정기적으로 업데이트하지 않아, 민감한 개인 정보를 손상시킬 수 있는 수많은 위협에 노출되어 있다고 경고해.
 
-99. While cloud storage offers virtually unlimited capacity, practical users understand that managing an enormous amount of data requires implementing sophisticated organizational systems and backup protocols.
-> [!note]- 해석
-> 클라우드 스토리지는 거의 무제한의 용량을 제공하지만, 현실적인 사용자들은 엄청난 양의 데이터를 관리하려면 정교한 조직 시스템과 백업 프로토콜을 구현해야 한다는 것을 알아.
+99. While cloud storage offers virtually unlimited capacity, practical users understand that managing an enormous amount of data requires implementing sophisticated organizational systems and backup protocols. > 클라우드 스토리지는 거의 무제한의 용량을 제공하지만, 현실적인 사용자들은 엄청난 양의 데이터를 관리하려면 정교한 조직 시스템과 백업 프로토콜을 구현해야 한다는 것을 알아.
 
-100. The telecommunications company processed billions of data packets daily, yet infrastructure limitations meant that even minor service disruptions could affect millions of subscribers simultaneously.
-> [!note]- 해석
-> 통신 회사는 매일 수십억 개의 데이터 패킷을 처리했지만, 인프라 제한으로 인해 사소한 서비스 중단도 동시에 수백만 명의 가입자에게 영향을 미칠 수 있었어.
+100. The telecommunications company processed billions of data packets daily, yet infrastructure limitations meant that even minor service disruptions could affect millions of subscribers simultaneously. > 통신 회사는 매일 수십억 개의 데이터 패킷을 처리했지만, 인프라 제한으로 인해 사소한 서비스 중단도 동시에 수백만 명의 가입자에게 영향을 미칠 수 있었어.
 
 #### 6. 친구 (Friends)
-101. Maintaining meaningful friendships requires dedicating a considerable amount of emotional energy, which explains why many people struggle to sustain deeper connections beyond a handful of truly close confidants.
-> [!note]- 해석
-> 의미 있는 우정을 유지하려면 상당한 양의 감정 에너지를 투자해야 하므로, 많은 사람들이 정말 친한 친구들보다 더 깊은 관계를 유지하기 위해 고군분투하는 이유를 설명해.
+101. Maintaining meaningful friendships requires dedicating a considerable amount of emotional energy, which explains why many people struggle to sustain deeper connections beyond a handful of truly close confidants. > 의미 있는 우정을 유지하려면 상당한 양의 감정 에너지를 투자해야 하므로, 많은 사람들이 정말 친한 친구들보다 더 깊은 관계를 유지하기 위해 고군분투하는 이유를 설명해.
 
-102. Despite the social media's promise of unlimited connectivity, users often discover that accumulating thousands of online "friends" doesn't necessarily create the profound sense of belonging they were seeking.
-> [!note]- 해석
-> 소셜 미디어가 무제한의 연결을 약속했음에도 불구하고, 사용자들은 수천 명의 온라인 "친구"를 모으는 것이 반드시 그들이 찾던 심오한 소속감을 만들지 못한다는 것을 발견해.
+102. Despite the social media's promise of unlimited connectivity, users often discover that accumulating thousands of online "friends" doesn't necessarily create the profound sense of belonging they were seeking. > 소셜 미디어가 무제한의 연결을 약속했음에도 불구하고, 사용자들은 수천 명의 온라인 "친구"를 모으는 것이 반드시 그들이 찾던 심오한 소속감을 만들지 못한다는 것을 발견해.
 
-103. Organizing a reunion gathering for old college friends requires coordinating schedules across numerous time zones, which frequently results in compromising the original date to accommodate everyone's limited availability.
-> [!note]- 해석
-> 대학 친구들과의 재회를 조직하려면 여러 시간대의 일정을 조율해야 하므로, 자주 모든 사람의 제한된 가용성을 수용하기 위해 원래 날짜를 타협하게 돼.
+103. Organizing a reunion gathering for old college friends requires coordinating schedules across numerous time zones, which frequently results in compromising the original date to accommodate everyone's limited availability. > 대학 친구들과의 재회를 조직하려면 여러 시간대의 일정을 조율해야 하므로, 자주 모든 사람의 제한된 가용성을 수용하기 위해 원래 날짜를 타협하게 돼.
 
-104. Friendship dynamics can shift unpredictably when individuals undergo significant life transitions, despite the substantial effort both parties might invest to preserve connections forged during earlier periods.
-> [!note]- 해석
-> 우정의 역학은 개인이 중대한 인생 전환을 겪을 때 예측 불가능하게 변할 수 있으며, 양 당사자가 이전 시기에 형성된 관계를 보존하기 위해 투자할 수 있는 상당한 노력에도 불구하고.
+104. Friendship dynamics can shift unpredictably when individuals undergo significant life transitions, despite the substantial effort both parties might invest to preserve connections forged during earlier periods. > 우정의 역학은 개인이 중대한 인생 전환을 겪을 때 예측 불가능하게 변할 수 있으며, 양 당사자가 이전 시기에 형성된 관계를 보존하기 위해 투자할 수 있는 상당한 노력에도 불구하고.
 
 #### 7. 식당 (Restaurant)
-105. Fine dining establishments maintain exceptionally high standards by sourcing premium ingredients in meticulous quantities while simultaneously managing complex kitchen operations involving hundreds of precise, interdependent steps.
-> [!note]- 해석
-> 고급 식당은 엄격한 양으로 최고급 재료를 조달하면서 동시에 수백 개의 정확하고 상호 의존적인 단계를 포함하는 복잡한 주방 작업을 관리하여 매우 높은 표준을 유지해.
+105. Fine dining establishments maintain exceptionally high standards by sourcing premium ingredients in meticulous quantities while simultaneously managing complex kitchen operations involving hundreds of precise, interdependent steps. > 고급 식당은 엄격한 양으로 최고급 재료를 조달하면서 동시에 수백 개의 정확하고 상호 의존적인 단계를 포함하는 복잡한 주방 작업을 관리하여 매우 높은 표준을 유지해.
 
-106. The chef's innovative tasting menu incorporated an astonishing variety of ingredients from around the globe, though critics noted that excessive complexity sometimes overshadowed the individual flavor profiles of certain carefully selected components.
-> [!note]- 해석
-> 셰프의 혁신적인 테이스팅 메뉴는 전 세계에서 온 놀라운 다양한 재료를 포함했지만, 평론가들은 과도한 복잡성이 때때로 신중하게 선택된 특정 성분의 개별 풍미 프로필을 가렸다고 지적했어.
+106. The chef's innovative tasting menu incorporated an astonishing variety of ingredients from around the globe, though critics noted that excessive complexity sometimes overshadowed the individual flavor profiles of certain carefully selected components. > 셰프의 혁신적인 테이스팅 메뉴는 전 세계에서 온 놀라운 다양한 재료를 포함했지만, 평론가들은 과도한 복잡성이 때때로 신중하게 선택된 특정 성분의 개별 풍미 프로필을 가렸다고 지적했어.
 
-107. Operating a successful restaurant demands managing an enormous inventory of perishable goods while simultaneously coordinating with delivery suppliers, accounting for substantial seasonal fluctuations in customer demand.
-> [!note]- 해석
-> 성공적인 레스토랑을 운영하려면 엄청난 양의 부패하기 쉬운 상품을 관리하면서 동시에 고객 수요의 상당한 계절 변동을 고려하여 배송 공급업체와 조율해야 해.
+107. Operating a successful restaurant demands managing an enormous inventory of perishable goods while simultaneously coordinating with delivery suppliers, accounting for substantial seasonal fluctuations in customer demand. > 성공적인 레스토랑을 운영하려면 엄청난 양의 부패하기 쉬운 상품을 관리하면서 동시에 고객 수요의 상당한 계절 변동을 고려하여 배송 공급업체와 조율해야 해.
 
-108. The restaurant's commitment to sustainable sourcing required establishing relationships with numerous local farmers, yet limitations in seasonal availability sometimes forced menu modifications that disappointed customers expecting consistency.
-> [!note]- 해석
-> 레스토랑의 지속 가능한 소싱 약속은 많은 지역 농민과의 관계 구축을 필요로 했지만, 계절 가용성의 제한은 때때로 일관성을 기대하는 고객을 실망시킨 메뉴 수정을 강요했어.
+108. The restaurant's commitment to sustainable sourcing required establishing relationships with numerous local farmers, yet limitations in seasonal availability sometimes forced menu modifications that disappointed customers expecting consistency. > 레스토랑의 지속 가능한 소싱 약속은 많은 지역 농민과의 관계 구축을 필요로 했지만, 계절 가용성의 제한은 때때로 일관성을 기대하는 고객을 실망시킨 메뉴 수정을 강요했어.
 
 #### 8. 학교 (School)
-109. Educational institutions face mounting pressure to accommodate an exponentially growing student population while simultaneously maintaining adequate resources for each individual's learning needs—a paradox complicated by stagnant funding.
-> [!note]- 해석
-> 교육 기관은 기하급수적으로 증가하는 학생 수를 수용하면서 동시에 각 개인의 학습 필요를 위한 충분한 자원을 유지해야 한다는 증가하는 압박에 직면해 있어.
+109. Educational institutions face mounting pressure to accommodate an exponentially growing student population while simultaneously maintaining adequate resources for each individual's learning needs—a paradox complicated by stagnant funding. > 교육 기관은 기하급수적으로 증가하는 학생 수를 수용하면서 동시에 각 개인의 학습 필요를 위한 충분한 자원을 유지해야 한다는 증가하는 압박에 직면해 있어.
 
-110. Academic research requires investing substantial amounts of time reviewing copious amounts of literature while synthesizing diverse perspectives into coherent theoretical frameworks that advance disciplinary knowledge.
-> [!note]- 해석
-> 학술 연구는 많은 양의 문헌을 검토하는 데 상당한 시간을 투자하면서 다양한 관점을 학문적 지식을 진전시키는 일관된 이론적 틀로 통합해야 해.
+110. Academic research requires investing substantial amounts of time reviewing copious amounts of literature while synthesizing diverse perspectives into coherent theoretical frameworks that advance disciplinary knowledge. > 학술 연구는 많은 양의 문헌을 검토하는 데 상당한 시간을 투자하면서 다양한 관점을 학문적 지식을 진전시키는 일관된 이론적 틀로 통합해야 해.
 
-111. University administrations must balance numerous competing priorities—including infrastructure maintenance, faculty recruitment, and student support services—while wrestling with constant financial constraints that limit the scope of ambitious institutional initiatives.
-> [!note]- 해석
-> 대학 행정부는 인프라 유지 보수, 교직원 채용 및 학생 지원 서비스를 포함한 수많은 경쟁 우선순위의 균형을 맞춰야 하면서, 야심 찬 기관 이니셔티브의 범위를 제한하는 지속적인 재정 제약으로 씨름해야 해.
+111. University administrations must balance numerous competing priorities—including infrastructure maintenance, faculty recruitment, and student support services—while wrestling with constant financial constraints that limit the scope of ambitious institutional initiatives. > 대학 행정부는 인프라 유지 보수, 교직원 채용 및 학생 지원 서비스를 포함한 수많은 경쟁 우선순위의 균형을 맞춰야 하면서, 야심 찬 기관 이니셔티브의 범위를 제한하는 지속적인 재정 제약으로 씨름해야 해.
 
-112. Curriculum development demands extensive collaboration between educators with diverse expertise, yet the process of establishing consensus on content priorities often proves exceptionally challenging when institutional philosophies diverge significantly.
-> [!note]- 해석
-> 커리큘럼 개발은 다양한 전문 지식을 가진 교육자들 간의 광범위한 협력을 요구하지만, 기관 철학이 크게 다를 때 내용 우선순위에 대한 합의를 이루는 과정은 예외적으로 어려운 경우가 많아.
+112. Curriculum development demands extensive collaboration between educators with diverse expertise, yet the process of establishing consensus on content priorities often proves exceptionally challenging when institutional philosophies diverge significantly. > 커리큘럼 개발은 다양한 전문 지식을 가진 교육자들 간의 광범위한 협력을 요구하지만, 기관 철학이 크게 다를 때 내용 우선순위에 대한 합의를 이루는 과정은 예외적으로 어려운 경우가 많아.
 
 #### 9. 여행 (Travel)
-113. International travel demands navigating an intricate web of visa requirements, documentation procedures, and regulatory frameworks that vary dramatically across jurisdictions, requiring meticulous attention to seemingly countless bureaucratic requirements.
-> [!note]- 해석
-> 국제 여행은 관할권마다 크게 다르며, 수많은 관료적 요구 사항에 세심한 주의가 필요한 비자 요구 사항, 문서 절차 및 규제 체계의 복잡한 웹을 탐색해야 해.
+113. International travel demands navigating an intricate web of visa requirements, documentation procedures, and regulatory frameworks that vary dramatically across jurisdictions, requiring meticulous attention to seemingly countless bureaucratic requirements. > 국제 여행은 관할권마다 크게 다르며, 수많은 관료적 요구 사항에 세심한 주의가 필요한 비자 요구 사항, 문서 절차 및 규제 체계의 복잡한 웹을 탐색해야 해.
 
-114. Backpackers often accumulate substantial collections of travel stories and photographs, though the inevitable challenge of organizing such enormous quantities of memories frequently discourages systematic documentation efforts.
-> [!note]- 해석
-> 배낭여행자들은 종종 여행 이야기와 사진의 상당한 컬렉션을 축적하지만, 그러한 엄청난 양의 추억을 정리해야 하는 불가피한 도전은 체계적인 문서화 노력을 자주 저해해.
+114. Backpackers often accumulate substantial collections of travel stories and photographs, though the inevitable challenge of organizing such enormous quantities of memories frequently discourages systematic documentation efforts. > 배낭여행자들은 종종 여행 이야기와 사진의 상당한 컬렉션을 축적하지만, 그러한 엄청난 양의 추억을 정리해야 하는 불가피한 도전은 체계적인 문서화 노력을 자주 저해해.
 
-115. Cruise companies operate massive floating cities accommodating thousands of passengers simultaneously, yet despite their enormous capacity, many travelers report experiencing substantial overcrowding during peak season sailings.
-> [!note]- 해석
-> 크루즈 회사는 동시에 수천 명의 승객을 수용하는 거대한 부유 도시를 운영하지만, 막대한 용량에도 불구하고 많은 여행객들이 성수기 항해 중에 상당한 혼잡을 경험한다고 보고해.
+115. Cruise companies operate massive floating cities accommodating thousands of passengers simultaneously, yet despite their enormous capacity, many travelers report experiencing substantial overcrowding during peak season sailings. > 크루즈 회사는 동시에 수천 명의 승객을 수용하는 거대한 부유 도시를 운영하지만, 막대한 용량에도 불구하고 많은 여행객들이 성수기 항해 중에 상당한 혼잡을 경험한다고 보고해.
 
-116. Sustainable tourism initiatives require addressing complicated tradeoffs between economic development priorities and environmental conservation imperatives, compelling communities to make nuanced decisions about resource allocation that will affect future generations.
-> [!note]- 해석
-> 지속 가능한 관광 이니셔티브는 경제 개발 우선순위와 환경 보전 명령 사이의 복잡한 절충을 해결해야 하므로, 지역사회가 미래 세대에 영향을 미칠 자원 배분에 대한 세밀한 결정을 내리도록 강요해.
+116. Sustainable tourism initiatives require addressing complicated tradeoffs between economic development priorities and environmental conservation imperatives, compelling communities to make nuanced decisions about resource allocation that will affect future generations. > 지속 가능한 관광 이니셔티브는 경제 개발 우선순위와 환경 보전 명령 사이의 복잡한 절충을 해결해야 하므로, 지역사회가 미래 세대에 영향을 미칠 자원 배분에 대한 세밀한 결정을 내리도록 강요해.
 
 #### 10. 병원 (Hospital)
-117. Modern healthcare systems must simultaneously manage countless patient records while maintaining rigorous data security protocols—a challenge magnified by exponentially increasing volumes of medical information generated through diagnostic technologies.
-> [!note]- 해석
-> 현대 의료 시스템은 동시에 수많은 환자 기록을 관리하면서 엄격한 데이터 보안 프로토콜을 유지해야 해.
+117. Modern healthcare systems must simultaneously manage countless patient records while maintaining rigorous data security protocols—a challenge magnified by exponentially increasing volumes of medical information generated through diagnostic technologies. > 현대 의료 시스템은 동시에 수많은 환자 기록을 관리하면서 엄격한 데이터 보안 프로토콜을 유지해야 해.
 
-118. Pharmaceutical development requires investing tremendous resources over extended periods while navigating intricate regulatory approval processes, explaining why innovative treatments often command substantial premium prices despite their revolutionary therapeutic potential.
-> [!note]- 해석
-> 제약 개발은 연장된 기간에 엄청난 자원을 투자하면서 복잡한 규제 승인 절차를 탐색해야 해.
+118. Pharmaceutical development requires investing tremendous resources over extended periods while navigating intricate regulatory approval processes, explaining why innovative treatments often command substantial premium prices despite their revolutionary therapeutic potential. > 제약 개발은 연장된 기간에 엄청난 자원을 투자하면서 복잡한 규제 승인 절차를 탐색해야 해.
 
-119. Hospital administrators struggle constantly to allocate limited beds and medical equipment among numerous competing departments while simultaneously responding to unpredictable patient admissions that frequently exceed capacity during crisis situations.
-> [!note]- 해석
-> 병원 관리자들은 수많은 경쟁하는 부서 사이에 제한된 침대와 의료 장비를 할당하려고 지속적으로 노력하면서 동시에 위기 상황에서 용량을 자주 초과하는 예측 불가능한 환자 입원에 대응해야 해.
+119. Hospital administrators struggle constantly to allocate limited beds and medical equipment among numerous competing departments while simultaneously responding to unpredictable patient admissions that frequently exceed capacity during crisis situations. > 병원 관리자들은 수많은 경쟁하는 부서 사이에 제한된 침대와 의료 장비를 할당하려고 지속적으로 노력하면서 동시에 위기 상황에서 용량을 자주 초과하는 예측 불가능한 환자 입원에 대응해야 해.
 
-120. Advancing medical research requires enormous financial investments alongside countless hours of meticulous laboratory work, which is why breakthrough discoveries remain exceptionally rare despite worldwide dedication to improving human health outcomes.
-> [!note]- 해석
-> 의료 연구를 발전시키려면 수많은 시간의 세심한 실험실 작업과 함께 엄청난 재정 투자가 필요하므로, 인간 건강 결과 개선에 대한 전 세계적 헌신에도 불구하고 획기적인 발견이 예외적으로 드문 이유를 설명해.
+120. Advancing medical research requires enormous financial investments alongside countless hours of meticulous laboratory work, which is why breakthrough discoveries remain exceptionally rare despite worldwide dedication to improving human health outcomes. > 의료 연구를 발전시키려면 수많은 시간의 세심한 실험실 작업과 함께 엄청난 재정 투자가 필요하므로, 인간 건강 결과 개선에 대한 전 세계적 헌신에도 불구하고 획기적인 발견이 예외적으로 드문 이유를 설명해.
 
 ---
 
----
-
-## ✏️ 빈칸 채우기 퀴즈
-
-> 예문 섹션과 중복 없는 새 문장 | 초급 6 / 중급 6 / 고급 6
-
+## 10. 연습문제 102개
 
 ### 10-1. 빈칸 채우기 (18문제)
 
@@ -1621,9 +1370,7 @@ a piece of furniture (가산화) = "가구 하나"
 
 ---
 
----
-
-## 📝 학습 정리
+## 11. 복습 워크북
 
 ### 빠른 자가 테스트 10문제
 
@@ -1683,8 +1430,7 @@ a piece of furniture (가산화) = "가구 하나"
 
 ---
 
-
-### ✅ 마스터 체크리스트
+## 12. 마스터 체크리스트
 
 ### 자기 진단: 아래 항목을 모두 체크할 수 있으면 마스터!
 
@@ -1750,12 +1496,7 @@ a piece of furniture (가산화) = "가구 하나"
 
 ---
 
----
-
-## 🎬 추천 유튜브
-
-> 한국인 유튜버가 운영하는 영어 문법 채널. 유튜브에서 "채널명 + 문법명"으로 검색하세요.
-
+## 추천 학습 자료
 
 ### YouTube 채널
 1. **라이브 아카데미** - 실용 영어 회화
@@ -1767,4 +1508,3 @@ a piece of furniture (가산화) = "가구 하나"
 ---
 
 *총 120 예문 | 102 연습문제 | 10개 상황 × 3단계 난이도*
-

@@ -1,10 +1,24 @@
-# 관계절 (Relative Clauses)
+# Relative Clauses (관계절) 완전정복
 
 ---
 
-## 📖 문법 설명
+## 목차
+- [[#1. 핵심 공식]]
+- [[#2. 왜 이 문법이 존재하는가]]
+- [[#3. 기본 형태 & 구조]]
+- [[#4. 핵심 용법]]
+- [[#5. Defining vs Non-defining]]
+- [[#6. 관계대명사 선택 규칙]]
+- [[#7. 한국인 오류 TOP 5]]
+- [[#8. 고급 뉘앙스 & 원어민 패턴]]
+- [[#9. 핵심 예문 120선]]
+- [[#10. 연습문제 102개]]
+- [[#11. 복습 워크북]]
+- [[#12. 마스터 체크리스트]]
 
-### 1. 핵심 개념
+---
+
+## 1. 핵심 공식
 
 ### 관계대명사 선택 규칙 한 줄 요약
 
@@ -28,7 +42,7 @@
 
 ---
 
-### 2. 왜 이 문법이 존재하는가
+## 2. 왜 이 문법이 존재하는가
 
 ### 정보의 경제성과 문장의 자연스러움
 
@@ -50,7 +64,7 @@
 
 ---
 
-### 3. 기본 형태 & 구조
+## 3. 기본 형태 & 구조
 
 ### 3.1 기본 패턴
 
@@ -86,7 +100,7 @@ My brother, who called you yesterday, is a doctor.
 
 ---
 
-### 4. 핵심 용법
+## 4. 핵심 용법
 
 ### 4.1 Subject Relative Clause (주어 역할)
 
@@ -151,7 +165,7 @@ The country in which they live is beautiful.
 
 ---
 
-### 5. Defining vs Non-defining
+## 5. Defining vs Non-defining
 
 ### 5.1 의미의 차이
 
@@ -194,7 +208,7 @@ Non-defining: The children, who like chocolate, received a treat.
 
 ---
 
-### 6. 관계대명사 선택 규칙
+## 6. 관계대명사 선택 규칙
 
 ### 6.1 기본 선택 규칙
 
@@ -240,7 +254,7 @@ The man (that/who) I met was kind. (✓)
 
 ---
 
-### 7. 한국인 오류 TOP 5
+## 7. 한국인 오류 TOP 5
 
 ### 1. which 과잉 사용 (사람에게 which)
 ❌ The teacher which taught me was kind.
@@ -266,7 +280,7 @@ The man (that/who) I met was kind. (✓)
 
 ---
 
-### 8. 고급 뉘앙스 & 원어민 패턴
+## 8. 고급 뉘앙스 & 원어민 패턴
 
 ### 8.1 구어에서의 관계절
 
@@ -303,496 +317,231 @@ The man (that/who) I met was kind. (✓)
 
 ---
 
----
+## 9. 핵심 예문 120선
 
-
-## 🎧 예문 — 초급 (Beginner)
-
-![[relative-clauses-beginner.mp3]]
-
-> 3~8단어 | 기본 형태 | 고빈도 동사 | 점진적 복잡도 상승
-
+### 초급 (Beginner) - 40문장
 
 #### 집 (Home)
-1. The man who called is my dad.
-> [!note]- 해석
-> 전화한 남자는 우리 아빠야.
-2. I like the room which has big windows.
-> [!note]- 해석
-> 나는 큰 창문이 있는 방이 좋아.
-3. The cat that sleeps on my bed is lazy.
-> [!note]- 해석
-> 내 침대에서 자는 고양이는 게을러.
-4. She's the neighbor who lives next door.
-> [!note]- 해석
-> 그녀는 옆집에 사는 이웃이야.
+1. The man who called is my dad. > 전화한 남자는 우리 아빠야.
+2. I like the room which has big windows. > 나는 큰 창문이 있는 방이 좋아.
+3. The cat that sleeps on my bed is lazy. > 내 침대에서 자는 고양이는 게을러.
+4. She's the neighbor who lives next door. > 그녀는 옆집에 사는 이웃이야.
 
 #### 카페 (Cafe)
-5. The coffee which I ordered is cold.
-> [!note]- 해석
-> 내가 주문한 커피가 차가워.
-6. He's the barista who makes great lattes.
-> [!note]- 해석
-> 그는 라떼를 잘 만드는 바리스타야.
-7. The table that we chose is near the window.
-> [!note]- 해석
-> 우리가 고른 테이블은 창가 근처야.
-8. I know the girl who works here.
-> [!note]- 해석
-> 나는 여기서 일하는 여자를 알아.
+5. The coffee which I ordered is cold. > 내가 주문한 커피가 차가워.
+6. He's the barista who makes great lattes. > 그는 라떼를 잘 만드는 바리스타야.
+7. The table that we chose is near the window. > 우리가 고른 테이블은 창가 근처야.
+8. I know the girl who works here. > 나는 여기서 일하는 여자를 알아.
 
 #### 직장 (Work)
-9. The boss who hired me is kind.
-> [!note]- 해석
-> 나를 고용한 사장님은 친절해.
-10. This is the project that I finished.
-> [!note]- 해석
-> 이게 내가 끝낸 프로젝트야.
-11. The team which won got a bonus.
-> [!note]- 해석
-> 이긴 팀은 보너스를 받았어.
-12. She's the manager who runs our department.
-> [!note]- 해석
-> 그녀는 우리 부서를 운영하는 매니저야.
+9. The boss who hired me is kind. > 나를 고용한 사장님은 친절해.
+10. This is the project that I finished. > 이게 내가 끝낸 프로젝트야.
+11. The team which won got a bonus. > 이긴 팀은 보너스를 받았어.
+12. She's the manager who runs our department. > 그녀는 우리 부서를 운영하는 매니저야.
 
 #### 쇼핑 (Shopping)
-13. The dress that I want is expensive.
-> [!note]- 해석
-> 내가 원하는 드레스는 비싸.
-14. He's the clerk who helped me.
-> [!note]- 해석
-> 그는 나를 도와준 점원이야.
-15. The store which sells shoes is closed.
-> [!note]- 해석
-> 신발을 파는 가게는 문 닫았어.
-16. I found the bag that I lost.
-> [!note]- 해석
-> 잃어버린 가방을 찾았어.
+13. The dress that I want is expensive. > 내가 원하는 드레스는 비싸.
+14. He's the clerk who helped me. > 그는 나를 도와준 점원이야.
+15. The store which sells shoes is closed. > 신발을 파는 가게는 문 닫았어.
+16. I found the bag that I lost. > 잃어버린 가방을 찾았어.
 
 #### 전화 (Phone)
-17. The person who texted me is my mom.
-> [!note]- 해석
-> 문자 보낸 사람은 우리 엄마야.
-18. The app that I use is free.
-> [!note]- 해석
-> 내가 쓰는 앱은 무료야.
-19. He's the friend who always calls late.
-> [!note]- 해석
-> 그는 항상 늦게 전화하는 친구야.
-20. The number which you dialed is wrong.
-> [!note]- 해석
-> 네가 건 번호는 틀렸어.
+17. The person who texted me is my mom. > 문자 보낸 사람은 우리 엄마야.
+18. The app that I use is free. > 내가 쓰는 앱은 무료야.
+19. He's the friend who always calls late. > 그는 항상 늦게 전화하는 친구야.
+20. The number which you dialed is wrong. > 네가 건 번호는 틀렸어.
 
 #### 친구 (Friends)
-21. She's the friend who moved to Seoul.
-> [!note]- 해석
-> 그녀는 서울로 이사한 친구야.
-22. The gift that I got is amazing.
-> [!note]- 해석
-> 내가 받은 선물은 놀라워.
-23. He's the guy who plays guitar well.
-> [!note]- 해석
-> 그는 기타를 잘 치는 사람이야.
-24. The party which she planned was fun.
-> [!note]- 해석
-> 그녀가 계획한 파티는 재미있었어.
+21. She's the friend who moved to Seoul. > 그녀는 서울로 이사한 친구야.
+22. The gift that I got is amazing. > 내가 받은 선물은 놀라워.
+23. He's the guy who plays guitar well. > 그는 기타를 잘 치는 사람이야.
+24. The party which she planned was fun. > 그녀가 계획한 파티는 재미있었어.
 
 #### 식당 (Restaurant)
-25. The waiter who served us was polite.
-> [!note]- 해석
-> 우리를 서빙한 웨이터는 예의 발랐어.
-26. The food that we ate was delicious.
-> [!note]- 해석
-> 우리가 먹은 음식은 맛있었어.
-27. This is the place which I recommended.
-> [!note]- 해석
-> 여기가 내가 추천한 곳이야.
-28. The chef who cooks here is famous.
-> [!note]- 해석
-> 여기서 요리하는 셰프는 유명해.
+25. The waiter who served us was polite. > 우리를 서빙한 웨이터는 예의 발랐어.
+26. The food that we ate was delicious. > 우리가 먹은 음식은 맛있었어.
+27. This is the place which I recommended. > 여기가 내가 추천한 곳이야.
+28. The chef who cooks here is famous. > 여기서 요리하는 셰프는 유명해.
 
 #### 학교 (School)
-29. The teacher who taught me was strict.
-> [!note]- 해석
-> 나를 가르친 선생님은 엄격했어.
-30. The book that I read was boring.
-> [!note]- 해석
-> 내가 읽은 책은 지루했어.
-31. She's the student who studies hardest.
-> [!note]- 해석
-> 그녀는 가장 열심히 공부하는 학생이야.
-32. The class which starts at 9 is full.
-> [!note]- 해석
-> 9시에 시작하는 수업은 꽉 찼어.
+29. The teacher who taught me was strict. > 나를 가르친 선생님은 엄격했어.
+30. The book that I read was boring. > 내가 읽은 책은 지루했어.
+31. She's the student who studies hardest. > 그녀는 가장 열심히 공부하는 학생이야.
+32. The class which starts at 9 is full. > 9시에 시작하는 수업은 꽉 찼어.
 
 #### 여행 (Travel)
-33. The hotel that we booked looks nice.
-> [!note]- 해석
-> 우리가 예약한 호텔은 좋아 보여.
-34. He's the guide who showed us around.
-> [!note]- 해석
-> 그는 우리를 안내해 준 가이드야.
-35. The flight which leaves at noon is delayed.
-> [!note]- 해석
-> 정오에 떠나는 비행기가 지연됐어.
-36. I met a tourist who spoke Korean.
-> [!note]- 해석
-> 한국어를 하는 관광객을 만났어.
+33. The hotel that we booked looks nice. > 우리가 예약한 호텔은 좋아 보여.
+34. He's the guide who showed us around. > 그는 우리를 안내해 준 가이드야.
+35. The flight which leaves at noon is delayed. > 정오에 떠나는 비행기가 지연됐어.
+36. I met a tourist who spoke Korean. > 한국어를 하는 관광객을 만났어.
 
 #### 병원 (Hospital)
-37. The doctor who treated me was gentle.
-> [!note]- 해석
-> 나를 치료한 의사는 부드러웠어.
-38. The medicine that I take helps a lot.
-> [!note]- 해석
-> 내가 먹는 약이 많이 도움 돼.
-39. She's the nurse who checked my blood.
-> [!note]- 해석
-> 그녀는 내 피를 검사한 간호사야.
-40. The clinic which opened recently is busy.
-> [!note]- 해석
-> 최근에 문 연 병원은 바빠.
+37. The doctor who treated me was gentle. > 나를 치료한 의사는 부드러웠어.
+38. The medicine that I take helps a lot. > 내가 먹는 약이 많이 도움 돼.
+39. She's the nurse who checked my blood. > 그녀는 내 피를 검사한 간호사야.
+40. The clinic which opened recently is busy. > 최근에 문 연 병원은 바빠.
 
 ---
 
----
-
-## 🎧 예문 — 중급 (Intermediate)
-
-![[relative-clauses-intermediate.mp3]]
-
-> 8~15단어 | 부사/시간표현 | 자연스러운 회화체 | 점진적 복잡도 상승
-
+### 중급 (Intermediate) - 40문장
 
 #### 집 (Home)
-41. The neighbor whose dog barks all night is really annoying.
-> [!note]- 해석
-> 밤새 개가 짖는 이웃은 정말 짜증나.
-42. This is the house in which my grandmother grew up.
-> [!note]- 해석
-> 이곳은 우리 할머니가 자란 집이야.
-43. The plumber whom we called yesterday hasn't arrived yet.
-> [!note]- 해석
-> 우리가 어제 부른 배관공이 아직 안 왔어.
-44. I remember the day when we first moved into this apartment.
-> [!note]- 해석
-> 우리가 처음 이 아파트에 이사 온 날이 기억나.
+41. The neighbor whose dog barks all night is really annoying. > 밤새 개가 짖는 이웃은 정말 짜증나.
+42. This is the house in which my grandmother grew up. > 이곳은 우리 할머니가 자란 집이야.
+43. The plumber whom we called yesterday hasn't arrived yet. > 우리가 어제 부른 배관공이 아직 안 왔어.
+44. I remember the day when we first moved into this apartment. > 우리가 처음 이 아파트에 이사 온 날이 기억나.
 
 #### 카페 (Cafe)
-45. The cafe where we used to meet has unfortunately closed down.
-> [!note]- 해석
-> 우리가 만나곤 했던 카페가 안타깝게도 문을 닫았어.
-46. She's the customer whose order got mixed up this morning.
-> [!note]- 해석
-> 그녀는 오늘 아침 주문이 섞인 손님이야.
-47. The reason why I love this place is the cozy atmosphere.
-> [!note]- 해석
-> 내가 이 곳을 좋아하는 이유는 아늑한 분위기야.
-48. The mug from which I'm drinking was a birthday present.
-> [!note]- 해석
-> 내가 마시고 있는 머그는 생일 선물이었어.
+45. The cafe where we used to meet has unfortunately closed down. > 우리가 만나곤 했던 카페가 안타깝게도 문을 닫았어.
+46. She's the customer whose order got mixed up this morning. > 그녀는 오늘 아침 주문이 섞인 손님이야.
+47. The reason why I love this place is the cozy atmosphere. > 내가 이 곳을 좋아하는 이유는 아늑한 분위기야.
+48. The mug from which I'm drinking was a birthday present. > 내가 마시고 있는 머그는 생일 선물이었어.
 
 #### 직장 (Work)
-49. The colleague with whom I share an office is very organized.
-> [!note]- 해석
-> 나와 사무실을 함께 쓰는 동료는 매우 체계적이야.
-50. This is the moment when I realized I needed a new job.
-> [!note]- 해석
-> 이때가 내가 새 직장이 필요하다고 깨달은 순간이야.
-51. The intern whose presentation impressed everyone got promoted.
-> [!note]- 해석
-> 발표가 모두에게 인상 깊었던 인턴이 승진했어.
-52. The conference room where we hold meetings is being renovated.
-> [!note]- 해석
-> 우리가 회의하는 회의실이 리모델링 중이야.
+49. The colleague with whom I share an office is very organized. > 나와 사무실을 함께 쓰는 동료는 매우 체계적이야.
+50. This is the moment when I realized I needed a new job. > 이때가 내가 새 직장이 필요하다고 깨달은 순간이야.
+51. The intern whose presentation impressed everyone got promoted. > 발표가 모두에게 인상 깊었던 인턴이 승진했어.
+52. The conference room where we hold meetings is being renovated. > 우리가 회의하는 회의실이 리모델링 중이야.
 
 #### 쇼핑 (Shopping)
-53. The customer whose credit card was declined looked embarrassed.
-> [!note]- 해석
-> 신용카드가 거절된 손님은 당황해 보였어.
-54. This is the mall in which I spent most of my teenage years.
-> [!note]- 해석
-> 이곳은 내가 십대 시절 대부분을 보낸 쇼핑몰이야.
-55. The brand for which I've been waiting finally released new products.
-> [!note]- 해석
-> 내가 기다리던 브랜드가 드디어 신제품을 출시했어.
-56. I can't find the receipt without which I can't get a refund.
-> [!note]- 해석
-> 영수증이 없으면 환불을 못 받는데 찾을 수가 없어.
+53. The customer whose credit card was declined looked embarrassed. > 신용카드가 거절된 손님은 당황해 보였어.
+54. This is the mall in which I spent most of my teenage years. > 이곳은 내가 십대 시절 대부분을 보낸 쇼핑몰이야.
+55. The brand for which I've been waiting finally released new products. > 내가 기다리던 브랜드가 드디어 신제품을 출시했어.
+56. I can't find the receipt without which I can't get a refund. > 영수증이 없으면 환불을 못 받는데 찾을 수가 없어.
 
 #### 전화 (Phone)
-57. The person to whom you should speak is currently unavailable.
-> [!note]- 해석
-> 당신이 통화해야 할 분은 현재 부재중이에요.
-58. She lost the phone on which all her photos were stored.
-> [!note]- 해석
-> 그녀는 모든 사진이 저장된 폰을 잃어버렸어.
-59. The time when you can reach me is usually after 6 PM.
-> [!note]- 해석
-> 나한테 연락할 수 있는 시간은 보통 오후 6시 이후야.
-60. The caller whose voice I didn't recognize hung up immediately.
-> [!note]- 해석
-> 목소리를 알아보지 못한 발신자가 바로 끊었어.
+57. The person to whom you should speak is currently unavailable. > 당신이 통화해야 할 분은 현재 부재중이에요.
+58. She lost the phone on which all her photos were stored. > 그녀는 모든 사진이 저장된 폰을 잃어버렸어.
+59. The time when you can reach me is usually after 6 PM. > 나한테 연락할 수 있는 시간은 보통 오후 6시 이후야.
+60. The caller whose voice I didn't recognize hung up immediately. > 목소리를 알아보지 못한 발신자가 바로 끊었어.
 
 #### 친구 (Friends)
-61. My best friend, whose wedding is next month, seems really nervous.
-> [!note]- 해석
-> 다음 달 결혼하는 내 절친이 정말 긴장해 보여.
-62. The park where we always played as kids is now a parking lot.
-> [!note]- 해석
-> 우리가 어릴 때 항상 놀던 공원이 이제 주차장이야.
-63. He's someone with whom I can discuss anything without judgment.
-> [!note]- 해석
-> 그는 내가 판단 없이 무엇이든 이야기할 수 있는 사람이야.
-64. The reason why she got upset is still unclear to me.
-> [!note]- 해석
-> 그녀가 화난 이유가 아직도 나한테는 불분명해.
+61. My best friend, whose wedding is next month, seems really nervous. > 다음 달 결혼하는 내 절친이 정말 긴장해 보여.
+62. The park where we always played as kids is now a parking lot. > 우리가 어릴 때 항상 놀던 공원이 이제 주차장이야.
+63. He's someone with whom I can discuss anything without judgment. > 그는 내가 판단 없이 무엇이든 이야기할 수 있는 사람이야.
+64. The reason why she got upset is still unclear to me. > 그녀가 화난 이유가 아직도 나한테는 불분명해.
 
 #### 식당 (Restaurant)
-65. The restaurant where I had my first date is closing this month.
-> [!note]- 해석
-> 내가 첫 데이트를 했던 식당이 이번 달에 문을 닫아.
-66. The critic whose review destroyed the restaurant was proven wrong.
-> [!note]- 해석
-> 그 식당을 혹평한 비평가가 틀렸다는 게 증명됐어.
-67. The dish for which this place is famous is the spicy seafood stew.
-> [!note]- 해석
-> 이 곳이 유명한 요리는 매운 해물찌개야.
-68. I forgot the name of the server from whom I ordered dessert.
-> [!note]- 해석
-> 내가 디저트를 주문한 서버 이름을 잊어버렸어.
+65. The restaurant where I had my first date is closing this month. > 내가 첫 데이트를 했던 식당이 이번 달에 문을 닫아.
+66. The critic whose review destroyed the restaurant was proven wrong. > 그 식당을 혹평한 비평가가 틀렸다는 게 증명됐어.
+67. The dish for which this place is famous is the spicy seafood stew. > 이 곳이 유명한 요리는 매운 해물찌개야.
+68. I forgot the name of the server from whom I ordered dessert. > 내가 디저트를 주문한 서버 이름을 잊어버렸어.
 
 #### 학교 (School)
-69. The professor whose class I failed turned out to be quite helpful.
-> [!note]- 해석
-> 내가 낙제한 수업의 교수님이 알고 보니 꽤 도움이 됐어.
-70. The library where students often fall asleep is open 24 hours.
-> [!note]- 해석
-> 학생들이 자주 잠드는 도서관은 24시간 열려 있어.
-71. The assignment on which I worked all night got an A+.
-> [!note]- 해석
-> 내가 밤새 작업한 과제가 A+를 받았어.
-72. This is the year when everything started making sense academically.
-> [!note]- 해석
-> 이 해가 학문적으로 모든 게 이해되기 시작한 때야.
+69. The professor whose class I failed turned out to be quite helpful. > 내가 낙제한 수업의 교수님이 알고 보니 꽤 도움이 됐어.
+70. The library where students often fall asleep is open 24 hours. > 학생들이 자주 잠드는 도서관은 24시간 열려 있어.
+71. The assignment on which I worked all night got an A+. > 내가 밤새 작업한 과제가 A+를 받았어.
+72. This is the year when everything started making sense academically. > 이 해가 학문적으로 모든 게 이해되기 시작한 때야.
 
 #### 여행 (Travel)
-73. The country in which I felt most welcome was definitely Japan.
-> [!note]- 해석
-> 가장 환대받는다고 느낀 나라는 확실히 일본이었어.
-74. My travel buddy, whose passport expired, couldn't join the trip.
-> [!note]- 해석
-> 여권이 만료된 내 여행 친구가 여행에 합류하지 못했어.
-75. The hostel where we stayed offered free breakfast every morning.
-> [!note]- 해석
-> 우리가 묵은 호스텔은 매일 아침 무료 조식을 제공했어.
-76. The tour guide to whom we gave a generous tip was grateful.
-> [!note]- 해석
-> 우리가 팁을 넉넉히 준 투어 가이드가 고마워했어.
+73. The country in which I felt most welcome was definitely Japan. > 가장 환대받는다고 느낀 나라는 확실히 일본이었어.
+74. My travel buddy, whose passport expired, couldn't join the trip. > 여권이 만료된 내 여행 친구가 여행에 합류하지 못했어.
+75. The hostel where we stayed offered free breakfast every morning. > 우리가 묵은 호스텔은 매일 아침 무료 조식을 제공했어.
+76. The tour guide to whom we gave a generous tip was grateful. > 우리가 팁을 넉넉히 준 투어 가이드가 고마워했어.
 
 #### 병원 (Hospital)
-77. The surgeon whose hands never shake performed my father's operation.
-> [!note]- 해석
-> 손이 절대 떨리지 않는 외과의사가 아버지 수술을 집도했어.
-78. The waiting room where patients sit for hours desperately needs renovation.
-> [!note]- 해석
-> 환자들이 몇 시간씩 앉아있는 대기실은 절실히 리모델링이 필요해.
-79. The medication for which I need a prescription is quite expensive.
-> [!note]- 해석
-> 처방전이 필요한 약이 꽤 비싸.
-80. The day when I finally got discharged felt like a miracle.
-> [!note]- 해석
-> 드디어 퇴원한 날은 기적처럼 느껴졌어.
+77. The surgeon whose hands never shake performed my father's operation. > 손이 절대 떨리지 않는 외과의사가 아버지 수술을 집도했어.
+78. The waiting room where patients sit for hours desperately needs renovation. > 환자들이 몇 시간씩 앉아있는 대기실은 절실히 리모델링이 필요해.
+79. The medication for which I need a prescription is quite expensive. > 처방전이 필요한 약이 꽤 비싸.
+80. The day when I finally got discharged felt like a miracle. > 드디어 퇴원한 날은 기적처럼 느껴졌어.
 
 ---
 
----
-
-## 🎧 예문 — 고급 (Advanced)
-
-![[relative-clauses-advanced.mp3]]
-
-> 12~25단어 | 다른 문법 결합 | 복합 구조 | 미묘한 뉘앙스 | 점진적 복잡도 상승
-
+### 고급 (Advanced) - 40문장
 
 #### 집 (Home)
-81. The apartment complex, which was built in the 1980s, is finally undergoing the major renovations that residents have been requesting for years.
-> [!note]- 해석
-> 1980년대에 지어진 이 아파트 단지가 주민들이 몇 년간 요청해온 대규모 보수 공사를 드디어 진행 중이야.
+81. The apartment complex, which was built in the 1980s, is finally undergoing the major renovations that residents have been requesting for years. > 1980년대에 지어진 이 아파트 단지가 주민들이 몇 년간 요청해온 대규모 보수 공사를 드디어 진행 중이야.
 
-82. My landlord, whose patience I've tested more than once with late rent payments, surprisingly offered to reduce my monthly fee.
-> [!note]- 해석
-> 늦은 임대료로 인내심을 여러 번 시험한 집주인이 놀랍게도 월세를 낮춰주겠다고 제안했어.
+82. My landlord, whose patience I've tested more than once with late rent payments, surprisingly offered to reduce my monthly fee. > 늦은 임대료로 인내심을 여러 번 시험한 집주인이 놀랍게도 월세를 낮춰주겠다고 제안했어.
 
-83. The furniture that we inherited from my grandmother, which includes an antique dresser, doesn't fit the modern style we were aiming for.
-> [!note]- 해석
-> 할머니에게 물려받은 가구는 골동품 화장대를 포함하는데, 우리가 목표로 한 현대적 스타일과 맞지 않아.
+83. The furniture that we inherited from my grandmother, which includes an antique dresser, doesn't fit the modern style we were aiming for. > 할머니에게 물려받은 가구는 골동품 화장대를 포함하는데, 우리가 목표로 한 현대적 스타일과 맞지 않아.
 
-84. There's a reason why I've been avoiding the attic, which is that the last time I went up there, I found evidence of mice.
-> [!note]- 해석
-> 다락방을 피해온 이유가 있는데, 마지막으로 올라갔을 때 쥐의 흔적을 발견했기 때문이야.
+84. There's a reason why I've been avoiding the attic, which is that the last time I went up there, I found evidence of mice. > 다락방을 피해온 이유가 있는데, 마지막으로 올라갔을 때 쥐의 흔적을 발견했기 때문이야.
 
 #### 카페 (Cafe)
-85. The barista, who happens to be my former college roommate, always gives me an extra shot of espresso that I never have to pay for.
-> [!note]- 해석
-> 우연히 내 전 대학 룸메이트인 바리스타가 항상 내가 돈 내지 않아도 되는 에스프레소 샷을 추가로 줘.
+85. The barista, who happens to be my former college roommate, always gives me an extra shot of espresso that I never have to pay for. > 우연히 내 전 대학 룸메이트인 바리스타가 항상 내가 돈 내지 않아도 되는 에스프레소 샷을 추가로 줘.
 
-86. This is the exact spot where I was sitting when I received the email that completely changed the direction of my career.
-> [!note]- 해석
-> 이곳이 바로 내 커리어 방향을 완전히 바꾼 이메일을 받았을 때 앉아 있던 자리야.
+86. This is the exact spot where I was sitting when I received the email that completely changed the direction of my career. > 이곳이 바로 내 커리어 방향을 완전히 바꾼 이메일을 받았을 때 앉아 있던 자리야.
 
-87. The cafe owner, whose dream of opening a second location finally came true, credits her success to the loyal customers who supported her from day one.
-> [!note]- 해석
-> 두 번째 지점 오픈의 꿈이 마침내 이루어진 카페 주인은 첫날부터 지지해 준 단골 고객들 덕분이라고 해.
+87. The cafe owner, whose dream of opening a second location finally came true, credits her success to the loyal customers who supported her from day one. > 두 번째 지점 오픈의 꿈이 마침내 이루어진 카페 주인은 첫날부터 지지해 준 단골 고객들 덕분이라고 해.
 
-88. The pastry chef, with whom I briefly studied in Paris, creates desserts that taste exactly like the ones we used to make together.
-> [!note]- 해석
-> 파리에서 잠시 함께 공부했던 페이스트리 셰프가 우리가 함께 만들곤 했던 것과 똑같은 맛의 디저트를 만들어.
+88. The pastry chef, with whom I briefly studied in Paris, creates desserts that taste exactly like the ones we used to make together. > 파리에서 잠시 함께 공부했던 페이스트리 셰프가 우리가 함께 만들곤 했던 것과 똑같은 맛의 디저트를 만들어.
 
 #### 직장 (Work)
-89. The CEO, whose controversial decision to implement a four-day workweek raised eyebrows initially, has seen productivity increase by 20 percent.
-> [!note]- 해석
-> 주 4일제 도입이라는 논란의 결정으로 처음엔 의아해했던 CEO가 생산성이 20퍼센트 증가하는 걸 봤어.
+89. The CEO, whose controversial decision to implement a four-day workweek raised eyebrows initially, has seen productivity increase by 20 percent. > 주 4일제 도입이라는 논란의 결정으로 처음엔 의아해했던 CEO가 생산성이 20퍼센트 증가하는 걸 봤어.
 
-90. The project on which we've been collaborating for the past six months, which involves teams from three different countries, is finally nearing completion.
-> [!note]- 해석
-> 지난 6개월간 협업해 온 프로젝트는 세 나라의 팀이 참여하는데, 드디어 완료에 가까워지고 있어.
+90. The project on which we've been collaborating for the past six months, which involves teams from three different countries, is finally nearing completion. > 지난 6개월간 협업해 온 프로젝트는 세 나라의 팀이 참여하는데, 드디어 완료에 가까워지고 있어.
 
-91. My mentor, without whose guidance I would never have secured this position, announced her retirement at the meeting yesterday.
-> [!note]- 해석
-> 그녀의 지도가 없었다면 이 자리를 절대 얻지 못했을 멘토가 어제 회의에서 은퇴를 발표했어.
+91. My mentor, without whose guidance I would never have secured this position, announced her retirement at the meeting yesterday. > 그녀의 지도가 없었다면 이 자리를 절대 얻지 못했을 멘토가 어제 회의에서 은퇴를 발표했어.
 
-92. The office space where creativity once flourished has become a sterile environment that discourages the innovative thinking we desperately need.
-> [!note]- 해석
-> 한때 창의성이 꽃피던 사무실 공간이 우리에게 절실히 필요한 혁신적 사고를 억제하는 메마른 환경이 됐어.
+92. The office space where creativity once flourished has become a sterile environment that discourages the innovative thinking we desperately need. > 한때 창의성이 꽃피던 사무실 공간이 우리에게 절실히 필요한 혁신적 사고를 억제하는 메마른 환경이 됐어.
 
 #### 쇼핑 (Shopping)
-93. The limited-edition sneakers, for which collectors have been waiting over a year, sold out within minutes, which frustrated thousands of loyal fans.
-> [!note]- 해석
-> 수집가들이 1년 넘게 기다려온 한정판 스니커즈가 몇 분 만에 매진돼서 수천 명의 충성 팬들을 좌절시켰어.
+93. The limited-edition sneakers, for which collectors have been waiting over a year, sold out within minutes, which frustrated thousands of loyal fans. > 수집가들이 1년 넘게 기다려온 한정판 스니커즈가 몇 분 만에 매진돼서 수천 명의 충성 팬들을 좌절시켰어.
 
-94. The shopping district where my grandmother used to buy her fabrics, which has been there since 1952, is being demolished to make room for a parking garage.
-> [!note]- 해석
-> 1952년부터 있던, 할머니가 천을 사곤 했던 쇼핑 거리가 주차장을 위해 철거되고 있어.
+94. The shopping district where my grandmother used to buy her fabrics, which has been there since 1952, is being demolished to make room for a parking garage. > 1952년부터 있던, 할머니가 천을 사곤 했던 쇼핑 거리가 주차장을 위해 철거되고 있어.
 
-95. The personal shopper, whose impeccable taste has transformed my wardrobe completely, charges a fee that most people would consider outrageous.
-> [!note]- 해석
-> 내 옷장을 완전히 변신시킨 완벽한 안목의 퍼스널 쇼퍼는 대부분의 사람들이 터무니없다고 여길 비용을 청구해.
+95. The personal shopper, whose impeccable taste has transformed my wardrobe completely, charges a fee that most people would consider outrageous. > 내 옷장을 완전히 변신시킨 완벽한 안목의 퍼스널 쇼퍼는 대부분의 사람들이 터무니없다고 여길 비용을 청구해.
 
-96. The return policy, which I didn't bother to read carefully, turned out to have a clause that prevented me from getting my money back.
-> [!note]- 해석
-> 꼼꼼히 읽지 않았던 환불 정책에 환불을 막는 조항이 있었던 거야.
+96. The return policy, which I didn't bother to read carefully, turned out to have a clause that prevented me from getting my money back. > 꼼꼼히 읽지 않았던 환불 정책에 환불을 막는 조항이 있었던 거야.
 
 #### 전화 (Phone)
-97. The scam caller, whose sophisticated approach almost fooled my tech-savvy father, is part of an international network that authorities have been tracking.
-> [!note]- 해석
-> 기술에 능한 우리 아버지도 거의 속일 뻔한 정교한 접근법의 보이스피싱 범은 당국이 추적 중인 국제 조직의 일원이야.
+97. The scam caller, whose sophisticated approach almost fooled my tech-savvy father, is part of an international network that authorities have been tracking. > 기술에 능한 우리 아버지도 거의 속일 뻔한 정교한 접근법의 보이스피싱 범은 당국이 추적 중인 국제 조직의 일원이야.
 
-98. The voicemail that I accidentally deleted, which contained crucial information about my job interview, couldn't be recovered despite my desperate attempts.
-> [!note]- 해석
-> 실수로 삭제한 음성메일에 면접에 관한 중요한 정보가 있었는데, 필사적인 시도에도 복구할 수 없었어.
+98. The voicemail that I accidentally deleted, which contained crucial information about my job interview, couldn't be recovered despite my desperate attempts. > 실수로 삭제한 음성메일에 면접에 관한 중요한 정보가 있었는데, 필사적인 시도에도 복구할 수 없었어.
 
-99. The time zone difference, which I always forget to account for, is the reason why I keep missing calls from my relatives who live abroad.
-> [!note]- 해석
-> 항상 고려하는 걸 잊는 시차가 해외에 사는 친척들의 전화를 계속 놓치는 이유야.
+99. The time zone difference, which I always forget to account for, is the reason why I keep missing calls from my relatives who live abroad. > 항상 고려하는 걸 잊는 시차가 해외에 사는 친척들의 전화를 계속 놓치는 이유야.
 
-100. My phone, without which I honestly can't imagine surviving a single day, fell into the toilet at the worst possible moment.
-> [!note]- 해석
-> 솔직히 하루도 버틸 수 없다고 상상할 수 없는 내 폰이 가장 안 좋은 순간에 변기에 빠졌어.
+100. My phone, without which I honestly can't imagine surviving a single day, fell into the toilet at the worst possible moment. > 솔직히 하루도 버틸 수 없다고 상상할 수 없는 내 폰이 가장 안 좋은 순간에 변기에 빠졌어.
 
 #### 친구 (Friends)
-101. My childhood friend, whom I hadn't seen in over fifteen years, showed up at my doorstep last week with the book that I lent her in high school.
-> [!note]- 해석
-> 15년 넘게 못 봤던 어린 시절 친구가 지난주 고등학교 때 빌려준 책을 들고 현관에 나타났어.
+101. My childhood friend, whom I hadn't seen in over fifteen years, showed up at my doorstep last week with the book that I lent her in high school. > 15년 넘게 못 봤던 어린 시절 친구가 지난주 고등학교 때 빌려준 책을 들고 현관에 나타났어.
 
-102. The group chat, in which old friends share memories and updates daily, has become the emotional support system that gets me through difficult times.
-> [!note]- 해석
-> 옛 친구들이 매일 추억과 소식을 나누는 단체 채팅방이 힘든 시기를 버티게 해주는 정서적 지지 시스템이 됐어.
+102. The group chat, in which old friends share memories and updates daily, has become the emotional support system that gets me through difficult times. > 옛 친구들이 매일 추억과 소식을 나누는 단체 채팅방이 힘든 시기를 버티게 해주는 정서적 지지 시스템이 됐어.
 
-103. The wedding venue where my best friend got married, which overlooks the ocean, is the same place where her parents exchanged vows thirty years ago.
-> [!note]- 해석
-> 절친이 결혼한 바다가 보이는 웨딩 장소는 그녀의 부모님이 30년 전 서약을 나눈 곳과 같아.
+103. The wedding venue where my best friend got married, which overlooks the ocean, is the same place where her parents exchanged vows thirty years ago. > 절친이 결혼한 바다가 보이는 웨딩 장소는 그녀의 부모님이 30년 전 서약을 나눈 곳과 같아.
 
-104. The friend whose advice I should have taken, but didn't because I was too stubborn, turned out to be right about everything she predicted.
-> [!note]- 해석
-> 내가 너무 고집이 세서 듣지 않았던 조언을 했던 친구가 예측한 모든 것에 대해 옳았던 거야.
+104. The friend whose advice I should have taken, but didn't because I was too stubborn, turned out to be right about everything she predicted. > 내가 너무 고집이 세서 듣지 않았던 조언을 했던 친구가 예측한 모든 것에 대해 옳았던 거야.
 
 #### 식당 (Restaurant)
-105. The chef, whose unconventional cooking methods have earned both criticism and praise, was recently awarded a Michelin star that nobody expected her to receive.
-> [!note]- 해석
-> 비판과 찬사를 동시에 받은 파격적인 요리법의 셰프가 최근 아무도 예상 못 한 미슐랭 별을 받았어.
+105. The chef, whose unconventional cooking methods have earned both criticism and praise, was recently awarded a Michelin star that nobody expected her to receive. > 비판과 찬사를 동시에 받은 파격적인 요리법의 셰프가 최근 아무도 예상 못 한 미슐랭 별을 받았어.
 
-106. The family restaurant where I used to work as a teenager, which served the best fried chicken in town, was forced to close due to rising rent.
-> [!note]- 해석
-> 내가 십대 때 일했던, 동네 최고의 프라이드치킨을 제공하던 가족 식당이 오르는 임대료로 문을 닫아야 했어.
+106. The family restaurant where I used to work as a teenager, which served the best fried chicken in town, was forced to close due to rising rent. > 내가 십대 때 일했던, 동네 최고의 프라이드치킨을 제공하던 가족 식당이 오르는 임대료로 문을 닫아야 했어.
 
-107. The reservation that I made three months in advance, without which we wouldn't have been able to celebrate my parents' anniversary at this restaurant, almost got canceled.
-> [!note]- 해석
-> 3개월 전에 한 예약이 없었으면 이 식당에서 부모님 결혼기념일을 축하하지 못했을 건데, 거의 취소될 뻔했어.
+107. The reservation that I made three months in advance, without which we wouldn't have been able to celebrate my parents' anniversary at this restaurant, almost got canceled. > 3개월 전에 한 예약이 없었으면 이 식당에서 부모님 결혼기념일을 축하하지 못했을 건데, 거의 취소될 뻔했어.
 
-108. The food critic, to whom restaurateurs both fear and cater, wrote a scathing review that caused the establishment's reputation to plummet overnight.
-> [!note]- 해석
-> 식당 주인들이 두려워하면서도 맞추려는 음식 평론가가 혹평을 써서 그 식당의 명성이 하룻밤에 추락했어.
+108. The food critic, to whom restaurateurs both fear and cater, wrote a scathing review that caused the establishment's reputation to plummet overnight. > 식당 주인들이 두려워하면서도 맞추려는 음식 평론가가 혹평을 써서 그 식당의 명성이 하룻밤에 추락했어.
 
 #### 학교 (School)
-109. The scholarship for which I applied, whose requirements included a personal essay that I rewrote seven times, was finally awarded to me after months of anxious waiting.
-> [!note]- 해석
-> 내가 지원한 장학금은 7번 다시 쓴 자기소개서가 요구사항이었는데, 불안한 기다림 끝에 드디어 내게 수여됐어.
+109. The scholarship for which I applied, whose requirements included a personal essay that I rewrote seven times, was finally awarded to me after months of anxious waiting. > 내가 지원한 장학금은 7번 다시 쓴 자기소개서가 요구사항이었는데, 불안한 기다림 끝에 드디어 내게 수여됐어.
 
-110. The professor, whose lectures I once found unbearably boring, turned out to be the educator who shaped my intellectual curiosity more than anyone else.
-> [!note]- 해석
-> 한때 참을 수 없이 지루하다고 생각했던 강의의 교수님이 내 지적 호기심을 누구보다 형성해 준 교육자였던 거야.
+110. The professor, whose lectures I once found unbearably boring, turned out to be the educator who shaped my intellectual curiosity more than anyone else. > 한때 참을 수 없이 지루하다고 생각했던 강의의 교수님이 내 지적 호기심을 누구보다 형성해 준 교육자였던 거야.
 
-111. The study group where ideas flowed freely and nobody judged anyone's questions, which met every Thursday night, was the reason why I passed organic chemistry.
-> [!note]- 해석
-> 아이디어가 자유롭게 흐르고 아무도 질문을 판단하지 않던, 매주 목요일 밤 모이던 스터디 그룹이 내가 유기화학을 통과한 이유야.
+111. The study group where ideas flowed freely and nobody judged anyone's questions, which met every Thursday night, was the reason why I passed organic chemistry. > 아이디어가 자유롭게 흐르고 아무도 질문을 판단하지 않던, 매주 목요일 밤 모이던 스터디 그룹이 내가 유기화학을 통과한 이유야.
 
-112. The thesis advisor, without whose meticulous feedback my dissertation would have been rejected, retired shortly after I successfully defended my work.
-> [!note]- 해석
-> 그녀의 꼼꼼한 피드백이 없었으면 논문이 거절됐을 지도교수가 내가 성공적으로 논문 심사를 마친 직후 은퇴했어.
+112. The thesis advisor, without whose meticulous feedback my dissertation would have been rejected, retired shortly after I successfully defended my work. > 그녀의 꼼꼼한 피드백이 없었으면 논문이 거절됐을 지도교수가 내가 성공적으로 논문 심사를 마친 직후 은퇴했어.
 
 #### 여행 (Travel)
-113. The remote village where we got stranded for three days due to a landslide, which had no internet or phone service, ended up being the most memorable part of our journey.
-> [!note]- 해석
-> 산사태로 3일간 고립된, 인터넷이나 전화 서비스가 없던 외진 마을이 결국 우리 여행에서 가장 기억에 남는 부분이 됐어.
+113. The remote village where we got stranded for three days due to a landslide, which had no internet or phone service, ended up being the most memorable part of our journey. > 산사태로 3일간 고립된, 인터넷이나 전화 서비스가 없던 외진 마을이 결국 우리 여행에서 가장 기억에 남는 부분이 됐어.
 
-114. The airline, whose customer service representatives I spoke to for over four hours, finally agreed to compensate me for the flight that was canceled without notice.
-> [!note]- 해석
-> 4시간 넘게 고객 서비스 담당자와 통화한 항공사가 마침내 예고 없이 취소된 항공편에 대해 보상해 주기로 했어.
+114. The airline, whose customer service representatives I spoke to for over four hours, finally agreed to compensate me for the flight that was canceled without notice. > 4시간 넘게 고객 서비스 담당자와 통화한 항공사가 마침내 예고 없이 취소된 항공편에 대해 보상해 주기로 했어.
 
-115. The travel blogger, from whom I got most of my itinerary ideas, responded to my message with tips that weren't even included in her published posts.
-> [!note]- 해석
-> 대부분의 여행 일정 아이디어를 얻은 여행 블로거가 게시글에도 없는 팁으로 내 메시지에 답해줬어.
+115. The travel blogger, from whom I got most of my itinerary ideas, responded to my message with tips that weren't even included in her published posts. > 대부분의 여행 일정 아이디어를 얻은 여행 블로거가 게시글에도 없는 팁으로 내 메시지에 답해줬어.
 
-116. The moment when the plane finally took off after a six-hour delay, during which passengers grew increasingly frustrated, was met with ironic applause from everyone on board.
-> [!note]- 해석
-> 승객들이 점점 좌절하던 6시간 지연 후 비행기가 마침내 이륙한 순간, 기내 모든 사람들의 아이러니한 박수를 받았어.
+116. The moment when the plane finally took off after a six-hour delay, during which passengers grew increasingly frustrated, was met with ironic applause from everyone on board. > 승객들이 점점 좌절하던 6시간 지연 후 비행기가 마침내 이륙한 순간, 기내 모든 사람들의 아이러니한 박수를 받았어.
 
 #### 병원 (Hospital)
-117. The nurse whose calm demeanor kept me from panicking during the procedure, which I had been dreading for weeks, deserved far more recognition than she received.
-> [!note]- 해석
-> 몇 주간 두려워했던 시술 동안 차분한 태도로 내가 공황에 빠지지 않게 해준 간호사는 받은 것보다 훨씬 더 인정받을 자격이 있었어.
+117. The nurse whose calm demeanor kept me from panicking during the procedure, which I had been dreading for weeks, deserved far more recognition than she received. > 몇 주간 두려워했던 시술 동안 차분한 태도로 내가 공황에 빠지지 않게 해준 간호사는 받은 것보다 훨씬 더 인정받을 자격이 있었어.
 
-118. The experimental treatment for which my insurance refused to pay, without which my recovery would have taken much longer, was eventually covered after I filed an appeal.
-> [!note]- 해석
-> 보험이 거부했던, 없었으면 회복이 훨씬 오래 걸렸을 실험적 치료가 이의를 제기한 후 결국 보장됐어.
+118. The experimental treatment for which my insurance refused to pay, without which my recovery would have taken much longer, was eventually covered after I filed an appeal. > 보험이 거부했던, 없었으면 회복이 훨씬 오래 걸렸을 실험적 치료가 이의를 제기한 후 결국 보장됐어.
 
-119. The hospital room where I spent three weeks recovering from surgery, which had a view of the garden that gave me hope, will always hold a special place in my memory.
-> [!note]- 해석
-> 수술 후 3주간 회복하며 보냈던, 희망을 준 정원이 보이던 병실은 내 기억 속에 항상 특별한 자리를 차지할 거야.
+119. The hospital room where I spent three weeks recovering from surgery, which had a view of the garden that gave me hope, will always hold a special place in my memory. > 수술 후 3주간 회복하며 보냈던, 희망을 준 정원이 보이던 병실은 내 기억 속에 항상 특별한 자리를 차지할 거야.
 
-120. The doctor, to whom I owe my life and whose expertise saved me from a condition that three other physicians had misdiagnosed, has become a close family friend.
-> [!note]- 해석
-> 내 목숨의 은인이자 다른 세 명의 의사가 오진한 질환에서 전문성으로 나를 구해준 그 의사는 친한 가족 친구가 됐어.
+120. The doctor, to whom I owe my life and whose expertise saved me from a condition that three other physicians had misdiagnosed, has become a close family friend. > 내 목숨의 은인이자 다른 세 명의 의사가 오진한 질환에서 전문성으로 나를 구해준 그 의사는 친한 가족 친구가 됐어.
 
 ---
 
----
-
-## ✏️ 빈칸 채우기 퀴즈
-
-> 예문 섹션과 중복 없는 새 문장 | 초급 6 / 중급 6 / 고급 6
-
+## 10. 연습문제 102개
 
 ### 10-1. 빈칸 채우기 (18문제)
 
@@ -1603,9 +1352,7 @@ The man (that/who) I met was kind. (✓)
 
 ---
 
----
-
-## 📝 학습 정리
+## 11. 복습 워크북
 
 ### 빠른 자가 테스트 10문제
 
@@ -1688,8 +1435,7 @@ The man (that/who) I met was kind. (✓)
 
 ---
 
-
-### ✅ 마스터 체크리스트
+## 12. 마스터 체크리스트
 
 ### 나의 Relative Clauses 이해도 점검
 
@@ -1723,12 +1469,7 @@ The man (that/who) I met was kind. (✓)
 
 ---
 
----
-
-## 🎬 추천 유튜브
-
-> 한국인 유튜버가 운영하는 영어 문법 채널. 유튜브에서 "채널명 + 문법명"으로 검색하세요.
-
+## 추천 학습 자료
 
 ### YouTube 채널
 1. **라이브 아카데미** - 실용 영어 회화, 관계절 활용
@@ -1755,4 +1496,3 @@ The man (that/who) I met was kind. (✓)
 ---
 
 *총 120 예문 | 102 연습문제 | 10개 상황 × 3단계 난이도*
-
