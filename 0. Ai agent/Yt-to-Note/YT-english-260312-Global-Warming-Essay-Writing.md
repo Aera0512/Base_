@@ -1,11 +1,13 @@
 ---
 type: yt-note
 genre: english
-source: "[Global Warming Essay Writing or Speech in English with Introduction and Conclusion 300 words](https://www.youtube.com/watch?v=sL4lALBP3r0)"
-channel: "Smile Please World"
-video_id: "sL4lALBP3r0"
-date_watched: 2026-03-12
-date_created: 2026-03-12
+source: >-
+  [Global Warming Essay Writing or Speech in English with Introduction and
+  Conclusion 300 words](https://www.youtube.com/watch?v=sL4lALBP3r0)
+channel: Smile Please World
+video_id: sL4lALBP3r0
+date_watched: 2026-03-12T00:00:00.000Z
+date_created: 2026-03-12T00:00:00.000Z
 subtitle_lang: en
 tags:
   - yt-note
@@ -15,12 +17,15 @@ tags:
   - climate-change
   - B2-writing
 review:
+  - '2026-03-16'
   - null
   - null
-  - null
-confidence: null
+confidence: 4
 status: processed
-version: "7.0"
+version: '7.0'
+next_review: '2026-03-25'
+review_phase: 1
+difficulty: 3
 ---
 
 # Global Warming Essay Writing Guide
@@ -176,6 +181,16 @@ of climate change for future generations.
 |------|------|----------|
 | Essay Samples | [Leverage Edu](https://leverageedu.com/blog/essay-on-global-warming/) | 150/300/500 단어 샘플 |
 | Essay Structure | [First English Grade](https://firstenglishgrade.com/global-warming-essay/) | 구조별 상세 가이드 |
+
+---
+
+## 복습 로그
+
+| 회차 | 예정일 | 완료일 | 기억률 | 메모 |
+|:----:|--------|--------|:------:|------|
+| 1차 | 3/13 | 3/16 | 4/5 | (자동 기록) |
+| 2차 | 3/25 | | /5 | |
+| 3차 | 4/23 | | /5 | |
 
 ---
 
