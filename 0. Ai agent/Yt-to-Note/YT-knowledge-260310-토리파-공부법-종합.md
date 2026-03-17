@@ -113,7 +113,7 @@ mindmap
 
 ---
 
-## Chapter 1. 마인드셋 확립하기 `🟢 기초`
+	## Chapter 1. 마인드셋 확립하기 `🟢 기초`
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TWBlwqYoDpc?start=29&end=966" frameborder="0" allowfullscreen></iframe>
 
