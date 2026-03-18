@@ -17,6 +17,8 @@ claude :
 mcp, 도구 
 skill
 
+skill
+
 
 
 
