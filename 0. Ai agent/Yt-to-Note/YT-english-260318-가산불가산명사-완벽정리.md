@@ -425,9 +425,9 @@ flowchart TD
 
 - [x] Q: food가 가산이 되는 경우는? ✅ 2026-03-18
 - [x] Q: experience가 불가산이 되는 경우는? ✅ 2026-03-18
-- [ ] Q: effort vs an effort의 차이는?
-- [ ] Q: stuff의 복수형은?
-- [ ] Q: progress의 복수형은?
+- [x] Q: effort vs an effort의 차이는? ✅ 2026-03-18
+- [x] Q: stuff의 복수형은? ✅ 2026-03-18
+- [x] Q: progress의 복수형은? ✅ 2026-03-18
 
 **최종 점검**
 
