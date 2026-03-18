@@ -93,7 +93,7 @@ phase: 3-PRD
 
 ### 기술적 제약
 
-- 에세이 최대 길이: 500 단어 (3라운드 피드백 + 리라이트의 컨텍스트 제약)
+- 에세이 최대 길이: 300 단어 (3라운드 피드백 + 4레벨 리라이트의 컨텍스트 제약. 300 단어 초과 시 사용자에게 축소 요청)
 - 한 세션에서 이전 라운드 피드백은 요약만 유지하여 토큰 절약
 - error-profile.md 프론트매터는 YAML 호환 구조 유지 (중첩 2단계까지)
 - obsidian-to-anki 스킬이 사용하는 CTP-English 노트 타입의 필드를 그대로 활용
@@ -107,7 +107,7 @@ phase: 3-PRD
 | 구성요소 | 선택 | 역할 | 의존성 |
 |---------|------|------|--------|
 | AI 엔진 | Claude (Cowork 내장) | 어휘 생성, 교정, 레벨별 리라이트 | 없음 (기본 내장) |
-| 어휘 카드 | obsidian-to-anki 스킬 | CTP-English, CTP-Cloze, CTP-Knowledge 카드 생성 | AnkiConnect (localhost:8765), Anki 데스크탑 실행 |
+| 어휘 카드 | AnkiConnect API 직접 호출 | CTP-English, CTP-Cloze, CTP-Knowledge 카드 생성. obsidian-to-anki 스킬의 카드 CSS/필드 설계를 공유하되, API 호출은 Writing Coach가 직접 수행 | AnkiConnect (localhost:8765), Anki 데스크탑 실행 |
 | 오류 추적 | Obsidian MCP (mcp__obsidian) | 프론트매터 기반 오류 프로필 읽기/쓰기 | Obsidian MCP 연결 |
 | 웹 검색 | Claude 내장 | 주제별 어휘 리서치 | 없음 (기본 내장) |
 
@@ -164,11 +164,12 @@ REQ-4, REQ-7, REQ-8에서 공통으로 사용하는 6가지 L1 간섭 오류 유
 **입력**: REQ-1에서 생성된 어휘 리스트
 
 **처리**:
-- obsidian-to-anki 스킬 호출하여 CTP-English 카드 생성
+- AnkiConnect API(localhost:8765)를 직접 호출하여 CTP-English 카드 생성
+  - obsidian-to-anki 스킬을 호출하는 것이 아니라, 동일한 노트 타입과 CSS를 공유하면서 API를 직접 사용
+  - obsidian-to-anki의 references/card-css.md와 references/anki-helper.md를 레퍼런스로 참조
 - 덱 이름 규칙: Obsidian::English::Writing-Coach::{주제명}
-  - 이 규칙은 obsidian-to-anki 스킬의 Obsidian::English::{note_title} 패턴을 따름
-  - note_title = \"Writing-Coach::{주제명}\"
 - 필드 매핑: Word, Phonetic, POS, POS_Class, Meaning_KR, Meaning_EN, Example_EN, Example_KR, Synonyms, Frequency, Deck_Tag, Tags
+- 중복 검사: addNote의 allowDuplicate: false 옵션 사용
 
 **출력**: Anki에 추가된 플래시카드
 
@@ -185,7 +186,8 @@ REQ-4, REQ-7, REQ-8에서 공통으로 사용하는 6가지 L1 간섭 오류 유
 
 **처리**:
 - 제공 어휘 중 최소 5개 이상 활용하도록 안내
-- 목표 단어 수 제안: 기본 200-300 단어 (사용자 조절 가능, 최대 500 단어)
+- 목표 단어 수 제안: 기본 200-250 단어 (사용자 조절 가능, 최대 300 단어)
+- 50 단어 미만 제출 시: "좀 더 써볼까요? 100 단어 이상이면 효과적인 피드백이 가능합니다" 안내
 - 선택적 시간 제한 모드: 사용자에게 \"시간 제한 모드를 켤까요? (25분)\" 확인
 - 사용자가 에세이 완성하여 제출할 때까지 대기
 
