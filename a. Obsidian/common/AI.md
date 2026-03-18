@@ -23,7 +23,7 @@ skill
 
 
 
-
+https://www.threads.com/@gptaku_ai/post/DVN8z-yk3-X?xmt=AQF0SoBLbf7QGC7O1iwq7N7X9x4HFzLBkqkW3ujf1m0jNA
 
 
 
