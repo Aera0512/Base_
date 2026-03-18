@@ -423,8 +423,8 @@ flowchart TD
 
 **셀프 테스트** — 노트를 가리고 답해보기
 
-- [ ] Q: food가 가산이 되는 경우는?
-- [ ] Q: experience가 불가산이 되는 경우는?
+- [x] Q: food가 가산이 되는 경우는? ✅ 2026-03-18
+- [x] Q: experience가 불가산이 되는 경우는? ✅ 2026-03-18
 - [ ] Q: effort vs an effort의 차이는?
 - [ ] Q: stuff의 복수형은?
 - [ ] Q: progress의 복수형은?
