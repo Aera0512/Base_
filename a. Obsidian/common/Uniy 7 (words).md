@@ -13,4 +13,6 @@ save
 bill
 fare
 
-charge와 cost의 차이 ()
+charge와 cost의 차이 
+
+practical
