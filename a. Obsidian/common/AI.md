@@ -19,6 +19,9 @@ skill
 
 skill
 
+자동화 : 
+
+
 
 
 
