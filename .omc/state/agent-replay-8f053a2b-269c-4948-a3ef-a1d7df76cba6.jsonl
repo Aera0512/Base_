@@ -6,3 +6,5 @@
 {"t":0,"agent":"a0c03f1","agent_type":"unknown","event":"agent_stop","success":true}
 {"t":0,"agent":"system","event":"keyword_detected","keyword":"pipeline"}
 {"t":0,"agent":"system","event":"skill_invoked","skill_name":"oh-my-claudecode:pipeline"}
+{"t":0,"agent":"a9363f9","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a8e9404","agent_type":"unknown","event":"agent_stop","success":true}
