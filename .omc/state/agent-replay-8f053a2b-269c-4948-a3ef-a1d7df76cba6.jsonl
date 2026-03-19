@@ -11,3 +11,6 @@
 {"t":0,"agent":"a49f5d7","agent_type":"unknown","event":"agent_stop","success":true}
 {"t":0,"agent":"a6a4f86","agent_type":"unknown","event":"agent_stop","success":true}
 {"t":0,"agent":"a00cb1f","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a5e5c92","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a7c9b4a","agent_type":"Explore","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"adab9a9","agent_type":"document-specialist","event":"agent_start","parent_mode":"none"}
