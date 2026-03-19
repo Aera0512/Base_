@@ -6,7 +6,7 @@ tags:
   - review-agent
   - spaced-repetition
 ---
-# Review Agent 사용 가이드
+/# Review Agent 사용 가이드
 
 > Obsidian · Anki · Notion · Google Calendar를 하나로 묶어, "오늘 뭘 복습해야 하는지" 알아서 알려주는 통합 복습 관제탑.
 
