@@ -6,7 +6,7 @@ tags:
   - claude-cowork
   - english-learning
 created: '2026-03-18'
-version: '0.3'
+version: '0.5'
 aliases:
   - Writing Coach PRD
 pipeline: pipeline-full
@@ -33,6 +33,7 @@ phase: 3-PRD
 - **단절된 학습 루프**: 어휘 학습(Anki), 글쓰기 연습, 교정 피드백이 별도 도구에서 이루어져 연결이 끊김. 배운 어휘를 글쓰기에 활용하는 전이(transfer)가 일어나지 않음
 - **일방적 교정**: 기존 도구(Grammarly, LanguageTool)는 교정본만 제공하고 끝남. 학습자가 직접 수정하는 과정이 없어 동일 실수를 반복. 연구에 따르면 \"힌트를 받고 직접 고치는 것\"이 교정본을 읽기만 하는 것보다 2-3배 효과적
 - **개인화 부재**: 한국어 L1 간섭 패턴(관사 누락, 시제 혼용, 전치사 직역)을 특별히 추적하는 도구가 없음. 매번 같은 유형의 실수를 처음 보는 것처럼 교정받음
+- **입력(모방) 학습 부재**: 좋은 글을 읽고 그 표현을 흡수하는 과정이 글쓰기 연습과 분리되어 있음. "역번역" 방법(원문 → 한국어 번역 → 학습자가 영작 → 원문과 비교)이 교육학적으로 검증되었지만, 이를 체계적으로 지원하는 도구가 없음
 
 ### 교육학적 근거
 
@@ -40,6 +41,8 @@ phase: 3-PRD
 - 간격 반복 + 글쓰기 통합(Nation, 2001): 실제 오류에서 추출한 SRS 카드가 일반 단어장보다 높은 retention rate
 - L1 간섭 체계(Swan & Smith, 2001): 한국어 화자의 예측 가능한 오류 패턴을 우선 교정하면 학습 효율 극대화
 - CEFR 기반 평가: 레벨별 비교를 통해 학습자가 현재 위치와 목표를 시각적으로 파악
+- 역번역(Back-translation) 학습법(Beiler, 2020): 번역 → 영작 → 원문 비교의 과정에서 "이해"와 "생산" 사이의 갭이 드러나고, 원문과 비교할 때 "왜 원문이 더 좋은지" 분석하는 "reasoned noticing"이 표면적 교정보다 효과적
+- Guided noticing 연구(2025): 자유 비교보다 구문/어휘/연결어 카테고리별 가이디드 비교가 학습 효과 훨씬 높음
 
 ---
 
@@ -67,13 +70,16 @@ phase: 3-PRD
 
 ### 범위 안 (v1)
 
-- 에세이 형식 글쓰기 (의견/논증형)
-- 주제별 어휘 생성 + Anki 카드 자동 생성 (obsidian-to-anki 연동)
-- 3라운드 점진적 교정 (Grammar → Clarity → Style)
+**두 가지 모드** (세션 시작 시 선택):
+
+- **Mode A — 자유 글쓰기**: 주제별 어휘 생성 → 에세이 직접 작성 → 3라운드 점진적 교정. 본인의 생각을 영어로 표현하는 "출력 능력" 훈련
+- **Mode B — 역번역 연습**: 수준 맞는 모범문 제공(원문+한국어 번역) → 한국어 번역만 보고 영작 → 원문과 가이디드 비교 → 차이점 분석 교정. 좋은 표현을 흡수하는 "입력+모방 능력" 훈련
+
+**공통 기능**:
 - 한국어 L1 간섭 특화 교정 (6개 유형)
-- 4레벨 비교 리라이트 (A2-B1 / B1-B2 / B2-C1 / C1-C2)
-- Obsidian 기반 오류 프로필 누적 추적
+- Obsidian 기반 오류 프로필 누적 추적 (두 모드 공유)
 - 오류 기반 Anki 카드 자동 생성
+- 4레벨 비교 리라이트 (Mode A의 Round 3에서)
 
 ### 범위 밖 (v2 이후)
 
@@ -369,6 +375,139 @@ traditional boundaries of time and space.
 
 ---
 
+## 5B. 역번역 모드 (Mode B) 요구사항
+
+### REQ-9: 모드 선택
+
+**입력**: 세션 시작 시 사용자의 모드 선택
+
+**처리**:
+- Phase A(오류 프로필 로드) 완료 후, 모드 선택지 제공:
+  - "자유 글쓰기" — 본인 생각을 직접 영작 (Mode A, 기존 Phase B-H)
+  - "역번역 연습" — 모범문 기반 번역 연습 (Mode B, Phase B2-H2)
+- 사용자가 선택하면 해당 모드의 Phase로 분기
+
+**수락 기준**:
+- Given 세션이 시작되었을 때
+- When 오류 프로필 로드 후 모드 선택지가 제시되면
+- Then 두 모드의 차이점이 한 줄씩 설명되고, 사용자가 선택 후 해당 흐름으로 진입함
+
+### REQ-10: 모범문 선정 & 제공
+
+**입력**: 사용자 지정 주제 또는 "추천해줘" 요청
+
+**처리**:
+1. 주제 확정 (Mode A와 동일한 주제 추천 로직 사용)
+2. 모범문 확보 (우선순위):
+   - **1순위: 웹 검색**으로 해당 주제의 B2-C1 수준 영어 에세이/기사 단락 검색. British Council, Linguapress, Cambridge Write & Improve 등 신뢰 출처 우선
+   - **2순위: AI 생성** — 적절한 실제 텍스트를 찾지 못하면, B2-C1 수준에 맞게 모범문을 직접 작성
+3. 모범문 기준:
+   - 길이: 100-200 단어 (1-2 단락)
+   - 수준: B2-C1 — 정량 기준:
+     - Oxford 5000 C1+ 어휘: 100단어당 최대 2개 (3개 이상이면 너무 어려움)
+     - 관용구/숙어: 150단어당 최대 1개 (역번역에 부적합하므로 최소화)
+     - 종속절: 텍스트 전체에 최소 3개 이상
+     - 평균 문장 길이: 15-20 단어
+   - 장르: 의견/논증형 에세이 단락
+   - AI 생성 시 품질 검증: 생성 후 "자연스럽게 읽히는가?" 자체 검토. 어색하면 재생성. 그래도 부적절하면 model_text_quality: "low" 태그하고 사용자에게 "AI 생성 텍스트입니다. 실제 원어민 글과 비교해보는 것도 좋습니다" 안내
+4. 제공 형식:
+   - **한국어 번역본만** 먼저 제공 (원문은 이 시점에서 보여주지 않음)
+   - 번역은 자연스러운 한국어 (직역 아닌 의역)
+   - "이 한국어 내용을 영어로 써보세요"라고 안내
+
+**출력**: 한국어 번역본 + 작성 안내
+
+**수락 기준**:
+- Given 주제가 선정되었을 때
+- When 모범문이 확보되면
+- Then (1) 100-200 단어 분량의 B2-C1 수준 원문이 확보되고, (2) 자연스러운 한국어 번역이 제공되며, (3) 원문은 아직 사용자에게 보여주지 않음
+
+### REQ-11: 역번역 작성 & 원문 비교
+
+**입력**: 사용자가 한국어 번역을 보고 작성한 영문
+
+**처리**:
+1. 사용자의 영문 제출 받기
+2. 원문 공개: "여기가 원문입니다" 하고 원문을 보여줌
+3. **가이디드 비교 테이블** 제공 — 3가지 카테고리로 체계적 비교:
+
+```
+--- 원문 비교 분석 ---
+
+### 1. 구문 (Syntax)
+| 내 표현 | 원문 표현 | 차이점 | 원문이 더 나은 이유 |
+|---------|----------|--------|-------------------|
+| "I think technology is good for communication" | "Technology has fundamentally reshaped interpersonal communication" | 주어 전환 + 명사화 | 주관적 "I think" 제거, 동사 "reshaped"가 더 구체적 |
+
+### 2. 어휘 (Vocabulary)
+| 내 단어 선택 | 원문 단어 선택 | 뉘앙스 차이 |
+|------------|-------------|-----------|
+| good | fundamentally | 정도 부사로 강조 |
+| talk | interpersonal communication | 명사화로 격식 수준 상승 |
+
+### 3. 연결 & 흐름 (Cohesion)
+| 내 연결 방식 | 원문 연결 방식 | 효과 |
+|------------|-------------|------|
+| "And also..." | 분사구문 "enabling..." | 접속사 없이 자연스럽게 연결 |
+```
+
+4. 각 주요 차이점에 대해 **왜 원문이 더 효과적인지** 설명 (reasoned noticing)
+5. L1 간섭으로 인한 차이는 L1 태그 표시. 이 오류들이 error-profile 업데이트 대상
+6. 비교 테이블 분량 가이드: 구문 1-2개, 어휘 2-3개, 연결 1개를 우선 선정하여 핵심에 집중
+7. 유사도 높은 경우 처리: 사용자 글이 원문과 80%+ 겹치면, "원문과 매우 가깝습니다! 같은 내용을 다른 방식으로 표현해보는 것도 좋은 연습입니다" 안내 + 대안 표현 2-3개 제시
+
+**출력**: 원문 + 가이디드 비교 테이블 + 차이점 분석
+
+**수락 기준**:
+- Given 사용자의 역번역이 제출되었을 때
+- When 원문과 비교 분석이 완료되면
+- Then (1) 구문/어휘/연결 3카테고리 비교 테이블이 제공되고, (2) 각 차이점에 "왜 원문이 더 나은지" 설명이 포함되며, (3) L1 간섭 패턴은 별도 태그
+
+### REQ-12: 역번역 후 수정 & 세션 마무리
+
+**입력**: 비교 분석을 본 사용자
+
+**처리**:
+1. "비교를 참고하여 글을 수정해보세요" 안내
+2. 사용자가 수정본 제출
+3. 수정본과 원문의 재비교 — 개선된 부분 강조
+4. 이번 세션의 핵심 배움 정리:
+   - "이번에 배운 표현 TOP 3" (원문에서 가져온 표현)
+   - "L1 간섭으로 놓친 포인트" (있을 경우)
+5. 오류 프로필 업데이트 (REQ-7과 동일한 로직)
+6. 세션 노트 저장 (mode: "back-translation" 표시)
+7. 배운 표현 Anki 카드 생성 제안:
+   - 원문의 좋은 표현을 CTP-Cloze 카드로 변환
+   - 예: "Technology has {{c1::fundamentally reshaped}} interpersonal communication."
+
+**수락 기준**:
+- Given 비교 분석 후 사용자가 수정본을 제출했을 때
+- When 세션이 마무리되면
+- Then (1) 수정본의 개선점이 강조되고, (2) "배운 표현 TOP 3"이 정리되며, (3) 오류 프로필이 업데이트되고, (4) Anki 카드 생성이 제안됨
+
+### REQ-13: 배운 표현 Anki 카드 생성 (Mode B 전용)
+
+**입력**: Phase H2에서 정리된 "배운 표현 TOP 3"
+
+**트리거**: 사용자가 "카드로 만들까요?"에 동의
+
+**처리**:
+- "배운 표현 TOP 3"에서 카드 생성 (사용자가 원하면 추가 가능)
+- 카드 타입: CTP-Cloze
+  - Sentence: 원문에서 해당 표현이 포함된 전체 문장, 표현 부분을 Cloze 처리
+  - 예: "Technology has {{c1::fundamentally reshaped}} interpersonal communication."
+  - Translation: 한국어 번역
+- 덱: Obsidian::English::Writing-Coach::Learned-Expressions
+- 중복 검사: findNotes로 동일 Sentence 확인 후 skip
+- error-profile 연동: 배운 표현이 L1 오류 교정과 관련된 경우 (예: 전치사 패턴 교정) 태그에 error-correction-L1-{n} 추가
+
+**수락 기준**:
+- Given "배운 표현 TOP 3"이 정리되어 있을 때
+- When 사용자가 카드 생성에 동의하면
+- Then 표현당 1장의 CTP-Cloze 카드가 생성되고, 중복은 skip, L1 관련 태그 포함
+
+---
+
 ## 6. 에이전트 행동 경계
 
 ### Always (항상 수행)
@@ -388,6 +527,8 @@ traditional boundaries of time and space.
 - Round 3 완료 후: \"오류 기반 Anki 카드도 만들까요?\"
 - 사용자가 중간에 그만두고 싶을 때: 현재까지의 오류만 프로필에 저장할지 확인
 - 사용자가 Round 2/3 건너뛰기 요청 시: "Round 2를 건너뛸까요? 구조 피드백 없이 스타일로 넘어갑니다."
+- Mode B에서 모범문 확인: "이 모범문으로 연습할까요? 다른 걸 찾아볼까요?"
+- Mode B 세션 마무리 시: "배운 표현을 Anki 카드로 만들까요?"
 
 ### Never (절대 금지)
 
@@ -397,6 +538,8 @@ traditional boundaries of time and space.
 - 교정 없이 \"잘 썼습니다\"만 하는 것 (항상 최소 1개 개선점 제시)
 - 오류 프로필을 사용자 확인 없이 삭제하는 것
 - 확신이 없는 교정을 단정적으로 표현하는 것
+- Mode B에서 원문을 사용자가 영작하기 전에 보여주는 것 (반드시 한국어 번역만 먼저)
+- Mode B에서 관용구/숙어가 과도한 텍스트를 모범문으로 선택하는 것 (역번역에 부적합)
 
 ---
 
@@ -408,10 +551,24 @@ traditional boundaries of time and space.
 
 200K 토큰 컨텍스트에서 500단어 에세이 + 3라운드 풀 피드백은 전체 합쳐도 15K 토큰 미만이므로, 이전 라운드의 피드백을 요약하지 않고 전체 유지한다. 이를 통해 후속 라운드에서 이전 교정 사항을 참조하여 더 정확하고 일관된 피드백을 제공한다. 오류 프로필과 세션 기록은 Obsidian에 저장하여 세션 간 영속성을 보장한다.
 
-### 단일 세션 흐름
+### 모드 분기
 
 ```
 [시작] 사용자: "글쓰기 연습하자" / "writing practice"
+  |
+  v
+[Phase A] 사전 조건 확인 + 오류 프로필 로드
+  |
+  v
+[모드 선택] "어떤 연습을 할까요?"
+  ├── "자유 글쓰기" → Mode A (Phase B → C → D → E → F → G → H)
+  └── "역번역 연습" → Mode B (Phase B2 → C2 → D2 → E2 → H2)
+```
+
+### Mode A: 자유 글쓰기 세션 흐름
+
+```
+[시작] 사용자: "자유 글쓰기" 선택
   |
   v
 [Phase A] 사전 조건 확인 + 오류 프로필 로드
@@ -461,6 +618,47 @@ traditional boundaries of time and space.
   → 세션 기록 저장 (sessions/YYMMDD-주제.md)
   → 사용자 확인: "오류 기반 Anki 카드도 만들까요?"
   → 다음 세션 추천 포커스 제안
+```
+
+### Mode B: 역번역 연습 세션 흐름
+
+```
+[시작] 사용자: "역번역 연습" 선택
+  |
+  v
+[Phase B2] 주제 선정 (Mode A와 동일한 추천 로직)
+  → 사용자 확인: "이 주제로 할까요?"
+  |
+  v
+[Phase C2] 모범문 확보 + 한국어 번역 제공
+  → 웹 검색 우선, 없으면 AI 생성 (100-200 단어, B2-C1)
+  → 한국어 번역만 먼저 제공 (원문은 숨김)
+  → "이 내용을 영어로 써보세요"
+  |
+  v
+[Phase D2] 역번역 작성 (사용자)
+  → 한국어 번역만 보고 영어로 작성
+  → 사용자가 완성 후 제출
+  |
+  v
+[Phase E2] 원문 공개 + 가이디드 비교
+  → 원문 공개
+  → 3카테고리 비교 테이블 (구문/어휘/연결)
+  → 각 차이점에 "왜 원문이 더 좋은지" 설명
+  → L1 간섭 패턴 태그
+  → 사용자 수정 후 재제출
+  |
+  v
+[Phase F2] 수정본 재비교 + 개선점 강조
+  → 수정으로 개선된 부분 칭찬
+  → 아직 남은 차이점 안내
+  |
+  v
+[Phase H2] 세션 마무리
+  → "배운 표현 TOP 3" 정리
+  → 오류 프로필 업데이트 (Mode A와 동일한 프로필 공유)
+  → 세션 기록 저장 (mode: "back-translation")
+  → "배운 표현을 Anki 카드로 만들까요?"
 ```
 
 ### 중도 종료 처리
@@ -551,6 +749,49 @@ round1_errors:
 round2_feedback: ["weak topic sentence in body 2", "transition between para 2-3"]
 round3_highlights: ["vocabulary diversity improved", "register mostly appropriate"]
 anki_cards_created: 4          # 이번 세션에서 생성된 오류 카드 수
+mode: free-writing             # free-writing | back-translation
+```
+
+### 역번역 세션 노트 프론트매터 (Mode B)
+
+```yaml
+type: writing-session
+date: 2026-03-19
+topic: "The Role of Technology in Education"
+topic_type: social-issue
+status: complete
+mode: back-translation
+model_text_source: "web-search"   # web-search | ai-generated
+model_text_word_count: 156
+user_word_count: 142
+syntax_gaps: 3                    # 구문 차이 수
+vocabulary_gaps: 5                # 어휘 차이 수
+cohesion_gaps: 2                  # 연결 차이 수
+l1_interference_found: 2          # 비교에서 발견된 L1 간섭 수
+revision_improvement:             # 수정 전후 갭 추적
+  syntax_before: 3
+  syntax_after: 1
+  vocabulary_before: 5
+  vocabulary_after: 2
+  cohesion_before: 2
+  cohesion_after: 1
+learned_expressions:
+  - expr: "fundamentally reshaped"
+    pos: verb-phrase
+    source: "Technology has fundamentally reshaped..."
+    anki_created: true
+  - expr: "precipitated a decline"
+    pos: verb-phrase
+    source: "Social media has precipitated a decline..."
+    anki_created: true
+  - expr: "becomes indispensable"
+    pos: verb-phrase
+    source: "Digital literacy becomes indispensable..."
+    anki_created: false
+l1_errors_found:                  # 비교에서 발견된 L1 오류 (프로필 업데이트용)
+  articles: 2
+  preposition: 1
+anki_cards_created: 2
 ```
 
 ---
@@ -574,6 +815,9 @@ anki_cards_created: 4          # 이번 세션에서 생성된 오류 카드 수
 - 인지 부하 이론 (Sweller, 1988) — 점진적 피드백의 이론적 근거
 - 간격 반복 + 글쓰기 통합 효과 (Nation, 2001) — 어휘 retention 연구
 - L1 간섭 연구 (Swan & Smith, 2001) — 한국어 화자 영어 오류 체계
+- 역번역 학습법 (Beiler, 2020) — 번역이 외국어 학습의 촉매로 작용
+- Guided noticing 연구 (2025) — 구조화된 비교가 자유 비교보다 효과적
+- Parallel text 학습법 — 이중 언어 텍스트를 통한 패턴 인식 촉진
 
 ### 기존 도구 분석
 - LanguageTool — 오픈소스 문법 교정
