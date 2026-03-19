@@ -41,11 +41,13 @@
       "agent_type": "oh-my-claudecode:architect",
       "started_at": "2026-03-19T10:06:39.910Z",
       "parent_mode": "none",
-      "status": "running"
+      "status": "completed",
+      "completed_at": "2026-03-19T10:08:54.144Z",
+      "duration_ms": 134234
     }
   ],
   "total_spawned": 4,
-  "total_completed": 4,
+  "total_completed": 5,
   "total_failed": 0,
-  "last_updated": "2026-03-19T10:06:44.486Z"
+  "last_updated": "2026-03-19T10:08:54.250Z"
 }

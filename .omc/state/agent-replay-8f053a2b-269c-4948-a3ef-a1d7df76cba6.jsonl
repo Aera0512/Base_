@@ -22,3 +22,4 @@
 {"t":0,"agent":"a06e4f9","agent_type":"critic","event":"agent_stop","success":true,"duration_ms":154372}
 {"t":0,"agent":"aeefa37","agent_type":"architect","event":"agent_start","parent_mode":"none"}
 {"t":0,"agent":"a38fbcc","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"aeefa37","agent_type":"architect","event":"agent_stop","success":true,"duration_ms":134234}
