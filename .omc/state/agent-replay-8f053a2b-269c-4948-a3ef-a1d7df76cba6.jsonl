@@ -27,3 +27,13 @@
 {"t":0,"agent":"ab2ce2b","agent_type":"product-manager","event":"agent_stop","success":true,"duration_ms":216346}
 {"t":0,"agent":"aa4626b","agent_type":"unknown","event":"agent_stop","success":true}
 {"t":0,"agent":"system","event":"skill_invoked","skill_name":"superpowers:writing-plans"}
+{"t":0,"agent":"a9b0bb2","agent_type":"critic","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a9b0bb2","agent_type":"critic","event":"agent_stop","success":true,"duration_ms":76560}
+{"t":0,"agent":"af65056","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"system","event":"skill_invoked","skill_name":"superpowers:subagent-driven-development"}
+{"t":0,"agent":"af8fe2a","agent_type":"executor","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"af8fe2a","agent_type":"executor","event":"agent_stop","success":true,"duration_ms":596146}
+{"t":0,"agent":"a937751","agent_type":"code-reviewer","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a937751","agent_type":"code-reviewer","event":"agent_stop","success":true,"duration_ms":65579}
+{"t":0,"agent":"acc09ee","agent_type":"executor","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"acc09ee","agent_type":"executor","event":"agent_stop","success":true,"duration_ms":60167}

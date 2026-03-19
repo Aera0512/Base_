@@ -162,6 +162,54 @@
       "type": "directory"
     },
     {
+      "path": ".scripts/review-control-tower/backend/requirements.txt",
+      "accessCount": 4,
+      "lastAccessed": 1773916073571,
+      "type": "file"
+    },
+    {
+      "path": "Book-to-Note/Book-selfhelp-260315-Passion-Flow-Intrinsic-Motivation.md",
+      "accessCount": 2,
+      "lastAccessed": 1773915655875,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/backend/main.py",
+      "accessCount": 2,
+      "lastAccessed": 1773916504751,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/backend/config.py",
+      "accessCount": 2,
+      "lastAccessed": 1773916504835,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/frontend/package.json",
+      "accessCount": 2,
+      "lastAccessed": 1773916504843,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/frontend/tailwind.config.js",
+      "accessCount": 2,
+      "lastAccessed": 1773916508385,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/frontend/tsconfig.json",
+      "accessCount": 2,
+      "lastAccessed": 1773916508441,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/frontend/next.config.js",
+      "accessCount": 2,
+      "lastAccessed": 1773916508446,
+      "type": "file"
+    },
+    {
       "path": "0. Ai agent/Yt-to-Note/YT-english-260310-가정법-완전정복.md",
       "accessCount": 1,
       "lastAccessed": 1773914817801,
@@ -180,12 +228,6 @@
       "type": "file"
     },
     {
-      "path": "Book-to-Note/Book-selfhelp-260315-Passion-Flow-Intrinsic-Motivation.md",
-      "accessCount": 1,
-      "lastAccessed": 1773914817817,
-      "type": "file"
-    },
-    {
       "path": "0. Ai agent/Yt-to-Note/YT-english-260312-Global-Warming-Essay-Writing.md",
       "accessCount": 1,
       "lastAccessed": 1773914841528,
@@ -195,6 +237,84 @@
       "path": "a. Obsidian/common/프론트매터.md",
       "accessCount": 1,
       "lastAccessed": 1773914841532,
+      "type": "file"
+    },
+    {
+      "path": "0. Ai agent/Yt-to-Note",
+      "accessCount": 1,
+      "lastAccessed": 1773915630100,
+      "type": "directory"
+    },
+    {
+      "path": "0. Ai agent/Yt-to-Note/YT-english-260305-전치사-접근법-기초-1편.md",
+      "accessCount": 1,
+      "lastAccessed": 1773915637987,
+      "type": "file"
+    },
+    {
+      "path": "Book-to-Note/Book-selfhelp-260313-English-Listening-Mastery.md",
+      "accessCount": 1,
+      "lastAccessed": 1773915638129,
+      "type": "file"
+    },
+    {
+      "path": "Book-to-Note/Book-selfhelp-260313-영어회화-빠른향상-과학적방법론.md",
+      "accessCount": 1,
+      "lastAccessed": 1773915648149,
+      "type": "file"
+    },
+    {
+      "path": "Book-to-Note",
+      "accessCount": 1,
+      "lastAccessed": 1773915649247,
+      "type": "directory"
+    },
+    {
+      "path": ".scripts/review-control-tower/frontend/postcss.config.js",
+      "accessCount": 1,
+      "lastAccessed": 1773916255471,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/frontend/.eslintrc.json",
+      "accessCount": 1,
+      "lastAccessed": 1773916257662,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/frontend/app/layout.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1773916266593,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/frontend/app/page.tsx",
+      "accessCount": 1,
+      "lastAccessed": 1773916283688,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/frontend/app/globals.css",
+      "accessCount": 1,
+      "lastAccessed": 1773916286132,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/frontend/.env.local",
+      "accessCount": 1,
+      "lastAccessed": 1773916288108,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1773916406584,
+      "type": "file"
+    },
+    {
+      "path": ".scripts/review-control-tower/SETUP_COMPLETE.md",
+      "accessCount": 1,
+      "lastAccessed": 1773916537109,
       "type": "file"
     }
   ],
