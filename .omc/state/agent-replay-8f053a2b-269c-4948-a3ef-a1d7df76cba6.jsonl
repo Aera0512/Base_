@@ -23,3 +23,7 @@
 {"t":0,"agent":"aeefa37","agent_type":"architect","event":"agent_start","parent_mode":"none"}
 {"t":0,"agent":"a38fbcc","agent_type":"unknown","event":"agent_stop","success":true}
 {"t":0,"agent":"aeefa37","agent_type":"architect","event":"agent_stop","success":true,"duration_ms":134234}
+{"t":0,"agent":"ab2ce2b","agent_type":"product-manager","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"ab2ce2b","agent_type":"product-manager","event":"agent_stop","success":true,"duration_ms":216346}
+{"t":0,"agent":"aa4626b","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"system","event":"skill_invoked","skill_name":"superpowers:writing-plans"}

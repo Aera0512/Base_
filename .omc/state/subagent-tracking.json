@@ -44,10 +44,19 @@
       "status": "completed",
       "completed_at": "2026-03-19T10:08:54.144Z",
       "duration_ms": 134234
+    },
+    {
+      "agent_id": "ab2ce2b",
+      "agent_type": "oh-my-claudecode:product-manager",
+      "started_at": "2026-03-19T10:09:56.476Z",
+      "parent_mode": "none",
+      "status": "completed",
+      "completed_at": "2026-03-19T10:13:32.822Z",
+      "duration_ms": 216346
     }
   ],
-  "total_spawned": 4,
-  "total_completed": 5,
+  "total_spawned": 5,
+  "total_completed": 6,
   "total_failed": 0,
-  "last_updated": "2026-03-19T10:08:54.250Z"
+  "last_updated": "2026-03-19T10:14:37.360Z"
 }
