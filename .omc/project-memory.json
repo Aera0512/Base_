@@ -165,10 +165,40 @@
   },
   "hotPaths": [
     {
+      "path": "",
+      "accessCount": 12,
+      "lastAccessed": 1773909633157,
+      "type": "directory"
+    },
+    {
+      "path": "0. Ai agent/Yt-to-Note/YT-english-260312-Global-Warming-Essay-Writing.md",
+      "accessCount": 4,
+      "lastAccessed": 1773909640293,
+      "type": "file"
+    },
+    {
+      "path": "Book-to-Note/Book-selfhelp-260315-Passion-Flow-Intrinsic-Motivation.md",
+      "accessCount": 4,
+      "lastAccessed": 1773909640323,
+      "type": "file"
+    },
+    {
       "path": "Important/Telegram Bot 설치 가이드.md",
       "accessCount": 2,
       "lastAccessed": 1772852669363,
       "type": "file"
+    },
+    {
+      "path": "0. Ai agent/Yt-to-Note/YT-english-260310-가정법-완전정복.md",
+      "accessCount": 2,
+      "lastAccessed": 1773909071358,
+      "type": "file"
+    },
+    {
+      "path": "0. Ai agent",
+      "accessCount": 2,
+      "lastAccessed": 1773909621373,
+      "type": "directory"
     },
     {
       "path": "Setup-Guide-Search-MCP.md",
@@ -192,18 +222,6 @@
       "path": "0. Ai agent/Yt-to-Note/YT-english-260305-전치사-접근법-기초-1편.md",
       "accessCount": 1,
       "lastAccessed": 1773906242599,
-      "type": "file"
-    },
-    {
-      "path": "0. Ai agent/Yt-to-Note/YT-english-260310-가정법-완전정복.md",
-      "accessCount": 1,
-      "lastAccessed": 1773906242628,
-      "type": "file"
-    },
-    {
-      "path": "0. Ai agent/Yt-to-Note/YT-english-260312-Global-Warming-Essay-Writing.md",
-      "accessCount": 1,
-      "lastAccessed": 1773906242747,
       "type": "file"
     },
     {
@@ -231,16 +249,64 @@
       "type": "file"
     },
     {
-      "path": "Book-to-Note/Book-selfhelp-260315-Passion-Flow-Intrinsic-Motivation.md",
-      "accessCount": 1,
-      "lastAccessed": 1773906243030,
-      "type": "file"
-    },
-    {
       "path": "f. CMDS/📖 400 Methodologies/AI 프로젝트 기획-실행 파이프라인 (pipeline-full).md",
       "accessCount": 1,
       "lastAccessed": 1773907763588,
       "type": "file"
+    },
+    {
+      "path": "0. Ai agent/Anki/README.md",
+      "accessCount": 1,
+      "lastAccessed": 1773909607656,
+      "type": "file"
+    },
+    {
+      "path": "0. Ai agent/Anki/Knowledge/간격 반복 학습법/간격 반복 학습법.md",
+      "accessCount": 1,
+      "lastAccessed": 1773909607791,
+      "type": "file"
+    },
+    {
+      "path": "0. Ai agent/Review-Reports/Review-Agent-Guide.md",
+      "accessCount": 1,
+      "lastAccessed": 1773909607800,
+      "type": "file"
+    },
+    {
+      "path": "스킬 사용 가이드/자동화 에이전트 통합 사용 가이드.md",
+      "accessCount": 1,
+      "lastAccessed": 1773909607819,
+      "type": "file"
+    },
+    {
+      "path": ".claude/skills/yt-to-note/SKILL.md",
+      "accessCount": 1,
+      "lastAccessed": 1773909620486,
+      "type": "file"
+    },
+    {
+      "path": "0. Ai agent/Yt-to-Note/YT-knowledge-260310-토리파-공부법-종합.md",
+      "accessCount": 1,
+      "lastAccessed": 1773909640190,
+      "type": "file"
+    },
+    {
+      "path": "a. Obsidian/common/프론트매터.md",
+      "accessCount": 1,
+      "lastAccessed": 1773909640343,
+      "type": "file"
+    },
+    {
+      "path": ".claude",
+      "accessCount": 1,
+      "lastAccessed": 1773909649225,
+      "type": "directory"
+    },
+    {
+      "path": ".claude/skills",
+      "accessCount": 1,
+      "lastAccessed": 1773909660016,
+      "type": "directory"
     }
   ],
   "userDirectives": []
