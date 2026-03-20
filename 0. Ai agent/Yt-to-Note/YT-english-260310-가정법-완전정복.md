@@ -1,28 +1,30 @@
 ---
-type: yt-note
-genre: english
-source: "[가정법 완전정복 - 이나클라쓰 & 트랭디](https://youtu.be/cb_3tYgqksQ)"
-channel: "이나클라쓰, 트랭디"
-video_id: "cb_3tYgqksQ, IXBACZv5KBQ"
-date_watched: 2026-03-10
+channel: 이나클라쓰, 트랭디
+confidence: 5
 date_created: 2026-03-10
+date_watched: 2026-03-10
+genre: english
+next_review: '2036-03-16'
+review:
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: '[가정법 완전정복 - 이나클라쓰 & 트랭디](https://youtu.be/cb_3tYgqksQ)'
+status: processed
 subtitle_lang: ko
 tags:
-  - yt-note
-  - english
-  - 가정법
-  - subjunctive
-  - conditional
-  - 영문법
-  - if절
-  - would
-review:
-  - null
-  - null
-  - null
-confidence: null
-status: processed
-version: "7.0"
+- yt-note
+- english
+- 가정법
+- subjunctive
+- conditional
+- 영문법
+- if절
+- would
+type: yt-note
+version: '7.0'
+video_id: cb_3tYgqksQ, IXBACZv5KBQ
 ---
 
 > [!quote] 한 줄 핵심

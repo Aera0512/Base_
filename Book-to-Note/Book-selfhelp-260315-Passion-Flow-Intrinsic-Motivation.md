@@ -1,27 +1,29 @@
 ---
-type: book-note
-genre: selfhelp
-source: "So Good They Can't Ignore You + Drive (+ Flow, Grit, The Passion Paradox)"
-author: "Cal Newport, Daniel Pink (+ Csikszentmihalyi, Duckworth, Stulberg)"
-year: 2009-2019
-date_read: 2026-03-15
+author: Cal Newport, Daniel Pink (+ Csikszentmihalyi, Duckworth, Stulberg)
+confidence: 5
 date_created: 2026-03-15
-tags:
-  - book-note
-  - selfhelp
-  - 열정
-  - 몰입
-  - 내재적동기
-  - 커리어자본
-  - 의도적연습
-  - 자율성
+date_read: 2026-03-15
+genre: selfhelp
+next_review: '2036-03-16'
 review:
-  - null
-  - null
-  - null
-confidence: null
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: So Good They Can't Ignore You + Drive (+ Flow, Grit, The Passion Paradox)
 status: processed
-version: "1.0"
+tags:
+- book-note
+- selfhelp
+- 열정
+- 몰입
+- 내재적동기
+- 커리어자본
+- 의도적연습
+- 자율성
+type: book-note
+version: '1.0'
+year: 2009-2019
 ---
 
 # 열정을 키우고 몰입하는 법

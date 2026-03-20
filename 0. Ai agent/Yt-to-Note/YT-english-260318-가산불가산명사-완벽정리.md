@@ -1,27 +1,29 @@
 ---
-type: yt-note
-genre: english
-source: "[한국인 99%가 헷갈리는 가산/불가산 명사 완벽정리✨ (food, hair, weather...)](https://www.youtube.com/watch?v=YkkDDux4qLc)"
-channel: "김재우의 영어회화"
-video_id: "YkkDDux4qLc"
-date_watched: 2026-03-18
+channel: 김재우의 영어회화
+confidence: 5
 date_created: 2026-03-18
+date_watched: 2026-03-18
+genre: english
+next_review: '2036-03-16'
+review:
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: '[한국인 99%가 헷갈리는 가산/불가산 명사 완벽정리✨ (food, hair, weather...)](https://www.youtube.com/watch?v=YkkDDux4qLc)'
+status: processed
 subtitle_lang: ko
 tags:
-  - yt-note
-  - english
-  - 가산명사
-  - 불가산명사
-  - countable
-  - uncountable
-  - 영문법
-review:
-  - null
-  - null
-  - null
-confidence: null
-status: processed
-version: "8.0"
+- yt-note
+- english
+- 가산명사
+- 불가산명사
+- countable
+- uncountable
+- 영문법
+type: yt-note
+version: '8.0'
+video_id: YkkDDux4qLc
 ---
 
 # 가산/불가산 명사 완벽정리 - 셀 수 있고 없고의 기준

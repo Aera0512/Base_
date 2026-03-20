@@ -1,27 +1,29 @@
 ---
-type: yt-note
-genre: knowledge
-source: "[언어 고수들이 인턴시브하게 학습할 때 사용하는 노트 활용 공부법](https://www.youtube.com/watch?v=avd62300hc4)"
-channel: "런던쌤"
-video_id: "avd62300hc4"
-date_watched: 2026-03-19
+channel: 런던쌤
+confidence: 5
 date_created: 2026-03-19
+date_watched: 2026-03-19
+genre: knowledge
+next_review: '2036-03-16'
+review:
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: '[언어 고수들이 인턴시브하게 학습할 때 사용하는 노트 활용 공부법](https://www.youtube.com/watch?v=avd62300hc4)'
+status: processed
 subtitle_lang: ko
 tags:
-  - yt-note
-  - knowledge
-  - 학습법
-  - 외국어-학습
-  - 단어-뭉치
-  - 인풋
-  - 아웃풋
-review:
-  - null
-  - null
-  - null
-confidence: null
-status: processed
-version: "8.0"
+- yt-note
+- knowledge
+- 학습법
+- 외국어-학습
+- 단어-뭉치
+- 인풋
+- 아웃풋
+type: yt-note
+version: '8.0'
+video_id: avd62300hc4
 ---
 
 # 외국어 고수들의 노트 공부법: 단어 뭉치 + 자유 쓰기

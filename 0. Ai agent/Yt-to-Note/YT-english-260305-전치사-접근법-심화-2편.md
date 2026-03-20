@@ -1,28 +1,29 @@
 ---
-type: yt-note
-genre: english
-source: "[이 개념 탑재 안 하면 평생 헤맵니다. 영어 전치사 접근법 대공개! (2편)](https://youtu.be/f6FrPW4wLOo)"
-channel: "나의 영어 종착지. 리얼딜"
-video_id: "f6FrPW4wLOo"
-date_watched: 2026-03-05
+channel: 나의 영어 종착지. 리얼딜
+confidence: 5
 date_created: 2026-03-05
+date_watched: 2026-03-05
+genre: english
+next_review: '2036-03-16'
+review:
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: '[이 개념 탑재 안 하면 평생 헤맵니다. 영어 전치사 접근법 대공개! (2편)](https://youtu.be/f6FrPW4wLOo)'
+status: processed
 subtitle_lang: ko
 tags:
-  - yt-note
-  - english
-  - 전치사
-  - preposition
-  - 영문법
-  - 인지언어학
-  - 리얼딜
-review:
-  - null
-  - null
-  - null
-  - null
-confidence: null
-status: processed
-version: "7.0"
+- yt-note
+- english
+- 전치사
+- preposition
+- 영문법
+- 인지언어학
+- 리얼딜
+type: yt-note
+version: '7.0'
+video_id: f6FrPW4wLOo
 ---
 
 # 이 개념 탑재 안 하면 평생 헤맵니다 — 영어 전치사 접근법 (2편)

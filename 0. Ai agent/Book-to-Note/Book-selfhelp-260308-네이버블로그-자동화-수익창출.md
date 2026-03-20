@@ -1,26 +1,28 @@
 ---
-type: book-note
-genre: selfhelp
-source: "네이버 블로그 자동화 수익창출의 구체적인 방법 및 팁"
-author: "웹 검색 종합"
-year: 2025
-date_read: 2026-03-08
+author: 웹 검색 종합
+confidence: 5
 date_created: 2026-03-08
-tags:
-  - book-note
-  - selfhelp
-  - 블로그수익화
-  - 네이버블로그
-  - AI자동화
-  - 부업
-  - 패시브인컴
+date_read: 2026-03-08
+genre: selfhelp
+next_review: '2036-03-16'
 review:
-  - null
-  - null
-  - null
-confidence: 0.85
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: 네이버 블로그 자동화 수익창출의 구체적인 방법 및 팁
 status: processed
-version: "1.0"
+tags:
+- book-note
+- selfhelp
+- 블로그수익화
+- 네이버블로그
+- AI자동화
+- 부업
+- 패시브인컴
+type: book-note
+version: '1.0'
+year: 2025
 ---
 
 # 네이버 블로그 자동화 수익창출 실전 가이드

@@ -1,27 +1,28 @@
 ---
-type: yt-note
-genre: english
-source: "[영어 전치사 접근법 대공개! (1편)](https://youtu.be/J-VYcyiNMPk)"
-channel: "나의 영어 종착지. 리얼딜"
-video_id: "J-VYcyiNMPk"
-date_watched: 2026-03-05
+channel: 나의 영어 종착지. 리얼딜
+confidence: 5
 date_created: 2026-03-05
+date_watched: 2026-03-05
+genre: english
+next_review: '2036-03-16'
+review:
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: '[영어 전치사 접근법 대공개! (1편)](https://youtu.be/J-VYcyiNMPk)'
+status: processed
 subtitle_lang: ko
 tags:
-  - yt-note
-  - english
-  - 전치사
-  - preposition
-  - 영문법
-  - 리얼딜
-review:
-  - null
-  - null
-  - null
-  - null
-confidence: null
-status: processed
-version: "7.0"
+- yt-note
+- english
+- 전치사
+- preposition
+- 영문법
+- 리얼딜
+type: yt-note
+version: '7.0'
+video_id: J-VYcyiNMPk
 ---
 
 # 영어 전치사 접근법 대공개! (1편)

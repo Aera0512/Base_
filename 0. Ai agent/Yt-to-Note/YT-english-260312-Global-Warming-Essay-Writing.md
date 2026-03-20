@@ -1,31 +1,30 @@
 ---
-type: yt-note
-genre: english
-source: >-
-  [Global Warming Essay Writing or Speech in English with Introduction and
-  Conclusion 300 words](https://www.youtube.com/watch?v=sL4lALBP3r0)
 channel: Smile Please World
-video_id: sL4lALBP3r0
-date_watched: 2026-03-12T00:00:00.000Z
-date_created: 2026-03-12T00:00:00.000Z
+confidence: 5
+date_created: 2026-03-12 00:00:00+00:00
+date_watched: 2026-03-12 00:00:00+00:00
+difficulty: 3
+genre: english
+next_review: '2036-03-16'
+review:
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: '[Global Warming Essay Writing or Speech in English with Introduction and
+  Conclusion 300 words](https://www.youtube.com/watch?v=sL4lALBP3r0)'
+status: processed
 subtitle_lang: en
 tags:
-  - yt-note
-  - english
-  - essay-writing
-  - global-warming
-  - climate-change
-  - B2-writing
-review:
-  - '2026-03-16'
-  - null
-  - null
-confidence: 4
-status: processed
+- yt-note
+- english
+- essay-writing
+- global-warming
+- climate-change
+- B2-writing
+type: yt-note
 version: '7.0'
-next_review: '2026-03-25'
-review_phase: 1
-difficulty: 3
+video_id: sL4lALBP3r0
 ---
 
 # Global Warming Essay Writing Guide

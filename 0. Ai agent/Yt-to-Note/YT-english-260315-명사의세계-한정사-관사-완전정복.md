@@ -1,27 +1,30 @@
 ---
-type: yt-note
-genre: english
-source: "[Real Deal Class - Special Lesson - 명사의 세계 - a, an, the, -s, 한정사, 관사, 수량사, 소유격, 고유명사](https://www.youtube.com/watch?v=bbtqScToMYM)"
-channel: "나의 영어 종착지. 리얼딜"
-video_id: "bbtqScToMYM"
-date_watched: 2026-03-15
+channel: 나의 영어 종착지. 리얼딜
+confidence: 5
 date_created: 2026-03-15
+date_watched: 2026-03-15
+genre: english
+next_review: '2036-03-16'
+review:
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: '[Real Deal Class - Special Lesson - 명사의 세계 - a, an, the, -s, 한정사, 관사, 수량사,
+  소유격, 고유명사](https://www.youtube.com/watch?v=bbtqScToMYM)'
+status: processed
 subtitle_lang: ko
 tags:
-  - yt-note
-  - english
-  - 한정사
-  - 관사
-  - determiner
-  - article
-  - 영문법
-review:
-  - null
-  - null
-  - null
-confidence: null
-status: processed
-version: "7.0"
+- yt-note
+- english
+- 한정사
+- 관사
+- determiner
+- article
+- 영문법
+type: yt-note
+version: '7.0'
+video_id: bbtqScToMYM
 ---
 
 # 명사의 세계 - 한정사(Determiner) 완전정복

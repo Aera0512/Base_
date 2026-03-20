@@ -1,28 +1,30 @@
 ---
-type: yt-note
-genre: knowledge
-source: "[영단어 암기법부터 천재가 될 수 있는 공부법까지! 770만 명이 선택한 토리파의 의사 공부법 한 번에 모아보기](https://www.youtube.com/watch?v=TWBlwqYoDpc)"
-channel: "이상욱의 진료실 밖 처방전"
-video_id: "TWBlwqYoDpc"
-date_watched: 2026-03-10
+channel: 이상욱의 진료실 밖 처방전
+confidence: 5
 date_created: 2026-03-11
+date_watched: 2026-03-10
+genre: knowledge
+next_review: '2036-03-16'
+review:
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: '[영단어 암기법부터 천재가 될 수 있는 공부법까지! 770만 명이 선택한 토리파의 의사 공부법 한 번에 모아보기](https://www.youtube.com/watch?v=TWBlwqYoDpc)'
+status: processed
 subtitle_lang: ko
 tags:
-  - yt-note
-  - knowledge
-  - 공부법
-  - 암기법
-  - 학습전략
-  - 간격반복
-  - 의도적연습
-  - 토리파
-review:
-  - null
-  - null
-  - null
-confidence: null
-status: processed
-version: "7.0"
+- yt-note
+- knowledge
+- 공부법
+- 암기법
+- 학습전략
+- 간격반복
+- 의도적연습
+- 토리파
+type: yt-note
+version: '7.0'
+video_id: TWBlwqYoDpc
 ---
 
 # 토리파 공부법 종합: 평범한 사람이 천재가 되는 시스템

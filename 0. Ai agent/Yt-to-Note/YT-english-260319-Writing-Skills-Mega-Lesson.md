@@ -1,27 +1,29 @@
 ---
-type: yt-note
-genre: english
-source: "[1-HOUR LESSON - Improve Your Writing (Academic, Professional, & Descriptive)](https://www.youtube.com/watch?v=gFXE9n7hrOI)"
-channel: "Interactive English"
-video_id: "gFXE9n7hrOI"
-date_watched: 2026-03-19
+channel: Interactive English
+confidence: 5
 date_created: 2026-03-19
+date_watched: 2026-03-19
+genre: english
+next_review: '2036-03-16'
+review:
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: '[1-HOUR LESSON - Improve Your Writing (Academic, Professional, & Descriptive)](https://www.youtube.com/watch?v=gFXE9n7hrOI)'
+status: processed
 subtitle_lang: en
 tags:
-  - yt-note
-  - english
-  - writing
-  - academic-writing
-  - reporting-verbs
-  - grammar
-  - proofreading
-review:
-  - null
-  - null
-  - null
-confidence: null
-status: processed
-version: "8.0"
+- yt-note
+- english
+- writing
+- academic-writing
+- reporting-verbs
+- grammar
+- proofreading
+type: yt-note
+version: '8.0'
+video_id: gFXE9n7hrOI
 ---
 
 # Writing Skills 완전정복: Professional, Academic, Descriptive Writing

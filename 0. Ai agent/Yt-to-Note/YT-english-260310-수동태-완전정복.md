@@ -1,27 +1,29 @@
 ---
-type: yt-note
-genre: english
-source: "[수동태 완전정복 - 이나클라쓰 & 에스텔잉글리쉬](https://youtu.be/OGtfgQIXIsA)"
-channel: "이나클라쓰, 에스텔잉글리쉬"
-video_id: "OGtfgQIXIsA, -n0bLkEVZYw"
-date_watched: 2026-03-10
+channel: 이나클라쓰, 에스텔잉글리쉬
+confidence: 5
 date_created: 2026-03-10
+date_watched: 2026-03-10
+genre: english
+next_review: '2036-03-16'
+review:
+- '2026-01-01'
+- '2026-01-08'
+- '2026-02-08'
+review_phase: 3
+source: '[수동태 완전정복 - 이나클라쓰 & 에스텔잉글리쉬](https://youtu.be/OGtfgQIXIsA)'
+status: processed
 subtitle_lang: ko
 tags:
-  - yt-note
-  - english
-  - 수동태
-  - passive-voice
-  - 영문법
-  - be동사
-  - 과거분사
-review:
-  - null
-  - null
-  - null
-confidence: null
-status: processed
-version: "7.0"
+- yt-note
+- english
+- 수동태
+- passive-voice
+- 영문법
+- be동사
+- 과거분사
+type: yt-note
+version: '7.0'
+video_id: OGtfgQIXIsA, -n0bLkEVZYw
 ---
 
 # 수동태 (Passive Voice) 완전정복
