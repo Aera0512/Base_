@@ -28,9 +28,13 @@ In an age dominated by digital devices, the ability to maintain deep focus has b
 
 이 현상은 장시간의 정신적 몰입을 요구하는 학생들과 직장인들에게 특히 우려스럽다. 이러한 현실을 수동적으로 받아들이기보다, 우리는 주의력을 보호하는 습관을 적극적으로 길러야 한다. 지정된 폰 프리 시간이나 의식적인 기술 사용과 같은 간단한 전략이 깊은 작업 능력을 상당히 회복시킬 수 있다. 궁극적으로, 이 산만한 세상에서 집중의 기술을 터득한 사람들이 상당한 이점을 갖게 될 것이다.
 
-## User's Back-Translation
+## User's Back-Translation (1st Attempt)
 
 It is getting rared to focus depply in the days digital devices obey. Technology offers accessblity of imformation which we couldn't see ever, It makes our awareness divided through endless alerts and infinite scroll. as a result, average people checks their phone more than 80 tims a day, It is interupting consisting foucs inevitablely. This phenomenon is especially worried for the students and office workers who are required to mentaly foucs for a long time. We should make the habits to protect our awareness instead of just receive it. Simple strategies like Using concious technics or decided free time of phone can make a huge diffrence of deep work ability. eventually, some people who got the technic of focusing will get considerable benefits in this unfocused world.
+
+## User's Back-Translation (2nd Attempt - After Anki Review)
+
+In a age dominated by digital devices, which has become increasingly rare to focus deeply. Technology offers us unprecedented access, but it distrupts our attention with endless alerts and scrolls. Research suggests that general people check thier phone 80+ times in a day, it inevitably disrupts our continous concentration. this phenomenon is especially concerning for the students and office workers required mental focus for a long time. Rather than just passively accepting it, It's much better to cultivate habits actively. simple strategies like using concious skills or decided free-phone can significantly restore the capacity of deep operation. Ultimately, in this distracted world, someone who masters the art of focus will possess considerable advantages
 
 ## Guided Comparison
 
@@ -83,6 +87,46 @@ It is getting rared to focus depply in the days digital devices obey. Technology
 - 전체 논리 구조 유지
 - 어려운 개념도 영어로 표현 시도
 
+---
+
+## 2nd Attempt Comparison (After Anki Review)
+
+### Improvements ✅
+
+| 1st Attempt | 2nd Attempt | Target |
+|-------------|-------------|--------|
+| "obey" ❌ | "dominated by" ✅ | dominated by |
+| "accessibility of information" | "unprecedented access" ✅ | unprecedented access to |
+| "worried" ❌ | "concerning for" ✅ | particularly concerning for |
+| "make the habits" | "cultivate habits" ✅ | cultivate habits |
+| "inevitablely" | "inevitably" ✅ | inevitably |
+
+**Learned Expressions Applied: 3/3** 🎯
+
+### Remaining Issues
+
+| Issue | 2nd Attempt | Target | Pattern |
+|-------|-------------|--------|---------|
+| Article | "In a age" | "In an age" | L1-1 |
+| Structure | "which has become rare to focus" | "the ability to...has become rare" | Syntax |
+| Collocation | "general people" | "the average person" | L1-6 |
+| Spelling | "distrupts, thier, concious" | "disrupts, their, conscious" | - |
+| Compound adj | "decided free-phone" | "designated phone-free periods" | L1-5 |
+| Collocation | "deep operation" | "deep work" | L1-6 |
+
+### Progress Summary
+
+| Metric | 1st | 2nd | Change |
+|--------|-----|-----|--------|
+| L1-6 (직역) | 3 | 0 | ✅ -3 |
+| L1-2 (수 일치) | 1 | 1 | → |
+| L1-1 (관사) | 0 | 1 | +1 |
+| Spelling errors | 5 | 3 | -2 |
+| Learned expressions | 0/3 | 3/3 | ✅ |
+
+---
+
 ### Next Session Recommendations
 - Mode A (자유 글쓰기)로 "attention" 관련 주제 시도
-- L1-6 직역 패턴 집중 연습
+- L1-1 관사 규칙 복습 (a vs an)
+- "designated phone-free periods" 복합형용사 구조 연습

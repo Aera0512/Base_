@@ -4,6 +4,7 @@
 - **Learner Level:** B2-C1 (Upper-Intermediate)
 - **L1:** Korean
 - **Sessions Completed:** 1
+- **Retry Rounds:** 1
 - **Created:** 2026-03-21
 - **Last Updated:** 2026-03-21
 
@@ -12,8 +13,8 @@
 ## L1 Interference Patterns
 
 ### L1-1: 관사 누락/오용 (Article Use)
-- Occurrences: 0
-- Notes:
+- Occurrences: 1
+- Notes: "In a age" → "In an age" (모음 앞 an 규칙)
 
 ### L1-2: 주어-동사 수 일치 (Subject-Verb Agreement)
 - Occurrences: 1
