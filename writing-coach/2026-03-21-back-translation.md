@@ -6,10 +6,17 @@ model_text_quality: high
 topic: digital-focus
 vocabulary_count: 140
 learned_expressions_created: 3
-l1_patterns_observed:
+anki_cards_created: 19
+retry_completed: true
+l1_patterns_1st:
   - L1-2
   - L1-5
   - L1-6
+l1_patterns_2nd:
+  - L1-1
+  - L1-2
+  - L1-5
+improvement: "L1-6 직역 오류 3→0"
 tags:
   - writing-coach
   - back-translation

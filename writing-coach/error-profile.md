@@ -57,8 +57,11 @@
 ## Session History
 
 ### 2026-03-21 | Mode B: Back-Translation | Topic: Digital Focus
-- **L1 patterns:** L1-2 (수 일치), L1-5 (전치사), L1-6 (직역) x3
+- **L1 patterns (1st):** L1-2 (수 일치), L1-5 (전치사), L1-6 (직역) x3
+- **L1 patterns (2nd):** L1-1 (관사), L1-2 (수 일치), L1-5 (전치사)
+- **Improvement:** L1-6 직역 오류 3→0 ✅
 - **Learned expressions:** unprecedented access, particularly concerning, cultivate habits
-- **Anki cards created:** 3
+- **Anki cards created:** 19 (12 expressions + 7 vocabulary)
+- **Deck:** `Obsidian::English::Writing Coach::2026-03-21 Digital Focus`
 - **Session note:** [[2026-03-21-back-translation]]
 
