@@ -1,188 +1,229 @@
-# Extreme Adjectives 복습 워크북
+# Extreme Adjectives (극단 형용사) - Review Workbook
 
-> [!tip] 빠른 복습용
-> Gradable vs Extreme 형용사 구분과 적합한 부사 조합을 빠르게 복습하세요.
-
----
-
-## ⚡ 핵심 공식
-
-### 부사 조합 규칙
-
-| 부사 | Gradable (등급형) | Extreme (극단형) |
-|------|------------------|------------------|
-| **very** | ✅ very cold | ❌ ~~very freezing~~ |
-| **extremely** | ✅ extremely hot | ❌ |
-| **absolutely** | ❌ | ✅ absolutely freezing |
-| **completely** | ❌ | ✅ completely exhausted |
-| **totally** | ❌ | ✅ totally amazing |
-| **really** | ✅ really cold | ✅ really freezing |
-
-### 한 줄 요약
-> **Extreme 형용사 = 이미 "very"의 의미 포함 → absolutely/completely/totally 사용**
-
-### 주요 변환표
-
-| Gradable (일반) | Extreme (극단) |
-|-----------------|---------------|
-| cold → | **freezing** |
-| hot → | **boiling** |
-| big → | **huge, enormous** |
-| small → | **tiny** |
-| good → | **excellent, fantastic** |
-| bad → | **awful, terrible** |
-| tired → | **exhausted** |
-| hungry → | **starving** |
-| angry → | **furious** |
-| happy → | **thrilled, ecstatic** |
-| beautiful → | **gorgeous, stunning** |
+> [!tip] 복습 가이드
+> 이 워크북은 [[Extreme Adjectives]] 학습 후 복습용으로 사용하세요. 정답을 보기 전에 먼저 스스로 답을 생각해 보세요.
 
 ---
 
-## ⚠️ 한국인 오류 TOP 5
+## Quick Review: 핵심 개념
 
-| # | ❌ 틀린 표현 | ✅ 올바른 표현 |
-|---|-------------|---------------|
-| 1 | very delicious | **absolutely delicious** |
-| 2 | very exhausted | **completely exhausted** |
-| 3 | very perfect | **absolutely perfect** |
-| 4 | absolutely cold | **very cold** 또는 **absolutely freezing** |
-| 5 | more excellent | **better** 또는 **even more impressive** |
+### 1분 복습
+- **Gradable (등급형)**: very, extremely 사용 가능 (cold, hot, good)
+- **Extreme (극단형)**: absolutely, completely 사용 (freezing, exhausted, delicious)
+- **핵심**: very + extreme = ❌ / absolutely + gradable = ❌
 
-### 핵심 포인트
-- Extreme 형용사에는 very ❌ → absolutely ✅
-- Gradable 형용사에는 absolutely ❌ → very ✅
-- Extreme 형용사는 비교급 불가
-- **really**는 둘 다 OK! (가장 안전한 선택)
-
----
-
-## 🔑 핵심 예문 12선
-
-### 초급 (4개)
-| 예문 | 해석 | 포인트 |
-|------|------|--------|
-| It's absolutely freezing today! | 오늘 완전 얼어붙을 것 같아! | absolutely + extreme |
-| The food was absolutely delicious. | 음식이 정말 맛있었어. | absolutely + extreme |
-| I'm completely exhausted. | 완전히 지쳤어. | completely + extreme |
-| She was totally amazed. | 그녀는 완전히 놀랐다. | totally + extreme |
-
-### 중급 (4개)
-| 예문 | 해석 | 포인트 |
-|------|------|--------|
-| The documentary was absolutely fascinating from start to finish. | 다큐멘터리가 처음부터 끝까지 정말 매혹적이었다. | absolutely + fascinating |
-| I'm completely starving because I skipped lunch. | 점심을 건너뛰어서 배고파 죽겠어. | completely + starving |
-| The view was absolutely breathtaking. | 경치가 정말 숨막혔어. | absolutely + breathtaking |
-| His joke was totally hilarious. | 그의 농담이 완전 웃겼어. | totally + hilarious |
-
-### 고급 (4개)
-| 예문 | 해석 | 포인트 |
-|------|------|--------|
-| The discovery was absolutely groundbreaking. | 발견이 정말 획기적이었다. | absolutely + groundbreaking |
-| The evidence was completely irrefutable. | 증거가 완전히 반박 불가능했다. | completely + irrefutable |
-| The crisis is totally catastrophic. | 위기가 완전히 재앙적이다. | totally + catastrophic |
-| Her recovery was absolutely miraculous. | 그녀의 회복이 정말 기적적이었다. | absolutely + miraculous |
+### 부사 매칭 체크
+| 부사 | Gradable | Extreme/Absolute |
+|------|----------|------------------|
+| very | ✅ | ❌ |
+| extremely | ✅ | ❌ |
+| absolutely | ❌ | ✅ |
+| completely | ❌ | ✅ |
+| really | ✅ | ✅ |
 
 ---
 
-## ⚡ 빠른 자가 테스트 (10문제)
+## Section A: 올바른 부사 선택 (10문제)
 
-### 빈칸 채우기 (3문제)
+각 빈칸에 **very** 또는 **absolutely** 중 적절한 것을 선택하세요.
 
-**1.** The weather is _______ freezing outside!
-> [!success]- 정답
-> **absolutely**
-> freezing은 extreme 형용사
+**1.** The weather is _______ cold today.
 
-**2.** I'm _______ tired after the long meeting.
-> [!success]- 정답
-> **very** 또는 **really**
-> tired는 gradable 형용사
+**2.** The food was _______ delicious!
 
-**3.** The concert was _______ incredible!
-> [!success]- 정답
-> **absolutely** 또는 **totally** 또는 **really**
-> incredible은 extreme 형용사
+**3.** I'm _______ exhausted after the workout.
 
-### 오류 교정 (2문제)
+**4.** The movie was _______ boring.
 
-**4.** ❌ The soup was very delicious.
-> [!success]- 정답
-> ✅ The soup was **absolutely delicious**.
-> 💡 delicious는 extreme 형용사 → very 대신 absolutely
+**5.** She looked _______ stunning in that dress.
 
-**5.** ❌ I'm absolutely hungry.
-> [!success]- 정답
-> ✅ I'm **very hungry**. 또는 I'm **absolutely starving**.
-> 💡 hungry는 gradable, starving은 extreme
+**6.** The hotel was _______ expensive.
 
-### Fill the Gap (3문제)
+**7.** I'm _______ starving right now!
 
-**6.** 오늘 완전 추워서 코트 입어야 해.
-> [!success]- 정답
-> It's absolutely freezing today, so you need to wear a coat.
+**8.** The concert was _______ amazing!
 
-**7.** 그 영화가 정말 놀라워서 두 번 봤어.
-> [!success]- 정답
-> The movie was absolutely amazing, so I watched it twice.
+**9.** He was _______ angry about the decision.
 
-**8.** 헬스장 다녀왔더니 완전 녹초야.
-> [!success]- 정답
-> I'm completely exhausted after going to the gym.
+**10.** The view was _______ breathtaking.
 
-### 어순 배열 (2문제)
-
-**9.** [ the / was / absolutely / food / delicious ]
-> [!success]- 정답
-> **The food was absolutely delicious.**
-
-**10.** [ completely / I'm / exhausted / work / after ]
-> [!success]- 정답
-> **I'm completely exhausted after work.**
+> [!success]- 정답 확인
+> 1. very (cold = gradable)
+> 2. absolutely (delicious = extreme)
+> 3. absolutely (exhausted = extreme)
+> 4. very (boring = gradable)
+> 5. absolutely (stunning = extreme)
+> 6. very (expensive = gradable)
+> 7. absolutely (starving = extreme)
+> 8. absolutely (amazing = extreme)
+> 9. very (angry = gradable)
+> 10. absolutely (breathtaking = extreme)
 
 ---
 
-## ✅ 마스터 체크리스트
+## Section B: Gradable → Extreme 변환 (10문제)
 
-나의 Extreme Adjectives 실력을 점검해 보세요:
+일반 형용사를 극단 형용사로 바꾸세요.
 
-- [ ] Gradable vs Non-gradable (Extreme/Absolute) 구분을 이해한다
-- [ ] very는 gradable에만 사용한다는 것을 안다
-- [ ] absolutely/completely/totally는 extreme에 사용한다
-- [ ] really는 둘 다 가능한 만능 부사임을 안다
-- [ ] 일반 형용사를 극단 형용사로 바꿀 수 있다 (cold → freezing)
-- [ ] Extreme 형용사는 비교급을 만들지 않는다는 것을 안다
-- [ ] 한국인이 자주 하는 오류 5가지를 피할 수 있다
-- [ ] 실제 대화에서 자연스럽게 활용할 수 있다
+**1.** very cold → absolutely _______
 
-### 점수 해석
-- 8개 체크: 🏆 완벽! 표현력 마스터
-- 6-7개: 👍 우수! 조금만 더 연습
-- 4-5개: 📚 기본기 OK, 응용 연습 필요
-- 3개 이하: 📖 메인 노트 다시 복습 권장
+**2.** very tired → completely _______
+
+**3.** very hungry → absolutely _______
+
+**4.** very good → absolutely _______
+
+**5.** very bad → absolutely _______
+
+**6.** very big → absolutely _______
+
+**7.** very small → absolutely _______
+
+**8.** very angry → completely _______
+
+**9.** very scared → absolutely _______
+
+**10.** very surprised → completely _______
+
+> [!success]- 정답 확인
+> 1. freezing
+> 2. exhausted / shattered
+> 3. starving / famished
+> 4. fantastic / excellent / wonderful
+> 5. terrible / awful / dreadful
+> 6. huge / enormous / gigantic
+> 7. tiny / minute
+> 8. furious / livid
+> 9. terrified / petrified
+> 10. astonished / amazed / astounded
 
 ---
 
-## 📝 Quick Reference Card
+## Section C: 오류 교정 (5문제)
 
-### 원어민처럼 말하기
+각 문장의 오류를 찾아 수정하세요.
 
-| 상황 | 이렇게 말하세요 |
-|------|---------------|
-| 아주 추울 때 | "It's absolutely freezing!" |
-| 배고파 죽겠을 때 | "I'm absolutely starving!" |
-| 음식이 맛있을 때 | "This is absolutely delicious!" |
-| 완전 지쳤을 때 | "I'm completely exhausted." |
-| 깜짝 놀랐을 때 | "I was totally amazed!" |
-| 정말 아름다울 때 | "It's absolutely stunning!" |
+**1.** The cake was very delicious.
+
+**2.** I'm absolutely tired after work.
+
+**3.** The view was very stunning.
+
+**4.** This restaurant is more excellent than that one.
+
+**5.** She was extremely terrified during the movie.
+
+> [!success]- 정답 확인
+> 1. The cake was **absolutely delicious**.
+> 2. I'm **very tired** / **absolutely exhausted** after work.
+> 3. The view was **absolutely stunning**.
+> 4. This restaurant is **better** than that one. (또는: even more impressive)
+> 5. She was **absolutely terrified** during the movie.
 
 ---
 
-## 🔗 연결 학습
-- [[Extreme Adjectives]] - 전체 학습 노트로 돌아가기
-- [[Adverbs of Degree]] - 정도 부사 학습
+## Section D: 문장 강화 (5문제)
+
+주어진 문장을 극단 형용사를 사용해 더 강하게 표현하세요.
+
+**1.** The weather is very hot today.
+→ _______________________________________
+
+**2.** I'm very hungry.
+→ _______________________________________
+
+**3.** The movie was very good.
+→ _______________________________________
+
+**4.** She was very happy about the news.
+→ _______________________________________
+
+**5.** The hotel room was very clean.
+→ _______________________________________
+
+> [!success]- 정답 확인
+> 1. It's absolutely boiling today!
+> 2. I'm absolutely starving!
+> 3. The movie was absolutely fantastic/incredible!
+> 4. She was completely ecstatic/thrilled about the news!
+> 5. The hotel room was completely spotless/immaculate!
+
+---
+
+## Section E: 한영 번역 (5문제)
+
+**1.** 오늘 완전 추워! 따뜻하게 입어.
+
+**2.** 그 음식 정말 맛있었어. 꼭 가봐.
+
+**3.** 헬스장 다녀왔는데 완전 녹초야.
+
+**4.** 그 뉴스 듣고 완전 깜짝 놀랐어.
+
+**5.** 새 아파트 전망이 정말 숨막힐 정도야.
+
+> [!success]- 정답 확인
+> 1. It's absolutely freezing today! Dress warmly.
+> 2. The food was absolutely delicious. You have to try it.
+> 3. I went to the gym and I'm completely exhausted.
+> 4. I was totally astonished when I heard the news.
+> 5. The view from the new apartment is absolutely breathtaking.
+
+---
+
+## Section F: 실전 대화 연습
+
+아래 상황에 맞게 극단 형용사를 사용해 응답해 보세요.
+
+**1.** A: How was the concert last night?
+B: _______________________________________
+
+**2.** A: Are you hungry?
+B: _______________________________________
+
+**3.** A: What did you think of the horror movie?
+B: _______________________________________
+
+> [!success]- 예시 답안
+> 1. It was absolutely incredible! The band was fantastic!
+> 2. I'm absolutely starving! I haven't eaten all day.
+> 3. It was completely terrifying! I couldn't sleep afterwards.
+
+---
+
+## Quick Reference: 자주 쓰는 Extreme Adjectives
+
+| Gradable | Extreme | 의미 |
+|----------|---------|------|
+| cold | freezing | 얼어붙는 |
+| hot | boiling | 끓는 듯한 |
+| tired | exhausted | 완전히 지친 |
+| hungry | starving | 굶주린 |
+| good | excellent, fantastic | 훌륭한 |
+| bad | terrible, awful | 끔찍한 |
+| big | huge, enormous | 거대한 |
+| beautiful | gorgeous, stunning | 눈부신 |
+| funny | hilarious | 폭소할 |
+| scared | terrified | 겁에 질린 |
+
+---
+
+## 복습 체크리스트
+
+- [ ] Gradable과 Extreme 형용사를 구분할 수 있다
+- [ ] 적절한 강조 부사를 선택할 수 있다 (very vs absolutely)
+- [ ] 일반 형용사를 극단 형용사로 바꿀 수 있다
+- [ ] really는 둘 다 사용 가능하다는 것을 안다
+- [ ] Extreme 형용사는 비교급이 불가능하다는 것을 안다
+
+---
+
+## 관련 학습 자료
+
+- [[Extreme Adjectives]] - 메인 학습 노트
+- [[Adverbs of Degree]] - 정도 부사
 - [[Collocations]] - 자연스러운 단어 조합
 
 ---
 
-#복습 #ExtremeAdjectives #극단형용사 #QuickReview
+#영어문법 #ExtremeAdjectives #극단형용사 #복습 #Review

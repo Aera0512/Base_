@@ -1,168 +1,245 @@
-# Narrative Tenses 복습 워크북
+# Narrative Tenses (서술 시제) - Review Workbook
 
-> [!tip] 빠른 복습용
-> 4가지 과거 시제의 역할을 빠르게 복습하고 자가 테스트로 마무리하세요.
-
----
-
-## ⚡ 핵심 공식
-
-### 4가지 시제 역할 한눈에
-
-| 시제 | 형태 | 역할 | 키워드 |
-|------|------|------|--------|
-| **Past Simple** | V-ed | 주요 사건 | then, suddenly, next |
-| **Past Continuous** | was/were + V-ing | 배경 설정 | while, as, when |
-| **Past Perfect** | had + p.p. | 더 이전 사건 | before, already, by the time |
-| **Past Perfect Cont.** | had been + V-ing | 지속된 배경 | for hours, all day |
-
-### 한 줄 요약
-> **스토리 = 배경(Continuous) + 이전 사건(Perfect) + 주요 사건(Simple)**
-
-### 시제 조합 공식
-```
-배경 설정: The sun was shining. Birds were singing.
-         [Past Continuous]
-
-플래시백: She had never been there before.
-         [Past Perfect]
-
-메인 사건: Suddenly, she heard a noise.
-         [Past Simple]
-```
+> [!tip] 복습 가이드
+> 이 워크북은 [[Narrative Tenses]] 학습 후 복습용으로 사용하세요. 정답을 보기 전에 먼저 스스로 답을 생각해 보세요.
 
 ---
 
-## ⚠️ 한국인 오류 TOP 5
+## Quick Review: 핵심 개념
 
-| # | ❌ 틀린 표현 | ✅ 올바른 표현 |
-|---|-------------|---------------|
-| 1 | The sun shined when I woke up. | The sun **was shining** when I woke up. |
-| 2 | While I walked, I saw him. | While I **was walking**, I saw him. |
-| 3 | She was tired because she worked all night. | She was tired because she **had worked** all night. |
-| 4 | I had ate dinner. | I **had eaten** dinner. |
-| 5 | When I had arrived, they left. | When I **arrived**, they **had left**. |
-
-### 핵심 포인트
-- 배경/분위기 묘사는 Past Continuous
-- 원인 제공은 Past Perfect
-- 먼저 일어난 동작에 had
-- 불규칙 과거분사 주의
-
----
-
-## 🔑 핵심 예문 12선
-
-### 초급 (4개)
-| 예문 | 해석 | 시제 |
+### 1분 복습
+| 시제 | 형태 | 역할 |
 |------|------|------|
-| The sun was shining brightly. | 해가 밝게 빛나고 있었다. | Past Continuous (배경) |
-| She opened the door and went in. | 문을 열고 들어갔다. | Past Simple (연속 사건) |
-| I had never seen snow before. | 전에 눈을 본 적이 없었다. | Past Perfect (경험) |
-| While I was cooking, he arrived. | 요리하고 있을 때 그가 도착했다. | Continuous + Simple |
+| **Past Simple** | V-ed | 주요 사건, 연속 동작 |
+| **Past Continuous** | was/were + V-ing | 배경, 진행 중인 동작 |
+| **Past Perfect** | had + p.p. | 더 이전의 사건 |
+| **Past Perfect Continuous** | had been + V-ing | 이전부터 지속된 동작 |
 
-### 중급 (4개)
-| 예문 | 해석 | 시제 |
-|------|------|------|
-| While I was walking home, it suddenly started to rain. | 집에 걸어가고 있을 때 갑자기 비가 오기 시작했다. | 배경 + 사건 |
-| She was exhausted because she had been working all night. | 밤새 일해서 지쳐 있었다. | 결과 + 원인 |
-| By the time we arrived, the concert had already started. | 도착했을 때 콘서트는 이미 시작한 후였다. | 시점 + 이전 완료 |
-| The children were playing while their parents were cooking. | 아이들이 노는 동안 부모님은 요리하고 있었다. | 동시 진행 |
-
-### 고급 (4개)
-| 예문 | 해석 | 시제 조합 |
-|------|------|----------|
-| The investigation revealed that the company had been violating regulations for years. | 수사 결과 회사가 수년간 규정을 위반해왔다는 게 밝혀졌다. | Simple + Perfect Cont. |
-| As the ship was sinking, passengers realized not enough lifeboats had been provided. | 배가 침몰하고 있을 때 승객들은 구명보트가 부족하다는 걸 깨달았다. | Continuous + Perfect |
-| While the CEO was delivering his report, employees were whispering about layoffs that had been announced. | CEO가 보고하는 동안 직원들은 발표된 해고에 대해 속삭이고 있었다. | 복합 서술 |
-| By the time rescue arrived, survivors had been stranded for five days. | 구조대가 왔을 때 생존자들은 5일간 고립된 상태였다. | 시점 + 지속 |
+### 핵심 패턴
+- **배경 + 사건**: While I was walking, I saw... (Cont. + Simple)
+- **사건 + 이유**: I couldn't enter because I had forgotten... (Simple + Perfect)
+- **지속 + 결과**: He was tired because he had been working... (Perfect Cont.)
 
 ---
 
-## ⚡ 빠른 자가 테스트 (10문제)
+## Section A: 시제 선택 (10문제)
 
-### 빈칸 채우기 (3문제)
+올바른 시제를 선택하세요.
 
-**1.** While I _______ (walk) to school, I saw my friend.
-> [!success]- 정답
-> **was walking**
-> 배경 동작 → Past Continuous
+**1.** While I _______ (walk) home, it started to rain.
+   a) walked  b) was walking  c) had walked
 
-**2.** She was nervous because she _______ never _______ (fly) before.
-> [!success]- 정답
-> **had ... flown**
-> 이전 경험 부재 → Past Perfect
+**2.** By the time we arrived, the movie _______ (start).
+   a) started  b) was starting  c) had started
 
-**3.** The children _______ (play) in the garden while their parents _______ (prepare) dinner.
-> [!success]- 정답
-> **were playing ... were preparing**
-> 동시 진행 → 둘 다 Past Continuous
+**3.** She was exhausted because she _______ (work) all night.
+   a) worked  b) was working  c) had been working
 
-### 오류 교정 (2문제)
+**4.** The sun _______ (shine) when I woke up.
+   a) shone  b) was shining  c) had shone
 
-**4.** ❌ The sun shined brightly when we arrived at the beach.
-> [!success]- 정답
-> ✅ The sun **was shining** brightly when we arrived at the beach.
-> 💡 도착 시점의 배경 상황 → Past Continuous
+**5.** I _______ (finish) my homework, so I watched TV.
+   a) finished  b) was finishing  c) had finished
 
-**5.** ❌ I didn't see her because she already left.
-> [!success]- 정답
-> ✅ I didn't see her because she **had already left**.
-> 💡 이미 떠난 후라서 → Past Perfect
+**6.** While the children _______ (play), their parents _______ (cook).
+   a) played / cooked  b) were playing / were cooking  c) had played / had cooked
 
-### Fill the Gap (3문제)
+**7.** She told me she _______ never _______ (travel) abroad before.
+   a) was ... traveling  b) had ... traveled  c) traveled
 
-**6.** 내가 집에 걸어가고 있을 때, 갑자기 비가 쏟아지기 시작했다.
-> [!success]- 정답
-> While I was walking home, it suddenly started pouring.
+**8.** I _______ just _______ (sit) down when the phone rang.
+   a) was ... sitting  b) had ... sat  c) sat
 
-**7.** 우리가 도착했을 때, 영화는 이미 시작한 후였고 좌석을 찾기 어려웠다.
-> [!success]- 정답
-> By the time we arrived, the movie had already started, and it was hard to find seats.
+**9.** As the storm _______ (approach), everyone _______ (find) shelter.
+   a) approached / found  b) was approaching / was finding  c) had approached / found
 
-**8.** 그녀는 밤새 운전을 해서 지쳐 있었고, 휴식이 필요했다.
-> [!success]- 정답
-> She was exhausted because she had been driving all night, and she needed to rest.
+**10.** He couldn't enter because he _______ (forget) his key.
+   a) forgot  b) was forgetting  c) had forgotten
 
-### 어순 배열 (2문제)
-
-**9.** [ was / I / TV / watching / the / when / went / power / out ]
-> [!success]- 정답
-> **I was watching TV when the power went out.**
-
-**10.** [ by / time / the / arrived / we / party / the / had / ended / already ]
-> [!success]- 정답
-> **By the time we arrived, the party had already ended.**
+> [!success]- 정답 확인
+> 1. b) was walking
+> 2. c) had started
+> 3. c) had been working
+> 4. b) was shining
+> 5. c) had finished
+> 6. b) were playing / were cooking
+> 7. b) had ... traveled
+> 8. b) had ... sat
+> 9. b) was approaching / was finding
+> 10. c) had forgotten
 
 ---
 
-## ✅ 마스터 체크리스트
+## Section B: 빈칸 채우기 (10문제)
 
-나의 Narrative Tenses 실력을 점검해 보세요:
+적절한 시제로 동사를 변형하세요.
 
-- [ ] 4가지 과거 시제의 형태와 역할을 구분할 수 있다
-- [ ] Past Simple로 주요 사건을 전달할 수 있다
-- [ ] Past Continuous로 배경과 분위기를 설정할 수 있다
-- [ ] Past Perfect로 플래시백(더 이전 사건)을 표현할 수 있다
-- [ ] Past Perfect Continuous로 지속된 배경을 강조할 수 있다
-- [ ] while, when, by the time 등과 적절한 시제를 조합할 수 있다
-- [ ] 스토리텔링에서 시제들을 자연스럽게 조합할 수 있다
-- [ ] 한국인이 자주 하는 오류 5가지를 피할 수 있다
+**1.** While I _______ (study), my friend called.
 
-### 점수 해석
-- 8개 체크: 🏆 완벽! 스토리텔링 마스터
-- 6-7개: 👍 우수! 조금만 더 연습
-- 4-5개: 📚 기본기 OK, 응용 연습 필요
-- 3개 이하: 📖 메인 노트 다시 복습 권장
+**2.** The streets were empty because everyone _______ (go) home.
+
+**3.** It _______ (rain) all morning before the sun came out.
+
+**4.** She realized she _______ (leave) her phone at home.
+
+**5.** The guests _______ (arrive) as we _______ (set) the table.
+
+**6.** By the time the ambulance arrived, the patient _______ (stop) breathing.
+
+**7.** While the CEO _______ (speak), employees _______ (whisper) about the news.
+
+**8.** I _______ (wait) for an hour when she finally showed up.
+
+**9.** The children _______ (play) outside when it started to rain.
+
+**10.** He was nervous because he _______ never _______ (speak) in public before.
+
+> [!success]- 정답 확인
+> 1. was studying
+> 2. had gone
+> 3. had been raining
+> 4. had left
+> 5. were arriving / were setting
+> 6. had stopped
+> 7. was speaking / were whispering
+> 8. had been waiting
+> 9. were playing
+> 10. had ... spoken
 
 ---
 
-## 🔗 연결 학습
-- [[Narrative Tenses]] - 전체 학습 노트로 돌아가기
+## Section C: 오류 교정 (5문제)
+
+각 문장의 시제 오류를 찾아 수정하세요.
+
+**1.** The sun shined brightly when we arrived at the beach.
+
+**2.** While I cooked dinner, my friend called me.
+
+**3.** She was tired because she worked all night.
+
+**4.** I didn't see her because she already left.
+
+**5.** The refugees have been traveling for weeks before they reached safety.
+
+> [!success]- 정답 확인
+> 1. The sun **was shining** brightly when we arrived.
+> 2. While I **was cooking** dinner, my friend called me.
+> 3. She was tired because she **had worked / had been working** all night.
+> 4. I didn't see her because she **had already left**.
+> 5. The refugees **had been traveling** for weeks before they reached safety.
+
+---
+
+## Section D: 문장 결합 (5문제)
+
+주어진 정보를 사용해 하나의 복합 문장을 만드세요.
+
+**1.** 배경: It was raining. / 사건: I saw an accident.
+→ _______________________________________
+
+**2.** 이전 동작: She finished her work. / 결과: She left the office.
+→ _______________________________________
+
+**3.** 동시 진행: The children played. The parents cooked.
+→ _______________________________________
+
+**4.** 지속된 동작: He worked all night. / 결과: He was exhausted.
+→ _______________________________________
+
+**5.** 배경: The sun was setting. / 사건: We decided to go home.
+→ _______________________________________
+
+> [!success]- 정답 확인
+> 1. While it was raining, I saw an accident. / I saw an accident while it was raining.
+> 2. After she had finished her work, she left the office.
+> 3. While the children were playing, the parents were cooking.
+> 4. He was exhausted because he had been working all night.
+> 5. As the sun was setting, we decided to go home.
+
+---
+
+## Section E: 스토리 완성 (종합)
+
+빈칸에 적절한 시제로 동사를 넣어 이야기를 완성하세요.
+
+It _______ (1. be) a cold winter night. Snow _______ (2. fall) heavily and the wind _______ (3. howl).
+
+Sarah _______ (4. drive) home from work when her car suddenly _______ (5. stop). She _______ (6. realize) that she _______ (7. forget) to fill up the gas tank that morning.
+
+She _______ (8. wait) by the roadside for about an hour when a truck _______ (9. stop) to help her. The driver _______ (10. tell) her that he _______ (11. see) her car from a distance and _______ (12. decide) to check if everything was okay.
+
+> [!success]- 정답 확인
+> 1. was
+> 2. was falling
+> 3. was howling
+> 4. was driving
+> 5. stopped
+> 6. realized
+> 7. had forgotten
+> 8. had been waiting
+> 9. stopped
+> 10. told
+> 11. had seen
+> 12. had decided
+
+---
+
+## Section F: 한영 번역 (5문제)
+
+**1.** 내가 집에 걸어가고 있을 때, 갑자기 비가 쏟아지기 시작했다.
+
+**2.** 우리가 도착했을 때, 파티는 이미 끝난 상태였다.
+
+**3.** 그녀는 긴장하고 있었다. 대중 앞에서 발표를 해본 적이 없었기 때문이다.
+
+**4.** 아이들이 정원에서 놀고 있는 동안, 부모님은 저녁을 준비하고 있었다.
+
+**5.** 구조대가 도착했을 때, 생존자들은 5일간 음식 없이 고립된 상태였다.
+
+> [!success]- 정답 확인
+> 1. While I was walking home, it suddenly started to pour.
+> 2. By the time we arrived, the party had already ended.
+> 3. She was feeling nervous because she had never given a presentation in public before.
+> 4. While the children were playing in the garden, their parents were preparing dinner.
+> 5. By the time the rescue team arrived, the survivors had been stranded for five days without food.
+
+---
+
+## Quick Reference: 시제 역할 정리
+
+| 역할 | 사용 시제 | 예시 |
+|------|----------|------|
+| 주요 사건 | Past Simple | She opened the door. |
+| 배경/분위기 | Past Continuous | The sun was shining. |
+| 더 이전 사건 | Past Perfect | He had already left. |
+| 지속된 행위 | Past Perfect Continuous | She had been waiting. |
+
+### 자주 쓰이는 신호 단어
+- **Past Simple**: then, suddenly, next, after that
+- **Past Continuous**: while, as, when, at that moment
+- **Past Perfect**: before, by the time, already, never
+- **Past Perfect Continuous**: for (hours/days), since, all morning
+
+---
+
+## 복습 체크리스트
+
+- [ ] 4가지 Narrative Tenses의 형태와 역할을 구분할 수 있다
+- [ ] 배경 묘사에 Past Continuous를 사용할 수 있다
+- [ ] 시간 순서가 뒤바뀔 때 Past Perfect를 적용할 수 있다
+- [ ] 지속된 행위 표현에 Past Perfect Continuous를 사용할 수 있다
+- [ ] while과 when의 사용 차이를 안다
+
+---
+
+## 관련 학습 자료
+
+- [[Narrative Tenses]] - 메인 학습 노트
 - [[Past Perfect]] - 과거완료 심화
 - [[Past Simple]] - 과거단순 기초
 - [[Past Continuous]] - 과거진행 기초
 
 ---
 
-#복습 #NarrativeTenses #서술시제 #QuickReview
+#영어문법 #NarrativeTenses #서술시제 #복습 #Review
