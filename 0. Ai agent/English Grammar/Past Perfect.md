@@ -1,3 +1,22 @@
+---
+type: concept
+genre: english
+date_created: "2026-03-23"
+tags:
+  - english
+  - grammar
+  - past-perfect
+  - 시제
+review:
+  - null
+  - null
+  - null
+confidence: null
+next_review: "2026-03-24"
+review_phase: 0
+difficulty: 3
+---
+
 # Past Perfect (과거완료)
 
 > [!info] 학습 목표
