@@ -20,6 +20,9 @@ review:
   - null
 confidence: null
 status: processed
+next_review: "2026-03-24"
+review_phase: 0
+difficulty: 3
 version: "8.0"
 ---
 
