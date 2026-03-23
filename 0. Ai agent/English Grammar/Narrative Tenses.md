@@ -899,10 +899,10 @@ I grabbed a drink and joined the fun.
 
 ## 🎬 유튜브 추천
 
-- [Narrative Tenses 완벽 정리 - 쭈쌤영어](https://www.youtube.com/watch?v=abc123)
-- [영어로 스토리텔링하기 - 라이브 아카데미](https://www.youtube.com/watch?v=def456)
-- [Past Tenses 총정리 (Simple/Continuous/Perfect) - 영어회화 100일의 기적](https://www.youtube.com/watch?v=ghi789)
-- [과거 시제 4가지 한번에 정리 - 슈퍼브로 영어](https://www.youtube.com/watch?v=jkl012)
+- [Narrative Tenses 정리 - 에스텔 영어](https://www.youtube.com/watch?v=h21QCk2tkQI)
+- [Narrative Tenses for Storytelling - Oxford Online English](https://www.youtube.com/watch?v=P2Lxt2YA6is)
+- [Past Tenses in English - BBC Learning English](https://www.youtube.com/watch?v=8fqEj7hORkY)
+- [How to Tell Stories in English - English with Lucy](https://www.youtube.com/watch?v=BDwAqPz0gWA)
 
 ---
 

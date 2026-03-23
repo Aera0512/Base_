@@ -902,9 +902,9 @@
 ## 🎬 유튜브 추천
 
 - [Stop Saying VERY! Use Extreme Adjectives - mmmEnglish](https://www.youtube.com/watch?v=wV8SzN6AJLA)
-- [Gradable vs Non-gradable Adjectives - BBC Learning English](https://www.youtube.com/watch?v=abc123)
-- [Extreme Adjectives 완벽 정리 - 라이브 아카데미](https://www.youtube.com/watch?v=def456)
-- [영어 표현력 UP: Very 대신 이렇게! - 영어회화 100일의 기적](https://www.youtube.com/watch?v=ghi789)
+- [Extreme Adjectives - VOA Learning English](https://www.youtube.com/watch?v=pmY7XqyMMII)
+- [Gradable and Ungradable Adjectives - Oxford Online English](https://www.youtube.com/watch?v=V2dLMnDBsGA)
+- [Extreme Adjectives in English - English with Lucy](https://www.youtube.com/watch?v=YZBStgZGyMY)
 
 ---
 
