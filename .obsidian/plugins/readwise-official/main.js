@@ -9885,7 +9885,7 @@ class StatusBar {
 }
 
 // keep pluginVersion in sync with manifest.json
-const pluginVersion = "3.0.1";
+const pluginVersion = "3.0.2";
 // switch to local dev server for development
 const baseURL = "https://readwise.io";
 // define our initial settings
@@ -10007,7 +10007,7 @@ class ReadwisePlugin extends obsidian.Plugin {
                     else if (SUCCESS_STATUSES.includes(data.taskStatus)) {
                         // make sure all artifacts are processed
                         yield downloadUnprocessedArtifacts(data.artifactIds);
-                        yield this.acknowledgeSyncCompleted(buttonContext);
+                        yield this.acknowledgeSyncCompleted(buttonContext, statusID);
                         yield this.handleSyncSuccess(buttonContext, "Synced!", statusID);
                         this.notice("Readwise sync completed", true, 1, true);
                         console.log("Readwise Official plugin: completed sync");
@@ -10252,11 +10252,16 @@ class ReadwisePlugin extends obsidian.Plugin {
             });
         });
     }
-    acknowledgeSyncCompleted(buttonContext) {
+    acknowledgeSyncCompleted(buttonContext, statusID) {
         return __awaiter(this, void 0, void 0, function* () {
             let response;
+            // Pass statusID so the server can scope the mark-delivered exactly to the one we
+            // just downloaded, instead of falling back to "all finished+undelivered for config".
+            const url = statusID
+                ? `${baseURL}/api/obsidian/sync_ack?statusID=${statusID}`
+                : `${baseURL}/api/obsidian/sync_ack`;
             try {
-                response = yield fetch(`${baseURL}/api/obsidian/sync_ack`, {
+                response = yield fetch(url, {
                     headers: Object.assign(Object.assign({}, this.getAuthHeaders()), { 'Content-Type': 'application/json' }),
                     method: "POST",
                 });
@@ -10766,5 +10771,3 @@ class ReadwiseSettingTab extends obsidian.PluginSettingTab {
 }
 
 module.exports = ReadwisePlugin;
-
-/* nosourcemap */
