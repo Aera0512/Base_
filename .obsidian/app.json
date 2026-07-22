@@ -4,5 +4,6 @@
   "spellcheck": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "a. Obsidian/common",
-  "attachmentFolderPath": "./"
+  "attachmentFolderPath": "./",
+  "alwaysUpdateLinks": true
 }
