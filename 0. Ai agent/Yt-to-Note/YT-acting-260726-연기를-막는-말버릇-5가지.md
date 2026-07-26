@@ -15,6 +15,11 @@ tags:
   - 대본분석
   - 연영과입시
   - 자기대화
+duration: '00:26:45'
+transcript_language: ko
+transcript_type: auto
+transcript_coverage: 0.9925
+chapter_embeds: true
 ---
 # 내 연기를 망치는 말버릇 5가지 — 멈춤을 질문으로 바꾸기
 
@@ -78,7 +83,9 @@ mindmap
 
 ## 챕터별 정리
 
-### 00:00–03:18 | 문제는 말이 아니라, 말에서 멈추는 습관
+### [00:00–03:18](https://youtu.be/B4HUhk8Ec0o?t=0) | 문제는 말이 아니라, 말에서 멈추는 습관
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/B4HUhk8Ec0o?start=0&end=198" title="문제는 말이 아니라, 말에서 멈추는 습관" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 반복해서 쓰는 말은 배우가 무엇을 먼저 찾고 어디에서 막히는지 보여 주는 단서다. 그렇다고 한 문장만으로 배우를 단정할 수는 없다. 중요한 것은 같은 말이 반복될 때 그 뒤에 숨어 있는 사고 습관을 살피는 것이다.
 
@@ -91,7 +98,9 @@ mindmap
 > [!important]
 > 나쁜 말이 문제라기보다, 그 말 뒤에서 더 좋은 질문으로 넘어가지 않는 것이 문제다.
 
-### 03:18–08:44 | 1. “모르겠어요”
+### [03:18–08:43](https://youtu.be/B4HUhk8Ec0o?t=198) | 1. “모르겠어요”
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/B4HUhk8Ec0o?start=198&end=523" title="1. “모르겠어요”" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 “모르겠다”는 말은 생각이 없다는 뜻이 아니라, 생각해야 할 것이 너무 많아 어디서 시작할지 정리되지 않았다는 신호일 수 있다. “이걸 어떻게 연기하지?”에는 인물, 상황, 관계, 장면 목표, 직전의 순간, 장애물, 행동이 한꺼번에 들어 있다.
 
@@ -109,7 +118,9 @@ mindmap
 3. 대본 근거에 맞는 행동을 골라 실제로 해 본다.
 4. 행동이 통하지 않는 지점에서 전술을 바꾸고 비트의 변화를 확인한다.
 
-### 08:44–12:45 | 2. “감정이 안 올라와요”
+### [08:43–12:47](https://youtu.be/B4HUhk8Ec0o?t=523) | 2. “감정이 안 올라와요”
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/B4HUhk8Ec0o?start=523&end=767" title="2. “감정이 안 올라와요”" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 감정을 진짜로 느끼고 싶다는 마음은 나쁘지 않다. 다만 “슬퍼야지”, “왜 화가 안 나지?”라며 자기 안을 계속 확인하면 앞의 상대를 놓치고 감정은 더 멀어진다.
 
@@ -129,7 +140,9 @@ mindmap
 3. 상대에게 실제 행동을 하고, 상대의 반응과 장애물을 받아들인다.
 4. 감정이 없다고 자신을 꾸짖지 말고 목표·상대·장애물·행동을 다시 점검한다.
 
-### 12:45–16:39 | 3. “이 대사는 화난 거죠?”
+### [12:47–16:40](https://youtu.be/B4HUhk8Ec0o?t=767) | 3. “이 대사는 화난 거죠?”
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/B4HUhk8Ec0o?start=767&end=1000" title="3. “이 대사는 화난 거죠?”" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 감정에 이름을 붙이는 일은 참고가 될 수 있지만, 그것이 연기의 결론이 되면 표현이 굳어진다. 같은 분노라도 누군가는 소리를 지르고, 누군가는 조용해지고, 누군가는 웃는다.
 
@@ -142,7 +155,9 @@ mindmap
 
 영상에서 서브텍스트는 단순한 “숨은 감정”보다 **말하지 못한 행동의 방향**에 가깝다. “괜찮아”도 더 묻지 못하게 막기, 상대를 안심시키기, 미안해하지 않게 하기, 무너진 것을 감추기, 자신을 알아봐 달라고 요구하기가 될 수 있다.
 
-### 16:39–21:16 | 4. “이 캐릭터가 저와 잘 맞을까요?”
+### [16:40–21:17](https://youtu.be/B4HUhk8Ec0o?t=1000) | 4. “이 캐릭터가 저와 잘 맞을까요?”
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/B4HUhk8Ec0o?start=1000&end=1277" title="4. “이 캐릭터가 저와 잘 맞을까요?”" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 시험 작품을 고를 때 이미지와 장점이 드러나는지 확인하는 것은 현실적인 질문이다. 그러나 “나와 맞는가?”를 너무 먼저 물으면 인물을 충분히 이해하기 전에 겉모습으로만 판단하게 된다.
 
@@ -156,7 +171,9 @@ mindmap
 
 좋은 선택지는 나와 접점이 있으면서도 새롭게 만들어야 할 차이가 있는 인물일 수 있다.
 
-### 21:16–25:00 | 5. “그거 알고 있어요”
+### [21:17–24:56](https://youtu.be/B4HUhk8Ec0o?t=1277) | 5. “그거 알고 있어요”
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/B4HUhk8Ec0o?start=1277&end=1496" title="5. “그거 알고 있어요”" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 장면 목표, 행동, 비트, 서브텍스트라는 말을 들어 본 것과 실제 장면에서 아는 것은 다르다. “모르겠어요”는 질문을 시작하지 못해 멈추고, “알고 있어요”는 더 질문하지 않아 멈춘다.
 
@@ -170,7 +187,9 @@ mindmap
 
 좋은 배우는 같은 개념을 새 대본과 새 상대 안에서 반복해서 다시 만나며 경험의 폭을 넓힌다.
 
-### 25:00–26:45 | 결론: 벽을 문으로 바꾸는 자기 대화
+### [24:56–26:45](https://youtu.be/B4HUhk8Ec0o?t=1496) | 결론: 벽을 문으로 바꾸는 자기 대화
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/B4HUhk8Ec0o?start=1496&end=1605" title="결론: 벽을 문으로 바꾸는 자기 대화" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 배우라면 누구나 막막할 수 있고, 감정이 올라오지 않거나 인물과 거리감을 느낄 수 있다. 그것은 부끄러운 일이 아니다. 배우는 항상 완벽한 사람이 아니라, 흔들리는 자신을 가지고도 다시 인물과 장면으로 돌아와 분석하고 시도하는 사람이다.
 
