@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1774250369200,
+  "lastScanned": 1785074209016,
   "projectRoot": "/Users/aera/Desktop/Base_",
   "techStack": {
     "languages": [],
@@ -35,168 +35,54 @@
     "0. Ai agent": {
       "path": "0. Ai agent",
       "purpose": null,
-      "fileCount": 1,
-      "lastAccessed": 1774250369185,
+      "fileCount": 0,
+      "lastAccessed": 1785074209011,
       "keyFiles": []
     },
-    "200 Develop": {
-      "path": "200 Develop",
-      "purpose": null,
-      "fileCount": 1,
-      "lastAccessed": 1774250369185,
-      "keyFiles": [
-        "글로벌 및 국내 퀀트·AI 트레이딩 직업군 심층 분석 및 진학 가이드.md"
-      ]
-    },
-    "Anki": {
-      "path": "Anki",
+    "나머지": {
+      "path": "나머지",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1774250369186,
+      "lastAccessed": 1785074209011,
       "keyFiles": []
     },
-    "Book-to-Note": {
-      "path": "Book-to-Note",
-      "purpose": null,
-      "fileCount": 3,
-      "lastAccessed": 1774250369186,
-      "keyFiles": [
-        "Book-selfhelp-260313-English-Listening-Mastery.md",
-        "Book-selfhelp-260313-영어회화-빠른향상-과학적방법론.md",
-        "Book-selfhelp-260315-Passion-Flow-Intrinsic-Motivation.md"
-      ]
-    },
-    "Important": {
-      "path": "Important",
-      "purpose": null,
-      "fileCount": 9,
-      "lastAccessed": 1774250369186,
-      "keyFiles": [
-        "0. 나를 제대로 아는 방법.md",
-        "CLAUDE.md",
-        "Setup-Guide-Search-MCP.md",
-        "YT-to-Note 사용 가이드.md",
-        "김예성.md"
-      ]
-    },
-    "Inbox": {
-      "path": "Inbox",
-      "purpose": null,
-      "fileCount": 12,
-      "lastAccessed": 1774250369186,
-      "keyFiles": [
-        "AI 코딩 자동화 로드맵 프롬프트.md",
-        "AI 학습 완전 가이드 - 비전공자를 위한 최단경로 로드맵 (2025).md",
-        "Anki Agent 프로젝트 진행 트래커.md",
-        "Claude 실전 워크플로우.md",
-        "OpenClaw 최대 활용 가이드.md"
-      ]
-    },
-    "a. Obsidian": {
-      "path": "a. Obsidian",
+    "생각과 영감": {
+      "path": "생각과 영감",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1774250369186,
-      "keyFiles": []
+      "lastAccessed": 1785074209012,
+      "keyFiles": [
+        "생각과 영감 홈.md"
+      ]
     },
-    "b. Dairy": {
-      "path": "b. Dairy",
+    "연기": {
+      "path": "연기",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1774250369186,
-      "keyFiles": []
+      "lastAccessed": 1785074209012,
+      "keyFiles": [
+        "연기 홈.md"
+      ]
     },
-    "c. Attached file": {
-      "path": "c. Attached file",
+    "정리": {
+      "path": "정리",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1774250369187,
-      "keyFiles": []
-    },
-    "d. Templates": {
-      "path": "d. Templates",
-      "purpose": null,
-      "fileCount": 10,
-      "lastAccessed": 1774250369187,
+      "lastAccessed": 1785074209012,
       "keyFiles": [
-        "Book-Note-Knowledge-Template.md",
-        "Book-Note-Selfhelp-Template.md",
-        "Book-Note-Tech-Template.md",
-        "CLAUDE-template.md",
-        "Daily_note_Template.md"
+        "정리 홈.md"
       ]
     },
-    "e. Canvases": {
-      "path": "e. Canvases",
+    "조사": {
+      "path": "조사",
       "purpose": null,
-      "fileCount": 2,
-      "lastAccessed": 1774250369187,
+      "fileCount": 1,
+      "lastAccessed": 1785074209012,
       "keyFiles": [
-        "나(김예성).canvas",
-        "이동진의 파이아키아.canvas"
-      ]
-    },
-    "f. CMDS": {
-      "path": "f. CMDS",
-      "purpose": null,
-      "fileCount": 4,
-      "lastAccessed": 1774250369187,
-      "keyFiles": [
-        "00. START HERE.md",
-        "obs2pdf 가이드.md",
-        "🏠 Vault Home.md"
-      ]
-    },
-    "writing-coach": {
-      "path": "writing-coach",
-      "purpose": null,
-      "fileCount": 3,
-      "lastAccessed": 1774250369187,
-      "keyFiles": [
-        "2026-03-21-back-translation.md",
-        "2026-03-22-social-media-mental-health.md",
-        "error-profile.md"
-      ]
-    },
-    "스킬 사용 가이드": {
-      "path": "스킬 사용 가이드",
-      "purpose": null,
-      "fileCount": 5,
-      "lastAccessed": 1774250369187,
-      "keyFiles": [
-        "Claude Code 스킬 등록 가이드.md",
-        "OpenClaw VPS 사용 가이드.md",
-        "Telegram Bot 설치 가이드.md",
-        "pencil-to-code 사용 가이드.md",
-        "자동화 에이전트 통합 사용 가이드.md"
+        "조사 홈.md"
       ]
     }
   },
-  "hotPaths": [
-    {
-      "path": "0. Ai agent/English Grammar/Extreme Adjectives.md",
-      "accessCount": 2,
-      "lastAccessed": 1774250450815,
-      "type": "file"
-    },
-    {
-      "path": "0. Ai agent/English Grammar/Narrative Tenses.md",
-      "accessCount": 2,
-      "lastAccessed": 1774250451021,
-      "type": "file"
-    },
-    {
-      "path": "0. Ai agent/English Grammar/Past Perfect.md",
-      "accessCount": 1,
-      "lastAccessed": 1774250376993,
-      "type": "file"
-    },
-    {
-      "path": "0. Ai agent/English Grammar/Present Perfect.md",
-      "accessCount": 1,
-      "lastAccessed": 1774250842667,
-      "type": "file"
-    }
-  ],
+  "hotPaths": [],
   "userDirectives": []
 }
