@@ -8,7 +8,7 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts/kopub-batang/KoPubBatang-Light.woff") format("woff");
+  src: url("app://local/Users/aera/Desktop/Base_/.obsidian/fonts/kopub-batang/KoPubBatang-Light.woff") format("woff");
 }
 
 @font-face {
@@ -16,7 +16,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/kopub-batang/KoPubBatang-Regular.woff") format("woff");
+  src: url("app://local/Users/aera/Desktop/Base_/.obsidian/fonts/kopub-batang/KoPubBatang-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -24,13 +24,28 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/kopub-batang/KoPubBatang-Bold.woff") format("woff");
+  src: url("app://local/Users/aera/Desktop/Base_/.obsidian/fonts/kopub-batang/KoPubBatang-Bold.woff") format("woff");
 }
 
 body {
   --font-interface-theme: "KoPub Batang";
+  --font-interface-override: "KoPub Batang";
   --font-text-theme: "KoPub Batang";
+  --font-text-override: "KoPub Batang";
+  --font-editor-theme: "KoPub Batang";
+  --font-editor-override: "KoPub Batang";
   --font-interface: "KoPub Batang";
   --font-text: "KoPub Batang";
+  --font-editor: "KoPub Batang";
   --default-font: "KoPub Batang";
+  font-family: "KoPub Batang", serif;
+}
+
+/* Minimal uses a separate editor font variable. These selectors also cover
+   reading mode and embedded editor surfaces that set their own font stack. */
+.markdown-source-view.mod-cm6 .cm-scroller,
+.markdown-preview-view,
+.markdown-rendered,
+.inline-title {
+  font-family: "KoPub Batang", serif !important;
 }
