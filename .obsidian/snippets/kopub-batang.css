@@ -49,3 +49,63 @@ body {
 .inline-title {
   font-family: "KoPub Batang", serif !important;
 }
+
+/*
+ * Heading palette
+ * Warm, prominent upper levels gradually transition to calmer cool tones.
+ * Separate light/dark values preserve contrast in both system themes.
+ */
+.theme-dark {
+  --h1-color: #e97861;
+  --h2-color: #dca15f;
+  --h3-color: #a9bb8f;
+  --h4-color: #7eaaa6;
+  --h5-color: #8ca5c9;
+  --h6-color: #b29ac3;
+  --inline-title-color: var(--h1-color);
+}
+
+.theme-light {
+  --h1-color: #9b4034;
+  --h2-color: #88591f;
+  --h3-color: #50683d;
+  --h4-color: #326965;
+  --h5-color: #42618a;
+  --h6-color: #70517f;
+  --inline-title-color: var(--h1-color);
+}
+
+/* Cover both reading mode and the CM6 live editor, including Minimal. */
+.markdown-rendered h1,
+.markdown-source-view.mod-cm6 .HyperMD-header-1 {
+  color: var(--h1-color) !important;
+}
+
+.markdown-rendered h2,
+.markdown-source-view.mod-cm6 .HyperMD-header-2 {
+  color: var(--h2-color) !important;
+}
+
+.markdown-rendered h3,
+.markdown-source-view.mod-cm6 .HyperMD-header-3 {
+  color: var(--h3-color) !important;
+}
+
+.markdown-rendered h4,
+.markdown-source-view.mod-cm6 .HyperMD-header-4 {
+  color: var(--h4-color) !important;
+}
+
+.markdown-rendered h5,
+.markdown-source-view.mod-cm6 .HyperMD-header-5 {
+  color: var(--h5-color) !important;
+}
+
+.markdown-rendered h6,
+.markdown-source-view.mod-cm6 .HyperMD-header-6 {
+  color: var(--h6-color) !important;
+}
+
+.inline-title {
+  color: var(--inline-title-color) !important;
+}
