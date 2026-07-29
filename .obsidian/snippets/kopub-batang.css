@@ -1,0 +1,36 @@
+/*
+ * KoPub바탕 for Obsidian
+ * Source: Google Fonts Early Access / KoPub Batang v3
+ */
+
+@font-face {
+  font-family: "KoPub Batang";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/kopub-batang/KoPubBatang-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "KoPub Batang";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/kopub-batang/KoPubBatang-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "KoPub Batang";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/kopub-batang/KoPubBatang-Bold.woff") format("woff");
+}
+
+body {
+  --font-interface-theme: "KoPub Batang";
+  --font-text-theme: "KoPub Batang";
+  --font-interface: "KoPub Batang";
+  --font-text: "KoPub Batang";
+  --default-font: "KoPub Batang";
+}
