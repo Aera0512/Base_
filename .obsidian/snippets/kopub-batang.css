@@ -56,8 +56,8 @@ body {
  * Separate light/dark values preserve contrast in both system themes.
  */
 .theme-dark {
-  --h1-color: #ff7b72;
-  --h2-color: #f2a65a;
+  --h1-color: #f2a65a;
+  --h2-color: #ff7b72;
   --h3-color: #7bd88f;
   --h4-color: #62c6d6;
   --h5-color: #82aaff;
@@ -66,8 +66,8 @@ body {
 }
 
 .theme-light {
-  --h1-color: #b42318;
-  --h2-color: #b45309;
+  --h1-color: #b45309;
+  --h2-color: #b42318;
   --h3-color: #237a3b;
   --h4-color: #147d92;
   --h5-color: #315cbd;
@@ -119,16 +119,16 @@ body {
 .theme-dark .markdown-source-view.mod-cm6 .HyperMD-header-1,
 .theme-dark .markdown-source-view.mod-cm6 .HyperMD-header-1 *,
 .theme-dark .markdown-source-view.mod-cm6 .cm-header-1 {
-  color: #ff7b72 !important;
-  -webkit-text-fill-color: #ff7b72 !important;
+  color: #f2a65a !important;
+  -webkit-text-fill-color: #f2a65a !important;
 }
 
 .theme-dark .markdown-rendered h2,
 .theme-dark .markdown-source-view.mod-cm6 .HyperMD-header-2,
 .theme-dark .markdown-source-view.mod-cm6 .HyperMD-header-2 *,
 .theme-dark .markdown-source-view.mod-cm6 .cm-header-2 {
-  color: #f2a65a !important;
-  -webkit-text-fill-color: #f2a65a !important;
+  color: #ff7b72 !important;
+  -webkit-text-fill-color: #ff7b72 !important;
 }
 
 .theme-dark .markdown-rendered h3,
@@ -167,16 +167,16 @@ body {
 .theme-light .markdown-source-view.mod-cm6 .HyperMD-header-1,
 .theme-light .markdown-source-view.mod-cm6 .HyperMD-header-1 *,
 .theme-light .markdown-source-view.mod-cm6 .cm-header-1 {
-  color: #b42318 !important;
-  -webkit-text-fill-color: #b42318 !important;
+  color: #b45309 !important;
+  -webkit-text-fill-color: #b45309 !important;
 }
 
 .theme-light .markdown-rendered h2,
 .theme-light .markdown-source-view.mod-cm6 .HyperMD-header-2,
 .theme-light .markdown-source-view.mod-cm6 .HyperMD-header-2 *,
 .theme-light .markdown-source-view.mod-cm6 .cm-header-2 {
-  color: #b45309 !important;
-  -webkit-text-fill-color: #b45309 !important;
+  color: #b42318 !important;
+  -webkit-text-fill-color: #b42318 !important;
 }
 
 .theme-light .markdown-rendered h3,
@@ -209,4 +209,14 @@ body {
 .theme-light .markdown-source-view.mod-cm6 .cm-header-6 {
   color: #8447a6 !important;
   -webkit-text-fill-color: #8447a6 !important;
+}
+
+.theme-dark .inline-title {
+  color: #f2a65a !important;
+  -webkit-text-fill-color: #f2a65a !important;
+}
+
+.theme-light .inline-title {
+  color: #b45309 !important;
+  -webkit-text-fill-color: #b45309 !important;
 }
