@@ -56,22 +56,22 @@ body {
  * Separate light/dark values preserve contrast in both system themes.
  */
 .theme-dark {
-  --h1-color: #e97861;
-  --h2-color: #dca15f;
-  --h3-color: #a9bb8f;
-  --h4-color: #7eaaa6;
-  --h5-color: #8ca5c9;
-  --h6-color: #b29ac3;
+  --h1-color: #ff7b72;
+  --h2-color: #f2a65a;
+  --h3-color: #7bd88f;
+  --h4-color: #62c6d6;
+  --h5-color: #82aaff;
+  --h6-color: #c792ea;
   --inline-title-color: var(--h1-color);
 }
 
 .theme-light {
-  --h1-color: #9b4034;
-  --h2-color: #88591f;
-  --h3-color: #50683d;
-  --h4-color: #326965;
-  --h5-color: #42618a;
-  --h6-color: #70517f;
+  --h1-color: #b42318;
+  --h2-color: #b45309;
+  --h3-color: #237a3b;
+  --h4-color: #147d92;
+  --h5-color: #315cbd;
+  --h6-color: #8447a6;
   --inline-title-color: var(--h1-color);
 }
 
