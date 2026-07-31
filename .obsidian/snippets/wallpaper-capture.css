@@ -1,0 +1,13 @@
+/* 명심 해야할 것들: 배경화면 캡처용 이미지 정렬 */
+.wallpaper-capture .image-embed {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.wallpaper-capture .image-embed img {
+  display: inline-block;
+  width: 220px;
+  max-width: 220px;
+  height: auto;
+}
