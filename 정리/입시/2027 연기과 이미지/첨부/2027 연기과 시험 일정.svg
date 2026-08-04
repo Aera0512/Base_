@@ -1,121 +1,177 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1540" viewBox="0 0 1800 1540">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1380" viewBox="0 0 1800 1380">
   <defs>
     <style>
       text { font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; fill: #182033; }
-      .title { font-size: 48px; font-weight: 800; }
-      .subtitle { font-size: 22px; fill: #65708a; }
-      .month { font-size: 24px; font-weight: 800; fill: #35415e; }
-      .school { font-size: 22px; font-weight: 700; }
-      .date { font-size: 18px; font-weight: 700; fill: #ffffff !important; }
-      .small { font-size: 18px; fill: #65708a; }
-      .note { font-size: 21px; font-weight: 700; }
+      .title { font-size: 46px; font-weight: 800; }
+      .subtitle { font-size: 20px; fill: #667086; }
+      .school { font-size: 27px; font-weight: 800; }
+      .stage { font-size: 17px; font-weight: 800; fill: #ffffff; }
+      .date { font-size: 25px; font-weight: 800; }
+      .detail { font-size: 18px; fill: #687287; }
+      .overlap-date { font-size: 21px; font-weight: 800; }
+      .overlap-text { font-size: 17px; fill: #4f596d; }
+      .legend { font-size: 18px; fill: #596378; }
     </style>
-    <filter id="shadow" x="-10%" y="-20%" width="120%" height="150%">
-      <feDropShadow dx="0" dy="5" stdDeviation="10" flood-color="#26334f" flood-opacity="0.10"/>
+    <filter id="shadow" x="-15%" y="-20%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#1b2942" flood-opacity="0.09"/>
     </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b7bfce"/>
+    </marker>
   </defs>
 
-  <rect width="1800" height="1540" fill="#f5f7fb"/>
-  <rect x="48" y="42" width="1704" height="1456" rx="30" fill="white" filter="url(#shadow)"/>
+  <rect width="1800" height="1380" fill="#f3f6fb"/>
+  <rect x="38" y="34" width="1724" height="1312" rx="30" fill="#ffffff" filter="url(#shadow)"/>
 
-  <text x="92" y="112" class="title">2027학년도 연기과 입시 시험 일정</text>
-  <text x="92" y="153" class="subtitle">지원 확정 8교 · 수시 6장 선택 완료 · 2026년 8월–11월</text>
+  <!-- header -->
+  <text x="82" y="104" class="title">2027학년도 연기과 입시 시험 일정</text>
+  <text x="82" y="143" class="subtitle">학교별 1차 → 2차 흐름 · 지원 확정 8교</text>
+  <rect x="1080" y="66" width="622" height="78" rx="18" fill="#edf8f1" stroke="#a5d8b5" stroke-width="2"/>
+  <text x="1110" y="98" font-size="19" font-weight="800" fill="#267545">수시 6장 확정 완료</text>
+  <text x="1110" y="126" font-size="18" fill="#267545">가천 · 동국 · 세종 · 국민 · 성균관 · 건국</text>
 
-  <rect x="92" y="183" width="1616" height="82" rx="18" fill="#fff0ec" stroke="#f1b5a8" stroke-width="2"/>
-  <circle cx="130" cy="224" r="19" fill="#e65f5c"/>
-  <text x="165" y="218" class="note" fill="#9a302c">나의 다음 시험  ·  한국예술종합학교 1차</text>
-  <text x="165" y="246" font-size="24" font-weight="800" fill="#9a302c">8월 19일(수) · 대기실 입실 마감 15시 30분</text>
-  <rect x="930" y="199" width="750" height="49" rx="14" fill="#eaf8ef" stroke="#9fd6b0" stroke-width="2"/>
-  <text x="946" y="231" font-size="16" font-weight="800" fill="#287a46">확정 8교 · 한예종 · 가천 · 동국 · 세종 · 국민 · 성균관 · 서울예대 · 건국</text>
+  <!-- next exam -->
+  <rect x="82" y="174" width="1620" height="96" rx="20" fill="#fff0ed" stroke="#f1a99f" stroke-width="2"/>
+  <circle cx="127" cy="222" r="21" fill="#e65a5a"/>
+  <text x="166" y="211" font-size="21" font-weight="800" fill="#9b302d">가장 먼저 준비할 시험 · 한국예술종합학교 1차</text>
+  <text x="166" y="244" font-size="27" font-weight="800" fill="#9b302d">8월 19일(수) · 대기실 입실 마감 15시 30분</text>
+  <rect x="1370" y="196" width="290" height="52" rx="14" fill="#ffffff" stroke="#e9b8b1"/>
+  <text x="1515" y="229" text-anchor="middle" font-size="19" font-weight="800" fill="#9b302d">개인 일정 확정</text>
 
-  <!-- month background -->
-  <rect x="365" y="300" width="194" height="900" fill="#faf3ee"/>
-  <rect x="559" y="300" width="448" height="900" fill="#f5f8ff"/>
-  <rect x="1007" y="300" width="463" height="900" fill="#f7f5ff"/>
-  <rect x="1470" y="300" width="210" height="900" fill="#f1faf7"/>
+  <!-- school card row 1 -->
+  <g transform="translate(82 306)">
+    <rect width="380" height="300" rx="22" fill="#ffffff" stroke="#efb1aa" stroke-width="3" filter="url(#shadow)"/>
+    <text x="26" y="45" class="school">한국예술종합학교</text>
+    <rect x="26" y="72" width="104" height="34" rx="10" fill="#e65a5a"/><text x="78" y="95" text-anchor="middle" class="stage">1차</text>
+    <text x="150" y="99" class="date" fill="#b23c39">08/19</text>
+    <text x="26" y="133" class="detail">본인 입실 마감 15:30</text>
+    <line x1="50" y1="153" x2="50" y2="186" stroke="#b7bfce" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="26" y="198" width="104" height="34" rx="10" fill="#7a263d"/><text x="78" y="221" text-anchor="middle" class="stage">2차</text>
+    <text x="150" y="225" class="date" fill="#7a263d">10/21–29</text>
+    <text x="26" y="263" class="detail">2차 시간표 10/14 확인</text>
+  </g>
 
-  <text x="462" y="332" text-anchor="middle" class="month">8월</text>
-  <text x="783" y="332" text-anchor="middle" class="month">9월</text>
-  <text x="1238" y="332" text-anchor="middle" class="month">10월</text>
-  <text x="1575" y="332" text-anchor="middle" class="month">11월</text>
+  <g transform="translate(502 306)">
+    <rect width="380" height="300" rx="22" fill="#ffffff" stroke="#d8deea" stroke-width="2" filter="url(#shadow)"/>
+    <text x="26" y="45" class="school">가천대학교</text>
+    <rect x="26" y="72" width="104" height="34" rx="10" fill="#e65a5a"/><text x="78" y="95" text-anchor="middle" class="stage">1단계</text>
+    <text x="150" y="99" class="date" fill="#b23c39">09/17–22</text>
+    <text x="26" y="133" class="detail">개인 고사일 추후 배정</text>
+    <line x1="50" y1="153" x2="50" y2="186" stroke="#b7bfce" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="26" y="198" width="104" height="34" rx="10" fill="#7a263d"/><text x="78" y="221" text-anchor="middle" class="stage">2단계</text>
+    <text x="150" y="225" class="date" fill="#7a263d">10/09–10</text>
+    <text x="26" y="263" class="detail">1단계 고사장 09/14 확인</text>
+  </g>
 
-  <!-- vertical boundaries -->
-  <line x1="365" y1="346" x2="365" y2="1200" stroke="#d7ddea" stroke-width="2"/>
-  <line x1="559" y1="346" x2="559" y2="1200" stroke="#d7ddea" stroke-width="2"/>
-  <line x1="1007" y1="346" x2="1007" y2="1200" stroke="#d7ddea" stroke-width="2"/>
-  <line x1="1470" y1="346" x2="1470" y2="1200" stroke="#d7ddea" stroke-width="2"/>
-  <line x1="1680" y1="346" x2="1680" y2="1200" stroke="#d7ddea" stroke-width="2"/>
+  <g transform="translate(922 306)">
+    <rect width="380" height="300" rx="22" fill="#ffffff" stroke="#d8deea" stroke-width="2" filter="url(#shadow)"/>
+    <text x="26" y="45" class="school">동국대학교</text>
+    <rect x="26" y="72" width="104" height="34" rx="10" fill="#e65a5a"/><text x="78" y="95" text-anchor="middle" class="stage">1단계</text>
+    <text x="150" y="99" class="date" fill="#b23c39">09/18–22</text>
+    <text x="26" y="133" class="detail">고사 안내 09/16 확인</text>
+    <line x1="50" y1="153" x2="50" y2="186" stroke="#b7bfce" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="26" y="198" width="104" height="34" rx="10" fill="#7a263d"/><text x="78" y="221" text-anchor="middle" class="stage">2단계</text>
+    <text x="150" y="225" class="date" fill="#7a263d">10/21–25</text>
+    <text x="26" y="263" class="detail">2단계 안내 10/19 확인</text>
+  </g>
 
-  <!-- peak overlap zone -->
-  <rect x="1306" y="346" width="75" height="854" fill="#ffcc72" opacity="0.23"/>
-  <text x="1343" y="374" text-anchor="middle" font-size="15" font-weight="800" fill="#a56600">최고 밀집</text>
+  <g transform="translate(1342 306)">
+    <rect width="360" height="300" rx="22" fill="#ffffff" stroke="#d8deea" stroke-width="2" filter="url(#shadow)"/>
+    <text x="26" y="45" class="school">세종대학교</text>
+    <rect x="26" y="72" width="104" height="34" rx="10" fill="#e65a5a"/><text x="78" y="95" text-anchor="middle" class="stage">1단계</text>
+    <text x="148" y="99" class="date" fill="#b23c39">09/29부터</text>
+    <text x="26" y="133" class="detail">개인일·종료일 추후 공지</text>
+    <line x1="50" y1="153" x2="50" y2="186" stroke="#b7bfce" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="26" y="198" width="104" height="34" rx="10" fill="#7a263d"/><text x="78" y="221" text-anchor="middle" class="stage">2단계</text>
+    <text x="148" y="225" class="date" fill="#7a263d">10/30–31</text>
+    <text x="26" y="263" class="detail">수험생 유의사항 09/22</text>
+  </g>
 
-  <!-- labels and row guides -->
-  <text x="92" y="397" class="school">한예종 1차</text>
-  <text x="92" y="439" class="school">가천 1단계</text>
-  <text x="92" y="481" class="school">동국 1단계</text>
-  <text x="92" y="523" class="school">세종 1단계</text>
-  <text x="92" y="565" class="school">국민 1단계</text>
-  <text x="92" y="607" class="school">성균관 1단계</text>
+  <!-- school card row 2 -->
+  <g transform="translate(82 642)">
+    <rect width="380" height="300" rx="22" fill="#ffffff" stroke="#d8deea" stroke-width="2" filter="url(#shadow)"/>
+    <text x="26" y="45" class="school">국민대학교</text>
+    <rect x="26" y="72" width="104" height="34" rx="10" fill="#e65a5a"/><text x="78" y="95" text-anchor="middle" class="stage">1단계</text>
+    <text x="150" y="99" class="date" fill="#b23c39">10/01–04</text>
+    <text x="26" y="133" class="detail">성균관 1단계와 중첩 가능</text>
+    <line x1="50" y1="153" x2="50" y2="186" stroke="#b7bfce" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="26" y="198" width="104" height="34" rx="10" fill="#7a263d"/><text x="78" y="221" text-anchor="middle" class="stage">2단계</text>
+    <text x="150" y="225" class="date" fill="#7a263d">10/24–25</text>
+    <text x="26" y="263" class="detail">한예종·동국·서울예대와 중첩</text>
+  </g>
 
-  <line x1="92" y1="635" x2="1680" y2="635" stroke="#ccd3e2" stroke-width="2"/>
-  <text x="92" y="672" class="school">가천 2단계</text>
-  <text x="92" y="714" class="school">성균관 2단계</text>
-  <text x="92" y="756" class="school">서울예대 1차</text>
-  <text x="92" y="798" class="school">한예종 2차</text>
-  <text x="92" y="840" class="school">동국 2단계</text>
-  <text x="92" y="882" class="school">국민 2단계</text>
-  <text x="92" y="924" class="school">세종 2단계</text>
-  <text x="92" y="966" class="school">서울예대 2차</text>
-  <text x="92" y="1008" class="school">건국 2단계</text>
+  <g transform="translate(502 642)">
+    <rect width="380" height="300" rx="22" fill="#ffffff" stroke="#d8deea" stroke-width="2" filter="url(#shadow)"/>
+    <text x="26" y="45" class="school">성균관대학교</text>
+    <rect x="26" y="72" width="104" height="34" rx="10" fill="#e65a5a"/><text x="78" y="95" text-anchor="middle" class="stage">1단계</text>
+    <text x="150" y="99" class="date" fill="#b23c39">10/02–05</text>
+    <text x="26" y="133" class="detail">국민 1단계와 중첩 가능</text>
+    <line x1="50" y1="153" x2="50" y2="186" stroke="#b7bfce" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="26" y="198" width="104" height="34" rx="10" fill="#7a263d"/><text x="78" y="221" text-anchor="middle" class="stage">2단계</text>
+    <text x="150" y="225" class="date" fill="#7a263d">10/17–18</text>
+    <text x="26" y="263" class="detail">개인 고사시간 확인</text>
+  </g>
 
-  <!-- first-stage bars -->
-  <rect x="365" y="374" width="36" height="30" rx="8" fill="#e65f5c"/>
-  <text x="411" y="396" font-size="17" font-weight="800" fill="#9a302c">08/19 · 개인 확정</text>
+  <g transform="translate(922 642)">
+    <rect width="380" height="300" rx="22" fill="#ffffff" stroke="#d8deea" stroke-width="2" filter="url(#shadow)"/>
+    <text x="26" y="45" class="school">서울예술대학교</text>
+    <rect x="26" y="72" width="104" height="34" rx="10" fill="#e65a5a"/><text x="78" y="95" text-anchor="middle" class="stage">1차</text>
+    <text x="150" y="99" class="date" fill="#b23c39">10/17–25</text>
+    <text x="26" y="133" class="detail">개인일 10/12 16:00 이후</text>
+    <line x1="50" y1="153" x2="50" y2="186" stroke="#b7bfce" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="26" y="198" width="104" height="34" rx="10" fill="#7a263d"/><text x="78" y="221" text-anchor="middle" class="stage">2차</text>
+    <text x="150" y="225" class="date" fill="#7a263d">10/31–11/01</text>
+    <text x="26" y="263" class="detail">세종 2단계와 연속·중첩</text>
+  </g>
 
-  <rect x="798" y="416" width="90" height="30" rx="8" fill="#E45757"/>
-  <text x="843" y="438" text-anchor="middle" class="date" style="fill:#ffffff">09/17–22</text>
-  <rect x="813" y="458" width="75" height="30" rx="8" fill="#E45757"/>
-  <text x="850" y="480" text-anchor="middle" class="date" style="fill:#ffffff">09/18–22</text>
-  <rect x="978" y="500" width="18" height="30" rx="7" fill="#ffffff" stroke="#E45757" stroke-width="4" stroke-dasharray="5 4"/>
-  <text x="1006" y="522" font-size="17" font-weight="800" fill="#B63A3A">09/29부터</text>
-  <rect x="1007" y="542" width="60" height="30" rx="8" fill="#E45757"/>
-  <text x="1078" y="564" font-size="17" font-weight="800" fill="#B63A3A">10/01–04</text>
-  <rect x="1022" y="584" width="60" height="30" rx="8" fill="#E45757"/>
-  <text x="1093" y="606" font-size="17" font-weight="800" fill="#B63A3A">10/02–05</text>
+  <g transform="translate(1342 642)">
+    <rect width="360" height="300" rx="22" fill="#ffffff" stroke="#d8deea" stroke-width="2" filter="url(#shadow)"/>
+    <text x="26" y="45" class="school">건국대학교</text>
+    <rect x="26" y="72" width="104" height="34" rx="10" fill="#9aa3b3"/><text x="78" y="95" text-anchor="middle" class="stage">1단계</text>
+    <text x="148" y="98" font-size="23" font-weight="800" fill="#566074">학생부 선발</text>
+    <text x="26" y="133" class="detail">1단계 실기 없음</text>
+    <line x1="50" y1="153" x2="50" y2="186" stroke="#b7bfce" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="26" y="198" width="104" height="34" rx="10" fill="#7a263d"/><text x="78" y="221" text-anchor="middle" class="stage">2단계</text>
+    <rect x="148" y="198" width="180" height="34" rx="10" fill="#ffffff" stroke="#7a263d" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="238" y="221" text-anchor="middle" font-size="18" font-weight="800" fill="#7a263d">날짜 재확인</text>
+    <text x="26" y="263" class="detail">최종 실기 안내 확인 필요</text>
+  </g>
 
-  <!-- second-stage and later bars -->
-  <rect x="1127" y="649" width="30" height="30" rx="8" fill="#7B263D"/>
-  <text x="1167" y="671" font-size="17" font-weight="800" fill="#7B263D">10/09–10</text>
-  <rect x="1246" y="691" width="30" height="30" rx="8" fill="#7B263D"/>
-  <text x="1170" y="713" font-size="17" font-weight="800" fill="#7B263D">10/17–18</text>
-  <rect x="1246" y="733" width="135" height="30" rx="8" fill="#E45757"/>
-  <text x="1313" y="755" text-anchor="middle" class="date" style="fill:#ffffff">10/17–25</text>
-  <rect x="1306" y="775" width="135" height="30" rx="8" fill="#7B263D"/>
-  <text x="1373" y="797" text-anchor="middle" class="date" style="fill:#ffffff">10/21–29</text>
-  <rect x="1306" y="817" width="75" height="30" rx="8" fill="#7B263D"/>
-  <text x="1343" y="839" text-anchor="middle" class="date" style="fill:#ffffff">10/21–25</text>
-  <rect x="1351" y="859" width="30" height="30" rx="8" fill="#7B263D"/>
-  <text x="1241" y="881" font-size="17" font-weight="800" fill="#7B263D">10/24–25</text>
-  <rect x="1441" y="901" width="30" height="30" rx="8" fill="#7B263D"/>
-  <text x="1364" y="923" font-size="17" font-weight="800" fill="#7B263D">10/30–31</text>
-  <rect x="1456" y="943" width="30" height="30" rx="8" fill="#7B263D"/>
-  <text x="1497" y="965" font-size="17" font-weight="800" fill="#7B263D">10/31–11/01</text>
-  <rect x="1025" y="985" width="430" height="30" rx="8" fill="#ffffff" stroke="#7B263D" stroke-width="3" stroke-dasharray="9 6"/>
-  <text x="1240" y="1007" text-anchor="middle" font-size="17" font-weight="800" fill="#7B263D">2단계 실기 날짜 · 공식 공지 재확인</text>
+  <!-- overlap summary -->
+  <rect x="82" y="982" width="1620" height="230" rx="22" fill="#fff9ec" stroke="#efcf8a" stroke-width="2"/>
+  <text x="112" y="1025" font-size="25" font-weight="800" fill="#895d00">일정이 겹치는 핵심 구간</text>
 
-  <!-- footer cards -->
-  <rect x="92" y="1230" width="780" height="150" rx="20" fill="#fff8e9" stroke="#f2d18e" stroke-width="2"/>
-  <text x="126" y="1274" font-size="22" font-weight="800" fill="#8a5b00">⚠ 충돌 우선 확인</text>
-  <text x="126" y="1311" class="small">10/01–05  국민·성균관 1단계 중첩</text>
-  <text x="126" y="1344" class="small">10/21–25  한예종·동국·서울예대·국민 중첩</text>
+  <g transform="translate(112 1052)">
+    <rect width="350" height="120" rx="16" fill="#ffffff" stroke="#ead8ae"/>
+    <text x="22" y="37" class="overlap-date" fill="#895d00">09/17–22</text>
+    <text x="22" y="72" class="overlap-text">가천 1단계 · 동국 1단계</text>
+    <text x="22" y="99" class="overlap-text">개인 고사일 발표 즉시 확인</text>
+  </g>
+  <g transform="translate(488 1052)">
+    <rect width="350" height="120" rx="16" fill="#ffffff" stroke="#ead8ae"/>
+    <text x="22" y="37" class="overlap-date" fill="#895d00">10/01–05</text>
+    <text x="22" y="72" class="overlap-text">국민 1단계 · 성균관 1단계</text>
+    <text x="22" y="99" class="overlap-text">동선까지 함께 비교</text>
+  </g>
+  <g transform="translate(864 1052)">
+    <rect width="430" height="120" rx="16" fill="#fff2e7" stroke="#e9b686" stroke-width="2"/>
+    <text x="22" y="37" class="overlap-date" fill="#9d4e00">10/17–25 · 최고 밀집</text>
+    <text x="22" y="72" class="overlap-text">성균관2 · 서울예대1 · 한예종2</text>
+    <text x="22" y="99" class="overlap-text">동국2 · 국민2</text>
+  </g>
+  <g transform="translate(1320 1052)">
+    <rect width="350" height="120" rx="16" fill="#ffffff" stroke="#ead8ae"/>
+    <text x="22" y="37" class="overlap-date" fill="#895d00">10/30–11/01</text>
+    <text x="22" y="72" class="overlap-text">세종 2단계 · 서울예대 2차</text>
+    <text x="22" y="99" class="overlap-text">연속 일정 대비</text>
+  </g>
 
-  <rect x="896" y="1230" width="812" height="150" rx="20" fill="#f2f5fa" stroke="#cfd7e6" stroke-width="2"/>
-  <text x="930" y="1274" font-size="22" font-weight="800" fill="#44506a">수시 6장 확정 완료</text>
-  <text x="930" y="1311" class="small">가천 · 동국 · 세종 · 국민 · 성균관 · 건국</text>
-  <text x="930" y="1344" class="small">별도 확정  한국예술종합학교 · 서울예술대학교</text>
-
-  <circle cx="105" cy="1425" r="8" fill="#E45757"/><text x="124" y="1432" class="small">확정 학교 1차·1단계</text>
-  <circle cx="350" cy="1425" r="8" fill="#7B263D"/><text x="369" y="1432" class="small">확정 학교 2차·2단계</text>
-  <text x="1688" y="1432" text-anchor="end" class="small">공식 모집요강 기준 · 확인 2026-08-04</text>
+  <!-- footer legend -->
+  <circle cx="100" cy="1272" r="9" fill="#e65a5a"/>
+  <text x="120" y="1279" class="legend">1차·1단계</text>
+  <circle cx="270" cy="1272" r="9" fill="#7a263d"/>
+  <text x="290" y="1279" class="legend">2차·2단계</text>
+  <circle cx="455" cy="1272" r="9" fill="#9aa3b3"/>
+  <text x="475" y="1279" class="legend">실기 없음·날짜 확인</text>
+  <text x="1688" y="1279" text-anchor="end" class="legend">공식 모집요강 기준 · 확인 2026-08-04</text>
 </svg>
