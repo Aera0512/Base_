@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1440" viewBox="0 0 1800 1440">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1540" viewBox="0 0 1800 1540">
   <defs>
     <style>
       text { font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; fill: #182033; }
@@ -16,7 +16,7 @@
   </defs>
 
   <rect width="1800" height="1440" fill="#f5f7fb"/>
-  <rect x="48" y="42" width="1704" height="1356" rx="30" fill="white" filter="url(#shadow)"/>
+  <rect x="48" y="42" width="1704" height="1456" rx="30" fill="white" filter="url(#shadow)"/>
 
   <text x="92" y="112" class="title">2027학년도 연기과 입시 시험 일정</text>
   <text x="92" y="153" class="subtitle">10개교 1·2단계 전체 기간 · 2026년 8월–11월</text>
@@ -25,12 +25,14 @@
   <circle cx="130" cy="224" r="19" fill="#e65f5c"/>
   <text x="165" y="218" class="note" fill="#9a302c">나의 다음 시험  ·  한국예술종합학교 1차</text>
   <text x="165" y="246" font-size="24" font-weight="800" fill="#9a302c">8월 19일(수) · 대기실 입실 마감 15시 30분</text>
+  <rect x="930" y="199" width="750" height="49" rx="14" fill="#eaf8ef" stroke="#9fd6b0" stroke-width="2"/>
+  <text x="958" y="231" font-size="20" font-weight="800" fill="#287a46">지원 확정  ·  한예종 · 성균관 · 동국 · 건국</text>
 
   <!-- month background -->
-  <rect x="365" y="300" width="194" height="812" fill="#faf3ee"/>
-  <rect x="559" y="300" width="448" height="812" fill="#f5f8ff"/>
-  <rect x="1007" y="300" width="463" height="812" fill="#f7f5ff"/>
-  <rect x="1470" y="300" width="210" height="812" fill="#f1faf7"/>
+  <rect x="365" y="300" width="194" height="900" fill="#faf3ee"/>
+  <rect x="559" y="300" width="448" height="900" fill="#f5f8ff"/>
+  <rect x="1007" y="300" width="463" height="900" fill="#f7f5ff"/>
+  <rect x="1470" y="300" width="210" height="900" fill="#f1faf7"/>
 
   <text x="462" y="332" text-anchor="middle" class="month">8월</text>
   <text x="783" y="332" text-anchor="middle" class="month">9월</text>
@@ -38,14 +40,14 @@
   <text x="1575" y="332" text-anchor="middle" class="month">11월</text>
 
   <!-- vertical boundaries -->
-  <line x1="365" y1="346" x2="365" y2="1112" stroke="#d7ddea" stroke-width="2"/>
-  <line x1="559" y1="346" x2="559" y2="1112" stroke="#d7ddea" stroke-width="2"/>
-  <line x1="1007" y1="346" x2="1007" y2="1112" stroke="#d7ddea" stroke-width="2"/>
-  <line x1="1470" y1="346" x2="1470" y2="1112" stroke="#d7ddea" stroke-width="2"/>
-  <line x1="1680" y1="346" x2="1680" y2="1112" stroke="#d7ddea" stroke-width="2"/>
+  <line x1="365" y1="346" x2="365" y2="1200" stroke="#d7ddea" stroke-width="2"/>
+  <line x1="559" y1="346" x2="559" y2="1200" stroke="#d7ddea" stroke-width="2"/>
+  <line x1="1007" y1="346" x2="1007" y2="1200" stroke="#d7ddea" stroke-width="2"/>
+  <line x1="1470" y1="346" x2="1470" y2="1200" stroke="#d7ddea" stroke-width="2"/>
+  <line x1="1680" y1="346" x2="1680" y2="1200" stroke="#d7ddea" stroke-width="2"/>
 
   <!-- peak overlap zone -->
-  <rect x="1306" y="346" width="75" height="766" fill="#ffcc72" opacity="0.23"/>
+  <rect x="1306" y="346" width="75" height="854" fill="#ffcc72" opacity="0.23"/>
   <text x="1343" y="374" text-anchor="middle" font-size="15" font-weight="800" fill="#a56600">최고 밀집</text>
 
   <!-- labels and row guides -->
@@ -69,6 +71,16 @@
   <text x="92" y="1050" class="school">세종 2단계</text>
   <text x="92" y="1092" class="school">서울예대 2차</text>
   <text x="92" y="1134" class="school">인천 2단계</text>
+  <text x="92" y="1176" class="school">건국 2단계</text>
+
+  <!-- confirmed target markers: support status, not exam-date status -->
+  <circle cx="330" cy="389" r="9" fill="#35a35c"/>
+  <circle cx="330" cy="473" r="9" fill="#35a35c"/>
+  <circle cx="330" cy="641" r="9" fill="#35a35c"/>
+  <circle cx="330" cy="748" r="9" fill="#35a35c"/>
+  <circle cx="330" cy="874" r="9" fill="#35a35c"/>
+  <circle cx="330" cy="916" r="9" fill="#35a35c"/>
+  <circle cx="330" cy="1168" r="9" fill="#35a35c"/>
 
   <!-- first-stage bars -->
   <rect x="365" y="374" width="36" height="30" rx="8" fill="#e65f5c"/>
@@ -110,20 +122,23 @@
   <text x="1497" y="1091" font-size="17" font-weight="800" fill="#6841c6">10/31–11/01</text>
   <rect x="1650" y="1111" width="30" height="30" rx="8" fill="#8b5cf6"/>
   <text x="1530" y="1133" font-size="17" font-weight="800" fill="#6841c6">11/13–14</text>
+  <rect x="1025" y="1153" width="430" height="30" rx="8" fill="#ffffff" stroke="#8d97ab" stroke-width="3" stroke-dasharray="9 6"/>
+  <text x="1240" y="1175" text-anchor="middle" font-size="17" font-weight="800" fill="#65708a">2단계 실기 날짜 · 공식 공지 재확인</text>
 
   <!-- footer cards -->
-  <rect x="92" y="1182" width="780" height="150" rx="20" fill="#fff8e9" stroke="#f2d18e" stroke-width="2"/>
-  <text x="126" y="1226" font-size="22" font-weight="800" fill="#8a5b00">⚠ 충돌 우선 확인</text>
-  <text x="126" y="1263" class="small">10/01–05  국민·중앙·성균관 1단계</text>
-  <text x="126" y="1296" class="small">10/21–25  최대 6개 학교 일정 중첩</text>
+  <rect x="92" y="1230" width="780" height="150" rx="20" fill="#fff8e9" stroke="#f2d18e" stroke-width="2"/>
+  <text x="126" y="1274" font-size="22" font-weight="800" fill="#8a5b00">⚠ 충돌 우선 확인</text>
+  <text x="126" y="1311" class="small">10/01–05  국민·중앙·성균관 1단계</text>
+  <text x="126" y="1344" class="small">10/21–25  최대 6개 학교 일정 중첩</text>
 
-  <rect x="896" y="1182" width="812" height="150" rx="20" fill="#f2f5fa" stroke="#cfd7e6" stroke-width="2"/>
-  <text x="930" y="1226" font-size="22" font-weight="800" fill="#44506a">확인 필요</text>
-  <text x="930" y="1263" class="small">세종 1단계: 09/29 시작 · 개인일과 종료일 추후 공지</text>
-  <text x="930" y="1296" class="small">건국 2단계: 최종 모집요강·실기 안내 후 추가</text>
+  <rect x="896" y="1230" width="812" height="150" rx="20" fill="#f2f5fa" stroke="#cfd7e6" stroke-width="2"/>
+  <text x="930" y="1274" font-size="22" font-weight="800" fill="#44506a">확인 필요</text>
+  <text x="930" y="1311" class="small">세종 1단계: 09/29 시작 · 개인일과 종료일 추후 공지</text>
+  <text x="930" y="1344" class="small">건국 2단계: 최종 모집요강·실기 안내 후 날짜 확정</text>
 
-  <circle cx="105" cy="1367" r="8" fill="#4f78d1"/><text x="124" y="1374" class="small">1단계·1차</text>
-  <circle cx="270" cy="1367" r="8" fill="#8b5cf6"/><text x="289" y="1374" class="small">2단계·2차</text>
-  <circle cx="450" cy="1367" r="8" fill="#e65f5c"/><text x="469" y="1374" class="small">개인 확정</text>
-  <text x="1688" y="1374" text-anchor="end" class="small">공식 모집요강 기준 · 확인 2026-08-04</text>
+  <circle cx="105" cy="1425" r="8" fill="#4f78d1"/><text x="124" y="1432" class="small">1단계·1차</text>
+  <circle cx="270" cy="1425" r="8" fill="#8b5cf6"/><text x="289" y="1432" class="small">2단계·2차</text>
+  <circle cx="450" cy="1425" r="8" fill="#e65f5c"/><text x="469" y="1432" class="small">개인 일정 확정</text>
+  <circle cx="670" cy="1425" r="8" fill="#35a35c"/><text x="689" y="1432" class="small">지원 확정 학교</text>
+  <text x="1688" y="1432" text-anchor="end" class="small">공식 모집요강 기준 · 확인 2026-08-04</text>
 </svg>
