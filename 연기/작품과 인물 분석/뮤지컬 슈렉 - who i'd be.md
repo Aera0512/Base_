@@ -61,7 +61,7 @@
 영**웅**이 **되**어 볼<mark style="background:#d4b106">까</mark>
 **갑**옷과 **칼**을 **차**고 
 **제**법 멋져 **보**이게
-**방**패도 **들**고**선**
+**방**패도 **들**고<mark style="background:#d4b106">선</mark>
 아님 **바**이킹은 **어**<mark style="background:#d4b106">때</mark>
 **대**담한 **삶**을 **살**<mark style="background:#d4b106">며</mark>
 거친 **바**다를 **떠**도는 
