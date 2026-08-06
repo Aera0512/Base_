@@ -64,8 +64,8 @@
 **방**패도 **들**고**선**
 아님 **바**이킹은 **어**<mark style="background:#d4b106">때</mark>
 **대**담한 **삶**을 **살**<mark style="background:#d4b106">며</mark>
-거친 **바**다를 **떠**도는 / 는 ㅎ
-**해**적처럼 **떠**날<mark style="background:#d4b106">래</mark> / 밝고 통통 튀듯
+거친 **바**다를 **떠**도는 
+**해**적처럼 **떠**날<mark style="background:#d4b106">래</mark> 
 
 꿈**속**에선 세**상**의 끝
 가장 **먼** 곳까지 **나**아<mark style="background:#d4b106">가</mark>
