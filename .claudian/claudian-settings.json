@@ -73,6 +73,10 @@
             {
               "value": "max",
               "description": "Maximum reasoning depth for the hardest problems"
+            },
+            {
+              "value": "ultra",
+              "description": "Maximum reasoning with automatic task delegation"
             }
           ],
           "defaultReasoningEffort": "low",
@@ -114,6 +118,10 @@
             {
               "value": "max",
               "description": "Maximum reasoning depth for the hardest problems"
+            },
+            {
+              "value": "ultra",
+              "description": "Maximum reasoning with automatic task delegation"
             }
           ],
           "defaultReasoningEffort": "medium",
@@ -284,8 +292,8 @@
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "runtime-input:v1:a6db216cf6ba049c2a9641e86b4021754d5a15050672719dbc2ba9a3be694880",
-      "catalogTimestamp": 1785482797483,
-      "catalogFingerprint": "1:17f83ea5ce504ba25e6c9b6fd781d61f4dd77a3cf66f75631df9fe799969977b",
+      "catalogTimestamp": 1787283118377,
+      "catalogFingerprint": "2:00c3ef57a48096e58281efde2ae721f4fa493c6cf5bdf49486877ca57a1126bc",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {}
     },
@@ -328,8 +336,8 @@
   },
   "settingsProvider": "claude",
   "lastSelectedChatModel": {
-    "providerId": "claude",
-    "model": "haiku"
+    "providerId": "codex",
+    "model": "gpt-5.6-sol"
   },
   "savedProviderModel": {
     "claude": "haiku",

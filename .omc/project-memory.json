@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1785482873946,
+  "lastScanned": 1787283136758,
   "projectRoot": "/Users/aera/Desktop/Base_",
   "techStack": {
     "languages": [],
@@ -36,21 +36,28 @@
       "path": "0. Ai agent",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1785482873938,
+      "lastAccessed": 1787283136751,
+      "keyFiles": []
+    },
+    "Anki": {
+      "path": "Anki",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1787283136751,
       "keyFiles": []
     },
     "나머지": {
       "path": "나머지",
       "purpose": null,
       "fileCount": 0,
-      "lastAccessed": 1785482873938,
+      "lastAccessed": 1787283136751,
       "keyFiles": []
     },
     "생각과 영감": {
       "path": "생각과 영감",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1785482873939,
+      "lastAccessed": 1787283136752,
       "keyFiles": [
         "생각과 영감 홈.md"
       ]
@@ -59,7 +66,7 @@
       "path": "연기",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1785482873939,
+      "lastAccessed": 1787283136752,
       "keyFiles": [
         "연기 홈.md"
       ]
@@ -68,7 +75,7 @@
       "path": "정리",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1785482873939,
+      "lastAccessed": 1787283136752,
       "keyFiles": [
         "정리 홈.md"
       ]
@@ -77,7 +84,7 @@
       "path": "조사",
       "purpose": null,
       "fileCount": 1,
-      "lastAccessed": 1785482873939,
+      "lastAccessed": 1787283136752,
       "keyFiles": [
         "조사 홈.md"
       ]

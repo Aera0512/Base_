@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787283129342-t77f6c54m",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787283129559-ubmnzry",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787283129276-z4ms269",
+      "timestamp": 1787283129276,
+      "rawDisplayText": "사진 크기 좀 적절하게 줄여줘",
+      "canonicalText": "사진 크기 좀 적절하게 줄여줘",
+      "context": {
+        "currentNote": {
+          "path": "정리/계획과 회고/한국예술종합학교 2차 시험을 위한 계획.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "790340bbd0e6b44fdabd5897af1cfcb121895a1b22c306a32372f0a209690b78"
+    }
+  ]
+}

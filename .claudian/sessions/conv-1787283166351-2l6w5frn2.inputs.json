@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787283166351-2l6w5frn2",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787283166481-v6hf6lb",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787283166280-mw3umk9",
+      "timestamp": 1787283166280,
+      "rawDisplayText": "사진 크기 좀 줄여줘 적절하게",
+      "canonicalText": "사진 크기 좀 줄여줘 적절하게",
+      "context": {
+        "currentNote": {
+          "path": "정리/계획과 회고/한국예술종합학교 2차 시험을 위한 계획.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "ac173581e0e169aa8f7dc722d0195bec418dc0b24ca55eab693cf7be23b44ea1",
+      "providerUserMessageId": "01a02260-f3d1-7af1-af35-f33e1bc4d995",
+      "providerAssistantMessageId": "msg_0d6ef1c2e9778e68016a87c703ffb487d0b04cf43242e8914a"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787283222620-5pjswju",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1787283222548-sc345zc",
+      "timestamp": 1787283222548,
+      "rawDisplayText": "더 줄여 추가된 사진과 함께",
+      "canonicalText": "더 줄여 추가된 사진과 함께",
+      "images": [],
+      "contentDigest": "bd4b0323805424ec2662e0820b7ec907a3c4cf0c2fdbb0279d4fda0059821113",
+      "providerUserMessageId": "01a02261-b264-74b1-9f46-cfe8e3f8d928",
+      "providerAssistantMessageId": "msg_0d6ef1c2e9778e68016a87c72c86fc87d0805f91e53dbcfa45"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787294702382-m6ywmd9",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1787294702269-uok1tt4",
+      "timestamp": 1787294702269,
+      "rawDisplayText": "이 노트에 링크돼있는 다른 노트들이 만약 나머지/정리대기에 있는 경우 너가 판단해서 올바른 폴더로 위치 바꿔줘",
+      "canonicalText": "이 노트에 링크돼있는 다른 노트들이 만약 나머지/정리대기에 있는 경우 너가 판단해서 올바른 폴더로 위치 바꿔줘",
+      "images": [],
+      "contentDigest": "8d78a9a08fb0c23379490771237c3de95d95171850fa8d7b18e5855f4b8f8a06",
+      "providerUserMessageId": "01a02310-ddf4-7b92-b651-6de3af90ae00",
+      "providerAssistantMessageId": "msg_0eec49c81e96a7da016a87f43e197887d0afbb0925a101ed5b"
+    }
+  ]
+}

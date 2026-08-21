@@ -1,0 +1,28 @@
+{
+  "id": "conv-1787283166351-2l6w5frn2",
+  "providerId": "codex",
+  "title": "사진 크기 좀 줄여줘 적절하게",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1787283166381,
+  "lastActivityAt": 1787294784862,
+  "sessionId": "01a02260-d717-70a0-8b44-08d8e35e471f",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "01a02260-d717-70a0-8b44-08d8e35e471f",
+    "nativeConversationContextEstablished": true,
+    "sessionFilePath": "/Users/aera/.codex/sessions/2026/08/21/rollout-2026-08-21T12-32-47-01a02260-d717-70a0-8b44-08d8e35e471f.jsonl",
+    "transcriptRootPath": "/Users/aera/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "정리/계획과 회고/한국예술종합학교 2차 시험을 위한 계획.md",
+  "usage": {
+    "inputTokens": 32325,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30464,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 32325,
+    "percentage": 13,
+    "model": "gpt-5.6-sol"
+  }
+}
