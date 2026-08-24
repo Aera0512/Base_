@@ -175,7 +175,7 @@ limit 5
 
 ## 노력 포인트
 
-[[file:///Users/aera/Desktop/Spread sheet/올바른 습관.numbers|Numbers 기록 열기]]
+[Numbers 기록 열기](file:///Users/aera/Desktop/Spread%20sheet/%EC%98%AC%EB%B0%94%EB%A5%B8%20%EC%8A%B5%EA%B4%80.numbers)
 
 1. 오늘 의도적으로 노력한 것:
 2. 기존 점수:
@@ -273,4 +273,3 @@ SORT file.mtime DESC
 - [ ] 계획과 실제를 기록했다
 - [ ] 오늘의 한 줄과 내일의 다짐을 적었다
 - [ ] Properties의 `achievement`를 입력했다
-
