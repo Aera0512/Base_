@@ -1,5 +1,5 @@
-/* Keep automation metadata in Markdown but hide standalone gray comment lines. */
+/* Keep automation metadata in Markdown but hide only its gray comment text. */
 .markdown-source-view.mod-cm6
-  .cm-line:not(.HyperMD-codeblock):has(.cm-comment) {
+  .cm-line:not(.HyperMD-codeblock) > .cm-comment {
   display: none !important;
 }
