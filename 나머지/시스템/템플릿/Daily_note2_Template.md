@@ -74,8 +74,8 @@ if (yesterdayFile) {
 
 ```tasks
 not done
-filter by function task.file.folder.includes("Dream")
-filter by function !task.file.folder.toLowerCase().includes("template")
+path includes Dream
+path does not include template
 short mode
 limit 5
 ```
@@ -245,7 +245,7 @@ dv.paragraph(`**${done} / ${total}** 완료 · **${pct}%** \`${'█'.repeat(fill
 
 ```tasks
 done today
-filter by function !task.file.folder.toLowerCase().includes("template")
+path does not include template
 short mode
 ```
 
