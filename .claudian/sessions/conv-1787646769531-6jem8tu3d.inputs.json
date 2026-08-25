@@ -17,7 +17,9 @@
         }
       },
       "images": [],
-      "contentDigest": "98817e050cfcd8d5c1221c3215002808e2914ed31e0dfa66d8160793c971be51"
+      "contentDigest": "98817e050cfcd8d5c1221c3215002808e2914ed31e0dfa66d8160793c971be51",
+      "providerUserMessageId": "01a0380d-21f4-7fe3-826c-6b64c85f04ab",
+      "providerAssistantMessageId": "msg_0c3b8035c17f3ba3016a8d5351d6a487d0b921a4e6a3892e01"
     }
   ]
 }

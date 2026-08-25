@@ -4,7 +4,7 @@
   "title": "인물 관계도 사진 적절하게 줄여줘",
   "titleGenerationStatus": "pending",
   "createdAt": 1787646769578,
-  "lastActivityAt": 1787646769578,
+  "lastActivityAt": 1787646802933,
   "sessionId": "01a0380c-ffbc-78b2-821d-34546d7ee7d4",
   "selectedModel": "gpt-5.6-sol",
   "providerState": {
@@ -14,5 +14,15 @@
     "transcriptRootPath": "/Users/aera/.codex/sessions",
     "workspaceDependencyToolVersion": 1
   },
-  "currentNote": "연기/작품과 인물 분석/한예종 2027 지정희곡/한예종 지정희곡 - 인생은 꿈입니다.md"
+  "currentNote": "연기/작품과 인물 분석/한예종 2027 지정희곡/한예종 지정희곡 - 인생은 꿈입니다.md",
+  "usage": {
+    "inputTokens": 22551,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 21248,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 22551,
+    "percentage": 9,
+    "model": "gpt-5.6-sol"
+  }
 }
