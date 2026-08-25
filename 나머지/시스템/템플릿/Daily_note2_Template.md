@@ -1,5 +1,14 @@
+<%*
+const titleDate = tp.file.title.match(/^(\d{4}-\d{2}-\d{2})/)?.[1];
+const titleMoment = moment(titleDate, 'YYYY-MM-DD', true);
+const currentMoment = titleMoment.isValid()
+  ? titleMoment
+  : moment(tp.date.now('YYYY-MM-DD'), 'YYYY-MM-DD', true);
+const noteDate = currentMoment.format('YYYY-MM-DD');
+const dayOfWeek = ['일', '월', '화', '수', '목', '금', '토'][currentMoment.day()];
+-%>
 ---
-date_daily: <% tp.file.title.slice(0,10) %>
+date_daily: <% noteDate %>
 achievement:
 emotion: '<% tp.system.suggester(["😊 행복", "😌 평온", "🔥 열정", "🤔 복잡", "😰 불안", "😔 우울", "😤 짜증", "🥱 피곤"], ["😊 행복", "😌 평온", "🔥 열정", "🤔 복잡", "😰 불안", "😔 우울", "😤 짜증", "🥱 피곤"]) %>'
 important_date: false
@@ -7,11 +16,6 @@ tags:
   - daily
   - 이룸다이어리
 ---
-
-<%*
-const currentMoment = moment(tp.file.title, "YYYY-MM-DD");
-const dayOfWeek = ['일', '월', '화', '수', '목', '금', '토'][currentMoment.day()];
--%>
 
 # <% currentMoment.format('YYYY년 MM월 DD일') %> · <% dayOfWeek %>요일
 
