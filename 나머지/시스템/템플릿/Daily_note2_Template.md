@@ -6,6 +6,10 @@ const currentMoment = titleMoment.isValid()
   : moment(tp.date.now('YYYY-MM-DD'), 'YYYY-MM-DD', true);
 const noteDate = currentMoment.format('YYYY-MM-DD');
 const dayOfWeek = ['일', '월', '화', '수', '목', '금', '토'][currentMoment.day()];
+const sourcePath = tp.file.path(true);
+if (!titleMoment.isValid() && sourcePath.startsWith('나머지/정리 대기/')) {
+  await tp.file.move(`정리/계획과 회고/다이어리/1. Daily/${noteDate}(${dayOfWeek})`);
+}
 -%>
 ---
 date_daily: <% noteDate %>
