@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787646769531-6jem8tu3d",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787646769795-of4heby",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787646769446-2ertvem",
+      "timestamp": 1787646769447,
+      "rawDisplayText": "인물 관계도 사진 적절하게 줄여줘",
+      "canonicalText": "인물 관계도 사진 적절하게 줄여줘",
+      "context": {
+        "currentNote": {
+          "path": "연기/작품과 인물 분석/한예종 2027 지정희곡/한예종 지정희곡 - 인생은 꿈입니다.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "98817e050cfcd8d5c1221c3215002808e2914ed31e0dfa66d8160793c971be51"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "conv-1787646769531-6jem8tu3d",
+  "providerId": "codex",
+  "title": "인물 관계도 사진 적절하게 줄여줘",
+  "titleGenerationStatus": "pending",
+  "createdAt": 1787646769578,
+  "lastActivityAt": 1787646769578,
+  "sessionId": "01a0380c-ffbc-78b2-821d-34546d7ee7d4",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "01a0380c-ffbc-78b2-821d-34546d7ee7d4",
+    "nativeConversationContextEstablished": true,
+    "sessionFilePath": "/Users/aera/.codex/sessions/2026/08/25/rollout-2026-08-25T17-32-51-01a0380c-ffbc-78b2-821d-34546d7ee7d4.jsonl",
+    "transcriptRootPath": "/Users/aera/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "연기/작품과 인물 분석/한예종 2027 지정희곡/한예종 지정희곡 - 인생은 꿈입니다.md"
+}
