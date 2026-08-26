@@ -1,0 +1,28 @@
+{
+  "id": "conv-1787724748649-he7ywit4k",
+  "providerId": "codex",
+  "title": "인물 관계도에 있는 사진 적절한 사이즈로 줄여줘",
+  "titleGenerationStatus": "pending",
+  "createdAt": 1787724748700,
+  "lastActivityAt": 1787724806944,
+  "sessionId": "01a03cb2-ddf5-7921-8a8d-23c53a0d9453",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "01a03cb2-ddf5-7921-8a8d-23c53a0d9453",
+    "nativeConversationContextEstablished": true,
+    "sessionFilePath": "/Users/aera/.codex/sessions/2026/08/26/rollout-2026-08-26T15-12-30-01a03cb2-ddf5-7921-8a8d-23c53a0d9453.jsonl",
+    "transcriptRootPath": "/Users/aera/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "연기/작품과 인물 분석/한예종 2027 지정희곡/한예종 지정희곡 - 오이디푸스 왕.md",
+  "usage": {
+    "inputTokens": 25554,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 24320,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 25554,
+    "percentage": 10,
+    "model": "gpt-5.6-sol"
+  }
+}

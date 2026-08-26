@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787724748649-he7ywit4k",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787724748826-fxq2be5",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787724748563-6ssxsv0",
+      "timestamp": 1787724748563,
+      "rawDisplayText": "인물 관계도에 있는 사진 적절한 사이즈로 줄여줘.",
+      "canonicalText": "인물 관계도에 있는 사진 적절한 사이즈로 줄여줘.",
+      "context": {
+        "currentNote": {
+          "path": "연기/작품과 인물 분석/한예종 2027 지정희곡/한예종 지정희곡 - 오이디푸스 왕.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "47b6ad856a733e03eeab20864f296fb101655b9c79697cd323f871c41aed62ae",
+      "providerUserMessageId": "01a03cb2-fd68-76a2-b82d-07c26268c06d",
+      "providerAssistantMessageId": "msg_04ec673d3240c0fb016a8e8404a3dc87d0896788459b3312d6"
+    }
+  ]
+}
