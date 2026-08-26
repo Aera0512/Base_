@@ -1,0 +1,28 @@
+{
+  "id": "conv-1787728379848-t5g9h77ru",
+  "providerId": "codex",
+  "title": "인물관계도 줄여줘 2분의 1크기로",
+  "titleGenerationStatus": "pending",
+  "createdAt": 1787728379885,
+  "lastActivityAt": 1787728415022,
+  "sessionId": "01a03cea-42da-7ef0-8973-ea6f3d6174ab",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "01a03cea-42da-7ef0-8973-ea6f3d6174ab",
+    "nativeConversationContextEstablished": true,
+    "sessionFilePath": "/Users/aera/.codex/sessions/2026/08/26/rollout-2026-08-26T16-13-00-01a03cea-42da-7ef0-8973-ea6f3d6174ab.jsonl",
+    "transcriptRootPath": "/Users/aera/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "나머지/정리 대기/뜻대로하세요 막 적기.md",
+  "usage": {
+    "inputTokens": 20532,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 20224,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 20532,
+    "percentage": 8,
+    "model": "gpt-5.6-sol"
+  }
+}

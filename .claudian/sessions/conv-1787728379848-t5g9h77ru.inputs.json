@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1787728379848-t5g9h77ru",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1787728380069-fj5v2lm",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1787728379774-620q08y",
+      "timestamp": 1787728379774,
+      "rawDisplayText": "인물관계도 줄여줘 2분의 1크기로",
+      "canonicalText": "인물관계도 줄여줘 2분의 1크기로",
+      "context": {
+        "currentNote": {
+          "path": "나머지/정리 대기/뜻대로하세요 막 적기.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "d525859730f6cf752522dc82245f5e1f81591a29a394b5e9c3aaaffea81cdc09",
+      "providerUserMessageId": "01a03cea-6214-76c0-984e-41e5ea8b3d15",
+      "providerAssistantMessageId": "msg_0dd365ea742ca5f8016a8e921e36b087d0b0df5caf260d63fc"
+    }
+  ]
+}
