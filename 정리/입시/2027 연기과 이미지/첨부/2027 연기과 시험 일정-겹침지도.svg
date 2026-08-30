@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1260" viewBox="0 0 1800 1260">
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1330" viewBox="0 0 1800 1330">
   <defs>
     <style>
       text { font-family: "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; fill: #172033; }
@@ -15,8 +15,8 @@
     </filter>
   </defs>
 
-  <rect width="1800" height="1260" fill="#f3f6fb"/>
-  <rect x="38" y="32" width="1724" height="1195" rx="30" fill="#ffffff" filter="url(#shadow)"/>
+  <rect width="1800" height="1330" fill="#f3f6fb"/>
+  <rect x="38" y="32" width="1724" height="1265" rx="30" fill="#ffffff" filter="url(#shadow)"/>
 
   <!-- Header -->
   <text x="78" y="99" class="title">2027 연기과 입시 일정 겹침 지도</text>
@@ -24,7 +24,7 @@
   <circle cx="1260" cy="91" r="8" fill="#e65a5a"/><text x="1278" y="98" class="small">1차·1단계</text>
   <circle cx="1410" cy="91" r="8" fill="#7a263d"/><text x="1428" y="98" class="small">2차·2단계</text>
   <rect x="1560" y="70" width="154" height="42" rx="12" fill="#edf8f1" stroke="#a9dab8"/>
-  <text x="1637" y="97" text-anchor="middle" font-size="17" font-weight="800" fill="#287846">지원 8교 확정</text>
+  <text x="1637" y="97" text-anchor="middle" font-size="17" font-weight="800" fill="#287846">지원 9교 확정</text>
 
   <!-- Personal first exam, separated from compressed axis -->
   <rect x="78" y="166" width="1636" height="82" rx="18" fill="#fff0ed" stroke="#f0aaa1" stroke-width="2"/>
@@ -34,18 +34,18 @@
   <text x="1680" y="214" text-anchor="end" font-size="18" font-weight="700" fill="#9d332f">아래 축은 시험 밀집 구간만 확대</text>
 
   <!-- Axis background -->
-  <rect x="300" y="286" width="1400" height="732" rx="16" fill="#f8f9fc" stroke="#d8deea"/>
-  <rect x="300" y="286" width="460" height="732" fill="#f5f8ff"/>
-  <rect x="760" y="286" width="911" height="732" fill="#fbf7ff"/>
-  <rect x="1671" y="286" width="29" height="732" fill="#eff9f5"/>
+  <rect x="300" y="286" width="1400" height="802" rx="16" fill="#f8f9fc" stroke="#d8deea"/>
+  <rect x="300" y="286" width="460" height="802" fill="#f5f8ff"/>
+  <rect x="760" y="286" width="911" height="802" fill="#fbf7ff"/>
+  <rect x="1671" y="286" width="29" height="802" fill="#eff9f5"/>
 
   <!-- Overlap highlight zones -->
-  <rect x="406" y="374" width="144" height="600" fill="#ffd978" opacity="0.16"/>
-  <rect x="809" y="374" width="86" height="600" fill="#ffd978" opacity="0.16"/>
-  <rect x="1240" y="374" width="58" height="600" fill="#ffd978" opacity="0.16"/>
-  <rect x="1355" y="374" width="144" height="600" fill="#f6a37f" opacity="0.20"/>
-  <rect x="1441" y="374" width="58" height="600" fill="#e7584c" opacity="0.17"/>
-  <rect x="1643" y="374" width="28" height="600" fill="#ffd978" opacity="0.18"/>
+  <rect x="406" y="374" width="144" height="670" fill="#ffd978" opacity="0.16"/>
+  <rect x="809" y="374" width="86" height="670" fill="#f6a37f" opacity="0.20"/>
+  <rect x="1240" y="374" width="58" height="670" fill="#ffd978" opacity="0.16"/>
+  <rect x="1355" y="374" width="144" height="670" fill="#f6a37f" opacity="0.20"/>
+  <rect x="1441" y="374" width="58" height="670" fill="#e7584c" opacity="0.17"/>
+  <rect x="1643" y="374" width="28" height="670" fill="#ffd978" opacity="0.18"/>
 
   <!-- Month headers -->
   <text x="530" y="316" text-anchor="middle" font-size="21" font-weight="800">9월</text>
@@ -54,14 +54,14 @@
 
   <!-- Weekly ticks -->
   <g stroke="#d6dce7" stroke-width="1.5">
-    <line x1="320" y1="328" x2="320" y2="1018"/>
-    <line x1="521" y1="328" x2="521" y2="1018"/>
-    <line x1="723" y1="328" x2="723" y2="1018"/>
-    <line x1="924" y1="328" x2="924" y2="1018"/>
-    <line x1="1125" y1="328" x2="1125" y2="1018"/>
-    <line x1="1326" y1="328" x2="1326" y2="1018"/>
-    <line x1="1528" y1="328" x2="1528" y2="1018"/>
-    <line x1="1700" y1="328" x2="1700" y2="1018"/>
+    <line x1="320" y1="328" x2="320" y2="1088"/>
+    <line x1="521" y1="328" x2="521" y2="1088"/>
+    <line x1="723" y1="328" x2="723" y2="1088"/>
+    <line x1="924" y1="328" x2="924" y2="1088"/>
+    <line x1="1125" y1="328" x2="1125" y2="1088"/>
+    <line x1="1326" y1="328" x2="1326" y2="1088"/>
+    <line x1="1528" y1="328" x2="1528" y2="1088"/>
+    <line x1="1700" y1="328" x2="1700" y2="1088"/>
   </g>
   <text x="320" y="351" text-anchor="middle" class="tick">09/15</text>
   <text x="521" y="351" text-anchor="middle" class="tick">09/22</text>
@@ -77,14 +77,14 @@
   <text x="78" y="436" class="small">숫자가 클수록 충돌 위험</text>
   <rect x="406" y="391" width="144" height="50" rx="12" fill="#f4c35a"/>
   <text x="478" y="423" text-anchor="middle" font-size="18" font-weight="800">2개 · 09/18–22</text>
-  <rect x="809" y="391" width="86" height="50" rx="12" fill="#f4c35a"/>
-  <text x="852" y="423" text-anchor="middle" font-size="18" font-weight="800">2개</text>
+  <rect x="809" y="391" width="86" height="50" rx="12" fill="#ed8847"/>
+  <text x="852" y="423" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">3개</text>
   <rect x="1240" y="391" width="58" height="50" rx="12" fill="#f4c35a"/>
   <text x="1269" y="423" text-anchor="middle" font-size="18" font-weight="800">2</text>
   <rect x="1355" y="391" width="86" height="50" rx="12" fill="#ed8847"/>
   <text x="1398" y="423" text-anchor="middle" font-size="18" font-weight="800" fill="#ffffff">3개</text>
   <rect x="1441" y="391" width="58" height="50" rx="12" fill="#d94a3d"/>
-  <text x="1470" y="413" text-anchor="middle" font-size="17" font-weight="800" fill="#ffffff">4개</text>
+  <text x="1470" y="413" text-anchor="middle" font-size="17" font-weight="800" fill="#ffffff">5개</text>
   <text x="1470" y="434" text-anchor="middle" font-size="13" font-weight="800" fill="#ffffff">최고</text>
   <rect x="1643" y="391" width="28" height="50" rx="10" fill="#f4c35a"/>
   <text x="1657" y="379" text-anchor="middle" font-size="14" font-weight="800">2개</text>
@@ -99,14 +99,16 @@
     <line x1="300" y1="832" x2="1700" y2="832"/>
     <line x1="300" y1="902" x2="1700" y2="902"/>
     <line x1="300" y1="972" x2="1700" y2="972"/>
+    <line x1="300" y1="1042" x2="1700" y2="1042"/>
   </g>
   <text x="78" y="527" class="school">한예종</text><text x="190" y="527" class="small">2차</text>
   <text x="78" y="597" class="school">가천대</text>
   <text x="78" y="667" class="school">동국대</text>
   <text x="78" y="737" class="school">세종대</text>
   <text x="78" y="807" class="school">국민대</text>
-  <text x="78" y="877" class="school">성균관대</text>
-  <text x="78" y="947" class="school">서울예대</text>
+  <text x="78" y="877" class="school">중앙대</text>
+  <text x="78" y="947" class="school">성균관대</text>
+  <text x="78" y="1017" class="school">서울예대</text>
 
   <!-- Bars: red first stage, burgundy second stage -->
   <rect x="1355" y="501" width="259" height="38" rx="10" fill="#7a263d"/>
@@ -132,27 +134,32 @@
   <rect x="1441" y="781" width="58" height="38" rx="10" fill="#7a263d"/>
   <text x="1508" y="806" class="outside" fill="#7a263d">2단계 10/24–25</text>
 
-  <rect x="809" y="851" width="115" height="38" rx="10" fill="#e65a5a"/>
-  <text x="866" y="876" text-anchor="middle" class="bartext" style="fill:#ffffff">1단계 10/02–05</text>
-  <rect x="1240" y="851" width="58" height="38" rx="10" fill="#7a263d"/>
-  <text x="1135" y="876" class="outside" fill="#7a263d">2단계 10/17–18</text>
+  <rect x="780" y="851" width="201" height="38" rx="10" fill="#e65a5a"/>
+  <text x="880" y="876" text-anchor="middle" class="bartext" style="fill:#ffffff">1단계 10/01–07</text>
+  <rect x="1441" y="851" width="58" height="38" rx="10" fill="#7a263d"/>
+  <text x="1508" y="876" class="outside" fill="#7a263d">2단계 10/24–25</text>
 
-  <rect x="1240" y="921" width="259" height="38" rx="10" fill="#e65a5a"/>
-  <text x="1369" y="946" text-anchor="middle" class="bartext" style="fill:#ffffff">1차 10/17–25</text>
-  <rect x="1643" y="921" width="57" height="38" rx="10" fill="#7a263d"/>
-  <text x="1535" y="946" class="outside" fill="#7a263d">2차 10/31–11/01</text>
+  <rect x="809" y="921" width="115" height="38" rx="10" fill="#e65a5a"/>
+  <text x="866" y="946" text-anchor="middle" class="bartext" style="fill:#ffffff">1단계 10/02–05</text>
+  <rect x="1240" y="921" width="58" height="38" rx="10" fill="#7a263d"/>
+  <text x="1135" y="946" class="outside" fill="#7a263d">2단계 10/17–18</text>
+
+  <rect x="1240" y="991" width="259" height="38" rx="10" fill="#e65a5a"/>
+  <text x="1369" y="1016" text-anchor="middle" class="bartext" style="fill:#ffffff">1차 10/17–25</text>
+  <rect x="1643" y="991" width="57" height="38" rx="10" fill="#7a263d"/>
+  <text x="1535" y="1016" class="outside" fill="#7a263d">2차 10/31–11/01</text>
 
   <!-- Konkuk, outside the dated axis because its date is not official -->
-  <rect x="78" y="1045" width="1636" height="88" rx="18" fill="#f4f6f9" stroke="#cfd6e2" stroke-width="2"/>
-  <text x="108" y="1082" class="school">건국대학교</text>
-  <rect x="300" y="1061" width="210" height="42" rx="11" fill="#9aa3b3"/>
-  <text x="405" y="1088" text-anchor="middle" font-size="17" font-weight="800" fill="#ffffff">1단계 · 학생부 선발</text>
-  <rect x="548" y="1061" width="310" height="42" rx="11" fill="#ffffff" stroke="#7a263d" stroke-width="2" stroke-dasharray="8 5"/>
-  <text x="703" y="1088" text-anchor="middle" font-size="17" font-weight="800" fill="#7a263d">2단계 · 실기일 공식 재확인</text>
-  <text x="1680" y="1088" text-anchor="end" class="small">날짜 확정 후 위 축에 추가</text>
+  <rect x="78" y="1115" width="1636" height="88" rx="18" fill="#f4f6f9" stroke="#cfd6e2" stroke-width="2"/>
+  <text x="108" y="1152" class="school">건국대학교</text>
+  <rect x="300" y="1131" width="210" height="42" rx="11" fill="#9aa3b3"/>
+  <text x="405" y="1158" text-anchor="middle" font-size="17" font-weight="800" fill="#ffffff">1단계 · 학생부 선발</text>
+  <rect x="548" y="1131" width="310" height="42" rx="11" fill="#ffffff" stroke="#7a263d" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="703" y="1158" text-anchor="middle" font-size="17" font-weight="800" fill="#7a263d">2단계 · 실기일 공식 재확인</text>
+  <text x="1680" y="1158" text-anchor="end" class="small">날짜 확정 후 위 축에 추가</text>
 
   <!-- Footer -->
-  <rect x="78" y="1162" width="720" height="42" rx="12" fill="#fff4e8"/>
-  <text x="438" y="1189" text-anchor="middle" font-size="18" font-weight="800" fill="#9a5300">최고 충돌 · 10/24–25 한예종2 · 동국2 · 국민2 · 서울예대1</text>
-  <text x="1710" y="1190" text-anchor="end" class="small">공식 모집요강 기준 · 확인 2026-08-04</text>
+  <rect x="78" y="1232" width="820" height="42" rx="12" fill="#fff4e8"/>
+  <text x="488" y="1259" text-anchor="middle" font-size="18" font-weight="800" fill="#9a5300">최고 충돌 · 10/24–25 한예종2 · 동국2 · 국민2 · 중앙2 · 서울예대1</text>
+  <text x="1710" y="1260" text-anchor="end" class="small">공식 모집요강 기준 · 확인 2026-08-30</text>
 </svg>
