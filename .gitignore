@@ -4,6 +4,7 @@
 .obsidian/plugins/*/data.json
 .trash/
 .scripts/
+.claude/sessions/
 .omx/
 .codex/*
 !.codex/agents/
