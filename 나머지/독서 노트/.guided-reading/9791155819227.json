@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "edition_key": {
+    "type": "isbn13",
+    "value": "9791155819227",
+    "canonical_sha256": "2415b18e77beafb0a2dac81b30184d256a14ed756aa3602a060c81cbde8118c8"
+  },
+  "edition_status": "externally-verified",
+  "toc_status": "partial",
+  "output_mode": "standard",
+  "output_profile": "nonfiction",
+  "bibliography": {
+    "work_title": {"value": "Inner Excellence", "source_ids": ["S1", "S2"]},
+    "edition_title": {"value": "내면 근력", "source_ids": ["S1", "S2", "S3"]},
+    "authors": {"value": ["짐 머피"], "source_ids": ["S1", "S2", "S3"]},
+    "translators": {"value": ["지여울"], "source_ids": ["S1", "S2", "S3"]},
+    "language": {"value": "ko", "source_ids": ["S1", "S2", "S3"]},
+    "format": {"value": "paperback", "source_ids": ["S1", "S2"]},
+    "publisher": {"value": "윌북", "source_ids": ["S1", "S2", "S3"]},
+    "published": {"value": "2026-04-26", "source_ids": ["S1", "S2"]},
+    "edition_label": {"value": "한국어 종이책", "source_ids": ["S1", "S2", "S3"]},
+    "isbn10": {"value": "", "source_ids": ["S1"]},
+    "isbn13": {"value": "9791155819227", "source_ids": ["S1", "S2", "S3"]},
+    "total_pages": {"value": 328, "source_ids": ["S1", "S2"]}
+  },
+  "toc": [
+    {"unit_id":"part-01","role":"container","kind":"part","title":"1부 누구나 내면 근력이 필요하다: 위협을 제거하고 토대 다지기","order":1,"parent_id":null,"recordable":false,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-01/chapter-01","role":"reading-unit","kind":"chapter","title":"1장 혁명적 변화를 만드는 마인드셋","order":1,"parent_id":"part-01","recordable":true,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-01/chapter-02","role":"reading-unit","kind":"chapter","title":"2장 진정한 자유를 누리는 삶","order":2,"parent_id":"part-01","recordable":true,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-01/chapter-03","role":"reading-unit","kind":"chapter","title":"3장 두려움을 버리고 자기인식 높이기","order":3,"parent_id":"part-01","recordable":true,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-02","role":"container","kind":"part","title":"2부 내면 근력이 불러올 혁명적 변화: 내면 근력을 길러낸 사람들","order":2,"parent_id":null,"recordable":false,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-02/chapter-05","role":"reading-unit","kind":"chapter","title":"5장 도전하는 사람, 안주하는 사람","order":1,"parent_id":"part-02","recordable":true,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-02/chapter-06","role":"reading-unit","kind":"chapter","title":"6장 인간은 왜 높은 산에 오르는가","order":2,"parent_id":"part-02","recordable":true,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-03","role":"container","kind":"part","title":"3부 내면 근력 강화 6단계","order":3,"parent_id":null,"recordable":false,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-03/chapter-07","role":"reading-unit","kind":"chapter","title":"7장 1단계 자기절제의 뇌과학","order":1,"parent_id":"part-03","recordable":true,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-03/chapter-08","role":"reading-unit","kind":"chapter","title":"8장 2단계 내가 원하는 삶의 이야기를 쓰는 법","order":2,"parent_id":"part-03","recordable":true,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-03/chapter-09","role":"reading-unit","kind":"chapter","title":"9장 3단계 목표에만 몰입하는 법","order":3,"parent_id":"part-03","recordable":true,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-03/chapter-10","role":"reading-unit","kind":"chapter","title":"10장 4단계 스스로 만든 한계를 넘어서는 법","order":4,"parent_id":"part-03","recordable":true,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-03/chapter-11","role":"reading-unit","kind":"chapter","title":"11장 5단계 평정심 유지하는 법","order":5,"parent_id":"part-03","recordable":true,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"part-03/chapter-12","role":"reading-unit","kind":"chapter","title":"12장 6단계 비범한 리더십","order":6,"parent_id":"part-03","recordable":true,"source_ids":["S1","S2","S3"],"verification_basis":"external"},
+    {"unit_id":"conclusion","role":"reading-unit","kind":"conclusion","title":"결론 새로운 삶의 길","order":4,"parent_id":null,"recordable":true,"source_ids":["S1","S2"],"verification_basis":"external"},
+    {"unit_id":"faq","role":"reading-unit","kind":"faq","title":"‘내면 근력’에 대해 자주 묻는 질문","order":5,"parent_id":null,"recordable":true,"source_ids":["S1","S2"],"verification_basis":"external"}
+  ],
+  "sources": [
+    {"id":"S1","title":"출판유통통합전산망 - 내면 근력","url":"https://bnk.kpipa.or.kr/home/v3/addition/adiPromoMetaDataView01/seq_20260326122909199995","checked_at":"2026-09-02","edition_match":"ISBN 9791155819227 direct"},
+    {"id":"S2","title":"예스24 - 내면 근력 종이책","url":"https://m.yes24.com/goods/detail/183809488","checked_at":"2026-09-02","edition_match":"ISBN 9791155819227 direct"},
+    {"id":"S3","title":"KAIST 도서관 - 내면 근력","url":"https://library.kaist.ac.kr/search/ctlgSearch/posesn/view.do?bibctrlno=1153317&se=b0&ty=B","checked_at":"2026-09-02","edition_match":"ISBN 9791155819227 direct"}
+  ],
+  "excluded_or_unverified": [
+    "4장 전체: 판본에 연결된 공개 목차 세 곳 모두 3장 다음에 5장을 표시하여 제목과 포함 여부를 확인할 수 없음",
+    "형태사항 차이: 출판사 메타데이터와 판매 페이지는 328쪽, 일부 도서관 서지는 326 p.로 기록"
+  ],
+  "checked_at": "2026-09-02"
+}
