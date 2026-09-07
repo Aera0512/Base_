@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1788778419575-6k3hmuj6v",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1788778419801-rwlina7",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1788778419503-g5z838p",
+      "timestamp": 1788778419503,
+      "rawDisplayText": "사진 크기 줄여줘. 절반 크기로",
+      "canonicalText": "사진 크기 줄여줘. 절반 크기로",
+      "context": {
+        "currentNote": {
+          "path": "정리/계획과 회고/2026년 수시 지원 가이드.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "dbdb7f647ba603ec3abb9635c29e3a6d407fc6fe7661f0a093be6ad70d07b540",
+      "providerUserMessageId": "01a07b80-be0b-71d0-b67d-686a06223243"
+    }
+  ]
+}

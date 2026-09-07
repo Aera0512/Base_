@@ -52,7 +52,7 @@
         {
           "model": "gpt-5.6-sol",
           "displayName": "GPT-5.6-Sol",
-          "description": "Latest frontier agentic coding model.",
+          "description": "Reliable agentic workhorse for everyday tasks.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -183,44 +183,7 @@
         {
           "model": "gpt-5.5",
           "displayName": "GPT-5.5",
-          "description": "Frontier model for complex coding, research, and real-world work.",
-          "supportedReasoningEfforts": [
-            {
-              "value": "low",
-              "description": "Fast responses with lighter reasoning"
-            },
-            {
-              "value": "medium",
-              "description": "Balances speed and reasoning depth for everyday tasks"
-            },
-            {
-              "value": "high",
-              "description": "Greater reasoning depth for complex problems"
-            },
-            {
-              "value": "xhigh",
-              "description": "Extra high reasoning depth for complex problems"
-            }
-          ],
-          "defaultReasoningEffort": "medium",
-          "serviceTiers": [
-            {
-              "id": "priority",
-              "name": "Fast",
-              "description": "1.5x speed, increased usage"
-            }
-          ],
-          "defaultServiceTier": null,
-          "inputModalities": [
-            "text",
-            "image"
-          ],
-          "isDefault": false
-        },
-        {
-          "model": "gpt-5.4",
-          "displayName": "GPT-5.4",
-          "description": "Strong model for everyday coding.",
+          "description": "Proven previous-generation model for coding and general work.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -292,7 +255,7 @@
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "runtime-input:v1:a6db216cf6ba049c2a9641e86b4021754d5a15050672719dbc2ba9a3be694880",
-      "catalogTimestamp": 1787728355105,
+      "catalogTimestamp": 1788778404938,
       "catalogFingerprint": "2:00c3ef57a48096e58281efde2ae721f4fa493c6cf5bdf49486877ca57a1126bc",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {}
