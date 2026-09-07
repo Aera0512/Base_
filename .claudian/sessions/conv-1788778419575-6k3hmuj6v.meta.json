@@ -2,9 +2,9 @@
   "id": "conv-1788778419575-6k3hmuj6v",
   "providerId": "codex",
   "title": "사진 크기 줄여줘",
-  "titleGenerationStatus": "pending",
+  "titleGenerationStatus": "failed",
   "createdAt": 1788778419615,
-  "lastActivityAt": 1788778419615,
+  "lastActivityAt": 1788778473925,
   "sessionId": "01a07b80-99ed-78a3-a533-e7c455e4985a",
   "selectedModel": "gpt-5.6-sol",
   "providerState": {
@@ -14,5 +14,15 @@
     "transcriptRootPath": "/Users/aera/.codex/sessions",
     "workspaceDependencyToolVersion": 1
   },
-  "currentNote": "정리/계획과 회고/2026년 수시 지원 가이드.md"
+  "currentNote": "정리/계획과 회고/2026년 수시 지원 가이드.md",
+  "usage": {
+    "inputTokens": 31717,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31360,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 31717,
+    "percentage": 12,
+    "model": "gpt-5.6-sol"
+  }
 }
