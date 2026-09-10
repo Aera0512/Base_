@@ -60,7 +60,8 @@
       "canonicalText": "카카오톡에 이 노트의 내용을 보내려고 하는데 보내기 좋게 정리해줘. 원문은 그대로 유지",
       "images": [],
       "contentDigest": "d3d48ccce590e28aa3557ad4b2e81e084e6de801a93acc2c08135e77f0bbe1be",
-      "providerUserMessageId": "01a08be6-0806-75c1-ab13-fe8fb7be7b26"
+      "providerUserMessageId": "01a08be6-0806-75c1-ab13-fe8fb7be7b26",
+      "providerAssistantMessageId": "msg_0cced7ae0199e3d4016aa2ca94184887d0befbbf762a0adbb4"
     }
   ]
 }
