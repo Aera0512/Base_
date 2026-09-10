@@ -48,6 +48,19 @@
       "contentDigest": "9566783e13be7fa5496bc6e77afcc16dbfe1a63226e6e4666e3d5edcf410a9ac",
       "providerUserMessageId": "01a08b9f-9019-7920-8981-ac5866fffc46",
       "providerAssistantMessageId": "msg_06a9298e5e11f8cb016aa2b86e4c6887d0ac0fe7ae7da9fd25"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789053503242-zpkl4f7",
+      "userTurnOrdinal": 4,
+      "state": "accepted",
+      "localMessageId": "msg-1789053503129-2hy4v89",
+      "timestamp": 1789053503129,
+      "rawDisplayText": "카카오톡에 이 노트의 내용을 보내려고 하는데 보내기 좋게 정리해줘. 원문은 그대로 유지",
+      "canonicalText": "카카오톡에 이 노트의 내용을 보내려고 하는데 보내기 좋게 정리해줘. 원문은 그대로 유지",
+      "images": [],
+      "contentDigest": "d3d48ccce590e28aa3557ad4b2e81e084e6de801a93acc2c08135e77f0bbe1be",
+      "providerUserMessageId": "01a08be6-0806-75c1-ab13-fe8fb7be7b26"
     }
   ]
 }
