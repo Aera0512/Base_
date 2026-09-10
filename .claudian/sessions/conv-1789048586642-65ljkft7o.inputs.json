@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1789048586642-65ljkft7o",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789048586808-biohaac",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1789048586569-tmqiwco",
+      "timestamp": 1789048586569,
+      "rawDisplayText": "여기에 적혀있는 내용들을 카테고리에 따라서 보기 좋게 분류하려고 해. 어떤 카테고리들로 분류하는 게 좋을지 고민해보고 분류해줘",
+      "canonicalText": "여기에 적혀있는 내용들을 카테고리에 따라서 보기 좋게 분류하려고 해. 어떤 카테고리들로 분류하는 게 좋을지 고민해보고 분류해줘",
+      "context": {
+        "currentNote": {
+          "path": "정리/입시/2027 대학별 공략/숭실대학교 수업 노트.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "b0e641e41caf75b3e8aad7b341b30c5f5565e36150295f0ff9f7a9401bfca599",
+      "providerUserMessageId": "01a08b9b-08ac-7801-918f-92d7b0bc3847",
+      "providerAssistantMessageId": "msg_06a9298e5e11f8cb016aa2b77abb4c87d0aef3c12e6aef79db"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789048720274-xc12oxj",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1789048720172-nwdb60u",
+      "timestamp": 1789048720172,
+      "rawDisplayText": "지금 너무 세분화 되어있고 AI티가 너무 많이나. 그리고 원문 그대로 유지해",
+      "canonicalText": "지금 너무 세분화 되어있고 AI티가 너무 많이나. 그리고 원문 그대로 유지해",
+      "images": [],
+      "contentDigest": "2276c82f75b888e17aae904eb06c24edf82d72c9447b7f1f9d4153dd65e4a8bc",
+      "providerUserMessageId": "01a08b9d-0bd5-7c30-b19b-e60cebff21b4",
+      "providerAssistantMessageId": "msg_06a9298e5e11f8cb016aa2b7d9a5fc87d0a77b362e49f220f4"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789048885042-3w8tyop",
+      "userTurnOrdinal": 3,
+      "state": "accepted",
+      "localMessageId": "msg-1789048884933-snxfeb6",
+      "timestamp": 1789048884933,
+      "rawDisplayText": "1. 방향성 2. 분석, 설정 3. 연기 이렇게 나눠",
+      "canonicalText": "1. 방향성 2. 분석, 설정 3. 연기 이렇게 나눠",
+      "images": [],
+      "contentDigest": "9566783e13be7fa5496bc6e77afcc16dbfe1a63226e6e4666e3d5edcf410a9ac",
+      "providerUserMessageId": "01a08b9f-9019-7920-8981-ac5866fffc46",
+      "providerAssistantMessageId": "msg_06a9298e5e11f8cb016aa2b86e4c6887d0ac0fe7ae7da9fd25"
+    }
+  ]
+}
