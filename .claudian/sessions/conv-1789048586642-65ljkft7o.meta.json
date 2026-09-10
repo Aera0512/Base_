@@ -4,7 +4,7 @@
   "title": "여기에 적혀있는 내용들을 카테고리에 따라서 보기 좋게 분류하려고 해",
   "titleGenerationStatus": "failed",
   "createdAt": 1789048586682,
-  "lastActivityAt": 1789053591157,
+  "lastActivityAt": 1789053665790,
   "sessionId": "01a08b9b-06df-7e01-a20c-16fed767fdc7",
   "selectedModel": "gpt-5.6-sol",
   "providerState": {
@@ -16,13 +16,13 @@
   },
   "currentNote": "정리/입시/2027 대학별 공략/숭실대학교 수업 노트.md",
   "usage": {
-    "inputTokens": 49033,
+    "inputTokens": 50700,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 48512,
+    "cacheReadInputTokens": 49280,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 49033,
-    "percentage": 19,
+    "contextTokens": 50700,
+    "percentage": 20,
     "model": "gpt-5.6-sol"
   }
 }

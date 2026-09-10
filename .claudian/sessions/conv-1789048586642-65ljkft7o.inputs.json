@@ -62,6 +62,29 @@
       "contentDigest": "d3d48ccce590e28aa3557ad4b2e81e084e6de801a93acc2c08135e77f0bbe1be",
       "providerUserMessageId": "01a08be6-0806-75c1-ab13-fe8fb7be7b26",
       "providerAssistantMessageId": "msg_0cced7ae0199e3d4016aa2ca94184887d0befbbf762a0adbb4"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1789053614679-ld5mpbl",
+      "userTurnOrdinal": 5,
+      "state": "accepted",
+      "localMessageId": "msg-1789053614567-lfiagry",
+      "timestamp": 1789053614567,
+      "rawDisplayText": "뭔 노트를 만들어 그냥 여기다 보내 노트는 삭제해",
+      "canonicalText": "뭔 노트를 만들어 그냥 여기다 보내 노트는 삭제해",
+      "context": {
+        "editorSelection": {
+          "notePath": "정리/입시/2027 대학별 공략/숭실대학교 수업 노트 - 카카오톡 공유용.md",
+          "mode": "selection",
+          "selectedText": "1. 방향성\n\n인사는 에너지 넘치게 하는 것이 아니라 나이스하게. 싹싹하게 정말 친한 친구의 어머니와 아버지를 대하듯이 인사\n\n숭실대학교 영화예술학과에서는 영화인을 뽑는다. 영화에 대해서 열정이 있고 생각이 깊은 학생들을 찾는다. \n그래서 영화를 많이 보고 공부하는 경험이 도움이 된다. 특히나 한국 영화 그리고 독립 영화를 많이 보자. 교수님들의 작품도.\n\n평범하고 플랫한 학생. 직접적으로 말해 재미없고 매력이 드러나지 않는 학생들은 뽑히지가 않아. \n숭실대학교에서는 연기만 딱 1분. 심지어 성적도 없이 실기 100퍼센트로 1차 합격자를 뽑기 때문에 \n그 안에 나를 뽑아야할 이유를 설득시키지 못 하면 합격할 수 없어.\n\n개인의 개성이 중요하다. 각자의 고유한 장점과 매력을 실연 전반에 담아내어야 경쟁력이 생긴다.\n면접이고, 학교이기 때문에 사람과 사람이 만나는 자리다. 완벽함보다는 함께 작업하고 성장해나갈 수 있는 사람을 뽑는다",
+          "lineCount": 13,
+          "startLine": 8
+        }
+      },
+      "images": [],
+      "contentDigest": "c8d5eff1c151c163956723dff9a1db54bae204cda7da1640adeb24ea9971a674",
+      "providerUserMessageId": "01a08be7-bb18-73e0-9984-883179f3f649",
+      "providerAssistantMessageId": "msg_0cced7ae0199e3d4016aa2cac1723087d0a2412385d189243f"
     }
   ]
 }
