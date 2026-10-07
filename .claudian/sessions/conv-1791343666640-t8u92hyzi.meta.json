@@ -1,0 +1,28 @@
+{
+  "id": "conv-1791343666640-t8u92hyzi",
+  "providerId": "codex",
+  "title": "의상 현장 준비에 첨부한 사진 2개 크기가 너무 커 보기 편하게 크기를 줄여줘 많이",
+  "titleGenerationStatus": "pending",
+  "createdAt": 1791343666673,
+  "lastActivityAt": 1791343710105,
+  "sessionId": "01a11467-289f-7802-ab31-c8fb53f4cde2",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "01a11467-289f-7802-ab31-c8fb53f4cde2",
+    "nativeConversationContextEstablished": true,
+    "sessionFilePath": "/Users/aera/.codex/sessions/2026/10/07/rollout-2026-10-07T12-27-47-01a11467-289f-7802-ab31-c8fb53f4cde2.jsonl",
+    "transcriptRootPath": "/Users/aera/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "정리/계획과 회고/2026년 동국대학교 2차 시험 준비 전략.md",
+  "usage": {
+    "inputTokens": 30971,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30592,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 30971,
+    "percentage": 12,
+    "model": "gpt-5.6-sol"
+  }
+}
