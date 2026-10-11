@@ -1,0 +1,28 @@
+{
+  "id": "conv-1791710233592-okxp0mfri",
+  "providerId": "codex",
+  "title": "링크돼있는 노트를 누를 때마다 기존 노트로 이동하느 ㄴ게 아니라 같은 제목의 다른 노트를 ...",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1791710233632,
+  "lastActivityAt": 1791710634265,
+  "sessionId": "01a12a40-8971-7ce0-8b8e-a6fab00c37af",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "01a12a40-8971-7ce0-8b8e-a6fab00c37af",
+    "nativeConversationContextEstablished": true,
+    "sessionFilePath": "/Users/aera/.codex/sessions/2026/10/11/rollout-2026-10-11T18-17-15-01a12a40-8971-7ce0-8b8e-a6fab00c37af.jsonl",
+    "transcriptRootPath": "/Users/aera/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "정리/인생/김예성.md",
+  "usage": {
+    "inputTokens": 80044,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 78720,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 80044,
+    "percentage": 31,
+    "model": "gpt-5.6-sol"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "conversationId": "conv-1791710233592-okxp0mfri",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "msg-1791710233832-g6ygt9c",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1791710233521-ert1ytq",
+      "timestamp": 1791710233521,
+      "rawDisplayText": "링크돼있는 노트를 누를 때마다 기존 노트로 이동하느 ㄴ게 아니라 같은 제목의 다른 노트를 생성하네 이 문제 해결해주고. 오류로 생성된 같은 제목의 다른 노트들은 삭제해줘",
+      "canonicalText": "링크돼있는 노트를 누를 때마다 기존 노트로 이동하느 ㄴ게 아니라 같은 제목의 다른 노트를 생성하네 이 문제 해결해주고. 오류로 생성된 같은 제목의 다른 노트들은 삭제해줘",
+      "context": {
+        "currentNote": {
+          "path": "정리/인생/김예성.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "0008bfa8894a9387ccb6854bb056a0e12c5502f466ec0a0e0faebb9a87f15766",
+      "providerUserMessageId": "01a12a40-c186-7972-9d82-1a4bb590b8be",
+      "providerAssistantMessageId": "msg_02345bace9155799016acb548c27e48191b9db6567c3af5ea3"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1791710557947-fkf5tax",
+      "userTurnOrdinal": 2,
+      "state": "accepted",
+      "localMessageId": "msg-1791710557853-4m4q403",
+      "timestamp": 1791710557853,
+      "rawDisplayText": "그 노트뿐만이 아니라 좀 오래된 노트들이 다 그런 문제가 있는 거 같아 전부 수정해줘. 우선 김예성이랑 연결된 것들 타고타고 들어가면서 수정해줘",
+      "canonicalText": "그 노트뿐만이 아니라 좀 오래된 노트들이 다 그런 문제가 있는 거 같아 전부 수정해줘. 우선 김예성이랑 연결된 것들 타고타고 들어가면서 수정해줘",
+      "images": [],
+      "contentDigest": "3d33907b67bd07d5f7576add87df1b207aa94a5ebfe7fe0e5600c77bf99a74ed",
+      "providerUserMessageId": "01a12a45-7b2c-7b30-afd9-d6261a3d15de",
+      "providerAssistantMessageId": "msg_02345bace9155799016acb55aa43b88191af96d09fe9d12c52"
+    }
+  ]
+}
