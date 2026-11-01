@@ -34,6 +34,25 @@
       "contentDigest": "3d33907b67bd07d5f7576add87df1b207aa94a5ebfe7fe0e5600c77bf99a74ed",
       "providerUserMessageId": "01a12a45-7b2c-7b30-afd9-d6261a3d15de",
       "providerAssistantMessageId": "msg_02345bace9155799016acb55aa43b88191af96d09fe9d12c52"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "msg-1793412726502-4ljxerh",
+      "userTurnOrdinal": 1,
+      "state": "accepted",
+      "localMessageId": "msg-1793412726230-bxehz19",
+      "timestamp": 1793412726230,
+      "rawDisplayText": "첨부돼있는 사진 크기 줄여줘. 가로로 정렬되게",
+      "canonicalText": "첨부돼있는 사진 크기 줄여줘. 가로로 정렬되게",
+      "context": {
+        "currentNote": {
+          "path": "정리/인생/김예성.md"
+        }
+      },
+      "images": [],
+      "contentDigest": "952fd87f639ddaf4c75acd1175e420e01703842e372ac7995410cecbc8e492b1",
+      "providerUserMessageId": "01a18fba-b1d4-7f90-a821-7812f64fb6fc",
+      "providerAssistantMessageId": "msg_02345bace9155799016ae54e9b80308191aebee4c1001e9ee6"
     }
   ]
 }

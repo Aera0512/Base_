@@ -1,10 +1,10 @@
 {
   "id": "conv-1791710233592-okxp0mfri",
   "providerId": "codex",
-  "title": "링크돼있는 노트를 누를 때마다 기존 노트로 이동하느 ㄴ게 아니라 같은 제목의 다른 노트를 ...",
+  "title": "첨부돼있는 사진 크기 줄여줘",
   "titleGenerationStatus": "failed",
   "createdAt": 1791710233632,
-  "lastActivityAt": 1791710634265,
+  "lastActivityAt": 1793412765315,
   "sessionId": "01a12a40-8971-7ce0-8b8e-a6fab00c37af",
   "selectedModel": "gpt-5.6-sol",
   "providerState": {
@@ -16,13 +16,13 @@
   },
   "currentNote": "정리/인생/김예성.md",
   "usage": {
-    "inputTokens": 80044,
+    "inputTokens": 90787,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 78720,
+    "cacheReadInputTokens": 90496,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 80044,
-    "percentage": 31,
+    "contextTokens": 90787,
+    "percentage": 35,
     "model": "gpt-5.6-sol"
   }
 }
